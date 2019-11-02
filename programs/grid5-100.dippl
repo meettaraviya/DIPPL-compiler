@@ -1,0 +1,770 @@
+var00 = flip(0.500000);
+if(var00) {
+var10 = flip(0.500000)
+}
+else{
+
+};
+if((!var00)) {
+var10 = flip(0.500000)
+}
+else{
+
+}
+;
+if(var00) {
+var01 = flip(0.500000)
+}
+else{
+
+};
+if((!var00)) {
+var01 = flip(0.500000)
+}
+else{
+
+}
+;
+if(var10) {
+var20 = flip(0.500000)
+}
+else{
+
+};
+if((!var10)) {
+var20 = flip(0.500000)
+}
+else{
+
+}
+;
+if((var01 && var10)) {
+var11 = flip(0.500000)
+}
+else{
+
+};
+if(((!var01) && var10)) {
+var11 = flip(0.500000)
+}
+else{
+
+};
+if((var01 && (!var10))) {
+var11 = flip(0.500000)
+}
+else{
+
+};
+if(((!var01) && (!var10))) {
+var11 = flip(0.500000)
+}
+else{
+
+}
+;
+if(var01) {
+var02 = flip(0.500000)
+}
+else{
+
+};
+if((!var01)) {
+var02 = flip(0.500000)
+}
+else{
+
+}
+;
+if(var20) {
+var30 = flip(0.500000)
+}
+else{
+
+};
+if((!var20)) {
+var30 = flip(0.500000)
+}
+else{
+
+}
+;
+if((var11 && var20)) {
+var21 = flip(0.500000)
+}
+else{
+
+};
+if(((!var11) && var20)) {
+var21 = flip(0.500000)
+}
+else{
+
+};
+if((var11 && (!var20))) {
+var21 = flip(0.500000)
+}
+else{
+
+};
+if(((!var11) && (!var20))) {
+var21 = flip(0.500000)
+}
+else{
+
+}
+;
+if((var02 && var11)) {
+var12 = flip(0.500000)
+}
+else{
+
+};
+if(((!var02) && var11)) {
+var12 = flip(0.500000)
+}
+else{
+
+};
+if((var02 && (!var11))) {
+var12 = flip(0.500000)
+}
+else{
+
+};
+if(((!var02) && (!var11))) {
+var12 = flip(0.500000)
+}
+else{
+
+}
+;
+if(var02) {
+var03 = flip(0.500000)
+}
+else{
+
+};
+if((!var02)) {
+var03 = flip(0.500000)
+}
+else{
+
+}
+;
+if(var30) {
+var40 = flip(0.500000)
+}
+else{
+
+};
+if((!var30)) {
+var40 = flip(0.500000)
+}
+else{
+
+}
+;
+if((var21 && var30)) {
+var31 = flip(0.500000)
+}
+else{
+
+};
+if(((!var21) && var30)) {
+var31 = flip(0.500000)
+}
+else{
+
+};
+if((var21 && (!var30))) {
+var31 = flip(0.500000)
+}
+else{
+
+};
+if(((!var21) && (!var30))) {
+var31 = flip(0.500000)
+}
+else{
+
+}
+;
+if((var12 && var21)) {
+var22 = flip(0.500000)
+}
+else{
+
+};
+if(((!var12) && var21)) {
+var22 = flip(0.500000)
+}
+else{
+
+};
+if((var12 && (!var21))) {
+var22 = flip(0.500000)
+}
+else{
+
+};
+if(((!var12) && (!var21))) {
+var22 = flip(0.500000)
+}
+else{
+
+}
+;
+if((var03 && var12)) {
+var13 = flip(0.500000)
+}
+else{
+
+};
+if(((!var03) && var12)) {
+var13 = flip(0.500000)
+}
+else{
+
+};
+if((var03 && (!var12))) {
+var13 = flip(0.500000)
+}
+else{
+
+};
+if(((!var03) && (!var12))) {
+var13 = flip(0.500000)
+}
+else{
+
+}
+;
+if(var03) {
+var04 = flip(0.500000)
+}
+else{
+
+};
+if((!var03)) {
+var04 = flip(0.500000)
+}
+else{
+
+}
+;
+if(var40) {
+var50 = flip(0.500000)
+}
+else{
+
+};
+if((!var40)) {
+var50 = flip(0.500000)
+}
+else{
+
+}
+;
+if((var31 && var40)) {
+var41 = flip(0.500000)
+}
+else{
+
+};
+if(((!var31) && var40)) {
+var41 = flip(0.500000)
+}
+else{
+
+};
+if((var31 && (!var40))) {
+var41 = flip(0.500000)
+}
+else{
+
+};
+if(((!var31) && (!var40))) {
+var41 = flip(0.500000)
+}
+else{
+
+}
+;
+if((var22 && var31)) {
+var32 = flip(0.500000)
+}
+else{
+
+};
+if(((!var22) && var31)) {
+var32 = flip(0.500000)
+}
+else{
+
+};
+if((var22 && (!var31))) {
+var32 = flip(0.500000)
+}
+else{
+
+};
+if(((!var22) && (!var31))) {
+var32 = flip(0.500000)
+}
+else{
+
+}
+;
+if((var13 && var22)) {
+var23 = flip(0.500000)
+}
+else{
+
+};
+if(((!var13) && var22)) {
+var23 = flip(0.500000)
+}
+else{
+
+};
+if((var13 && (!var22))) {
+var23 = flip(0.500000)
+}
+else{
+
+};
+if(((!var13) && (!var22))) {
+var23 = flip(0.500000)
+}
+else{
+
+}
+;
+if((var04 && var13)) {
+var14 = flip(0.500000)
+}
+else{
+
+};
+if(((!var04) && var13)) {
+var14 = flip(0.500000)
+}
+else{
+
+};
+if((var04 && (!var13))) {
+var14 = flip(0.500000)
+}
+else{
+
+};
+if(((!var04) && (!var13))) {
+var14 = flip(0.500000)
+}
+else{
+
+}
+;
+if(var04) {
+var05 = flip(0.500000)
+}
+else{
+
+};
+if((!var04)) {
+var05 = flip(0.500000)
+}
+else{
+
+}
+;
+if(var50) {
+var60 = flip(0.500000)
+}
+else{
+
+};
+if((!var50)) {
+var60 = flip(0.500000)
+}
+else{
+
+}
+;
+if((var41 && var50)) {
+var51 = flip(0.500000)
+}
+else{
+
+};
+if(((!var41) && var50)) {
+var51 = flip(0.500000)
+}
+else{
+
+};
+if((var41 && (!var50))) {
+var51 = flip(0.500000)
+}
+else{
+
+};
+if(((!var41) && (!var50))) {
+var51 = flip(0.500000)
+}
+else{
+
+}
+;
+if((var32 && var41)) {
+var42 = flip(0.500000)
+}
+else{
+
+};
+if(((!var32) && var41)) {
+var42 = flip(0.500000)
+}
+else{
+
+};
+if((var32 && (!var41))) {
+var42 = flip(0.500000)
+}
+else{
+
+};
+if(((!var32) && (!var41))) {
+var42 = flip(0.500000)
+}
+else{
+
+}
+;
+if((var23 && var32)) {
+var33 = flip(0.500000)
+}
+else{
+
+};
+if(((!var23) && var32)) {
+var33 = flip(0.500000)
+}
+else{
+
+};
+if((var23 && (!var32))) {
+var33 = flip(0.500000)
+}
+else{
+
+};
+if(((!var23) && (!var32))) {
+var33 = flip(0.500000)
+}
+else{
+
+}
+;
+if((var14 && var23)) {
+var24 = flip(0.500000)
+}
+else{
+
+};
+if(((!var14) && var23)) {
+var24 = flip(0.500000)
+}
+else{
+
+};
+if((var14 && (!var23))) {
+var24 = flip(0.500000)
+}
+else{
+
+};
+if(((!var14) && (!var23))) {
+var24 = flip(0.500000)
+}
+else{
+
+}
+;
+if((var05 && var14)) {
+var15 = flip(0.500000)
+}
+else{
+
+};
+if(((!var05) && var14)) {
+var15 = flip(0.500000)
+}
+else{
+
+};
+if((var05 && (!var14))) {
+var15 = flip(0.500000)
+}
+else{
+
+};
+if(((!var05) && (!var14))) {
+var15 = flip(0.500000)
+}
+else{
+
+}
+;
+if((var42 && var51)) {
+var52 = flip(0.500000)
+}
+else{
+
+};
+if(((!var42) && var51)) {
+var52 = flip(0.500000)
+}
+else{
+
+};
+if((var42 && (!var51))) {
+var52 = flip(0.500000)
+}
+else{
+
+};
+if(((!var42) && (!var51))) {
+var52 = flip(0.500000)
+}
+else{
+
+}
+;
+if((var33 && var42)) {
+var43 = flip(0.500000)
+}
+else{
+
+};
+if(((!var33) && var42)) {
+var43 = flip(0.500000)
+}
+else{
+
+};
+if((var33 && (!var42))) {
+var43 = flip(0.500000)
+}
+else{
+
+};
+if(((!var33) && (!var42))) {
+var43 = flip(0.500000)
+}
+else{
+
+}
+;
+if((var24 && var33)) {
+var34 = flip(0.500000)
+}
+else{
+
+};
+if(((!var24) && var33)) {
+var34 = flip(0.500000)
+}
+else{
+
+};
+if((var24 && (!var33))) {
+var34 = flip(0.500000)
+}
+else{
+
+};
+if(((!var24) && (!var33))) {
+var34 = flip(0.500000)
+}
+else{
+
+}
+;
+if((var15 && var24)) {
+var25 = flip(0.500000)
+}
+else{
+
+};
+if(((!var15) && var24)) {
+var25 = flip(0.500000)
+}
+else{
+
+};
+if((var15 && (!var24))) {
+var25 = flip(0.500000)
+}
+else{
+
+};
+if(((!var15) && (!var24))) {
+var25 = flip(0.500000)
+}
+else{
+
+}
+;
+if((var43 && var52)) {
+var53 = flip(0.500000)
+}
+else{
+
+};
+if(((!var43) && var52)) {
+var53 = flip(0.500000)
+}
+else{
+
+};
+if((var43 && (!var52))) {
+var53 = flip(0.500000)
+}
+else{
+
+};
+if(((!var43) && (!var52))) {
+var53 = flip(0.500000)
+}
+else{
+
+}
+;
+if((var34 && var43)) {
+var44 = flip(0.500000)
+}
+else{
+
+};
+if(((!var34) && var43)) {
+var44 = flip(0.500000)
+}
+else{
+
+};
+if((var34 && (!var43))) {
+var44 = flip(0.500000)
+}
+else{
+
+};
+if(((!var34) && (!var43))) {
+var44 = flip(0.500000)
+}
+else{
+
+}
+;
+if((var25 && var34)) {
+var35 = flip(0.500000)
+}
+else{
+
+};
+if(((!var25) && var34)) {
+var35 = flip(0.500000)
+}
+else{
+
+};
+if((var25 && (!var34))) {
+var35 = flip(0.500000)
+}
+else{
+
+};
+if(((!var25) && (!var34))) {
+var35 = flip(0.500000)
+}
+else{
+
+}
+;
+if((var44 && var53)) {
+var54 = flip(0.500000)
+}
+else{
+
+};
+if(((!var44) && var53)) {
+var54 = flip(0.500000)
+}
+else{
+
+};
+if((var44 && (!var53))) {
+var54 = flip(0.500000)
+}
+else{
+
+};
+if(((!var44) && (!var53))) {
+var54 = flip(0.500000)
+}
+else{
+
+}
+;
+if((var35 && var44)) {
+var45 = flip(0.500000)
+}
+else{
+
+};
+if(((!var35) && var44)) {
+var45 = flip(0.500000)
+}
+else{
+
+};
+if((var35 && (!var44))) {
+var45 = flip(0.500000)
+}
+else{
+
+};
+if(((!var35) && (!var44))) {
+var45 = flip(0.500000)
+}
+else{
+
+}
+;
+if((var45 && var54)) {
+var55 = flip(0.500000)
+}
+else{
+
+};
+if(((!var45) && var54)) {
+var55 = flip(0.500000)
+}
+else{
+
+};
+if((var45 && (!var54))) {
+var55 = flip(0.500000)
+}
+else{
+
+};
+if(((!var45) && (!var54))) {
+var55 = flip(0.500000)
+}
+else{
+
+}
+
+

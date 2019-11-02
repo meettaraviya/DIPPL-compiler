@@ -1,0 +1,6600 @@
+HYPOVOLEMIA0 = flip(0.500000);
+if(HYPOVOLEMIA0) {
+HYPOVOLEMIA1 = false;
+HYPOVOLEMIA2 = false
+}
+else{
+HYPOVOLEMIA1 = true;
+if(HYPOVOLEMIA1) {
+HYPOVOLEMIA2 = false
+}
+else{
+HYPOVOLEMIA2 = !(HYPOVOLEMIA1)
+}
+}
+
+;
+LVFAILURE0 = flip(0.500000);
+if(LVFAILURE0) {
+LVFAILURE1 = false;
+LVFAILURE2 = false
+}
+else{
+LVFAILURE1 = true;
+if(LVFAILURE1) {
+LVFAILURE2 = false
+}
+else{
+LVFAILURE2 = !(LVFAILURE1)
+}
+}
+
+;
+if((HYPOVOLEMIA1 && HYPOVOLEMIA1)) {
+STROKEVOLUME0 = flip(0.333333);
+if(STROKEVOLUME0) {
+STROKEVOLUME1 = false;
+STROKEVOLUME2 = false;
+STROKEVOLUME3 = false
+}
+else{
+STROKEVOLUME1 = flip(0.500000);
+if(STROKEVOLUME1) {
+STROKEVOLUME2 = false;
+STROKEVOLUME3 = false
+}
+else{
+STROKEVOLUME2 = true;
+if(STROKEVOLUME2) {
+STROKEVOLUME3 = false
+}
+else{
+STROKEVOLUME3 = !(STROKEVOLUME2)
+}
+}
+}
+}
+else{
+};
+if((HYPOVOLEMIA0 && HYPOVOLEMIA1)) {
+STROKEVOLUME0 = flip(0.333333);
+if(STROKEVOLUME0) {
+STROKEVOLUME1 = false;
+STROKEVOLUME2 = false;
+STROKEVOLUME3 = false
+}
+else{
+STROKEVOLUME1 = flip(0.500000);
+if(STROKEVOLUME1) {
+STROKEVOLUME2 = false;
+STROKEVOLUME3 = false
+}
+else{
+STROKEVOLUME2 = true;
+if(STROKEVOLUME2) {
+STROKEVOLUME3 = false
+}
+else{
+STROKEVOLUME3 = !(STROKEVOLUME2)
+}
+}
+}
+}
+else{
+};
+if((HYPOVOLEMIA1 && HYPOVOLEMIA0)) {
+STROKEVOLUME0 = flip(0.333333);
+if(STROKEVOLUME0) {
+STROKEVOLUME1 = false;
+STROKEVOLUME2 = false;
+STROKEVOLUME3 = false
+}
+else{
+STROKEVOLUME1 = flip(0.500000);
+if(STROKEVOLUME1) {
+STROKEVOLUME2 = false;
+STROKEVOLUME3 = false
+}
+else{
+STROKEVOLUME2 = true;
+if(STROKEVOLUME2) {
+STROKEVOLUME3 = false
+}
+else{
+STROKEVOLUME3 = !(STROKEVOLUME2)
+}
+}
+}
+}
+else{
+};
+if((HYPOVOLEMIA0 && HYPOVOLEMIA0)) {
+STROKEVOLUME0 = flip(0.333333);
+if(STROKEVOLUME0) {
+STROKEVOLUME1 = false;
+STROKEVOLUME2 = false;
+STROKEVOLUME3 = false
+}
+else{
+STROKEVOLUME1 = flip(0.500000);
+if(STROKEVOLUME1) {
+STROKEVOLUME2 = false;
+STROKEVOLUME3 = false
+}
+else{
+STROKEVOLUME2 = true;
+if(STROKEVOLUME2) {
+STROKEVOLUME3 = false
+}
+else{
+STROKEVOLUME3 = !(STROKEVOLUME2)
+}
+}
+}
+}
+else{
+}
+;
+if((HYPOVOLEMIA1 && HYPOVOLEMIA1)) {
+LVEDVOLUME0 = flip(0.333333);
+if(LVEDVOLUME0) {
+LVEDVOLUME1 = false;
+LVEDVOLUME2 = false;
+LVEDVOLUME3 = false
+}
+else{
+LVEDVOLUME1 = flip(0.500000);
+if(LVEDVOLUME1) {
+LVEDVOLUME2 = false;
+LVEDVOLUME3 = false
+}
+else{
+LVEDVOLUME2 = true;
+if(LVEDVOLUME2) {
+LVEDVOLUME3 = false
+}
+else{
+LVEDVOLUME3 = !(LVEDVOLUME2)
+}
+}
+}
+}
+else{
+};
+if((HYPOVOLEMIA0 && HYPOVOLEMIA1)) {
+LVEDVOLUME0 = flip(0.333333);
+if(LVEDVOLUME0) {
+LVEDVOLUME1 = false;
+LVEDVOLUME2 = false;
+LVEDVOLUME3 = false
+}
+else{
+LVEDVOLUME1 = flip(0.500000);
+if(LVEDVOLUME1) {
+LVEDVOLUME2 = false;
+LVEDVOLUME3 = false
+}
+else{
+LVEDVOLUME2 = true;
+if(LVEDVOLUME2) {
+LVEDVOLUME3 = false
+}
+else{
+LVEDVOLUME3 = !(LVEDVOLUME2)
+}
+}
+}
+}
+else{
+};
+if((HYPOVOLEMIA1 && HYPOVOLEMIA0)) {
+LVEDVOLUME0 = flip(0.333333);
+if(LVEDVOLUME0) {
+LVEDVOLUME1 = false;
+LVEDVOLUME2 = false;
+LVEDVOLUME3 = false
+}
+else{
+LVEDVOLUME1 = flip(0.500000);
+if(LVEDVOLUME1) {
+LVEDVOLUME2 = false;
+LVEDVOLUME3 = false
+}
+else{
+LVEDVOLUME2 = true;
+if(LVEDVOLUME2) {
+LVEDVOLUME3 = false
+}
+else{
+LVEDVOLUME3 = !(LVEDVOLUME2)
+}
+}
+}
+}
+else{
+};
+if((HYPOVOLEMIA0 && HYPOVOLEMIA0)) {
+LVEDVOLUME0 = flip(0.333333);
+if(LVEDVOLUME0) {
+LVEDVOLUME1 = false;
+LVEDVOLUME2 = false;
+LVEDVOLUME3 = false
+}
+else{
+LVEDVOLUME1 = flip(0.500000);
+if(LVEDVOLUME1) {
+LVEDVOLUME2 = false;
+LVEDVOLUME3 = false
+}
+else{
+LVEDVOLUME2 = true;
+if(LVEDVOLUME2) {
+LVEDVOLUME3 = false
+}
+else{
+LVEDVOLUME3 = !(LVEDVOLUME2)
+}
+}
+}
+}
+else{
+}
+;
+if(LVEDVOLUME2) {
+PCWP0 = flip(0.333333);
+if(PCWP0) {
+PCWP1 = false;
+PCWP2 = false;
+PCWP3 = false
+}
+else{
+PCWP1 = flip(0.500000);
+if(PCWP1) {
+PCWP2 = false;
+PCWP3 = false
+}
+else{
+PCWP2 = true;
+if(PCWP2) {
+PCWP3 = false
+}
+else{
+PCWP3 = !(PCWP2)
+}
+}
+}
+}
+else{
+};
+if(LVEDVOLUME1) {
+PCWP0 = flip(0.333333);
+if(PCWP0) {
+PCWP1 = false;
+PCWP2 = false;
+PCWP3 = false
+}
+else{
+PCWP1 = flip(0.500000);
+if(PCWP1) {
+PCWP2 = false;
+PCWP3 = false
+}
+else{
+PCWP2 = true;
+if(PCWP2) {
+PCWP3 = false
+}
+else{
+PCWP3 = !(PCWP2)
+}
+}
+}
+}
+else{
+};
+if(LVEDVOLUME0) {
+PCWP0 = flip(0.333333);
+if(PCWP0) {
+PCWP1 = false;
+PCWP2 = false;
+PCWP3 = false
+}
+else{
+PCWP1 = flip(0.500000);
+if(PCWP1) {
+PCWP2 = false;
+PCWP3 = false
+}
+else{
+PCWP2 = true;
+if(PCWP2) {
+PCWP3 = false
+}
+else{
+PCWP3 = !(PCWP2)
+}
+}
+}
+}
+else{
+}
+;
+if(LVEDVOLUME2) {
+CVP0 = flip(0.333333);
+if(CVP0) {
+CVP1 = false;
+CVP2 = false;
+CVP3 = false
+}
+else{
+CVP1 = flip(0.500000);
+if(CVP1) {
+CVP2 = false;
+CVP3 = false
+}
+else{
+CVP2 = true;
+if(CVP2) {
+CVP3 = false
+}
+else{
+CVP3 = !(CVP2)
+}
+}
+}
+}
+else{
+};
+if(LVEDVOLUME1) {
+CVP0 = flip(0.333333);
+if(CVP0) {
+CVP1 = false;
+CVP2 = false;
+CVP3 = false
+}
+else{
+CVP1 = flip(0.500000);
+if(CVP1) {
+CVP2 = false;
+CVP3 = false
+}
+else{
+CVP2 = true;
+if(CVP2) {
+CVP3 = false
+}
+else{
+CVP3 = !(CVP2)
+}
+}
+}
+}
+else{
+};
+if(LVEDVOLUME0) {
+CVP0 = flip(0.333333);
+if(CVP0) {
+CVP1 = false;
+CVP2 = false;
+CVP3 = false
+}
+else{
+CVP1 = flip(0.500000);
+if(CVP1) {
+CVP2 = false;
+CVP3 = false
+}
+else{
+CVP2 = true;
+if(CVP2) {
+CVP3 = false
+}
+else{
+CVP3 = !(CVP2)
+}
+}
+}
+}
+else{
+}
+;
+if(LVFAILURE1) {
+HISTORY0 = flip(0.500000);
+if(HISTORY0) {
+HISTORY1 = false;
+HISTORY2 = false
+}
+else{
+HISTORY1 = true;
+if(HISTORY1) {
+HISTORY2 = false
+}
+else{
+HISTORY2 = !(HISTORY1)
+}
+}
+}
+else{
+};
+if(LVFAILURE0) {
+HISTORY0 = flip(0.500000);
+if(HISTORY0) {
+HISTORY1 = false;
+HISTORY2 = false
+}
+else{
+HISTORY1 = true;
+if(HISTORY1) {
+HISTORY2 = false
+}
+else{
+HISTORY2 = !(HISTORY1)
+}
+}
+}
+else{
+}
+;
+ERRLOWOUTPUT0 = flip(0.500000);
+if(ERRLOWOUTPUT0) {
+ERRLOWOUTPUT1 = false;
+ERRLOWOUTPUT2 = false
+}
+else{
+ERRLOWOUTPUT1 = true;
+if(ERRLOWOUTPUT1) {
+ERRLOWOUTPUT2 = false
+}
+else{
+ERRLOWOUTPUT2 = !(ERRLOWOUTPUT1)
+}
+}
+
+;
+ERRCAUTER0 = flip(0.500000);
+if(ERRCAUTER0) {
+ERRCAUTER1 = false;
+ERRCAUTER2 = false
+}
+else{
+ERRCAUTER1 = true;
+if(ERRCAUTER1) {
+ERRCAUTER2 = false
+}
+else{
+ERRCAUTER2 = !(ERRCAUTER1)
+}
+}
+
+;
+INSUFFANESTH0 = flip(0.500000);
+if(INSUFFANESTH0) {
+INSUFFANESTH1 = false;
+INSUFFANESTH2 = false
+}
+else{
+INSUFFANESTH1 = true;
+if(INSUFFANESTH1) {
+INSUFFANESTH2 = false
+}
+else{
+INSUFFANESTH2 = !(INSUFFANESTH1)
+}
+}
+
+;
+ANAPHYLAXIS0 = flip(0.500000);
+if(ANAPHYLAXIS0) {
+ANAPHYLAXIS1 = false;
+ANAPHYLAXIS2 = false
+}
+else{
+ANAPHYLAXIS1 = true;
+if(ANAPHYLAXIS1) {
+ANAPHYLAXIS2 = false
+}
+else{
+ANAPHYLAXIS2 = !(ANAPHYLAXIS1)
+}
+}
+
+;
+if(ANAPHYLAXIS1) {
+TPR0 = flip(0.333333);
+if(TPR0) {
+TPR1 = false;
+TPR2 = false;
+TPR3 = false
+}
+else{
+TPR1 = flip(0.500000);
+if(TPR1) {
+TPR2 = false;
+TPR3 = false
+}
+else{
+TPR2 = true;
+if(TPR2) {
+TPR3 = false
+}
+else{
+TPR3 = !(TPR2)
+}
+}
+}
+}
+else{
+};
+if(ANAPHYLAXIS0) {
+TPR0 = flip(0.333333);
+if(TPR0) {
+TPR1 = false;
+TPR2 = false;
+TPR3 = false
+}
+else{
+TPR1 = flip(0.500000);
+if(TPR1) {
+TPR2 = false;
+TPR3 = false
+}
+else{
+TPR2 = true;
+if(TPR2) {
+TPR3 = false
+}
+else{
+TPR3 = !(TPR2)
+}
+}
+}
+}
+else{
+}
+;
+KINKEDTUBE0 = flip(0.500000);
+if(KINKEDTUBE0) {
+KINKEDTUBE1 = false;
+KINKEDTUBE2 = false
+}
+else{
+KINKEDTUBE1 = true;
+if(KINKEDTUBE1) {
+KINKEDTUBE2 = false
+}
+else{
+KINKEDTUBE2 = !(KINKEDTUBE1)
+}
+}
+
+;
+FIO20 = flip(0.500000);
+if(FIO20) {
+FIO21 = false;
+FIO22 = false
+}
+else{
+FIO21 = true;
+if(FIO21) {
+FIO22 = false
+}
+else{
+FIO22 = !(FIO21)
+}
+}
+
+;
+PULMEMBOLUS0 = flip(0.500000);
+if(PULMEMBOLUS0) {
+PULMEMBOLUS1 = false;
+PULMEMBOLUS2 = false
+}
+else{
+PULMEMBOLUS1 = true;
+if(PULMEMBOLUS1) {
+PULMEMBOLUS2 = false
+}
+else{
+PULMEMBOLUS2 = !(PULMEMBOLUS1)
+}
+}
+
+;
+if(PULMEMBOLUS1) {
+PAP0 = flip(0.333333);
+if(PAP0) {
+PAP1 = false;
+PAP2 = false;
+PAP3 = false
+}
+else{
+PAP1 = flip(0.500000);
+if(PAP1) {
+PAP2 = false;
+PAP3 = false
+}
+else{
+PAP2 = true;
+if(PAP2) {
+PAP3 = false
+}
+else{
+PAP3 = !(PAP2)
+}
+}
+}
+}
+else{
+};
+if(PULMEMBOLUS0) {
+PAP0 = flip(0.333333);
+if(PAP0) {
+PAP1 = false;
+PAP2 = false;
+PAP3 = false
+}
+else{
+PAP1 = flip(0.500000);
+if(PAP1) {
+PAP2 = false;
+PAP3 = false
+}
+else{
+PAP2 = true;
+if(PAP2) {
+PAP3 = false
+}
+else{
+PAP3 = !(PAP2)
+}
+}
+}
+}
+else{
+}
+;
+INTUBATION0 = flip(0.333333);
+if(INTUBATION0) {
+INTUBATION1 = false;
+INTUBATION2 = false;
+INTUBATION3 = false
+}
+else{
+INTUBATION1 = flip(0.500000);
+if(INTUBATION1) {
+INTUBATION2 = false;
+INTUBATION3 = false
+}
+else{
+INTUBATION2 = true;
+if(INTUBATION2) {
+INTUBATION3 = false
+}
+else{
+INTUBATION3 = !(INTUBATION2)
+}
+}
+}
+
+;
+if((INTUBATION2 && INTUBATION1)) {
+SHUNT0 = flip(0.500000);
+if(SHUNT0) {
+SHUNT1 = false;
+SHUNT2 = false
+}
+else{
+SHUNT1 = true;
+if(SHUNT1) {
+SHUNT2 = false
+}
+else{
+SHUNT2 = !(SHUNT1)
+}
+}
+}
+else{
+};
+if((INTUBATION1 && INTUBATION1)) {
+SHUNT0 = flip(0.500000);
+if(SHUNT0) {
+SHUNT1 = false;
+SHUNT2 = false
+}
+else{
+SHUNT1 = true;
+if(SHUNT1) {
+SHUNT2 = false
+}
+else{
+SHUNT2 = !(SHUNT1)
+}
+}
+}
+else{
+};
+if((INTUBATION0 && INTUBATION1)) {
+SHUNT0 = flip(0.500000);
+if(SHUNT0) {
+SHUNT1 = false;
+SHUNT2 = false
+}
+else{
+SHUNT1 = true;
+if(SHUNT1) {
+SHUNT2 = false
+}
+else{
+SHUNT2 = !(SHUNT1)
+}
+}
+}
+else{
+};
+if((INTUBATION2 && INTUBATION0)) {
+SHUNT0 = flip(0.500000);
+if(SHUNT0) {
+SHUNT1 = false;
+SHUNT2 = false
+}
+else{
+SHUNT1 = true;
+if(SHUNT1) {
+SHUNT2 = false
+}
+else{
+SHUNT2 = !(SHUNT1)
+}
+}
+}
+else{
+};
+if((INTUBATION1 && INTUBATION0)) {
+SHUNT0 = flip(0.500000);
+if(SHUNT0) {
+SHUNT1 = false;
+SHUNT2 = false
+}
+else{
+SHUNT1 = true;
+if(SHUNT1) {
+SHUNT2 = false
+}
+else{
+SHUNT2 = !(SHUNT1)
+}
+}
+}
+else{
+};
+if((INTUBATION0 && INTUBATION0)) {
+SHUNT0 = flip(0.500000);
+if(SHUNT0) {
+SHUNT1 = false;
+SHUNT2 = false
+}
+else{
+SHUNT1 = true;
+if(SHUNT1) {
+SHUNT2 = false
+}
+else{
+SHUNT2 = !(SHUNT1)
+}
+}
+}
+else{
+}
+;
+DISCONNECT0 = flip(0.500000);
+if(DISCONNECT0) {
+DISCONNECT1 = false;
+DISCONNECT2 = false
+}
+else{
+DISCONNECT1 = true;
+if(DISCONNECT1) {
+DISCONNECT2 = false
+}
+else{
+DISCONNECT2 = !(DISCONNECT1)
+}
+}
+
+;
+MINVOLSET0 = flip(0.333333);
+if(MINVOLSET0) {
+MINVOLSET1 = false;
+MINVOLSET2 = false;
+MINVOLSET3 = false
+}
+else{
+MINVOLSET1 = flip(0.500000);
+if(MINVOLSET1) {
+MINVOLSET2 = false;
+MINVOLSET3 = false
+}
+else{
+MINVOLSET2 = true;
+if(MINVOLSET2) {
+MINVOLSET3 = false
+}
+else{
+MINVOLSET3 = !(MINVOLSET2)
+}
+}
+}
+
+;
+if(MINVOLSET2) {
+VENTMACH0 = flip(0.250000);
+if(VENTMACH0) {
+VENTMACH1 = false;
+VENTMACH2 = false;
+VENTMACH3 = false;
+VENTMACH4 = false
+}
+else{
+VENTMACH1 = flip(0.333333);
+if(VENTMACH1) {
+VENTMACH2 = false;
+VENTMACH3 = false;
+VENTMACH4 = false
+}
+else{
+VENTMACH2 = flip(0.500000);
+if(VENTMACH2) {
+VENTMACH3 = false;
+VENTMACH4 = false
+}
+else{
+VENTMACH3 = true;
+if(VENTMACH3) {
+VENTMACH4 = false
+}
+else{
+VENTMACH4 = !(VENTMACH3)
+}
+}
+}
+}
+}
+else{
+};
+if(MINVOLSET1) {
+VENTMACH0 = flip(0.250000);
+if(VENTMACH0) {
+VENTMACH1 = false;
+VENTMACH2 = false;
+VENTMACH3 = false;
+VENTMACH4 = false
+}
+else{
+VENTMACH1 = flip(0.333333);
+if(VENTMACH1) {
+VENTMACH2 = false;
+VENTMACH3 = false;
+VENTMACH4 = false
+}
+else{
+VENTMACH2 = flip(0.500000);
+if(VENTMACH2) {
+VENTMACH3 = false;
+VENTMACH4 = false
+}
+else{
+VENTMACH3 = true;
+if(VENTMACH3) {
+VENTMACH4 = false
+}
+else{
+VENTMACH4 = !(VENTMACH3)
+}
+}
+}
+}
+}
+else{
+};
+if(MINVOLSET0) {
+VENTMACH0 = flip(0.250000);
+if(VENTMACH0) {
+VENTMACH1 = false;
+VENTMACH2 = false;
+VENTMACH3 = false;
+VENTMACH4 = false
+}
+else{
+VENTMACH1 = flip(0.333333);
+if(VENTMACH1) {
+VENTMACH2 = false;
+VENTMACH3 = false;
+VENTMACH4 = false
+}
+else{
+VENTMACH2 = flip(0.500000);
+if(VENTMACH2) {
+VENTMACH3 = false;
+VENTMACH4 = false
+}
+else{
+VENTMACH3 = true;
+if(VENTMACH3) {
+VENTMACH4 = false
+}
+else{
+VENTMACH4 = !(VENTMACH3)
+}
+}
+}
+}
+}
+else{
+}
+;
+if((DISCONNECT1 && DISCONNECT3)) {
+VENTTUBE0 = flip(0.250000);
+if(VENTTUBE0) {
+VENTTUBE1 = false;
+VENTTUBE2 = false;
+VENTTUBE3 = false;
+VENTTUBE4 = false
+}
+else{
+VENTTUBE1 = flip(0.333333);
+if(VENTTUBE1) {
+VENTTUBE2 = false;
+VENTTUBE3 = false;
+VENTTUBE4 = false
+}
+else{
+VENTTUBE2 = flip(0.500000);
+if(VENTTUBE2) {
+VENTTUBE3 = false;
+VENTTUBE4 = false
+}
+else{
+VENTTUBE3 = true;
+if(VENTTUBE3) {
+VENTTUBE4 = false
+}
+else{
+VENTTUBE4 = !(VENTTUBE3)
+}
+}
+}
+}
+}
+else{
+};
+if((DISCONNECT0 && DISCONNECT3)) {
+VENTTUBE0 = flip(0.250000);
+if(VENTTUBE0) {
+VENTTUBE1 = false;
+VENTTUBE2 = false;
+VENTTUBE3 = false;
+VENTTUBE4 = false
+}
+else{
+VENTTUBE1 = flip(0.333333);
+if(VENTTUBE1) {
+VENTTUBE2 = false;
+VENTTUBE3 = false;
+VENTTUBE4 = false
+}
+else{
+VENTTUBE2 = flip(0.500000);
+if(VENTTUBE2) {
+VENTTUBE3 = false;
+VENTTUBE4 = false
+}
+else{
+VENTTUBE3 = true;
+if(VENTTUBE3) {
+VENTTUBE4 = false
+}
+else{
+VENTTUBE4 = !(VENTTUBE3)
+}
+}
+}
+}
+}
+else{
+};
+if((DISCONNECT1 && DISCONNECT2)) {
+VENTTUBE0 = flip(0.250000);
+if(VENTTUBE0) {
+VENTTUBE1 = false;
+VENTTUBE2 = false;
+VENTTUBE3 = false;
+VENTTUBE4 = false
+}
+else{
+VENTTUBE1 = flip(0.333333);
+if(VENTTUBE1) {
+VENTTUBE2 = false;
+VENTTUBE3 = false;
+VENTTUBE4 = false
+}
+else{
+VENTTUBE2 = flip(0.500000);
+if(VENTTUBE2) {
+VENTTUBE3 = false;
+VENTTUBE4 = false
+}
+else{
+VENTTUBE3 = true;
+if(VENTTUBE3) {
+VENTTUBE4 = false
+}
+else{
+VENTTUBE4 = !(VENTTUBE3)
+}
+}
+}
+}
+}
+else{
+};
+if((DISCONNECT0 && DISCONNECT2)) {
+VENTTUBE0 = flip(0.250000);
+if(VENTTUBE0) {
+VENTTUBE1 = false;
+VENTTUBE2 = false;
+VENTTUBE3 = false;
+VENTTUBE4 = false
+}
+else{
+VENTTUBE1 = flip(0.333333);
+if(VENTTUBE1) {
+VENTTUBE2 = false;
+VENTTUBE3 = false;
+VENTTUBE4 = false
+}
+else{
+VENTTUBE2 = flip(0.500000);
+if(VENTTUBE2) {
+VENTTUBE3 = false;
+VENTTUBE4 = false
+}
+else{
+VENTTUBE3 = true;
+if(VENTTUBE3) {
+VENTTUBE4 = false
+}
+else{
+VENTTUBE4 = !(VENTTUBE3)
+}
+}
+}
+}
+}
+else{
+};
+if((DISCONNECT1 && DISCONNECT1)) {
+VENTTUBE0 = flip(0.250000);
+if(VENTTUBE0) {
+VENTTUBE1 = false;
+VENTTUBE2 = false;
+VENTTUBE3 = false;
+VENTTUBE4 = false
+}
+else{
+VENTTUBE1 = flip(0.333333);
+if(VENTTUBE1) {
+VENTTUBE2 = false;
+VENTTUBE3 = false;
+VENTTUBE4 = false
+}
+else{
+VENTTUBE2 = flip(0.500000);
+if(VENTTUBE2) {
+VENTTUBE3 = false;
+VENTTUBE4 = false
+}
+else{
+VENTTUBE3 = true;
+if(VENTTUBE3) {
+VENTTUBE4 = false
+}
+else{
+VENTTUBE4 = !(VENTTUBE3)
+}
+}
+}
+}
+}
+else{
+};
+if((DISCONNECT0 && DISCONNECT1)) {
+VENTTUBE0 = flip(0.250000);
+if(VENTTUBE0) {
+VENTTUBE1 = false;
+VENTTUBE2 = false;
+VENTTUBE3 = false;
+VENTTUBE4 = false
+}
+else{
+VENTTUBE1 = flip(0.333333);
+if(VENTTUBE1) {
+VENTTUBE2 = false;
+VENTTUBE3 = false;
+VENTTUBE4 = false
+}
+else{
+VENTTUBE2 = flip(0.500000);
+if(VENTTUBE2) {
+VENTTUBE3 = false;
+VENTTUBE4 = false
+}
+else{
+VENTTUBE3 = true;
+if(VENTTUBE3) {
+VENTTUBE4 = false
+}
+else{
+VENTTUBE4 = !(VENTTUBE3)
+}
+}
+}
+}
+}
+else{
+};
+if((DISCONNECT1 && DISCONNECT0)) {
+VENTTUBE0 = flip(0.250000);
+if(VENTTUBE0) {
+VENTTUBE1 = false;
+VENTTUBE2 = false;
+VENTTUBE3 = false;
+VENTTUBE4 = false
+}
+else{
+VENTTUBE1 = flip(0.333333);
+if(VENTTUBE1) {
+VENTTUBE2 = false;
+VENTTUBE3 = false;
+VENTTUBE4 = false
+}
+else{
+VENTTUBE2 = flip(0.500000);
+if(VENTTUBE2) {
+VENTTUBE3 = false;
+VENTTUBE4 = false
+}
+else{
+VENTTUBE3 = true;
+if(VENTTUBE3) {
+VENTTUBE4 = false
+}
+else{
+VENTTUBE4 = !(VENTTUBE3)
+}
+}
+}
+}
+}
+else{
+};
+if((DISCONNECT0 && DISCONNECT0)) {
+VENTTUBE0 = flip(0.250000);
+if(VENTTUBE0) {
+VENTTUBE1 = false;
+VENTTUBE2 = false;
+VENTTUBE3 = false;
+VENTTUBE4 = false
+}
+else{
+VENTTUBE1 = flip(0.333333);
+if(VENTTUBE1) {
+VENTTUBE2 = false;
+VENTTUBE3 = false;
+VENTTUBE4 = false
+}
+else{
+VENTTUBE2 = flip(0.500000);
+if(VENTTUBE2) {
+VENTTUBE3 = false;
+VENTTUBE4 = false
+}
+else{
+VENTTUBE3 = true;
+if(VENTTUBE3) {
+VENTTUBE4 = false
+}
+else{
+VENTTUBE4 = !(VENTTUBE3)
+}
+}
+}
+}
+}
+else{
+}
+;
+if(((INTUBATION2 && INTUBATION1) && KINKEDTUBE3)) {
+VENTLUNG0 = flip(0.250000);
+if(VENTLUNG0) {
+VENTLUNG1 = false;
+VENTLUNG2 = false;
+VENTLUNG3 = false;
+VENTLUNG4 = false
+}
+else{
+VENTLUNG1 = flip(0.333333);
+if(VENTLUNG1) {
+VENTLUNG2 = false;
+VENTLUNG3 = false;
+VENTLUNG4 = false
+}
+else{
+VENTLUNG2 = flip(0.500000);
+if(VENTLUNG2) {
+VENTLUNG3 = false;
+VENTLUNG4 = false
+}
+else{
+VENTLUNG3 = true;
+if(VENTLUNG3) {
+VENTLUNG4 = false
+}
+else{
+VENTLUNG4 = !(VENTLUNG3)
+}
+}
+}
+}
+}
+else{
+};
+if(((INTUBATION1 && INTUBATION1) && KINKEDTUBE3)) {
+VENTLUNG0 = flip(0.250000);
+if(VENTLUNG0) {
+VENTLUNG1 = false;
+VENTLUNG2 = false;
+VENTLUNG3 = false;
+VENTLUNG4 = false
+}
+else{
+VENTLUNG1 = flip(0.333333);
+if(VENTLUNG1) {
+VENTLUNG2 = false;
+VENTLUNG3 = false;
+VENTLUNG4 = false
+}
+else{
+VENTLUNG2 = flip(0.500000);
+if(VENTLUNG2) {
+VENTLUNG3 = false;
+VENTLUNG4 = false
+}
+else{
+VENTLUNG3 = true;
+if(VENTLUNG3) {
+VENTLUNG4 = false
+}
+else{
+VENTLUNG4 = !(VENTLUNG3)
+}
+}
+}
+}
+}
+else{
+};
+if(((INTUBATION0 && INTUBATION1) && KINKEDTUBE3)) {
+VENTLUNG0 = flip(0.250000);
+if(VENTLUNG0) {
+VENTLUNG1 = false;
+VENTLUNG2 = false;
+VENTLUNG3 = false;
+VENTLUNG4 = false
+}
+else{
+VENTLUNG1 = flip(0.333333);
+if(VENTLUNG1) {
+VENTLUNG2 = false;
+VENTLUNG3 = false;
+VENTLUNG4 = false
+}
+else{
+VENTLUNG2 = flip(0.500000);
+if(VENTLUNG2) {
+VENTLUNG3 = false;
+VENTLUNG4 = false
+}
+else{
+VENTLUNG3 = true;
+if(VENTLUNG3) {
+VENTLUNG4 = false
+}
+else{
+VENTLUNG4 = !(VENTLUNG3)
+}
+}
+}
+}
+}
+else{
+};
+if(((INTUBATION2 && INTUBATION0) && KINKEDTUBE3)) {
+VENTLUNG0 = flip(0.250000);
+if(VENTLUNG0) {
+VENTLUNG1 = false;
+VENTLUNG2 = false;
+VENTLUNG3 = false;
+VENTLUNG4 = false
+}
+else{
+VENTLUNG1 = flip(0.333333);
+if(VENTLUNG1) {
+VENTLUNG2 = false;
+VENTLUNG3 = false;
+VENTLUNG4 = false
+}
+else{
+VENTLUNG2 = flip(0.500000);
+if(VENTLUNG2) {
+VENTLUNG3 = false;
+VENTLUNG4 = false
+}
+else{
+VENTLUNG3 = true;
+if(VENTLUNG3) {
+VENTLUNG4 = false
+}
+else{
+VENTLUNG4 = !(VENTLUNG3)
+}
+}
+}
+}
+}
+else{
+};
+if(((INTUBATION1 && INTUBATION0) && KINKEDTUBE3)) {
+VENTLUNG0 = flip(0.250000);
+if(VENTLUNG0) {
+VENTLUNG1 = false;
+VENTLUNG2 = false;
+VENTLUNG3 = false;
+VENTLUNG4 = false
+}
+else{
+VENTLUNG1 = flip(0.333333);
+if(VENTLUNG1) {
+VENTLUNG2 = false;
+VENTLUNG3 = false;
+VENTLUNG4 = false
+}
+else{
+VENTLUNG2 = flip(0.500000);
+if(VENTLUNG2) {
+VENTLUNG3 = false;
+VENTLUNG4 = false
+}
+else{
+VENTLUNG3 = true;
+if(VENTLUNG3) {
+VENTLUNG4 = false
+}
+else{
+VENTLUNG4 = !(VENTLUNG3)
+}
+}
+}
+}
+}
+else{
+};
+if(((INTUBATION0 && INTUBATION0) && KINKEDTUBE3)) {
+VENTLUNG0 = flip(0.250000);
+if(VENTLUNG0) {
+VENTLUNG1 = false;
+VENTLUNG2 = false;
+VENTLUNG3 = false;
+VENTLUNG4 = false
+}
+else{
+VENTLUNG1 = flip(0.333333);
+if(VENTLUNG1) {
+VENTLUNG2 = false;
+VENTLUNG3 = false;
+VENTLUNG4 = false
+}
+else{
+VENTLUNG2 = flip(0.500000);
+if(VENTLUNG2) {
+VENTLUNG3 = false;
+VENTLUNG4 = false
+}
+else{
+VENTLUNG3 = true;
+if(VENTLUNG3) {
+VENTLUNG4 = false
+}
+else{
+VENTLUNG4 = !(VENTLUNG3)
+}
+}
+}
+}
+}
+else{
+};
+if(((INTUBATION2 && INTUBATION1) && KINKEDTUBE2)) {
+VENTLUNG0 = flip(0.250000);
+if(VENTLUNG0) {
+VENTLUNG1 = false;
+VENTLUNG2 = false;
+VENTLUNG3 = false;
+VENTLUNG4 = false
+}
+else{
+VENTLUNG1 = flip(0.333333);
+if(VENTLUNG1) {
+VENTLUNG2 = false;
+VENTLUNG3 = false;
+VENTLUNG4 = false
+}
+else{
+VENTLUNG2 = flip(0.500000);
+if(VENTLUNG2) {
+VENTLUNG3 = false;
+VENTLUNG4 = false
+}
+else{
+VENTLUNG3 = true;
+if(VENTLUNG3) {
+VENTLUNG4 = false
+}
+else{
+VENTLUNG4 = !(VENTLUNG3)
+}
+}
+}
+}
+}
+else{
+};
+if(((INTUBATION1 && INTUBATION1) && KINKEDTUBE2)) {
+VENTLUNG0 = flip(0.250000);
+if(VENTLUNG0) {
+VENTLUNG1 = false;
+VENTLUNG2 = false;
+VENTLUNG3 = false;
+VENTLUNG4 = false
+}
+else{
+VENTLUNG1 = flip(0.333333);
+if(VENTLUNG1) {
+VENTLUNG2 = false;
+VENTLUNG3 = false;
+VENTLUNG4 = false
+}
+else{
+VENTLUNG2 = flip(0.500000);
+if(VENTLUNG2) {
+VENTLUNG3 = false;
+VENTLUNG4 = false
+}
+else{
+VENTLUNG3 = true;
+if(VENTLUNG3) {
+VENTLUNG4 = false
+}
+else{
+VENTLUNG4 = !(VENTLUNG3)
+}
+}
+}
+}
+}
+else{
+};
+if(((INTUBATION0 && INTUBATION1) && KINKEDTUBE2)) {
+VENTLUNG0 = flip(0.250000);
+if(VENTLUNG0) {
+VENTLUNG1 = false;
+VENTLUNG2 = false;
+VENTLUNG3 = false;
+VENTLUNG4 = false
+}
+else{
+VENTLUNG1 = flip(0.333333);
+if(VENTLUNG1) {
+VENTLUNG2 = false;
+VENTLUNG3 = false;
+VENTLUNG4 = false
+}
+else{
+VENTLUNG2 = flip(0.500000);
+if(VENTLUNG2) {
+VENTLUNG3 = false;
+VENTLUNG4 = false
+}
+else{
+VENTLUNG3 = true;
+if(VENTLUNG3) {
+VENTLUNG4 = false
+}
+else{
+VENTLUNG4 = !(VENTLUNG3)
+}
+}
+}
+}
+}
+else{
+};
+if(((INTUBATION2 && INTUBATION0) && KINKEDTUBE2)) {
+VENTLUNG0 = flip(0.250000);
+if(VENTLUNG0) {
+VENTLUNG1 = false;
+VENTLUNG2 = false;
+VENTLUNG3 = false;
+VENTLUNG4 = false
+}
+else{
+VENTLUNG1 = flip(0.333333);
+if(VENTLUNG1) {
+VENTLUNG2 = false;
+VENTLUNG3 = false;
+VENTLUNG4 = false
+}
+else{
+VENTLUNG2 = flip(0.500000);
+if(VENTLUNG2) {
+VENTLUNG3 = false;
+VENTLUNG4 = false
+}
+else{
+VENTLUNG3 = true;
+if(VENTLUNG3) {
+VENTLUNG4 = false
+}
+else{
+VENTLUNG4 = !(VENTLUNG3)
+}
+}
+}
+}
+}
+else{
+};
+if(((INTUBATION1 && INTUBATION0) && KINKEDTUBE2)) {
+VENTLUNG0 = flip(0.250000);
+if(VENTLUNG0) {
+VENTLUNG1 = false;
+VENTLUNG2 = false;
+VENTLUNG3 = false;
+VENTLUNG4 = false
+}
+else{
+VENTLUNG1 = flip(0.333333);
+if(VENTLUNG1) {
+VENTLUNG2 = false;
+VENTLUNG3 = false;
+VENTLUNG4 = false
+}
+else{
+VENTLUNG2 = flip(0.500000);
+if(VENTLUNG2) {
+VENTLUNG3 = false;
+VENTLUNG4 = false
+}
+else{
+VENTLUNG3 = true;
+if(VENTLUNG3) {
+VENTLUNG4 = false
+}
+else{
+VENTLUNG4 = !(VENTLUNG3)
+}
+}
+}
+}
+}
+else{
+};
+if(((INTUBATION0 && INTUBATION0) && KINKEDTUBE2)) {
+VENTLUNG0 = flip(0.250000);
+if(VENTLUNG0) {
+VENTLUNG1 = false;
+VENTLUNG2 = false;
+VENTLUNG3 = false;
+VENTLUNG4 = false
+}
+else{
+VENTLUNG1 = flip(0.333333);
+if(VENTLUNG1) {
+VENTLUNG2 = false;
+VENTLUNG3 = false;
+VENTLUNG4 = false
+}
+else{
+VENTLUNG2 = flip(0.500000);
+if(VENTLUNG2) {
+VENTLUNG3 = false;
+VENTLUNG4 = false
+}
+else{
+VENTLUNG3 = true;
+if(VENTLUNG3) {
+VENTLUNG4 = false
+}
+else{
+VENTLUNG4 = !(VENTLUNG3)
+}
+}
+}
+}
+}
+else{
+};
+if(((INTUBATION2 && INTUBATION1) && KINKEDTUBE1)) {
+VENTLUNG0 = flip(0.250000);
+if(VENTLUNG0) {
+VENTLUNG1 = false;
+VENTLUNG2 = false;
+VENTLUNG3 = false;
+VENTLUNG4 = false
+}
+else{
+VENTLUNG1 = flip(0.333333);
+if(VENTLUNG1) {
+VENTLUNG2 = false;
+VENTLUNG3 = false;
+VENTLUNG4 = false
+}
+else{
+VENTLUNG2 = flip(0.500000);
+if(VENTLUNG2) {
+VENTLUNG3 = false;
+VENTLUNG4 = false
+}
+else{
+VENTLUNG3 = true;
+if(VENTLUNG3) {
+VENTLUNG4 = false
+}
+else{
+VENTLUNG4 = !(VENTLUNG3)
+}
+}
+}
+}
+}
+else{
+};
+if(((INTUBATION1 && INTUBATION1) && KINKEDTUBE1)) {
+VENTLUNG0 = flip(0.250000);
+if(VENTLUNG0) {
+VENTLUNG1 = false;
+VENTLUNG2 = false;
+VENTLUNG3 = false;
+VENTLUNG4 = false
+}
+else{
+VENTLUNG1 = flip(0.333333);
+if(VENTLUNG1) {
+VENTLUNG2 = false;
+VENTLUNG3 = false;
+VENTLUNG4 = false
+}
+else{
+VENTLUNG2 = flip(0.500000);
+if(VENTLUNG2) {
+VENTLUNG3 = false;
+VENTLUNG4 = false
+}
+else{
+VENTLUNG3 = true;
+if(VENTLUNG3) {
+VENTLUNG4 = false
+}
+else{
+VENTLUNG4 = !(VENTLUNG3)
+}
+}
+}
+}
+}
+else{
+};
+if(((INTUBATION0 && INTUBATION1) && KINKEDTUBE1)) {
+VENTLUNG0 = flip(0.250000);
+if(VENTLUNG0) {
+VENTLUNG1 = false;
+VENTLUNG2 = false;
+VENTLUNG3 = false;
+VENTLUNG4 = false
+}
+else{
+VENTLUNG1 = flip(0.333333);
+if(VENTLUNG1) {
+VENTLUNG2 = false;
+VENTLUNG3 = false;
+VENTLUNG4 = false
+}
+else{
+VENTLUNG2 = flip(0.500000);
+if(VENTLUNG2) {
+VENTLUNG3 = false;
+VENTLUNG4 = false
+}
+else{
+VENTLUNG3 = true;
+if(VENTLUNG3) {
+VENTLUNG4 = false
+}
+else{
+VENTLUNG4 = !(VENTLUNG3)
+}
+}
+}
+}
+}
+else{
+};
+if(((INTUBATION2 && INTUBATION0) && KINKEDTUBE1)) {
+VENTLUNG0 = flip(0.250000);
+if(VENTLUNG0) {
+VENTLUNG1 = false;
+VENTLUNG2 = false;
+VENTLUNG3 = false;
+VENTLUNG4 = false
+}
+else{
+VENTLUNG1 = flip(0.333333);
+if(VENTLUNG1) {
+VENTLUNG2 = false;
+VENTLUNG3 = false;
+VENTLUNG4 = false
+}
+else{
+VENTLUNG2 = flip(0.500000);
+if(VENTLUNG2) {
+VENTLUNG3 = false;
+VENTLUNG4 = false
+}
+else{
+VENTLUNG3 = true;
+if(VENTLUNG3) {
+VENTLUNG4 = false
+}
+else{
+VENTLUNG4 = !(VENTLUNG3)
+}
+}
+}
+}
+}
+else{
+};
+if(((INTUBATION1 && INTUBATION0) && KINKEDTUBE1)) {
+VENTLUNG0 = flip(0.250000);
+if(VENTLUNG0) {
+VENTLUNG1 = false;
+VENTLUNG2 = false;
+VENTLUNG3 = false;
+VENTLUNG4 = false
+}
+else{
+VENTLUNG1 = flip(0.333333);
+if(VENTLUNG1) {
+VENTLUNG2 = false;
+VENTLUNG3 = false;
+VENTLUNG4 = false
+}
+else{
+VENTLUNG2 = flip(0.500000);
+if(VENTLUNG2) {
+VENTLUNG3 = false;
+VENTLUNG4 = false
+}
+else{
+VENTLUNG3 = true;
+if(VENTLUNG3) {
+VENTLUNG4 = false
+}
+else{
+VENTLUNG4 = !(VENTLUNG3)
+}
+}
+}
+}
+}
+else{
+};
+if(((INTUBATION0 && INTUBATION0) && KINKEDTUBE1)) {
+VENTLUNG0 = flip(0.250000);
+if(VENTLUNG0) {
+VENTLUNG1 = false;
+VENTLUNG2 = false;
+VENTLUNG3 = false;
+VENTLUNG4 = false
+}
+else{
+VENTLUNG1 = flip(0.333333);
+if(VENTLUNG1) {
+VENTLUNG2 = false;
+VENTLUNG3 = false;
+VENTLUNG4 = false
+}
+else{
+VENTLUNG2 = flip(0.500000);
+if(VENTLUNG2) {
+VENTLUNG3 = false;
+VENTLUNG4 = false
+}
+else{
+VENTLUNG3 = true;
+if(VENTLUNG3) {
+VENTLUNG4 = false
+}
+else{
+VENTLUNG4 = !(VENTLUNG3)
+}
+}
+}
+}
+}
+else{
+};
+if(((INTUBATION2 && INTUBATION1) && KINKEDTUBE0)) {
+VENTLUNG0 = flip(0.250000);
+if(VENTLUNG0) {
+VENTLUNG1 = false;
+VENTLUNG2 = false;
+VENTLUNG3 = false;
+VENTLUNG4 = false
+}
+else{
+VENTLUNG1 = flip(0.333333);
+if(VENTLUNG1) {
+VENTLUNG2 = false;
+VENTLUNG3 = false;
+VENTLUNG4 = false
+}
+else{
+VENTLUNG2 = flip(0.500000);
+if(VENTLUNG2) {
+VENTLUNG3 = false;
+VENTLUNG4 = false
+}
+else{
+VENTLUNG3 = true;
+if(VENTLUNG3) {
+VENTLUNG4 = false
+}
+else{
+VENTLUNG4 = !(VENTLUNG3)
+}
+}
+}
+}
+}
+else{
+};
+if(((INTUBATION1 && INTUBATION1) && KINKEDTUBE0)) {
+VENTLUNG0 = flip(0.250000);
+if(VENTLUNG0) {
+VENTLUNG1 = false;
+VENTLUNG2 = false;
+VENTLUNG3 = false;
+VENTLUNG4 = false
+}
+else{
+VENTLUNG1 = flip(0.333333);
+if(VENTLUNG1) {
+VENTLUNG2 = false;
+VENTLUNG3 = false;
+VENTLUNG4 = false
+}
+else{
+VENTLUNG2 = flip(0.500000);
+if(VENTLUNG2) {
+VENTLUNG3 = false;
+VENTLUNG4 = false
+}
+else{
+VENTLUNG3 = true;
+if(VENTLUNG3) {
+VENTLUNG4 = false
+}
+else{
+VENTLUNG4 = !(VENTLUNG3)
+}
+}
+}
+}
+}
+else{
+};
+if(((INTUBATION0 && INTUBATION1) && KINKEDTUBE0)) {
+VENTLUNG0 = flip(0.250000);
+if(VENTLUNG0) {
+VENTLUNG1 = false;
+VENTLUNG2 = false;
+VENTLUNG3 = false;
+VENTLUNG4 = false
+}
+else{
+VENTLUNG1 = flip(0.333333);
+if(VENTLUNG1) {
+VENTLUNG2 = false;
+VENTLUNG3 = false;
+VENTLUNG4 = false
+}
+else{
+VENTLUNG2 = flip(0.500000);
+if(VENTLUNG2) {
+VENTLUNG3 = false;
+VENTLUNG4 = false
+}
+else{
+VENTLUNG3 = true;
+if(VENTLUNG3) {
+VENTLUNG4 = false
+}
+else{
+VENTLUNG4 = !(VENTLUNG3)
+}
+}
+}
+}
+}
+else{
+};
+if(((INTUBATION2 && INTUBATION0) && KINKEDTUBE0)) {
+VENTLUNG0 = flip(0.250000);
+if(VENTLUNG0) {
+VENTLUNG1 = false;
+VENTLUNG2 = false;
+VENTLUNG3 = false;
+VENTLUNG4 = false
+}
+else{
+VENTLUNG1 = flip(0.333333);
+if(VENTLUNG1) {
+VENTLUNG2 = false;
+VENTLUNG3 = false;
+VENTLUNG4 = false
+}
+else{
+VENTLUNG2 = flip(0.500000);
+if(VENTLUNG2) {
+VENTLUNG3 = false;
+VENTLUNG4 = false
+}
+else{
+VENTLUNG3 = true;
+if(VENTLUNG3) {
+VENTLUNG4 = false
+}
+else{
+VENTLUNG4 = !(VENTLUNG3)
+}
+}
+}
+}
+}
+else{
+};
+if(((INTUBATION1 && INTUBATION0) && KINKEDTUBE0)) {
+VENTLUNG0 = flip(0.250000);
+if(VENTLUNG0) {
+VENTLUNG1 = false;
+VENTLUNG2 = false;
+VENTLUNG3 = false;
+VENTLUNG4 = false
+}
+else{
+VENTLUNG1 = flip(0.333333);
+if(VENTLUNG1) {
+VENTLUNG2 = false;
+VENTLUNG3 = false;
+VENTLUNG4 = false
+}
+else{
+VENTLUNG2 = flip(0.500000);
+if(VENTLUNG2) {
+VENTLUNG3 = false;
+VENTLUNG4 = false
+}
+else{
+VENTLUNG3 = true;
+if(VENTLUNG3) {
+VENTLUNG4 = false
+}
+else{
+VENTLUNG4 = !(VENTLUNG3)
+}
+}
+}
+}
+}
+else{
+};
+
+if(((INTUBATION0 && INTUBATION0) && KINKEDTUBE0)) {
+VENTLUNG0 = flip(0.250000);
+if(VENTLUNG0) {
+VENTLUNG1 = false;
+VENTLUNG2 = false;
+VENTLUNG3 = false;
+VENTLUNG4 = false
+}
+else{
+VENTLUNG1 = flip(0.333333);
+if(VENTLUNG1) {
+VENTLUNG2 = false;
+VENTLUNG3 = false;
+VENTLUNG4 = false
+}
+else{
+VENTLUNG2 = flip(0.500000);
+if(VENTLUNG2) {
+VENTLUNG3 = false;
+VENTLUNG4 = false
+}
+else{
+VENTLUNG3 = true;
+if(VENTLUNG3) {
+VENTLUNG4 = false
+}
+else{
+VENTLUNG4 = !(VENTLUNG3)
+}
+}
+}
+}
+}
+else{
+}
+;
+if((INTUBATION2 && INTUBATION3)) {
+VENTALV0 = flip(0.250000);
+if(VENTALV0) {
+VENTALV1 = false;
+VENTALV2 = false;
+VENTALV3 = false;
+VENTALV4 = false
+}
+else{
+VENTALV1 = flip(0.333333);
+if(VENTALV1) {
+VENTALV2 = false;
+VENTALV3 = false;
+VENTALV4 = false
+}
+else{
+VENTALV2 = flip(0.500000);
+if(VENTALV2) {
+VENTALV3 = false;
+VENTALV4 = false
+}
+else{
+VENTALV3 = true;
+if(VENTALV3) {
+VENTALV4 = false
+}
+else{
+VENTALV4 = !(VENTALV3)
+}
+}
+}
+}
+}
+else{
+};
+if((INTUBATION1 && INTUBATION3)) {
+VENTALV0 = flip(0.250000);
+if(VENTALV0) {
+VENTALV1 = false;
+VENTALV2 = false;
+VENTALV3 = false;
+VENTALV4 = false
+}
+else{
+VENTALV1 = flip(0.333333);
+if(VENTALV1) {
+VENTALV2 = false;
+VENTALV3 = false;
+VENTALV4 = false
+}
+else{
+VENTALV2 = flip(0.500000);
+if(VENTALV2) {
+VENTALV3 = false;
+VENTALV4 = false
+}
+else{
+VENTALV3 = true;
+if(VENTALV3) {
+VENTALV4 = false
+}
+else{
+VENTALV4 = !(VENTALV3)
+}
+}
+}
+}
+}
+else{
+};
+if((INTUBATION0 && INTUBATION3)) {
+VENTALV0 = flip(0.250000);
+if(VENTALV0) {
+VENTALV1 = false;
+VENTALV2 = false;
+VENTALV3 = false;
+VENTALV4 = false
+}
+else{
+VENTALV1 = flip(0.333333);
+if(VENTALV1) {
+VENTALV2 = false;
+VENTALV3 = false;
+VENTALV4 = false
+}
+else{
+VENTALV2 = flip(0.500000);
+if(VENTALV2) {
+VENTALV3 = false;
+VENTALV4 = false
+}
+else{
+VENTALV3 = true;
+if(VENTALV3) {
+VENTALV4 = false
+}
+else{
+VENTALV4 = !(VENTALV3)
+}
+}
+}
+}
+}
+else{
+};
+if((INTUBATION2 && INTUBATION2)) {
+VENTALV0 = flip(0.250000);
+if(VENTALV0) {
+VENTALV1 = false;
+VENTALV2 = false;
+VENTALV3 = false;
+VENTALV4 = false
+}
+else{
+VENTALV1 = flip(0.333333);
+if(VENTALV1) {
+VENTALV2 = false;
+VENTALV3 = false;
+VENTALV4 = false
+}
+else{
+VENTALV2 = flip(0.500000);
+if(VENTALV2) {
+VENTALV3 = false;
+VENTALV4 = false
+}
+else{
+VENTALV3 = true;
+if(VENTALV3) {
+VENTALV4 = false
+}
+else{
+VENTALV4 = !(VENTALV3)
+}
+}
+}
+}
+}
+else{
+};
+if((INTUBATION1 && INTUBATION2)) {
+VENTALV0 = flip(0.250000);
+if(VENTALV0) {
+VENTALV1 = false;
+VENTALV2 = false;
+VENTALV3 = false;
+VENTALV4 = false
+}
+else{
+VENTALV1 = flip(0.333333);
+if(VENTALV1) {
+VENTALV2 = false;
+VENTALV3 = false;
+VENTALV4 = false
+}
+else{
+VENTALV2 = flip(0.500000);
+if(VENTALV2) {
+VENTALV3 = false;
+VENTALV4 = false
+}
+else{
+VENTALV3 = true;
+if(VENTALV3) {
+VENTALV4 = false
+}
+else{
+VENTALV4 = !(VENTALV3)
+}
+}
+}
+}
+}
+else{
+};
+if((INTUBATION0 && INTUBATION2)) {
+VENTALV0 = flip(0.250000);
+if(VENTALV0) {
+VENTALV1 = false;
+VENTALV2 = false;
+VENTALV3 = false;
+VENTALV4 = false
+}
+else{
+VENTALV1 = flip(0.333333);
+if(VENTALV1) {
+VENTALV2 = false;
+VENTALV3 = false;
+VENTALV4 = false
+}
+else{
+VENTALV2 = flip(0.500000);
+if(VENTALV2) {
+VENTALV3 = false;
+VENTALV4 = false
+}
+else{
+VENTALV3 = true;
+if(VENTALV3) {
+VENTALV4 = false
+}
+else{
+VENTALV4 = !(VENTALV3)
+}
+}
+}
+}
+}
+else{
+};
+if((INTUBATION2 && INTUBATION1)) {
+VENTALV0 = flip(0.250000);
+if(VENTALV0) {
+VENTALV1 = false;
+VENTALV2 = false;
+VENTALV3 = false;
+VENTALV4 = false
+}
+else{
+VENTALV1 = flip(0.333333);
+if(VENTALV1) {
+VENTALV2 = false;
+VENTALV3 = false;
+VENTALV4 = false
+}
+else{
+VENTALV2 = flip(0.500000);
+if(VENTALV2) {
+VENTALV3 = false;
+VENTALV4 = false
+}
+else{
+VENTALV3 = true;
+if(VENTALV3) {
+VENTALV4 = false
+}
+else{
+VENTALV4 = !(VENTALV3)
+}
+}
+}
+}
+}
+else{
+};
+if((INTUBATION1 && INTUBATION1)) {
+VENTALV0 = flip(0.250000);
+if(VENTALV0) {
+VENTALV1 = false;
+VENTALV2 = false;
+VENTALV3 = false;
+VENTALV4 = false
+}
+else{
+VENTALV1 = flip(0.333333);
+if(VENTALV1) {
+VENTALV2 = false;
+VENTALV3 = false;
+VENTALV4 = false
+}
+else{
+VENTALV2 = flip(0.500000);
+if(VENTALV2) {
+VENTALV3 = false;
+VENTALV4 = false
+}
+else{
+VENTALV3 = true;
+if(VENTALV3) {
+VENTALV4 = false
+}
+else{
+VENTALV4 = !(VENTALV3)
+}
+}
+}
+}
+}
+else{
+};
+if((INTUBATION0 && INTUBATION1)) {
+VENTALV0 = flip(0.250000);
+if(VENTALV0) {
+VENTALV1 = false;
+VENTALV2 = false;
+VENTALV3 = false;
+VENTALV4 = false
+}
+else{
+VENTALV1 = flip(0.333333);
+if(VENTALV1) {
+VENTALV2 = false;
+VENTALV3 = false;
+VENTALV4 = false
+}
+else{
+VENTALV2 = flip(0.500000);
+if(VENTALV2) {
+VENTALV3 = false;
+VENTALV4 = false
+}
+else{
+VENTALV3 = true;
+if(VENTALV3) {
+VENTALV4 = false
+}
+else{
+VENTALV4 = !(VENTALV3)
+}
+}
+}
+}
+}
+else{
+};
+if((INTUBATION2 && INTUBATION0)) {
+VENTALV0 = flip(0.250000);
+if(VENTALV0) {
+VENTALV1 = false;
+VENTALV2 = false;
+VENTALV3 = false;
+VENTALV4 = false
+}
+else{
+VENTALV1 = flip(0.333333);
+if(VENTALV1) {
+VENTALV2 = false;
+VENTALV3 = false;
+VENTALV4 = false
+}
+else{
+VENTALV2 = flip(0.500000);
+if(VENTALV2) {
+VENTALV3 = false;
+VENTALV4 = false
+}
+else{
+VENTALV3 = true;
+if(VENTALV3) {
+VENTALV4 = false
+}
+else{
+VENTALV4 = !(VENTALV3)
+}
+}
+}
+}
+}
+else{
+};
+if((INTUBATION1 && INTUBATION0)) {
+VENTALV0 = flip(0.250000);
+if(VENTALV0) {
+VENTALV1 = false;
+VENTALV2 = false;
+VENTALV3 = false;
+VENTALV4 = false
+}
+else{
+VENTALV1 = flip(0.333333);
+if(VENTALV1) {
+VENTALV2 = false;
+VENTALV3 = false;
+VENTALV4 = false
+}
+else{
+VENTALV2 = flip(0.500000);
+if(VENTALV2) {
+VENTALV3 = false;
+VENTALV4 = false
+}
+else{
+VENTALV3 = true;
+if(VENTALV3) {
+VENTALV4 = false
+}
+else{
+VENTALV4 = !(VENTALV3)
+}
+}
+}
+}
+}
+else{
+};
+if((INTUBATION0 && INTUBATION0)) {
+VENTALV0 = flip(0.250000);
+if(VENTALV0) {
+VENTALV1 = false;
+VENTALV2 = false;
+VENTALV3 = false;
+VENTALV4 = false
+}
+else{
+VENTALV1 = flip(0.333333);
+if(VENTALV1) {
+VENTALV2 = false;
+VENTALV3 = false;
+VENTALV4 = false
+}
+else{
+VENTALV2 = flip(0.500000);
+if(VENTALV2) {
+VENTALV3 = false;
+VENTALV4 = false
+}
+else{
+VENTALV3 = true;
+if(VENTALV3) {
+VENTALV4 = false
+}
+else{
+VENTALV4 = !(VENTALV3)
+}
+}
+}
+}
+}
+else{
+}
+;
+if(VENTALV3) {
+ARTCO20 = flip(0.333333);
+if(ARTCO20) {
+ARTCO21 = false;
+ARTCO22 = false;
+ARTCO23 = false
+}
+else{
+ARTCO21 = flip(0.500000);
+if(ARTCO21) {
+ARTCO22 = false;
+ARTCO23 = false
+}
+else{
+ARTCO22 = true;
+if(ARTCO22) {
+ARTCO23 = false
+}
+else{
+ARTCO23 = !(ARTCO22)
+}
+}
+}
+}
+else{
+};
+if(VENTALV2) {
+ARTCO20 = flip(0.333333);
+if(ARTCO20) {
+ARTCO21 = false;
+ARTCO22 = false;
+ARTCO23 = false
+}
+else{
+ARTCO21 = flip(0.500000);
+if(ARTCO21) {
+ARTCO22 = false;
+ARTCO23 = false
+}
+else{
+ARTCO22 = true;
+if(ARTCO22) {
+ARTCO23 = false
+}
+else{
+ARTCO23 = !(ARTCO22)
+}
+}
+}
+}
+else{
+};
+if(VENTALV1) {
+ARTCO20 = flip(0.333333);
+if(ARTCO20) {
+ARTCO21 = false;
+ARTCO22 = false;
+ARTCO23 = false
+}
+else{
+ARTCO21 = flip(0.500000);
+if(ARTCO21) {
+ARTCO22 = false;
+ARTCO23 = false
+}
+else{
+ARTCO22 = true;
+if(ARTCO22) {
+ARTCO23 = false
+}
+else{
+ARTCO23 = !(ARTCO22)
+}
+}
+}
+}
+else{
+};
+if(VENTALV0) {
+ARTCO20 = flip(0.333333);
+if(ARTCO20) {
+ARTCO21 = false;
+ARTCO22 = false;
+ARTCO23 = false
+}
+else{
+ARTCO21 = flip(0.500000);
+if(ARTCO21) {
+ARTCO22 = false;
+ARTCO23 = false
+}
+else{
+ARTCO22 = true;
+if(ARTCO22) {
+ARTCO23 = false
+}
+else{
+ARTCO23 = !(ARTCO22)
+}
+}
+}
+}
+else{
+}
+;
+if((FIO21 && FIO23)) {
+PVSAT0 = flip(0.333333);
+if(PVSAT0) {
+PVSAT1 = false;
+PVSAT2 = false;
+PVSAT3 = false
+}
+else{
+PVSAT1 = flip(0.500000);
+if(PVSAT1) {
+PVSAT2 = false;
+PVSAT3 = false
+}
+else{
+PVSAT2 = true;
+if(PVSAT2) {
+PVSAT3 = false
+}
+else{
+PVSAT3 = !(PVSAT2)
+}
+}
+}
+}
+else{
+};
+if((FIO20 && FIO23)) {
+PVSAT0 = flip(0.333333);
+if(PVSAT0) {
+PVSAT1 = false;
+PVSAT2 = false;
+PVSAT3 = false
+}
+else{
+PVSAT1 = flip(0.500000);
+if(PVSAT1) {
+PVSAT2 = false;
+PVSAT3 = false
+}
+else{
+PVSAT2 = true;
+if(PVSAT2) {
+PVSAT3 = false
+}
+else{
+PVSAT3 = !(PVSAT2)
+}
+}
+}
+}
+else{
+};
+if((FIO21 && FIO22)) {
+PVSAT0 = flip(0.333333);
+if(PVSAT0) {
+PVSAT1 = false;
+PVSAT2 = false;
+PVSAT3 = false
+}
+else{
+PVSAT1 = flip(0.500000);
+if(PVSAT1) {
+PVSAT2 = false;
+PVSAT3 = false
+}
+else{
+PVSAT2 = true;
+if(PVSAT2) {
+PVSAT3 = false
+}
+else{
+PVSAT3 = !(PVSAT2)
+}
+}
+}
+}
+else{
+};
+if((FIO20 && FIO22)) {
+PVSAT0 = flip(0.333333);
+if(PVSAT0) {
+PVSAT1 = false;
+PVSAT2 = false;
+PVSAT3 = false
+}
+else{
+PVSAT1 = flip(0.500000);
+if(PVSAT1) {
+PVSAT2 = false;
+PVSAT3 = false
+}
+else{
+PVSAT2 = true;
+if(PVSAT2) {
+PVSAT3 = false
+}
+else{
+PVSAT3 = !(PVSAT2)
+}
+}
+}
+}
+else{
+};
+if((FIO21 && FIO21)) {
+PVSAT0 = flip(0.333333);
+if(PVSAT0) {
+PVSAT1 = false;
+PVSAT2 = false;
+PVSAT3 = false
+}
+else{
+PVSAT1 = flip(0.500000);
+if(PVSAT1) {
+PVSAT2 = false;
+PVSAT3 = false
+}
+else{
+PVSAT2 = true;
+if(PVSAT2) {
+PVSAT3 = false
+}
+else{
+PVSAT3 = !(PVSAT2)
+}
+}
+}
+}
+else{
+};
+if((FIO20 && FIO21)) {
+PVSAT0 = flip(0.333333);
+if(PVSAT0) {
+PVSAT1 = false;
+PVSAT2 = false;
+PVSAT3 = false
+}
+else{
+PVSAT1 = flip(0.500000);
+if(PVSAT1) {
+PVSAT2 = false;
+PVSAT3 = false
+}
+else{
+PVSAT2 = true;
+if(PVSAT2) {
+PVSAT3 = false
+}
+else{
+PVSAT3 = !(PVSAT2)
+}
+}
+}
+}
+else{
+};
+if((FIO21 && FIO20)) {
+PVSAT0 = flip(0.333333);
+if(PVSAT0) {
+PVSAT1 = false;
+PVSAT2 = false;
+PVSAT3 = false
+}
+else{
+PVSAT1 = flip(0.500000);
+if(PVSAT1) {
+PVSAT2 = false;
+PVSAT3 = false
+}
+else{
+PVSAT2 = true;
+if(PVSAT2) {
+PVSAT3 = false
+}
+else{
+PVSAT3 = !(PVSAT2)
+}
+}
+}
+}
+else{
+};
+if((FIO20 && FIO20)) {
+PVSAT0 = flip(0.333333);
+if(PVSAT0) {
+PVSAT1 = false;
+PVSAT2 = false;
+PVSAT3 = false
+}
+else{
+PVSAT1 = flip(0.500000);
+if(PVSAT1) {
+PVSAT2 = false;
+PVSAT3 = false
+}
+else{
+PVSAT2 = true;
+if(PVSAT2) {
+PVSAT3 = false
+}
+else{
+PVSAT3 = !(PVSAT2)
+}
+}
+}
+}
+else{
+}
+;
+if((PVSAT2 && PVSAT1)) {
+SAO20 = flip(0.333333);
+if(SAO20) {
+SAO21 = false;
+SAO22 = false;
+SAO23 = false
+}
+else{
+SAO21 = flip(0.500000);
+if(SAO21) {
+SAO22 = false;
+SAO23 = false
+}
+else{
+SAO22 = true;
+if(SAO22) {
+SAO23 = false
+}
+else{
+SAO23 = !(SAO22)
+}
+}
+}
+}
+else{
+};
+if((PVSAT1 && PVSAT1)) {
+SAO20 = flip(0.333333);
+if(SAO20) {
+SAO21 = false;
+SAO22 = false;
+SAO23 = false
+}
+else{
+SAO21 = flip(0.500000);
+if(SAO21) {
+SAO22 = false;
+SAO23 = false
+}
+else{
+SAO22 = true;
+if(SAO22) {
+SAO23 = false
+}
+else{
+SAO23 = !(SAO22)
+}
+}
+}
+}
+else{
+};
+if((PVSAT0 && PVSAT1)) {
+SAO20 = flip(0.333333);
+if(SAO20) {
+SAO21 = false;
+SAO22 = false;
+SAO23 = false
+}
+else{
+SAO21 = flip(0.500000);
+if(SAO21) {
+SAO22 = false;
+SAO23 = false
+}
+else{
+SAO22 = true;
+if(SAO22) {
+SAO23 = false
+}
+else{
+SAO23 = !(SAO22)
+}
+}
+}
+}
+else{
+};
+if((PVSAT2 && PVSAT0)) {
+SAO20 = flip(0.333333);
+if(SAO20) {
+SAO21 = false;
+SAO22 = false;
+SAO23 = false
+}
+else{
+SAO21 = flip(0.500000);
+if(SAO21) {
+SAO22 = false;
+SAO23 = false
+}
+else{
+SAO22 = true;
+if(SAO22) {
+SAO23 = false
+}
+else{
+SAO23 = !(SAO22)
+}
+}
+}
+}
+else{
+};
+if((PVSAT1 && PVSAT0)) {
+SAO20 = flip(0.333333);
+if(SAO20) {
+SAO21 = false;
+SAO22 = false;
+SAO23 = false
+}
+else{
+SAO21 = flip(0.500000);
+if(SAO21) {
+SAO22 = false;
+SAO23 = false
+}
+else{
+SAO22 = true;
+if(SAO22) {
+SAO23 = false
+}
+else{
+SAO23 = !(SAO22)
+}
+}
+}
+}
+else{
+};
+if((PVSAT0 && PVSAT0)) {
+SAO20 = flip(0.333333);
+if(SAO20) {
+SAO21 = false;
+SAO22 = false;
+SAO23 = false
+}
+else{
+SAO21 = flip(0.500000);
+if(SAO21) {
+SAO22 = false;
+SAO23 = false
+}
+else{
+SAO22 = true;
+if(SAO22) {
+SAO23 = false
+}
+else{
+SAO23 = !(SAO22)
+}
+}
+}
+}
+else{
+}
+;
+if((((ARTCO22 && ARTCO21) && INSUFFANESTH2) && SAO22)) {
+CATECHOL0 = flip(0.500000);
+if(CATECHOL0) {
+CATECHOL1 = false;
+CATECHOL2 = false
+}
+else{
+CATECHOL1 = true;
+if(CATECHOL1) {
+CATECHOL2 = false
+}
+else{
+CATECHOL2 = !(CATECHOL1)
+}
+}
+}
+else{
+};
+if((((ARTCO21 && ARTCO21) && INSUFFANESTH2) && SAO22)) {
+CATECHOL0 = flip(0.500000);
+if(CATECHOL0) {
+CATECHOL1 = false;
+CATECHOL2 = false
+}
+else{
+CATECHOL1 = true;
+if(CATECHOL1) {
+CATECHOL2 = false
+}
+else{
+CATECHOL2 = !(CATECHOL1)
+}
+}
+}
+else{
+};
+if((((ARTCO20 && ARTCO21) && INSUFFANESTH2) && SAO22)) {
+CATECHOL0 = flip(0.500000);
+if(CATECHOL0) {
+CATECHOL1 = false;
+CATECHOL2 = false
+}
+else{
+CATECHOL1 = true;
+if(CATECHOL1) {
+CATECHOL2 = false
+}
+else{
+CATECHOL2 = !(CATECHOL1)
+}
+}
+}
+else{
+};
+if((((ARTCO22 && ARTCO20) && INSUFFANESTH2) && SAO22)) {
+CATECHOL0 = flip(0.500000);
+if(CATECHOL0) {
+CATECHOL1 = false;
+CATECHOL2 = false
+}
+else{
+CATECHOL1 = true;
+if(CATECHOL1) {
+CATECHOL2 = false
+}
+else{
+CATECHOL2 = !(CATECHOL1)
+}
+}
+}
+else{
+};
+if((((ARTCO21 && ARTCO20) && INSUFFANESTH2) && SAO22)) {
+CATECHOL0 = flip(0.500000);
+if(CATECHOL0) {
+CATECHOL1 = false;
+CATECHOL2 = false
+}
+else{
+CATECHOL1 = true;
+if(CATECHOL1) {
+CATECHOL2 = false
+}
+else{
+CATECHOL2 = !(CATECHOL1)
+}
+}
+}
+else{
+};
+if((((ARTCO20 && ARTCO20) && INSUFFANESTH2) && SAO22)) {
+CATECHOL0 = flip(0.500000);
+if(CATECHOL0) {
+CATECHOL1 = false;
+CATECHOL2 = false
+}
+else{
+CATECHOL1 = true;
+if(CATECHOL1) {
+CATECHOL2 = false
+}
+else{
+CATECHOL2 = !(CATECHOL1)
+}
+}
+}
+else{
+};
+if((((ARTCO22 && ARTCO21) && INSUFFANESTH1) && SAO22)) {
+CATECHOL0 = flip(0.500000);
+if(CATECHOL0) {
+CATECHOL1 = false;
+CATECHOL2 = false
+}
+else{
+CATECHOL1 = true;
+if(CATECHOL1) {
+CATECHOL2 = false
+}
+else{
+CATECHOL2 = !(CATECHOL1)
+}
+}
+}
+else{
+};
+if((((ARTCO21 && ARTCO21) && INSUFFANESTH1) && SAO22)) {
+CATECHOL0 = flip(0.500000);
+if(CATECHOL0) {
+CATECHOL1 = false;
+CATECHOL2 = false
+}
+else{
+CATECHOL1 = true;
+if(CATECHOL1) {
+CATECHOL2 = false
+}
+else{
+CATECHOL2 = !(CATECHOL1)
+}
+}
+}
+else{
+};
+if((((ARTCO20 && ARTCO21) && INSUFFANESTH1) && SAO22)) {
+CATECHOL0 = flip(0.500000);
+if(CATECHOL0) {
+CATECHOL1 = false;
+CATECHOL2 = false
+}
+else{
+CATECHOL1 = true;
+if(CATECHOL1) {
+CATECHOL2 = false
+}
+else{
+CATECHOL2 = !(CATECHOL1)
+}
+}
+}
+else{
+};
+if((((ARTCO22 && ARTCO20) && INSUFFANESTH1) && SAO22)) {
+CATECHOL0 = flip(0.500000);
+if(CATECHOL0) {
+CATECHOL1 = false;
+CATECHOL2 = false
+}
+else{
+CATECHOL1 = true;
+if(CATECHOL1) {
+CATECHOL2 = false
+}
+else{
+CATECHOL2 = !(CATECHOL1)
+}
+}
+}
+else{
+};
+if((((ARTCO21 && ARTCO20) && INSUFFANESTH1) && SAO22)) {
+CATECHOL0 = flip(0.500000);
+if(CATECHOL0) {
+CATECHOL1 = false;
+CATECHOL2 = false
+}
+else{
+CATECHOL1 = true;
+if(CATECHOL1) {
+CATECHOL2 = false
+}
+else{
+CATECHOL2 = !(CATECHOL1)
+}
+}
+}
+else{
+};
+if((((ARTCO20 && ARTCO20) && INSUFFANESTH1) && SAO22)) {
+CATECHOL0 = flip(0.500000);
+if(CATECHOL0) {
+CATECHOL1 = false;
+CATECHOL2 = false
+}
+else{
+CATECHOL1 = true;
+if(CATECHOL1) {
+CATECHOL2 = false
+}
+else{
+CATECHOL2 = !(CATECHOL1)
+}
+}
+}
+else{
+};
+if((((ARTCO22 && ARTCO21) && INSUFFANESTH0) && SAO22)) {
+CATECHOL0 = flip(0.500000);
+if(CATECHOL0) {
+CATECHOL1 = false;
+CATECHOL2 = false
+}
+else{
+CATECHOL1 = true;
+if(CATECHOL1) {
+CATECHOL2 = false
+}
+else{
+CATECHOL2 = !(CATECHOL1)
+}
+}
+}
+else{
+};
+if((((ARTCO21 && ARTCO21) && INSUFFANESTH0) && SAO22)) {
+CATECHOL0 = flip(0.500000);
+if(CATECHOL0) {
+CATECHOL1 = false;
+CATECHOL2 = false
+}
+else{
+CATECHOL1 = true;
+if(CATECHOL1) {
+CATECHOL2 = false
+}
+else{
+CATECHOL2 = !(CATECHOL1)
+}
+}
+}
+else{
+};
+if((((ARTCO20 && ARTCO21) && INSUFFANESTH0) && SAO22)) {
+CATECHOL0 = flip(0.500000);
+if(CATECHOL0) {
+CATECHOL1 = false;
+CATECHOL2 = false
+}
+else{
+CATECHOL1 = true;
+if(CATECHOL1) {
+CATECHOL2 = false
+}
+else{
+CATECHOL2 = !(CATECHOL1)
+}
+}
+}
+else{
+};
+if((((ARTCO22 && ARTCO20) && INSUFFANESTH0) && SAO22)) {
+CATECHOL0 = flip(0.500000);
+if(CATECHOL0) {
+CATECHOL1 = false;
+CATECHOL2 = false
+}
+else{
+CATECHOL1 = true;
+if(CATECHOL1) {
+CATECHOL2 = false
+}
+else{
+CATECHOL2 = !(CATECHOL1)
+}
+}
+}
+else{
+};
+if((((ARTCO21 && ARTCO20) && INSUFFANESTH0) && SAO22)) {
+CATECHOL0 = flip(0.500000);
+if(CATECHOL0) {
+CATECHOL1 = false;
+CATECHOL2 = false
+}
+else{
+CATECHOL1 = true;
+if(CATECHOL1) {
+CATECHOL2 = false
+}
+else{
+CATECHOL2 = !(CATECHOL1)
+}
+}
+}
+else{
+};
+if((((ARTCO20 && ARTCO20) && INSUFFANESTH0) && SAO22)) {
+CATECHOL0 = flip(0.500000);
+if(CATECHOL0) {
+CATECHOL1 = false;
+CATECHOL2 = false
+}
+else{
+CATECHOL1 = true;
+if(CATECHOL1) {
+CATECHOL2 = false
+}
+else{
+CATECHOL2 = !(CATECHOL1)
+}
+}
+}
+else{
+};
+if((((ARTCO22 && ARTCO21) && INSUFFANESTH2) && SAO21)) {
+CATECHOL0 = flip(0.500000);
+if(CATECHOL0) {
+CATECHOL1 = false;
+CATECHOL2 = false
+}
+else{
+CATECHOL1 = true;
+if(CATECHOL1) {
+CATECHOL2 = false
+}
+else{
+CATECHOL2 = !(CATECHOL1)
+}
+}
+}
+else{
+};
+if((((ARTCO21 && ARTCO21) && INSUFFANESTH2) && SAO21)) {
+CATECHOL0 = flip(0.500000);
+if(CATECHOL0) {
+CATECHOL1 = false;
+CATECHOL2 = false
+}
+else{
+CATECHOL1 = true;
+if(CATECHOL1) {
+CATECHOL2 = false
+}
+else{
+CATECHOL2 = !(CATECHOL1)
+}
+}
+}
+else{
+};
+if((((ARTCO20 && ARTCO21) && INSUFFANESTH2) && SAO21)) {
+CATECHOL0 = flip(0.500000);
+if(CATECHOL0) {
+CATECHOL1 = false;
+CATECHOL2 = false
+}
+else{
+CATECHOL1 = true;
+if(CATECHOL1) {
+CATECHOL2 = false
+}
+else{
+CATECHOL2 = !(CATECHOL1)
+}
+}
+}
+else{
+};
+if((((ARTCO22 && ARTCO20) && INSUFFANESTH2) && SAO21)) {
+CATECHOL0 = flip(0.500000);
+if(CATECHOL0) {
+CATECHOL1 = false;
+CATECHOL2 = false
+}
+else{
+CATECHOL1 = true;
+if(CATECHOL1) {
+CATECHOL2 = false
+}
+else{
+CATECHOL2 = !(CATECHOL1)
+}
+}
+}
+else{
+};
+if((((ARTCO21 && ARTCO20) && INSUFFANESTH2) && SAO21)) {
+CATECHOL0 = flip(0.500000);
+if(CATECHOL0) {
+CATECHOL1 = false;
+CATECHOL2 = false
+}
+else{
+CATECHOL1 = true;
+if(CATECHOL1) {
+CATECHOL2 = false
+}
+else{
+CATECHOL2 = !(CATECHOL1)
+}
+}
+}
+else{
+};
+if((((ARTCO20 && ARTCO20) && INSUFFANESTH2) && SAO21)) {
+CATECHOL0 = flip(0.500000);
+if(CATECHOL0) {
+CATECHOL1 = false;
+CATECHOL2 = false
+}
+else{
+CATECHOL1 = true;
+if(CATECHOL1) {
+CATECHOL2 = false
+}
+else{
+CATECHOL2 = !(CATECHOL1)
+}
+}
+}
+else{
+};
+if((((ARTCO22 && ARTCO21) && INSUFFANESTH1) && SAO21)) {
+CATECHOL0 = flip(0.500000);
+if(CATECHOL0) {
+CATECHOL1 = false;
+CATECHOL2 = false
+}
+else{
+CATECHOL1 = true;
+if(CATECHOL1) {
+CATECHOL2 = false
+}
+else{
+CATECHOL2 = !(CATECHOL1)
+}
+}
+}
+else{
+};
+if((((ARTCO21 && ARTCO21) && INSUFFANESTH1) && SAO21)) {
+CATECHOL0 = flip(0.500000);
+if(CATECHOL0) {
+CATECHOL1 = false;
+CATECHOL2 = false
+}
+else{
+CATECHOL1 = true;
+if(CATECHOL1) {
+CATECHOL2 = false
+}
+else{
+CATECHOL2 = !(CATECHOL1)
+}
+}
+}
+else{
+};
+if((((ARTCO20 && ARTCO21) && INSUFFANESTH1) && SAO21)) {
+CATECHOL0 = flip(0.500000);
+if(CATECHOL0) {
+CATECHOL1 = false;
+CATECHOL2 = false
+}
+else{
+CATECHOL1 = true;
+if(CATECHOL1) {
+CATECHOL2 = false
+}
+else{
+CATECHOL2 = !(CATECHOL1)
+}
+}
+}
+else{
+};
+if((((ARTCO22 && ARTCO20) && INSUFFANESTH1) && SAO21)) {
+CATECHOL0 = flip(0.500000);
+if(CATECHOL0) {
+CATECHOL1 = false;
+CATECHOL2 = false
+}
+else{
+CATECHOL1 = true;
+if(CATECHOL1) {
+CATECHOL2 = false
+}
+else{
+CATECHOL2 = !(CATECHOL1)
+}
+}
+}
+else{
+};
+if((((ARTCO21 && ARTCO20) && INSUFFANESTH1) && SAO21)) {
+CATECHOL0 = flip(0.500000);
+if(CATECHOL0) {
+CATECHOL1 = false;
+CATECHOL2 = false
+}
+else{
+CATECHOL1 = true;
+if(CATECHOL1) {
+CATECHOL2 = false
+}
+else{
+CATECHOL2 = !(CATECHOL1)
+}
+}
+}
+else{
+};
+if((((ARTCO20 && ARTCO20) && INSUFFANESTH1) && SAO21)) {
+CATECHOL0 = flip(0.500000);
+if(CATECHOL0) {
+CATECHOL1 = false;
+CATECHOL2 = false
+}
+else{
+CATECHOL1 = true;
+if(CATECHOL1) {
+CATECHOL2 = false
+}
+else{
+CATECHOL2 = !(CATECHOL1)
+}
+}
+}
+else{
+};
+if((((ARTCO22 && ARTCO21) && INSUFFANESTH0) && SAO21)) {
+CATECHOL0 = flip(0.500000);
+if(CATECHOL0) {
+CATECHOL1 = false;
+CATECHOL2 = false
+}
+else{
+CATECHOL1 = true;
+if(CATECHOL1) {
+CATECHOL2 = false
+}
+else{
+CATECHOL2 = !(CATECHOL1)
+}
+}
+}
+else{
+};
+if((((ARTCO21 && ARTCO21) && INSUFFANESTH0) && SAO21)) {
+CATECHOL0 = flip(0.500000);
+if(CATECHOL0) {
+CATECHOL1 = false;
+CATECHOL2 = false
+}
+else{
+CATECHOL1 = true;
+if(CATECHOL1) {
+CATECHOL2 = false
+}
+else{
+CATECHOL2 = !(CATECHOL1)
+}
+}
+}
+else{
+};
+if((((ARTCO20 && ARTCO21) && INSUFFANESTH0) && SAO21)) {
+CATECHOL0 = flip(0.500000);
+if(CATECHOL0) {
+CATECHOL1 = false;
+CATECHOL2 = false
+}
+else{
+CATECHOL1 = true;
+if(CATECHOL1) {
+CATECHOL2 = false
+}
+else{
+CATECHOL2 = !(CATECHOL1)
+}
+}
+}
+else{
+};
+if((((ARTCO22 && ARTCO20) && INSUFFANESTH0) && SAO21)) {
+CATECHOL0 = flip(0.500000);
+if(CATECHOL0) {
+CATECHOL1 = false;
+CATECHOL2 = false
+}
+else{
+CATECHOL1 = true;
+if(CATECHOL1) {
+CATECHOL2 = false
+}
+else{
+CATECHOL2 = !(CATECHOL1)
+}
+}
+}
+else{
+};
+if((((ARTCO21 && ARTCO20) && INSUFFANESTH0) && SAO21)) {
+CATECHOL0 = flip(0.500000);
+if(CATECHOL0) {
+CATECHOL1 = false;
+CATECHOL2 = false
+}
+else{
+CATECHOL1 = true;
+if(CATECHOL1) {
+CATECHOL2 = false
+}
+else{
+CATECHOL2 = !(CATECHOL1)
+}
+}
+}
+else{
+};
+if((((ARTCO20 && ARTCO20) && INSUFFANESTH0) && SAO21)) {
+CATECHOL0 = flip(0.500000);
+if(CATECHOL0) {
+CATECHOL1 = false;
+CATECHOL2 = false
+}
+else{
+CATECHOL1 = true;
+if(CATECHOL1) {
+CATECHOL2 = false
+}
+else{
+CATECHOL2 = !(CATECHOL1)
+}
+}
+}
+else{
+};
+if((((ARTCO22 && ARTCO21) && INSUFFANESTH2) && SAO20)) {
+CATECHOL0 = flip(0.500000);
+if(CATECHOL0) {
+CATECHOL1 = false;
+CATECHOL2 = false
+}
+else{
+CATECHOL1 = true;
+if(CATECHOL1) {
+CATECHOL2 = false
+}
+else{
+CATECHOL2 = !(CATECHOL1)
+}
+}
+}
+else{
+};
+if((((ARTCO21 && ARTCO21) && INSUFFANESTH2) && SAO20)) {
+CATECHOL0 = flip(0.500000);
+if(CATECHOL0) {
+CATECHOL1 = false;
+CATECHOL2 = false
+}
+else{
+CATECHOL1 = true;
+if(CATECHOL1) {
+CATECHOL2 = false
+}
+else{
+CATECHOL2 = !(CATECHOL1)
+}
+}
+}
+else{
+};
+if((((ARTCO20 && ARTCO21) && INSUFFANESTH2) && SAO20)) {
+CATECHOL0 = flip(0.500000);
+if(CATECHOL0) {
+CATECHOL1 = false;
+CATECHOL2 = false
+}
+else{
+CATECHOL1 = true;
+if(CATECHOL1) {
+CATECHOL2 = false
+}
+else{
+CATECHOL2 = !(CATECHOL1)
+}
+}
+}
+else{
+};
+if((((ARTCO22 && ARTCO20) && INSUFFANESTH2) && SAO20)) {
+CATECHOL0 = flip(0.500000);
+if(CATECHOL0) {
+CATECHOL1 = false;
+CATECHOL2 = false
+}
+else{
+CATECHOL1 = true;
+if(CATECHOL1) {
+CATECHOL2 = false
+}
+else{
+CATECHOL2 = !(CATECHOL1)
+}
+}
+}
+else{
+};
+if((((ARTCO21 && ARTCO20) && INSUFFANESTH2) && SAO20)) {
+CATECHOL0 = flip(0.500000);
+if(CATECHOL0) {
+CATECHOL1 = false;
+CATECHOL2 = false
+}
+else{
+CATECHOL1 = true;
+if(CATECHOL1) {
+CATECHOL2 = false
+}
+else{
+CATECHOL2 = !(CATECHOL1)
+}
+}
+}
+else{
+};
+if((((ARTCO20 && ARTCO20) && INSUFFANESTH2) && SAO20)) {
+CATECHOL0 = flip(0.500000);
+if(CATECHOL0) {
+CATECHOL1 = false;
+CATECHOL2 = false
+}
+else{
+CATECHOL1 = true;
+if(CATECHOL1) {
+CATECHOL2 = false
+}
+else{
+CATECHOL2 = !(CATECHOL1)
+}
+}
+}
+else{
+};
+if((((ARTCO22 && ARTCO21) && INSUFFANESTH1) && SAO20)) {
+CATECHOL0 = flip(0.500000);
+if(CATECHOL0) {
+CATECHOL1 = false;
+CATECHOL2 = false
+}
+else{
+CATECHOL1 = true;
+if(CATECHOL1) {
+CATECHOL2 = false
+}
+else{
+CATECHOL2 = !(CATECHOL1)
+}
+}
+}
+else{
+};
+if((((ARTCO21 && ARTCO21) && INSUFFANESTH1) && SAO20)) {
+CATECHOL0 = flip(0.500000);
+if(CATECHOL0) {
+CATECHOL1 = false;
+CATECHOL2 = false
+}
+else{
+CATECHOL1 = true;
+if(CATECHOL1) {
+CATECHOL2 = false
+}
+else{
+CATECHOL2 = !(CATECHOL1)
+}
+}
+}
+else{
+};
+if((((ARTCO20 && ARTCO21) && INSUFFANESTH1) && SAO20)) {
+CATECHOL0 = flip(0.500000);
+if(CATECHOL0) {
+CATECHOL1 = false;
+CATECHOL2 = false
+}
+else{
+CATECHOL1 = true;
+if(CATECHOL1) {
+CATECHOL2 = false
+}
+else{
+CATECHOL2 = !(CATECHOL1)
+}
+}
+}
+else{
+};
+if((((ARTCO22 && ARTCO20) && INSUFFANESTH1) && SAO20)) {
+CATECHOL0 = flip(0.500000);
+if(CATECHOL0) {
+CATECHOL1 = false;
+CATECHOL2 = false
+}
+else{
+CATECHOL1 = true;
+if(CATECHOL1) {
+CATECHOL2 = false
+}
+else{
+CATECHOL2 = !(CATECHOL1)
+}
+}
+}
+else{
+};
+if((((ARTCO21 && ARTCO20) && INSUFFANESTH1) && SAO20)) {
+CATECHOL0 = flip(0.500000);
+if(CATECHOL0) {
+CATECHOL1 = false;
+CATECHOL2 = false
+}
+else{
+CATECHOL1 = true;
+if(CATECHOL1) {
+CATECHOL2 = false
+}
+else{
+CATECHOL2 = !(CATECHOL1)
+}
+}
+}
+else{
+};
+if((((ARTCO20 && ARTCO20) && INSUFFANESTH1) && SAO20)) {
+CATECHOL0 = flip(0.500000);
+if(CATECHOL0) {
+CATECHOL1 = false;
+CATECHOL2 = false
+}
+else{
+CATECHOL1 = true;
+if(CATECHOL1) {
+CATECHOL2 = false
+}
+else{
+CATECHOL2 = !(CATECHOL1)
+}
+}
+}
+else{
+};
+if((((ARTCO22 && ARTCO21) && INSUFFANESTH0) && SAO20)) {
+CATECHOL0 = flip(0.500000);
+if(CATECHOL0) {
+CATECHOL1 = false;
+CATECHOL2 = false
+}
+else{
+CATECHOL1 = true;
+if(CATECHOL1) {
+CATECHOL2 = false
+}
+else{
+CATECHOL2 = !(CATECHOL1)
+}
+}
+}
+else{
+};
+if((((ARTCO21 && ARTCO21) && INSUFFANESTH0) && SAO20)) {
+CATECHOL0 = flip(0.500000);
+if(CATECHOL0) {
+CATECHOL1 = false;
+CATECHOL2 = false
+}
+else{
+CATECHOL1 = true;
+if(CATECHOL1) {
+CATECHOL2 = false
+}
+else{
+CATECHOL2 = !(CATECHOL1)
+}
+}
+}
+else{
+};
+if((((ARTCO20 && ARTCO21) && INSUFFANESTH0) && SAO20)) {
+CATECHOL0 = flip(0.500000);
+if(CATECHOL0) {
+CATECHOL1 = false;
+CATECHOL2 = false
+}
+else{
+CATECHOL1 = true;
+if(CATECHOL1) {
+CATECHOL2 = false
+}
+else{
+CATECHOL2 = !(CATECHOL1)
+}
+}
+}
+else{
+};
+if((((ARTCO22 && ARTCO20) && INSUFFANESTH0) && SAO20)) {
+CATECHOL0 = flip(0.500000);
+if(CATECHOL0) {
+CATECHOL1 = false;
+CATECHOL2 = false
+}
+else{
+CATECHOL1 = true;
+if(CATECHOL1) {
+CATECHOL2 = false
+}
+else{
+CATECHOL2 = !(CATECHOL1)
+}
+}
+}
+else{
+};
+if((((ARTCO21 && ARTCO20) && INSUFFANESTH0) && SAO20)) {
+CATECHOL0 = flip(0.500000);
+if(CATECHOL0) {
+CATECHOL1 = false;
+CATECHOL2 = false
+}
+else{
+CATECHOL1 = true;
+if(CATECHOL1) {
+CATECHOL2 = false
+}
+else{
+CATECHOL2 = !(CATECHOL1)
+}
+}
+}
+else{
+};
+if((((ARTCO20 && ARTCO20) && INSUFFANESTH0) && SAO20)) {
+CATECHOL0 = flip(0.500000);
+if(CATECHOL0) {
+CATECHOL1 = false;
+CATECHOL2 = false
+}
+else{
+CATECHOL1 = true;
+if(CATECHOL1) {
+CATECHOL2 = false
+}
+else{
+CATECHOL2 = !(CATECHOL1)
+}
+}
+}
+else{
+}
+;
+if(CATECHOL1) {
+HR0 = flip(0.333333);
+if(HR0) {
+HR1 = false;
+HR2 = false;
+HR3 = false
+}
+else{
+HR1 = flip(0.500000);
+if(HR1) {
+HR2 = false;
+HR3 = false
+}
+else{
+HR2 = true;
+if(HR2) {
+HR3 = false
+}
+else{
+HR3 = !(HR2)
+}
+}
+}
+}
+else{
+};
+if(CATECHOL0) {
+HR0 = flip(0.333333);
+if(HR0) {
+HR1 = false;
+HR2 = false;
+HR3 = false
+}
+else{
+HR1 = flip(0.500000);
+if(HR1) {
+HR2 = false;
+HR3 = false
+}
+else{
+HR2 = true;
+if(HR2) {
+HR3 = false
+}
+else{
+HR3 = !(HR2)
+}
+}
+}
+}
+else{
+}
+;
+if((HR2 && HR2)) {
+CO0 = flip(0.333333);
+if(CO0) {
+CO1 = false;
+CO2 = false;
+CO3 = false
+}
+else{
+CO1 = flip(0.500000);
+if(CO1) {
+CO2 = false;
+CO3 = false
+}
+else{
+CO2 = true;
+if(CO2) {
+CO3 = false
+}
+else{
+CO3 = !(CO2)
+}
+}
+}
+}
+else{
+};
+if((HR1 && HR2)) {
+CO0 = flip(0.333333);
+if(CO0) {
+CO1 = false;
+CO2 = false;
+CO3 = false
+}
+else{
+CO1 = flip(0.500000);
+if(CO1) {
+CO2 = false;
+CO3 = false
+}
+else{
+CO2 = true;
+if(CO2) {
+CO3 = false
+}
+else{
+CO3 = !(CO2)
+}
+}
+}
+}
+else{
+};
+if((HR0 && HR2)) {
+CO0 = flip(0.333333);
+if(CO0) {
+CO1 = false;
+CO2 = false;
+CO3 = false
+}
+else{
+CO1 = flip(0.500000);
+if(CO1) {
+CO2 = false;
+CO3 = false
+}
+else{
+CO2 = true;
+if(CO2) {
+CO3 = false
+}
+else{
+CO3 = !(CO2)
+}
+}
+}
+}
+else{
+};
+if((HR2 && HR1)) {
+CO0 = flip(0.333333);
+if(CO0) {
+CO1 = false;
+CO2 = false;
+CO3 = false
+}
+else{
+CO1 = flip(0.500000);
+if(CO1) {
+CO2 = false;
+CO3 = false
+}
+else{
+CO2 = true;
+if(CO2) {
+CO3 = false
+}
+else{
+CO3 = !(CO2)
+}
+}
+}
+}
+else{
+};
+if((HR1 && HR1)) {
+CO0 = flip(0.333333);
+if(CO0) {
+CO1 = false;
+CO2 = false;
+CO3 = false
+}
+else{
+CO1 = flip(0.500000);
+if(CO1) {
+CO2 = false;
+CO3 = false
+}
+else{
+CO2 = true;
+if(CO2) {
+CO3 = false
+}
+else{
+CO3 = !(CO2)
+}
+}
+}
+}
+else{
+};
+if((HR0 && HR1)) {
+CO0 = flip(0.333333);
+if(CO0) {
+CO1 = false;
+CO2 = false;
+CO3 = false
+}
+else{
+CO1 = flip(0.500000);
+if(CO1) {
+CO2 = false;
+CO3 = false
+}
+else{
+CO2 = true;
+if(CO2) {
+CO3 = false
+}
+else{
+CO3 = !(CO2)
+}
+}
+}
+}
+else{
+};
+if((HR2 && HR0)) {
+CO0 = flip(0.333333);
+if(CO0) {
+CO1 = false;
+CO2 = false;
+CO3 = false
+}
+else{
+CO1 = flip(0.500000);
+if(CO1) {
+CO2 = false;
+CO3 = false
+}
+else{
+CO2 = true;
+if(CO2) {
+CO3 = false
+}
+else{
+CO3 = !(CO2)
+}
+}
+}
+}
+else{
+};
+if((HR1 && HR0)) {
+CO0 = flip(0.333333);
+if(CO0) {
+CO1 = false;
+CO2 = false;
+CO3 = false
+}
+else{
+CO1 = flip(0.500000);
+if(CO1) {
+CO2 = false;
+CO3 = false
+}
+else{
+CO2 = true;
+if(CO2) {
+CO3 = false
+}
+else{
+CO3 = !(CO2)
+}
+}
+}
+}
+else{
+};
+if((HR0 && HR0)) {
+CO0 = flip(0.333333);
+if(CO0) {
+CO1 = false;
+CO2 = false;
+CO3 = false
+}
+else{
+CO1 = flip(0.500000);
+if(CO1) {
+CO2 = false;
+CO3 = false
+}
+else{
+CO2 = true;
+if(CO2) {
+CO3 = false
+}
+else{
+CO3 = !(CO2)
+}
+}
+}
+}
+else{
+}
+;
+if((CO2 && CO2)) {
+BP0 = flip(0.333333);
+if(BP0) {
+BP1 = false;
+BP2 = false;
+BP3 = false
+}
+else{
+BP1 = flip(0.500000);
+if(BP1) {
+BP2 = false;
+BP3 = false
+}
+else{
+BP2 = true;
+if(BP2) {
+BP3 = false
+}
+else{
+BP3 = !(BP2)
+}
+}
+}
+}
+else{
+};
+if((CO1 && CO2)) {
+BP0 = flip(0.333333);
+if(BP0) {
+BP1 = false;
+BP2 = false;
+BP3 = false
+}
+else{
+BP1 = flip(0.500000);
+if(BP1) {
+BP2 = false;
+BP3 = false
+}
+else{
+BP2 = true;
+if(BP2) {
+BP3 = false
+}
+else{
+BP3 = !(BP2)
+}
+}
+}
+}
+else{
+};
+if((CO0 && CO2)) {
+BP0 = flip(0.333333);
+if(BP0) {
+BP1 = false;
+BP2 = false;
+BP3 = false
+}
+else{
+BP1 = flip(0.500000);
+if(BP1) {
+BP2 = false;
+BP3 = false
+}
+else{
+BP2 = true;
+if(BP2) {
+BP3 = false
+}
+else{
+BP3 = !(BP2)
+}
+}
+}
+}
+else{
+};
+if((CO2 && CO1)) {
+BP0 = flip(0.333333);
+if(BP0) {
+BP1 = false;
+BP2 = false;
+BP3 = false
+}
+else{
+BP1 = flip(0.500000);
+if(BP1) {
+BP2 = false;
+BP3 = false
+}
+else{
+BP2 = true;
+if(BP2) {
+BP3 = false
+}
+else{
+BP3 = !(BP2)
+}
+}
+}
+}
+else{
+};
+if((CO1 && CO1)) {
+BP0 = flip(0.333333);
+if(BP0) {
+BP1 = false;
+BP2 = false;
+BP3 = false
+}
+else{
+BP1 = flip(0.500000);
+if(BP1) {
+BP2 = false;
+BP3 = false
+}
+else{
+BP2 = true;
+if(BP2) {
+BP3 = false
+}
+else{
+BP3 = !(BP2)
+}
+}
+}
+}
+else{
+};
+if((CO0 && CO1)) {
+BP0 = flip(0.333333);
+if(BP0) {
+BP1 = false;
+BP2 = false;
+BP3 = false
+}
+else{
+BP1 = flip(0.500000);
+if(BP1) {
+BP2 = false;
+BP3 = false
+}
+else{
+BP2 = true;
+if(BP2) {
+BP3 = false
+}
+else{
+BP3 = !(BP2)
+}
+}
+}
+}
+else{
+};
+if((CO2 && CO0)) {
+BP0 = flip(0.333333);
+if(BP0) {
+BP1 = false;
+BP2 = false;
+BP3 = false
+}
+else{
+BP1 = flip(0.500000);
+if(BP1) {
+BP2 = false;
+BP3 = false
+}
+else{
+BP2 = true;
+if(BP2) {
+BP3 = false
+}
+else{
+BP3 = !(BP2)
+}
+}
+}
+}
+else{
+};
+if((CO1 && CO0)) {
+BP0 = flip(0.333333);
+if(BP0) {
+BP1 = false;
+BP2 = false;
+BP3 = false
+}
+else{
+BP1 = flip(0.500000);
+if(BP1) {
+BP2 = false;
+BP3 = false
+}
+else{
+BP2 = true;
+if(BP2) {
+BP3 = false
+}
+else{
+BP3 = !(BP2)
+}
+}
+}
+}
+else{
+};
+if((CO0 && CO0)) {
+BP0 = flip(0.333333);
+if(BP0) {
+BP1 = false;
+BP2 = false;
+BP3 = false
+}
+else{
+BP1 = flip(0.500000);
+if(BP1) {
+BP2 = false;
+BP3 = false
+}
+else{
+BP2 = true;
+if(BP2) {
+BP3 = false
+}
+else{
+BP3 = !(BP2)
+}
+}
+}
+}
+else{
+}
+;
+if((ERRCAUTER1 && ERRCAUTER2)) {
+HRSAT0 = flip(0.333333);
+if(HRSAT0) {
+HRSAT1 = false;
+HRSAT2 = false;
+HRSAT3 = false
+}
+else{
+HRSAT1 = flip(0.500000);
+if(HRSAT1) {
+HRSAT2 = false;
+HRSAT3 = false
+}
+else{
+HRSAT2 = true;
+if(HRSAT2) {
+HRSAT3 = false
+}
+else{
+HRSAT3 = !(HRSAT2)
+}
+}
+}
+}
+else{
+};
+if((ERRCAUTER0 && ERRCAUTER2)) {
+HRSAT0 = flip(0.333333);
+if(HRSAT0) {
+HRSAT1 = false;
+HRSAT2 = false;
+HRSAT3 = false
+}
+else{
+HRSAT1 = flip(0.500000);
+if(HRSAT1) {
+HRSAT2 = false;
+HRSAT3 = false
+}
+else{
+HRSAT2 = true;
+if(HRSAT2) {
+HRSAT3 = false
+}
+else{
+HRSAT3 = !(HRSAT2)
+}
+}
+}
+}
+else{
+};
+if((ERRCAUTER1 && ERRCAUTER1)) {
+HRSAT0 = flip(0.333333);
+if(HRSAT0) {
+HRSAT1 = false;
+HRSAT2 = false;
+HRSAT3 = false
+}
+else{
+HRSAT1 = flip(0.500000);
+if(HRSAT1) {
+HRSAT2 = false;
+HRSAT3 = false
+}
+else{
+HRSAT2 = true;
+if(HRSAT2) {
+HRSAT3 = false
+}
+else{
+HRSAT3 = !(HRSAT2)
+}
+}
+}
+}
+else{
+};
+if((ERRCAUTER0 && ERRCAUTER1)) {
+HRSAT0 = flip(0.333333);
+if(HRSAT0) {
+HRSAT1 = false;
+HRSAT2 = false;
+HRSAT3 = false
+}
+else{
+HRSAT1 = flip(0.500000);
+if(HRSAT1) {
+HRSAT2 = false;
+HRSAT3 = false
+}
+else{
+HRSAT2 = true;
+if(HRSAT2) {
+HRSAT3 = false
+}
+else{
+HRSAT3 = !(HRSAT2)
+}
+}
+}
+}
+else{
+};
+if((ERRCAUTER1 && ERRCAUTER0)) {
+HRSAT0 = flip(0.333333);
+if(HRSAT0) {
+HRSAT1 = false;
+HRSAT2 = false;
+HRSAT3 = false
+}
+else{
+HRSAT1 = flip(0.500000);
+if(HRSAT1) {
+HRSAT2 = false;
+HRSAT3 = false
+}
+else{
+HRSAT2 = true;
+if(HRSAT2) {
+HRSAT3 = false
+}
+else{
+HRSAT3 = !(HRSAT2)
+}
+}
+}
+}
+else{
+};
+if((ERRCAUTER0 && ERRCAUTER0)) {
+HRSAT0 = flip(0.333333);
+if(HRSAT0) {
+HRSAT1 = false;
+HRSAT2 = false;
+HRSAT3 = false
+}
+else{
+HRSAT1 = flip(0.500000);
+if(HRSAT1) {
+HRSAT2 = false;
+HRSAT3 = false
+}
+else{
+HRSAT2 = true;
+if(HRSAT2) {
+HRSAT3 = false
+}
+else{
+HRSAT3 = !(HRSAT2)
+}
+}
+}
+}
+else{
+}
+;
+if((ERRCAUTER1 && ERRCAUTER2)) {
+HREKG0 = flip(0.333333);
+if(HREKG0) {
+HREKG1 = false;
+HREKG2 = false;
+HREKG3 = false
+}
+else{
+HREKG1 = flip(0.500000);
+if(HREKG1) {
+HREKG2 = false;
+HREKG3 = false
+}
+else{
+HREKG2 = true;
+if(HREKG2) {
+HREKG3 = false
+}
+else{
+HREKG3 = !(HREKG2)
+}
+}
+}
+}
+else{
+};
+if((ERRCAUTER0 && ERRCAUTER2)) {
+HREKG0 = flip(0.333333);
+if(HREKG0) {
+HREKG1 = false;
+HREKG2 = false;
+HREKG3 = false
+}
+else{
+HREKG1 = flip(0.500000);
+if(HREKG1) {
+HREKG2 = false;
+HREKG3 = false
+}
+else{
+HREKG2 = true;
+if(HREKG2) {
+HREKG3 = false
+}
+else{
+HREKG3 = !(HREKG2)
+}
+}
+}
+}
+else{
+};
+if((ERRCAUTER1 && ERRCAUTER1)) {
+HREKG0 = flip(0.333333);
+if(HREKG0) {
+HREKG1 = false;
+HREKG2 = false;
+HREKG3 = false
+}
+else{
+HREKG1 = flip(0.500000);
+if(HREKG1) {
+HREKG2 = false;
+HREKG3 = false
+}
+else{
+HREKG2 = true;
+if(HREKG2) {
+HREKG3 = false
+}
+else{
+HREKG3 = !(HREKG2)
+}
+}
+}
+}
+else{
+};
+if((ERRCAUTER0 && ERRCAUTER1)) {
+HREKG0 = flip(0.333333);
+if(HREKG0) {
+HREKG1 = false;
+HREKG2 = false;
+HREKG3 = false
+}
+else{
+HREKG1 = flip(0.500000);
+if(HREKG1) {
+HREKG2 = false;
+HREKG3 = false
+}
+else{
+HREKG2 = true;
+if(HREKG2) {
+HREKG3 = false
+}
+else{
+HREKG3 = !(HREKG2)
+}
+}
+}
+}
+else{
+};
+if((ERRCAUTER1 && ERRCAUTER0)) {
+HREKG0 = flip(0.333333);
+if(HREKG0) {
+HREKG1 = false;
+HREKG2 = false;
+HREKG3 = false
+}
+else{
+HREKG1 = flip(0.500000);
+if(HREKG1) {
+HREKG2 = false;
+HREKG3 = false
+}
+else{
+HREKG2 = true;
+if(HREKG2) {
+HREKG3 = false
+}
+else{
+HREKG3 = !(HREKG2)
+}
+}
+}
+}
+else{
+};
+if((ERRCAUTER0 && ERRCAUTER0)) {
+HREKG0 = flip(0.333333);
+if(HREKG0) {
+HREKG1 = false;
+HREKG2 = false;
+HREKG3 = false
+}
+else{
+HREKG1 = flip(0.500000);
+if(HREKG1) {
+HREKG2 = false;
+HREKG3 = false
+}
+else{
+HREKG2 = true;
+if(HREKG2) {
+HREKG3 = false
+}
+else{
+HREKG3 = !(HREKG2)
+}
+}
+}
+}
+else{
+}
+;
+if((ERRLOWOUTPUT1 && ERRLOWOUTPUT2)) {
+HRBP0 = flip(0.333333);
+if(HRBP0) {
+HRBP1 = false;
+HRBP2 = false;
+HRBP3 = false
+}
+else{
+HRBP1 = flip(0.500000);
+if(HRBP1) {
+HRBP2 = false;
+HRBP3 = false
+}
+else{
+HRBP2 = true;
+if(HRBP2) {
+HRBP3 = false
+}
+else{
+HRBP3 = !(HRBP2)
+}
+}
+}
+}
+else{
+};
+if((ERRLOWOUTPUT0 && ERRLOWOUTPUT2)) {
+HRBP0 = flip(0.333333);
+if(HRBP0) {
+HRBP1 = false;
+HRBP2 = false;
+HRBP3 = false
+}
+else{
+HRBP1 = flip(0.500000);
+if(HRBP1) {
+HRBP2 = false;
+HRBP3 = false
+}
+else{
+HRBP2 = true;
+if(HRBP2) {
+HRBP3 = false
+}
+else{
+HRBP3 = !(HRBP2)
+}
+}
+}
+}
+else{
+};
+if((ERRLOWOUTPUT1 && ERRLOWOUTPUT1)) {
+HRBP0 = flip(0.333333);
+if(HRBP0) {
+HRBP1 = false;
+HRBP2 = false;
+HRBP3 = false
+}
+else{
+HRBP1 = flip(0.500000);
+if(HRBP1) {
+HRBP2 = false;
+HRBP3 = false
+}
+else{
+HRBP2 = true;
+if(HRBP2) {
+HRBP3 = false
+}
+else{
+HRBP3 = !(HRBP2)
+}
+}
+}
+}
+else{
+};
+if((ERRLOWOUTPUT0 && ERRLOWOUTPUT1)) {
+HRBP0 = flip(0.333333);
+if(HRBP0) {
+HRBP1 = false;
+HRBP2 = false;
+HRBP3 = false
+}
+else{
+HRBP1 = flip(0.500000);
+if(HRBP1) {
+HRBP2 = false;
+HRBP3 = false
+}
+else{
+HRBP2 = true;
+if(HRBP2) {
+HRBP3 = false
+}
+else{
+HRBP3 = !(HRBP2)
+}
+}
+}
+}
+else{
+};
+if((ERRLOWOUTPUT1 && ERRLOWOUTPUT0)) {
+HRBP0 = flip(0.333333);
+if(HRBP0) {
+HRBP1 = false;
+HRBP2 = false;
+HRBP3 = false
+}
+else{
+HRBP1 = flip(0.500000);
+if(HRBP1) {
+HRBP2 = false;
+HRBP3 = false
+}
+else{
+HRBP2 = true;
+if(HRBP2) {
+HRBP3 = false
+}
+else{
+HRBP3 = !(HRBP2)
+}
+}
+}
+}
+else{
+};
+if((ERRLOWOUTPUT0 && ERRLOWOUTPUT0)) {
+HRBP0 = flip(0.333333);
+if(HRBP0) {
+HRBP1 = false;
+HRBP2 = false;
+HRBP3 = false
+}
+else{
+HRBP1 = flip(0.500000);
+if(HRBP1) {
+HRBP2 = false;
+HRBP3 = false
+}
+else{
+HRBP2 = true;
+if(HRBP2) {
+HRBP3 = false
+}
+else{
+HRBP3 = !(HRBP2)
+}
+}
+}
+}
+else{
+}
+;
+if((INTUBATION2 && INTUBATION3)) {
+MINVOL0 = flip(0.250000);
+if(MINVOL0) {
+MINVOL1 = false;
+MINVOL2 = false;
+MINVOL3 = false;
+MINVOL4 = false
+}
+else{
+MINVOL1 = flip(0.333333);
+if(MINVOL1) {
+MINVOL2 = false;
+MINVOL3 = false;
+MINVOL4 = false
+}
+else{
+MINVOL2 = flip(0.500000);
+if(MINVOL2) {
+MINVOL3 = false;
+MINVOL4 = false
+}
+else{
+MINVOL3 = true;
+if(MINVOL3) {
+MINVOL4 = false
+}
+else{
+MINVOL4 = !(MINVOL3)
+}
+}
+}
+}
+}
+else{
+};
+if((INTUBATION1 && INTUBATION3)) {
+MINVOL0 = flip(0.250000);
+if(MINVOL0) {
+MINVOL1 = false;
+MINVOL2 = false;
+MINVOL3 = false;
+MINVOL4 = false
+}
+else{
+MINVOL1 = flip(0.333333);
+if(MINVOL1) {
+MINVOL2 = false;
+MINVOL3 = false;
+MINVOL4 = false
+}
+else{
+MINVOL2 = flip(0.500000);
+if(MINVOL2) {
+MINVOL3 = false;
+MINVOL4 = false
+}
+else{
+MINVOL3 = true;
+if(MINVOL3) {
+MINVOL4 = false
+}
+else{
+MINVOL4 = !(MINVOL3)
+}
+}
+}
+}
+}
+else{
+};
+if((INTUBATION0 && INTUBATION3)) {
+MINVOL0 = flip(0.250000);
+if(MINVOL0) {
+MINVOL1 = false;
+MINVOL2 = false;
+MINVOL3 = false;
+MINVOL4 = false
+}
+else{
+MINVOL1 = flip(0.333333);
+if(MINVOL1) {
+MINVOL2 = false;
+MINVOL3 = false;
+MINVOL4 = false
+}
+else{
+MINVOL2 = flip(0.500000);
+if(MINVOL2) {
+MINVOL3 = false;
+MINVOL4 = false
+}
+else{
+MINVOL3 = true;
+if(MINVOL3) {
+MINVOL4 = false
+}
+else{
+MINVOL4 = !(MINVOL3)
+}
+}
+}
+}
+}
+else{
+};
+if((INTUBATION2 && INTUBATION2)) {
+MINVOL0 = flip(0.250000);
+if(MINVOL0) {
+MINVOL1 = false;
+MINVOL2 = false;
+MINVOL3 = false;
+MINVOL4 = false
+}
+else{
+MINVOL1 = flip(0.333333);
+if(MINVOL1) {
+MINVOL2 = false;
+MINVOL3 = false;
+MINVOL4 = false
+}
+else{
+MINVOL2 = flip(0.500000);
+if(MINVOL2) {
+MINVOL3 = false;
+MINVOL4 = false
+}
+else{
+MINVOL3 = true;
+if(MINVOL3) {
+MINVOL4 = false
+}
+else{
+MINVOL4 = !(MINVOL3)
+}
+}
+}
+}
+}
+else{
+};
+if((INTUBATION1 && INTUBATION2)) {
+MINVOL0 = flip(0.250000);
+if(MINVOL0) {
+MINVOL1 = false;
+MINVOL2 = false;
+MINVOL3 = false;
+MINVOL4 = false
+}
+else{
+MINVOL1 = flip(0.333333);
+if(MINVOL1) {
+MINVOL2 = false;
+MINVOL3 = false;
+MINVOL4 = false
+}
+else{
+MINVOL2 = flip(0.500000);
+if(MINVOL2) {
+MINVOL3 = false;
+MINVOL4 = false
+}
+else{
+MINVOL3 = true;
+if(MINVOL3) {
+MINVOL4 = false
+}
+else{
+MINVOL4 = !(MINVOL3)
+}
+}
+}
+}
+}
+else{
+};
+if((INTUBATION0 && INTUBATION2)) {
+MINVOL0 = flip(0.250000);
+if(MINVOL0) {
+MINVOL1 = false;
+MINVOL2 = false;
+MINVOL3 = false;
+MINVOL4 = false
+}
+else{
+MINVOL1 = flip(0.333333);
+if(MINVOL1) {
+MINVOL2 = false;
+MINVOL3 = false;
+MINVOL4 = false
+}
+else{
+MINVOL2 = flip(0.500000);
+if(MINVOL2) {
+MINVOL3 = false;
+MINVOL4 = false
+}
+else{
+MINVOL3 = true;
+if(MINVOL3) {
+MINVOL4 = false
+}
+else{
+MINVOL4 = !(MINVOL3)
+}
+}
+}
+}
+}
+else{
+};
+if((INTUBATION2 && INTUBATION1)) {
+MINVOL0 = flip(0.250000);
+if(MINVOL0) {
+MINVOL1 = false;
+MINVOL2 = false;
+MINVOL3 = false;
+MINVOL4 = false
+}
+else{
+MINVOL1 = flip(0.333333);
+if(MINVOL1) {
+MINVOL2 = false;
+MINVOL3 = false;
+MINVOL4 = false
+}
+else{
+MINVOL2 = flip(0.500000);
+if(MINVOL2) {
+MINVOL3 = false;
+MINVOL4 = false
+}
+else{
+MINVOL3 = true;
+if(MINVOL3) {
+MINVOL4 = false
+}
+else{
+MINVOL4 = !(MINVOL3)
+}
+}
+}
+}
+}
+else{
+};
+if((INTUBATION1 && INTUBATION1)) {
+MINVOL0 = flip(0.250000);
+if(MINVOL0) {
+MINVOL1 = false;
+MINVOL2 = false;
+MINVOL3 = false;
+MINVOL4 = false
+}
+else{
+MINVOL1 = flip(0.333333);
+if(MINVOL1) {
+MINVOL2 = false;
+MINVOL3 = false;
+MINVOL4 = false
+}
+else{
+MINVOL2 = flip(0.500000);
+if(MINVOL2) {
+MINVOL3 = false;
+MINVOL4 = false
+}
+else{
+MINVOL3 = true;
+if(MINVOL3) {
+MINVOL4 = false
+}
+else{
+MINVOL4 = !(MINVOL3)
+}
+}
+}
+}
+}
+else{
+};
+if((INTUBATION0 && INTUBATION1)) {
+MINVOL0 = flip(0.250000);
+if(MINVOL0) {
+MINVOL1 = false;
+MINVOL2 = false;
+MINVOL3 = false;
+MINVOL4 = false
+}
+else{
+MINVOL1 = flip(0.333333);
+if(MINVOL1) {
+MINVOL2 = false;
+MINVOL3 = false;
+MINVOL4 = false
+}
+else{
+MINVOL2 = flip(0.500000);
+if(MINVOL2) {
+MINVOL3 = false;
+MINVOL4 = false
+}
+else{
+MINVOL3 = true;
+if(MINVOL3) {
+MINVOL4 = false
+}
+else{
+MINVOL4 = !(MINVOL3)
+}
+}
+}
+}
+}
+else{
+};
+if((INTUBATION2 && INTUBATION0)) {
+MINVOL0 = flip(0.250000);
+if(MINVOL0) {
+MINVOL1 = false;
+MINVOL2 = false;
+MINVOL3 = false;
+MINVOL4 = false
+}
+else{
+MINVOL1 = flip(0.333333);
+if(MINVOL1) {
+MINVOL2 = false;
+MINVOL3 = false;
+MINVOL4 = false
+}
+else{
+MINVOL2 = flip(0.500000);
+if(MINVOL2) {
+MINVOL3 = false;
+MINVOL4 = false
+}
+else{
+MINVOL3 = true;
+if(MINVOL3) {
+MINVOL4 = false
+}
+else{
+MINVOL4 = !(MINVOL3)
+}
+}
+}
+}
+}
+else{
+};
+if((INTUBATION1 && INTUBATION0)) {
+MINVOL0 = flip(0.250000);
+if(MINVOL0) {
+MINVOL1 = false;
+MINVOL2 = false;
+MINVOL3 = false;
+MINVOL4 = false
+}
+else{
+MINVOL1 = flip(0.333333);
+if(MINVOL1) {
+MINVOL2 = false;
+MINVOL3 = false;
+MINVOL4 = false
+}
+else{
+MINVOL2 = flip(0.500000);
+if(MINVOL2) {
+MINVOL3 = false;
+MINVOL4 = false
+}
+else{
+MINVOL3 = true;
+if(MINVOL3) {
+MINVOL4 = false
+}
+else{
+MINVOL4 = !(MINVOL3)
+}
+}
+}
+}
+}
+else{
+};
+if((INTUBATION0 && INTUBATION0)) {
+MINVOL0 = flip(0.250000);
+if(MINVOL0) {
+MINVOL1 = false;
+MINVOL2 = false;
+MINVOL3 = false;
+MINVOL4 = false
+}
+else{
+MINVOL1 = flip(0.333333);
+if(MINVOL1) {
+MINVOL2 = false;
+MINVOL3 = false;
+MINVOL4 = false
+}
+else{
+MINVOL2 = flip(0.500000);
+if(MINVOL2) {
+MINVOL3 = false;
+MINVOL4 = false
+}
+else{
+MINVOL3 = true;
+if(MINVOL3) {
+MINVOL4 = false
+}
+else{
+MINVOL4 = !(MINVOL3)
+}
+}
+}
+}
+}
+else{
+}
+;
+if((ARTCO22 && ARTCO23)) {
+EXPCO20 = flip(0.250000);
+if(EXPCO20) {
+EXPCO21 = false;
+EXPCO22 = false;
+EXPCO23 = false;
+EXPCO24 = false
+}
+else{
+EXPCO21 = flip(0.333333);
+if(EXPCO21) {
+EXPCO22 = false;
+EXPCO23 = false;
+EXPCO24 = false
+}
+else{
+EXPCO22 = flip(0.500000);
+if(EXPCO22) {
+EXPCO23 = false;
+EXPCO24 = false
+}
+else{
+EXPCO23 = true;
+if(EXPCO23) {
+EXPCO24 = false
+}
+else{
+EXPCO24 = !(EXPCO23)
+}
+}
+}
+}
+}
+else{
+};
+if((ARTCO21 && ARTCO23)) {
+EXPCO20 = flip(0.250000);
+if(EXPCO20) {
+EXPCO21 = false;
+EXPCO22 = false;
+EXPCO23 = false;
+EXPCO24 = false
+}
+else{
+EXPCO21 = flip(0.333333);
+if(EXPCO21) {
+EXPCO22 = false;
+EXPCO23 = false;
+EXPCO24 = false
+}
+else{
+EXPCO22 = flip(0.500000);
+if(EXPCO22) {
+EXPCO23 = false;
+EXPCO24 = false
+}
+else{
+EXPCO23 = true;
+if(EXPCO23) {
+EXPCO24 = false
+}
+else{
+EXPCO24 = !(EXPCO23)
+}
+}
+}
+}
+}
+else{
+};
+if((ARTCO20 && ARTCO23)) {
+EXPCO20 = flip(0.250000);
+if(EXPCO20) {
+EXPCO21 = false;
+EXPCO22 = false;
+EXPCO23 = false;
+EXPCO24 = false
+}
+else{
+EXPCO21 = flip(0.333333);
+if(EXPCO21) {
+EXPCO22 = false;
+EXPCO23 = false;
+EXPCO24 = false
+}
+else{
+EXPCO22 = flip(0.500000);
+if(EXPCO22) {
+EXPCO23 = false;
+EXPCO24 = false
+}
+else{
+EXPCO23 = true;
+if(EXPCO23) {
+EXPCO24 = false
+}
+else{
+EXPCO24 = !(EXPCO23)
+}
+}
+}
+}
+}
+else{
+};
+if((ARTCO22 && ARTCO22)) {
+EXPCO20 = flip(0.250000);
+if(EXPCO20) {
+EXPCO21 = false;
+EXPCO22 = false;
+EXPCO23 = false;
+EXPCO24 = false
+}
+else{
+EXPCO21 = flip(0.333333);
+if(EXPCO21) {
+EXPCO22 = false;
+EXPCO23 = false;
+EXPCO24 = false
+}
+else{
+EXPCO22 = flip(0.500000);
+if(EXPCO22) {
+EXPCO23 = false;
+EXPCO24 = false
+}
+else{
+EXPCO23 = true;
+if(EXPCO23) {
+EXPCO24 = false
+}
+else{
+EXPCO24 = !(EXPCO23)
+}
+}
+}
+}
+}
+else{
+};
+if((ARTCO21 && ARTCO22)) {
+EXPCO20 = flip(0.250000);
+if(EXPCO20) {
+EXPCO21 = false;
+EXPCO22 = false;
+EXPCO23 = false;
+EXPCO24 = false
+}
+else{
+EXPCO21 = flip(0.333333);
+if(EXPCO21) {
+EXPCO22 = false;
+EXPCO23 = false;
+EXPCO24 = false
+}
+else{
+EXPCO22 = flip(0.500000);
+if(EXPCO22) {
+EXPCO23 = false;
+EXPCO24 = false
+}
+else{
+EXPCO23 = true;
+if(EXPCO23) {
+EXPCO24 = false
+}
+else{
+EXPCO24 = !(EXPCO23)
+}
+}
+}
+}
+}
+else{
+};
+if((ARTCO20 && ARTCO22)) {
+EXPCO20 = flip(0.250000);
+if(EXPCO20) {
+EXPCO21 = false;
+EXPCO22 = false;
+EXPCO23 = false;
+EXPCO24 = false
+}
+else{
+EXPCO21 = flip(0.333333);
+if(EXPCO21) {
+EXPCO22 = false;
+EXPCO23 = false;
+EXPCO24 = false
+}
+else{
+EXPCO22 = flip(0.500000);
+if(EXPCO22) {
+EXPCO23 = false;
+EXPCO24 = false
+}
+else{
+EXPCO23 = true;
+if(EXPCO23) {
+EXPCO24 = false
+}
+else{
+EXPCO24 = !(EXPCO23)
+}
+}
+}
+}
+}
+else{
+};
+if((ARTCO22 && ARTCO21)) {
+EXPCO20 = flip(0.250000);
+if(EXPCO20) {
+EXPCO21 = false;
+EXPCO22 = false;
+EXPCO23 = false;
+EXPCO24 = false
+}
+else{
+EXPCO21 = flip(0.333333);
+if(EXPCO21) {
+EXPCO22 = false;
+EXPCO23 = false;
+EXPCO24 = false
+}
+else{
+EXPCO22 = flip(0.500000);
+if(EXPCO22) {
+EXPCO23 = false;
+EXPCO24 = false
+}
+else{
+EXPCO23 = true;
+if(EXPCO23) {
+EXPCO24 = false
+}
+else{
+EXPCO24 = !(EXPCO23)
+}
+}
+}
+}
+}
+else{
+};
+if((ARTCO21 && ARTCO21)) {
+EXPCO20 = flip(0.250000);
+if(EXPCO20) {
+EXPCO21 = false;
+EXPCO22 = false;
+EXPCO23 = false;
+EXPCO24 = false
+}
+else{
+EXPCO21 = flip(0.333333);
+if(EXPCO21) {
+EXPCO22 = false;
+EXPCO23 = false;
+EXPCO24 = false
+}
+else{
+EXPCO22 = flip(0.500000);
+if(EXPCO22) {
+EXPCO23 = false;
+EXPCO24 = false
+}
+else{
+EXPCO23 = true;
+if(EXPCO23) {
+EXPCO24 = false
+}
+else{
+EXPCO24 = !(EXPCO23)
+}
+}
+}
+}
+}
+else{
+};
+if((ARTCO20 && ARTCO21)) {
+EXPCO20 = flip(0.250000);
+if(EXPCO20) {
+EXPCO21 = false;
+EXPCO22 = false;
+EXPCO23 = false;
+EXPCO24 = false
+}
+else{
+EXPCO21 = flip(0.333333);
+if(EXPCO21) {
+EXPCO22 = false;
+EXPCO23 = false;
+EXPCO24 = false
+}
+else{
+EXPCO22 = flip(0.500000);
+if(EXPCO22) {
+EXPCO23 = false;
+EXPCO24 = false
+}
+else{
+EXPCO23 = true;
+if(EXPCO23) {
+EXPCO24 = false
+}
+else{
+EXPCO24 = !(EXPCO23)
+}
+}
+}
+}
+}
+else{
+};
+if((ARTCO22 && ARTCO20)) {
+EXPCO20 = flip(0.250000);
+if(EXPCO20) {
+EXPCO21 = false;
+EXPCO22 = false;
+EXPCO23 = false;
+EXPCO24 = false
+}
+else{
+EXPCO21 = flip(0.333333);
+if(EXPCO21) {
+EXPCO22 = false;
+EXPCO23 = false;
+EXPCO24 = false
+}
+else{
+EXPCO22 = flip(0.500000);
+if(EXPCO22) {
+EXPCO23 = false;
+EXPCO24 = false
+}
+else{
+EXPCO23 = true;
+if(EXPCO23) {
+EXPCO24 = false
+}
+else{
+EXPCO24 = !(EXPCO23)
+}
+}
+}
+}
+}
+else{
+};
+if((ARTCO21 && ARTCO20)) {
+EXPCO20 = flip(0.250000);
+if(EXPCO20) {
+EXPCO21 = false;
+EXPCO22 = false;
+EXPCO23 = false;
+EXPCO24 = false
+}
+else{
+EXPCO21 = flip(0.333333);
+if(EXPCO21) {
+EXPCO22 = false;
+EXPCO23 = false;
+EXPCO24 = false
+}
+else{
+EXPCO22 = flip(0.500000);
+if(EXPCO22) {
+EXPCO23 = false;
+EXPCO24 = false
+}
+else{
+EXPCO23 = true;
+if(EXPCO23) {
+EXPCO24 = false
+}
+else{
+EXPCO24 = !(EXPCO23)
+}
+}
+}
+}
+}
+else{
+};
+if((ARTCO20 && ARTCO20)) {
+EXPCO20 = flip(0.250000);
+if(EXPCO20) {
+EXPCO21 = false;
+EXPCO22 = false;
+EXPCO23 = false;
+EXPCO24 = false
+}
+else{
+EXPCO21 = flip(0.333333);
+if(EXPCO21) {
+EXPCO22 = false;
+EXPCO23 = false;
+EXPCO24 = false
+}
+else{
+EXPCO22 = flip(0.500000);
+if(EXPCO22) {
+EXPCO23 = false;
+EXPCO24 = false
+}
+else{
+EXPCO23 = true;
+if(EXPCO23) {
+EXPCO24 = false
+}
+else{
+EXPCO24 = !(EXPCO23)
+}
+}
+}
+}
+}
+else{
+}
+;
+if(((INTUBATION2 && INTUBATION1) && KINKEDTUBE3)) {
+PRESS0 = flip(0.250000);
+if(PRESS0) {
+PRESS1 = false;
+PRESS2 = false;
+PRESS3 = false;
+PRESS4 = false
+}
+else{
+PRESS1 = flip(0.333333);
+if(PRESS1) {
+PRESS2 = false;
+PRESS3 = false;
+PRESS4 = false
+}
+else{
+PRESS2 = flip(0.500000);
+if(PRESS2) {
+PRESS3 = false;
+PRESS4 = false
+}
+else{
+PRESS3 = true;
+if(PRESS3) {
+PRESS4 = false
+}
+else{
+PRESS4 = !(PRESS3)
+}
+}
+}
+}
+}
+else{
+};
+if(((INTUBATION1 && INTUBATION1) && KINKEDTUBE3)) {
+PRESS0 = flip(0.250000);
+if(PRESS0) {
+PRESS1 = false;
+PRESS2 = false;
+PRESS3 = false;
+PRESS4 = false
+}
+else{
+PRESS1 = flip(0.333333);
+if(PRESS1) {
+PRESS2 = false;
+PRESS3 = false;
+PRESS4 = false
+}
+else{
+PRESS2 = flip(0.500000);
+if(PRESS2) {
+PRESS3 = false;
+PRESS4 = false
+}
+else{
+PRESS3 = true;
+if(PRESS3) {
+PRESS4 = false
+}
+else{
+PRESS4 = !(PRESS3)
+}
+}
+}
+}
+}
+else{
+};
+if(((INTUBATION0 && INTUBATION1) && KINKEDTUBE3)) {
+PRESS0 = flip(0.250000);
+if(PRESS0) {
+PRESS1 = false;
+PRESS2 = false;
+PRESS3 = false;
+PRESS4 = false
+}
+else{
+PRESS1 = flip(0.333333);
+if(PRESS1) {
+PRESS2 = false;
+PRESS3 = false;
+PRESS4 = false
+}
+else{
+PRESS2 = flip(0.500000);
+if(PRESS2) {
+PRESS3 = false;
+PRESS4 = false
+}
+else{
+PRESS3 = true;
+if(PRESS3) {
+PRESS4 = false
+}
+else{
+PRESS4 = !(PRESS3)
+}
+}
+}
+}
+}
+else{
+};
+if(((INTUBATION2 && INTUBATION0) && KINKEDTUBE3)) {
+PRESS0 = flip(0.250000);
+if(PRESS0) {
+PRESS1 = false;
+PRESS2 = false;
+PRESS3 = false;
+PRESS4 = false
+}
+else{
+PRESS1 = flip(0.333333);
+if(PRESS1) {
+PRESS2 = false;
+PRESS3 = false;
+PRESS4 = false
+}
+else{
+PRESS2 = flip(0.500000);
+if(PRESS2) {
+PRESS3 = false;
+PRESS4 = false
+}
+else{
+PRESS3 = true;
+if(PRESS3) {
+PRESS4 = false
+}
+else{
+PRESS4 = !(PRESS3)
+}
+}
+}
+}
+}
+else{
+};
+if(((INTUBATION1 && INTUBATION0) && KINKEDTUBE3)) {
+PRESS0 = flip(0.250000);
+if(PRESS0) {
+PRESS1 = false;
+PRESS2 = false;
+PRESS3 = false;
+PRESS4 = false
+}
+else{
+PRESS1 = flip(0.333333);
+if(PRESS1) {
+PRESS2 = false;
+PRESS3 = false;
+PRESS4 = false
+}
+else{
+PRESS2 = flip(0.500000);
+if(PRESS2) {
+PRESS3 = false;
+PRESS4 = false
+}
+else{
+PRESS3 = true;
+if(PRESS3) {
+PRESS4 = false
+}
+else{
+PRESS4 = !(PRESS3)
+}
+}
+}
+}
+}
+else{
+};
+if(((INTUBATION0 && INTUBATION0) && KINKEDTUBE3)) {
+PRESS0 = flip(0.250000);
+if(PRESS0) {
+PRESS1 = false;
+PRESS2 = false;
+PRESS3 = false;
+PRESS4 = false
+}
+else{
+PRESS1 = flip(0.333333);
+if(PRESS1) {
+PRESS2 = false;
+PRESS3 = false;
+PRESS4 = false
+}
+else{
+PRESS2 = flip(0.500000);
+if(PRESS2) {
+PRESS3 = false;
+PRESS4 = false
+}
+else{
+PRESS3 = true;
+if(PRESS3) {
+PRESS4 = false
+}
+else{
+PRESS4 = !(PRESS3)
+}
+}
+}
+}
+}
+else{
+};
+if(((INTUBATION2 && INTUBATION1) && KINKEDTUBE2)) {
+PRESS0 = flip(0.250000);
+if(PRESS0) {
+PRESS1 = false;
+PRESS2 = false;
+PRESS3 = false;
+PRESS4 = false
+}
+else{
+PRESS1 = flip(0.333333);
+if(PRESS1) {
+PRESS2 = false;
+PRESS3 = false;
+PRESS4 = false
+}
+else{
+PRESS2 = flip(0.500000);
+if(PRESS2) {
+PRESS3 = false;
+PRESS4 = false
+}
+else{
+PRESS3 = true;
+if(PRESS3) {
+PRESS4 = false
+}
+else{
+PRESS4 = !(PRESS3)
+}
+}
+}
+}
+}
+else{
+};
+if(((INTUBATION1 && INTUBATION1) && KINKEDTUBE2)) {
+PRESS0 = flip(0.250000);
+if(PRESS0) {
+PRESS1 = false;
+PRESS2 = false;
+PRESS3 = false;
+PRESS4 = false
+}
+else{
+PRESS1 = flip(0.333333);
+if(PRESS1) {
+PRESS2 = false;
+PRESS3 = false;
+PRESS4 = false
+}
+else{
+PRESS2 = flip(0.500000);
+if(PRESS2) {
+PRESS3 = false;
+PRESS4 = false
+}
+else{
+PRESS3 = true;
+if(PRESS3) {
+PRESS4 = false
+}
+else{
+PRESS4 = !(PRESS3)
+}
+}
+}
+}
+}
+else{
+};
+if(((INTUBATION0 && INTUBATION1) && KINKEDTUBE2)) {
+PRESS0 = flip(0.250000);
+if(PRESS0) {
+PRESS1 = false;
+PRESS2 = false;
+PRESS3 = false;
+PRESS4 = false
+}
+else{
+PRESS1 = flip(0.333333);
+if(PRESS1) {
+PRESS2 = false;
+PRESS3 = false;
+PRESS4 = false
+}
+else{
+PRESS2 = flip(0.500000);
+if(PRESS2) {
+PRESS3 = false;
+PRESS4 = false
+}
+else{
+PRESS3 = true;
+if(PRESS3) {
+PRESS4 = false
+}
+else{
+PRESS4 = !(PRESS3)
+}
+}
+}
+}
+}
+else{
+};
+if(((INTUBATION2 && INTUBATION0) && KINKEDTUBE2)) {
+PRESS0 = flip(0.250000);
+if(PRESS0) {
+PRESS1 = false;
+PRESS2 = false;
+PRESS3 = false;
+PRESS4 = false
+}
+else{
+PRESS1 = flip(0.333333);
+if(PRESS1) {
+PRESS2 = false;
+PRESS3 = false;
+PRESS4 = false
+}
+else{
+PRESS2 = flip(0.500000);
+if(PRESS2) {
+PRESS3 = false;
+PRESS4 = false
+}
+else{
+PRESS3 = true;
+if(PRESS3) {
+PRESS4 = false
+}
+else{
+PRESS4 = !(PRESS3)
+}
+}
+}
+}
+}
+else{
+};
+if(((INTUBATION1 && INTUBATION0) && KINKEDTUBE2)) {
+PRESS0 = flip(0.250000);
+if(PRESS0) {
+PRESS1 = false;
+PRESS2 = false;
+PRESS3 = false;
+PRESS4 = false
+}
+else{
+PRESS1 = flip(0.333333);
+if(PRESS1) {
+PRESS2 = false;
+PRESS3 = false;
+PRESS4 = false
+}
+else{
+PRESS2 = flip(0.500000);
+if(PRESS2) {
+PRESS3 = false;
+PRESS4 = false
+}
+else{
+PRESS3 = true;
+if(PRESS3) {
+PRESS4 = false
+}
+else{
+PRESS4 = !(PRESS3)
+}
+}
+}
+}
+}
+else{
+};
+if(((INTUBATION0 && INTUBATION0) && KINKEDTUBE2)) {
+PRESS0 = flip(0.250000);
+if(PRESS0) {
+PRESS1 = false;
+PRESS2 = false;
+PRESS3 = false;
+PRESS4 = false
+}
+else{
+PRESS1 = flip(0.333333);
+if(PRESS1) {
+PRESS2 = false;
+PRESS3 = false;
+PRESS4 = false
+}
+else{
+PRESS2 = flip(0.500000);
+if(PRESS2) {
+PRESS3 = false;
+PRESS4 = false
+}
+else{
+PRESS3 = true;
+if(PRESS3) {
+PRESS4 = false
+}
+else{
+PRESS4 = !(PRESS3)
+}
+}
+}
+}
+}
+else{
+};
+if(((INTUBATION2 && INTUBATION1) && KINKEDTUBE1)) {
+PRESS0 = flip(0.250000);
+if(PRESS0) {
+PRESS1 = false;
+PRESS2 = false;
+PRESS3 = false;
+PRESS4 = false
+}
+else{
+PRESS1 = flip(0.333333);
+if(PRESS1) {
+PRESS2 = false;
+PRESS3 = false;
+PRESS4 = false
+}
+else{
+PRESS2 = flip(0.500000);
+if(PRESS2) {
+PRESS3 = false;
+PRESS4 = false
+}
+else{
+PRESS3 = true;
+if(PRESS3) {
+PRESS4 = false
+}
+else{
+PRESS4 = !(PRESS3)
+}
+}
+}
+}
+}
+else{
+};
+if(((INTUBATION1 && INTUBATION1) && KINKEDTUBE1)) {
+PRESS0 = flip(0.250000);
+if(PRESS0) {
+PRESS1 = false;
+PRESS2 = false;
+PRESS3 = false;
+PRESS4 = false
+}
+else{
+PRESS1 = flip(0.333333);
+if(PRESS1) {
+PRESS2 = false;
+PRESS3 = false;
+PRESS4 = false
+}
+else{
+PRESS2 = flip(0.500000);
+if(PRESS2) {
+PRESS3 = false;
+PRESS4 = false
+}
+else{
+PRESS3 = true;
+if(PRESS3) {
+PRESS4 = false
+}
+else{
+PRESS4 = !(PRESS3)
+}
+}
+}
+}
+}
+else{
+};
+if(((INTUBATION0 && INTUBATION1) && KINKEDTUBE1)) {
+PRESS0 = flip(0.250000);
+if(PRESS0) {
+PRESS1 = false;
+PRESS2 = false;
+PRESS3 = false;
+PRESS4 = false
+}
+else{
+PRESS1 = flip(0.333333);
+if(PRESS1) {
+PRESS2 = false;
+PRESS3 = false;
+PRESS4 = false
+}
+else{
+PRESS2 = flip(0.500000);
+if(PRESS2) {
+PRESS3 = false;
+PRESS4 = false
+}
+else{
+PRESS3 = true;
+if(PRESS3) {
+PRESS4 = false
+}
+else{
+PRESS4 = !(PRESS3)
+}
+}
+}
+}
+}
+else{
+};
+if(((INTUBATION2 && INTUBATION0) && KINKEDTUBE1)) {
+PRESS0 = flip(0.250000);
+if(PRESS0) {
+PRESS1 = false;
+PRESS2 = false;
+PRESS3 = false;
+PRESS4 = false
+}
+else{
+PRESS1 = flip(0.333333);
+if(PRESS1) {
+PRESS2 = false;
+PRESS3 = false;
+PRESS4 = false
+}
+else{
+PRESS2 = flip(0.500000);
+if(PRESS2) {
+PRESS3 = false;
+PRESS4 = false
+}
+else{
+PRESS3 = true;
+if(PRESS3) {
+PRESS4 = false
+}
+else{
+PRESS4 = !(PRESS3)
+}
+}
+}
+}
+}
+else{
+};
+if(((INTUBATION1 && INTUBATION0) && KINKEDTUBE1)) {
+PRESS0 = flip(0.250000);
+if(PRESS0) {
+PRESS1 = false;
+PRESS2 = false;
+PRESS3 = false;
+PRESS4 = false
+}
+else{
+PRESS1 = flip(0.333333);
+if(PRESS1) {
+PRESS2 = false;
+PRESS3 = false;
+PRESS4 = false
+}
+else{
+PRESS2 = flip(0.500000);
+if(PRESS2) {
+PRESS3 = false;
+PRESS4 = false
+}
+else{
+PRESS3 = true;
+if(PRESS3) {
+PRESS4 = false
+}
+else{
+PRESS4 = !(PRESS3)
+}
+}
+}
+}
+}
+else{
+};
+if(((INTUBATION0 && INTUBATION0) && KINKEDTUBE1)) {
+PRESS0 = flip(0.250000);
+if(PRESS0) {
+PRESS1 = false;
+PRESS2 = false;
+PRESS3 = false;
+PRESS4 = false
+}
+else{
+PRESS1 = flip(0.333333);
+if(PRESS1) {
+PRESS2 = false;
+PRESS3 = false;
+PRESS4 = false
+}
+else{
+PRESS2 = flip(0.500000);
+if(PRESS2) {
+PRESS3 = false;
+PRESS4 = false
+}
+else{
+PRESS3 = true;
+if(PRESS3) {
+PRESS4 = false
+}
+else{
+PRESS4 = !(PRESS3)
+}
+}
+}
+}
+}
+else{
+};
+if(((INTUBATION2 && INTUBATION1) && KINKEDTUBE0)) {
+PRESS0 = flip(0.250000);
+if(PRESS0) {
+PRESS1 = false;
+PRESS2 = false;
+PRESS3 = false;
+PRESS4 = false
+}
+else{
+PRESS1 = flip(0.333333);
+if(PRESS1) {
+PRESS2 = false;
+PRESS3 = false;
+PRESS4 = false
+}
+else{
+PRESS2 = flip(0.500000);
+if(PRESS2) {
+PRESS3 = false;
+PRESS4 = false
+}
+else{
+PRESS3 = true;
+if(PRESS3) {
+PRESS4 = false
+}
+else{
+PRESS4 = !(PRESS3)
+}
+}
+}
+}
+}
+else{
+};
+if(((INTUBATION1 && INTUBATION1) && KINKEDTUBE0)) {
+PRESS0 = flip(0.250000);
+if(PRESS0) {
+PRESS1 = false;
+PRESS2 = false;
+PRESS3 = false;
+PRESS4 = false
+}
+else{
+PRESS1 = flip(0.333333);
+if(PRESS1) {
+PRESS2 = false;
+PRESS3 = false;
+PRESS4 = false
+}
+else{
+PRESS2 = flip(0.500000);
+if(PRESS2) {
+PRESS3 = false;
+PRESS4 = false
+}
+else{
+PRESS3 = true;
+if(PRESS3) {
+PRESS4 = false
+}
+else{
+PRESS4 = !(PRESS3)
+}
+}
+}
+}
+}
+else{
+};
+if(((INTUBATION0 && INTUBATION1) && KINKEDTUBE0)) {
+PRESS0 = flip(0.250000);
+if(PRESS0) {
+PRESS1 = false;
+PRESS2 = false;
+PRESS3 = false;
+PRESS4 = false
+}
+else{
+PRESS1 = flip(0.333333);
+if(PRESS1) {
+PRESS2 = false;
+PRESS3 = false;
+PRESS4 = false
+}
+else{
+PRESS2 = flip(0.500000);
+if(PRESS2) {
+PRESS3 = false;
+PRESS4 = false
+}
+else{
+PRESS3 = true;
+if(PRESS3) {
+PRESS4 = false
+}
+else{
+PRESS4 = !(PRESS3)
+}
+}
+}
+}
+}
+else{
+};
+if(((INTUBATION2 && INTUBATION0) && KINKEDTUBE0)) {
+PRESS0 = flip(0.250000);
+if(PRESS0) {
+PRESS1 = false;
+PRESS2 = false;
+PRESS3 = false;
+PRESS4 = false
+}
+else{
+PRESS1 = flip(0.333333);
+if(PRESS1) {
+PRESS2 = false;
+PRESS3 = false;
+PRESS4 = false
+}
+else{
+PRESS2 = flip(0.500000);
+if(PRESS2) {
+PRESS3 = false;
+PRESS4 = false
+}
+else{
+PRESS3 = true;
+if(PRESS3) {
+PRESS4 = false
+}
+else{
+PRESS4 = !(PRESS3)
+}
+}
+}
+}
+}
+else{
+};
+if(((INTUBATION1 && INTUBATION0) && KINKEDTUBE0)) {
+PRESS0 = flip(0.250000);
+if(PRESS0) {
+PRESS1 = false;
+PRESS2 = false;
+PRESS3 = false;
+PRESS4 = false
+}
+else{
+PRESS1 = flip(0.333333);
+if(PRESS1) {
+PRESS2 = false;
+PRESS3 = false;
+PRESS4 = false
+}
+else{
+PRESS2 = flip(0.500000);
+if(PRESS2) {
+PRESS3 = false;
+PRESS4 = false
+}
+else{
+PRESS3 = true;
+if(PRESS3) {
+PRESS4 = false
+}
+else{
+PRESS4 = !(PRESS3)
+}
+}
+}
+}
+}
+else{
+};
+if(((INTUBATION0 && INTUBATION0) && KINKEDTUBE0)) {
+PRESS0 = flip(0.250000);
+if(PRESS0) {
+PRESS1 = false;
+PRESS2 = false;
+PRESS3 = false;
+PRESS4 = false
+}
+else{
+PRESS1 = flip(0.333333);
+if(PRESS1) {
+PRESS2 = false;
+PRESS3 = false;
+PRESS4 = false
+}
+else{
+PRESS2 = flip(0.500000);
+if(PRESS2) {
+PRESS3 = false;
+PRESS4 = false
+}
+else{
+PRESS3 = true;
+if(PRESS3) {
+PRESS4 = false
+}
+else{
+PRESS4 = !(PRESS3)
+}
+}
+}
+}
+}
+else{
+}
+
+

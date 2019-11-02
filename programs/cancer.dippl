@@ -1,0 +1,180 @@
+Pollution0 = flip(0.500000);
+if(Pollution0) {
+	Pollution1 = false;
+	Pollution2 = false
+}
+else{
+	Pollution1 = flip(1.000000);
+	if(Pollution1) {
+		Pollution2 = false
+	}
+	else{
+		Pollution2 = !(Pollution1)
+	}
+}
+
+;
+Smoker0 = flip(0.500000);
+if(Smoker0) {
+	Smoker1 = false;
+	Smoker2 = false
+}
+else{
+	Smoker1 = flip(1.000000);
+	if(Smoker1) {
+		Smoker2 = false
+	}
+	else{
+		Smoker2 = !(Smoker1)
+	}
+}
+
+;
+if((Pollution1 && Pollution1)) {
+	Cancer0 = flip(0.500000);
+	if(Cancer0) {
+		Cancer1 = false;
+		Cancer2 = false
+	}
+	else{
+		Cancer1 = flip(1.000000);
+		if(Cancer1) {
+			Cancer2 = false
+		}
+		else{
+			Cancer2 = !(Cancer1)
+		}
+	}
+}
+else{
+};
+if((Pollution0 && Pollution1)) {
+	Cancer0 = flip(0.500000);
+	if(Cancer0) {
+		Cancer1 = false;
+		Cancer2 = false
+	}
+	else{
+		Cancer1 = flip(1.000000);
+		if(Cancer1) {
+			Cancer2 = false
+		}
+		else{
+			Cancer2 = !(Cancer1)
+		}
+	}
+}
+else{
+};
+if((Pollution1 && Pollution0)) {
+	Cancer0 = flip(0.500000);
+	if(Cancer0) {
+		Cancer1 = false;
+		Cancer2 = false
+	}
+	else{
+		Cancer1 = flip(1.000000);
+		if(Cancer1) {
+			Cancer2 = false
+		}
+		else{
+			Cancer2 = !(Cancer1)
+		}
+	}
+}
+else{
+};
+if((Pollution0 && Pollution0)) {
+	Cancer0 = flip(0.500000);
+	if(Cancer0) {
+		Cancer1 = false;
+		Cancer2 = false
+	}
+	else{
+		Cancer1 = flip(1.000000);
+		if(Cancer1) {
+			Cancer2 = false
+		}
+		else{
+			Cancer2 = !(Cancer1)
+		}
+	}
+}
+else{
+}
+;
+if(Cancer1) {
+	Dyspnoea0 = flip(0.500000);
+	if(Dyspnoea0) {
+		Dyspnoea1 = false;
+		Dyspnoea2 = false
+	}
+	else{
+		Dyspnoea1 = flip(1.000000);
+		if(Dyspnoea1) {
+			Dyspnoea2 = false
+		}
+		else{
+			Dyspnoea2 = !(Dyspnoea1)
+		}
+	}
+}
+else{
+};
+if(Cancer0) {
+	Dyspnoea0 = flip(0.500000);
+	if(Dyspnoea0) {
+		Dyspnoea1 = false;
+		Dyspnoea2 = false
+	}
+	else{
+		Dyspnoea1 = flip(1.000000);
+		if(Dyspnoea1) {
+			Dyspnoea2 = false
+		}
+		else{
+			Dyspnoea2 = !(Dyspnoea1)
+		}
+	}
+}
+else{
+}
+;
+if(Cancer1) {
+	Xray0 = flip(0.500000);
+	if(Xray0) {
+		Xray1 = false;
+		Xray2 = false
+	}
+	else{
+		Xray1 = flip(1.000000);
+		if(Xray1) {
+			Xray2 = false
+		}
+		else{
+			Xray2 = !(Xray1)
+		}
+	}
+}
+else{
+};
+if(Cancer0) {
+	Xray0 = flip(0.500000);
+	if(Xray0) {
+		Xray1 = false;
+		Xray2 = false
+	}
+	else{
+		Xray1 = flip(1.000000);
+		if(Xray1) {
+			Xray2 = false
+		}
+		else{
+			Xray2 = !(Xray1)
+		}
+	}
+}
+else{
+}
+
+

@@ -1,0 +1,10307 @@
+AppOK0 = flip(0.500000);
+if(AppOK0) {
+AppOK1 = false;
+AppOK2 = false
+}
+else{
+AppOK1 = true;
+if(AppOK1) {
+AppOK2 = false
+}
+else{
+AppOK2 = !(AppOK1)
+}
+}
+
+;
+DataFile0 = flip(0.500000);
+if(DataFile0) {
+DataFile1 = false;
+DataFile2 = false
+}
+else{
+DataFile1 = true;
+if(DataFile1) {
+DataFile2 = false
+}
+else{
+DataFile2 = !(DataFile1)
+}
+}
+
+;
+if((AppOK1 && AppOK1)) {
+AppData0 = flip(0.500000);
+if(AppData0) {
+AppData1 = false;
+AppData2 = false
+}
+else{
+AppData1 = true;
+if(AppData1) {
+AppData2 = false
+}
+else{
+AppData2 = !(AppData1)
+}
+}
+}
+else{
+};
+if((AppOK0 && AppOK1)) {
+AppData0 = flip(0.500000);
+if(AppData0) {
+AppData1 = false;
+AppData2 = false
+}
+else{
+AppData1 = true;
+if(AppData1) {
+AppData2 = false
+}
+else{
+AppData2 = !(AppData1)
+}
+}
+}
+else{
+};
+if((AppOK1 && AppOK0)) {
+AppData0 = flip(0.500000);
+if(AppData0) {
+AppData1 = false;
+AppData2 = false
+}
+else{
+AppData1 = true;
+if(AppData1) {
+AppData2 = false
+}
+else{
+AppData2 = !(AppData1)
+}
+}
+}
+else{
+};
+if((AppOK0 && AppOK0)) {
+AppData0 = flip(0.500000);
+if(AppData0) {
+AppData1 = false;
+AppData2 = false
+}
+else{
+AppData1 = true;
+if(AppData1) {
+AppData2 = false
+}
+else{
+AppData2 = !(AppData1)
+}
+}
+}
+else{
+}
+;
+DskLocal0 = flip(0.500000);
+if(DskLocal0) {
+DskLocal1 = false;
+DskLocal2 = false
+}
+else{
+DskLocal1 = true;
+if(DskLocal1) {
+DskLocal2 = false
+}
+else{
+DskLocal2 = !(DskLocal1)
+}
+}
+
+;
+PrtSpool0 = flip(0.500000);
+if(PrtSpool0) {
+PrtSpool1 = false;
+PrtSpool2 = false
+}
+else{
+PrtSpool1 = true;
+if(PrtSpool1) {
+PrtSpool2 = false
+}
+else{
+PrtSpool2 = !(PrtSpool1)
+}
+}
+
+;
+if(PrtSpool1) {
+PrntPrcssTm0 = flip(0.500000);
+if(PrntPrcssTm0) {
+PrntPrcssTm1 = false;
+PrntPrcssTm2 = false
+}
+else{
+PrntPrcssTm1 = true;
+if(PrntPrcssTm1) {
+PrntPrcssTm2 = false
+}
+else{
+PrntPrcssTm2 = !(PrntPrcssTm1)
+}
+}
+}
+else{
+};
+if(PrtSpool0) {
+PrntPrcssTm0 = flip(0.500000);
+if(PrntPrcssTm0) {
+PrntPrcssTm1 = false;
+PrntPrcssTm2 = false
+}
+else{
+PrntPrcssTm1 = true;
+if(PrntPrcssTm1) {
+PrntPrcssTm2 = false
+}
+else{
+PrntPrcssTm2 = !(PrntPrcssTm1)
+}
+}
+}
+else{
+}
+;
+if(PrtSpool1) {
+AppDtGnTm0 = flip(0.500000);
+if(AppDtGnTm0) {
+AppDtGnTm1 = false;
+AppDtGnTm2 = false
+}
+else{
+AppDtGnTm1 = true;
+if(AppDtGnTm1) {
+AppDtGnTm2 = false
+}
+else{
+AppDtGnTm2 = !(AppDtGnTm1)
+}
+}
+}
+else{
+};
+if(PrtSpool0) {
+AppDtGnTm0 = flip(0.500000);
+if(AppDtGnTm0) {
+AppDtGnTm1 = false;
+AppDtGnTm2 = false
+}
+else{
+AppDtGnTm1 = true;
+if(AppDtGnTm1) {
+AppDtGnTm2 = false
+}
+else{
+AppDtGnTm2 = !(AppDtGnTm1)
+}
+}
+}
+else{
+}
+;
+if(AppDtGnTm1) {
+HrglssDrtnAftrPrnt0 = flip(0.500000);
+if(HrglssDrtnAftrPrnt0) {
+HrglssDrtnAftrPrnt1 = false;
+HrglssDrtnAftrPrnt2 = false
+}
+else{
+HrglssDrtnAftrPrnt1 = true;
+if(HrglssDrtnAftrPrnt1) {
+HrglssDrtnAftrPrnt2 = false
+}
+else{
+HrglssDrtnAftrPrnt2 = !(HrglssDrtnAftrPrnt1)
+}
+}
+}
+else{
+};
+if(AppDtGnTm0) {
+HrglssDrtnAftrPrnt0 = flip(0.500000);
+if(HrglssDrtnAftrPrnt0) {
+HrglssDrtnAftrPrnt1 = false;
+HrglssDrtnAftrPrnt2 = false
+}
+else{
+HrglssDrtnAftrPrnt1 = true;
+if(HrglssDrtnAftrPrnt1) {
+HrglssDrtnAftrPrnt2 = false
+}
+else{
+HrglssDrtnAftrPrnt2 = !(HrglssDrtnAftrPrnt1)
+}
+}
+}
+else{
+}
+;
+PrtOn0 = flip(0.500000);
+if(PrtOn0) {
+PrtOn1 = false;
+PrtOn2 = false
+}
+else{
+PrtOn1 = true;
+if(PrtOn1) {
+PrtOn2 = false
+}
+else{
+PrtOn2 = !(PrtOn1)
+}
+}
+
+;
+if(PrtOn1) {
+PrtStatOff0 = flip(0.500000);
+if(PrtStatOff0) {
+PrtStatOff1 = false;
+PrtStatOff2 = false
+}
+else{
+PrtStatOff1 = true;
+if(PrtStatOff1) {
+PrtStatOff2 = false
+}
+else{
+PrtStatOff2 = !(PrtStatOff1)
+}
+}
+}
+else{
+};
+if(PrtOn0) {
+PrtStatOff0 = flip(0.500000);
+if(PrtStatOff0) {
+PrtStatOff1 = false;
+PrtStatOff2 = false
+}
+else{
+PrtStatOff1 = true;
+if(PrtStatOff1) {
+PrtStatOff2 = false
+}
+else{
+PrtStatOff2 = !(PrtStatOff1)
+}
+}
+}
+else{
+}
+;
+PrtPaper0 = flip(0.500000);
+if(PrtPaper0) {
+PrtPaper1 = false;
+PrtPaper2 = false
+}
+else{
+PrtPaper1 = true;
+if(PrtPaper1) {
+PrtPaper2 = false
+}
+else{
+PrtPaper2 = !(PrtPaper1)
+}
+}
+
+;
+if(PrtPaper1) {
+PrtStatPaper0 = flip(0.500000);
+if(PrtStatPaper0) {
+PrtStatPaper1 = false;
+PrtStatPaper2 = false
+}
+else{
+PrtStatPaper1 = true;
+if(PrtStatPaper1) {
+PrtStatPaper2 = false
+}
+else{
+PrtStatPaper2 = !(PrtStatPaper1)
+}
+}
+}
+else{
+};
+if(PrtPaper0) {
+PrtStatPaper0 = flip(0.500000);
+if(PrtStatPaper0) {
+PrtStatPaper1 = false;
+PrtStatPaper2 = false
+}
+else{
+PrtStatPaper1 = true;
+if(PrtStatPaper1) {
+PrtStatPaper2 = false
+}
+else{
+PrtStatPaper2 = !(PrtStatPaper1)
+}
+}
+}
+else{
+}
+;
+NetPrint0 = flip(0.500000);
+if(NetPrint0) {
+NetPrint1 = false;
+NetPrint2 = false
+}
+else{
+NetPrint1 = true;
+if(NetPrint1) {
+NetPrint2 = false
+}
+else{
+NetPrint2 = !(NetPrint1)
+}
+}
+
+;
+PrtDriver0 = flip(0.500000);
+if(PrtDriver0) {
+PrtDriver1 = false;
+PrtDriver2 = false
+}
+else{
+PrtDriver1 = true;
+if(PrtDriver1) {
+PrtDriver2 = false
+}
+else{
+PrtDriver2 = !(PrtDriver1)
+}
+}
+
+;
+PrtThread0 = flip(0.500000);
+if(PrtThread0) {
+PrtThread1 = false;
+PrtThread2 = false
+}
+else{
+PrtThread1 = true;
+if(PrtThread1) {
+PrtThread2 = false
+}
+else{
+PrtThread2 = !(PrtThread1)
+}
+}
+
+;
+if(((AppData1 && AppData1) && DskLocal1)) {
+EMFOK0 = flip(0.500000);
+if(EMFOK0) {
+EMFOK1 = false;
+EMFOK2 = false
+}
+else{
+EMFOK1 = true;
+if(EMFOK1) {
+EMFOK2 = false
+}
+else{
+EMFOK2 = !(EMFOK1)
+}
+}
+}
+else{
+};
+if(((AppData0 && AppData1) && DskLocal1)) {
+EMFOK0 = flip(0.500000);
+if(EMFOK0) {
+EMFOK1 = false;
+EMFOK2 = false
+}
+else{
+EMFOK1 = true;
+if(EMFOK1) {
+EMFOK2 = false
+}
+else{
+EMFOK2 = !(EMFOK1)
+}
+}
+}
+else{
+};
+if(((AppData1 && AppData0) && DskLocal1)) {
+EMFOK0 = flip(0.500000);
+if(EMFOK0) {
+EMFOK1 = false;
+EMFOK2 = false
+}
+else{
+EMFOK1 = true;
+if(EMFOK1) {
+EMFOK2 = false
+}
+else{
+EMFOK2 = !(EMFOK1)
+}
+}
+}
+else{
+};
+if(((AppData0 && AppData0) && DskLocal1)) {
+EMFOK0 = flip(0.500000);
+if(EMFOK0) {
+EMFOK1 = false;
+EMFOK2 = false
+}
+else{
+EMFOK1 = true;
+if(EMFOK1) {
+EMFOK2 = false
+}
+else{
+EMFOK2 = !(EMFOK1)
+}
+}
+}
+else{
+};
+if(((AppData1 && AppData1) && DskLocal0)) {
+EMFOK0 = flip(0.500000);
+if(EMFOK0) {
+EMFOK1 = false;
+EMFOK2 = false
+}
+else{
+EMFOK1 = true;
+if(EMFOK1) {
+EMFOK2 = false
+}
+else{
+EMFOK2 = !(EMFOK1)
+}
+}
+}
+else{
+};
+if(((AppData0 && AppData1) && DskLocal0)) {
+EMFOK0 = flip(0.500000);
+if(EMFOK0) {
+EMFOK1 = false;
+EMFOK2 = false
+}
+else{
+EMFOK1 = true;
+if(EMFOK1) {
+EMFOK2 = false
+}
+else{
+EMFOK2 = !(EMFOK1)
+}
+}
+}
+else{
+};
+if(((AppData1 && AppData0) && DskLocal0)) {
+EMFOK0 = flip(0.500000);
+if(EMFOK0) {
+EMFOK1 = false;
+EMFOK2 = false
+}
+else{
+EMFOK1 = true;
+if(EMFOK1) {
+EMFOK2 = false
+}
+else{
+EMFOK2 = !(EMFOK1)
+}
+}
+}
+else{
+};
+if(((AppData0 && AppData0) && DskLocal0)) {
+EMFOK0 = flip(0.500000);
+if(EMFOK0) {
+EMFOK1 = false;
+EMFOK2 = false
+}
+else{
+EMFOK1 = true;
+if(EMFOK1) {
+EMFOK2 = false
+}
+else{
+EMFOK2 = !(EMFOK1)
+}
+}
+}
+else{
+}
+;
+if(((AppData1 && AppData1) && PrtSpool1)) {
+GDIIN0 = flip(0.500000);
+if(GDIIN0) {
+GDIIN1 = false;
+GDIIN2 = false
+}
+else{
+GDIIN1 = true;
+if(GDIIN1) {
+GDIIN2 = false
+}
+else{
+GDIIN2 = !(GDIIN1)
+}
+}
+}
+else{
+};
+if(((AppData0 && AppData1) && PrtSpool1)) {
+GDIIN0 = flip(0.500000);
+if(GDIIN0) {
+GDIIN1 = false;
+GDIIN2 = false
+}
+else{
+GDIIN1 = true;
+if(GDIIN1) {
+GDIIN2 = false
+}
+else{
+GDIIN2 = !(GDIIN1)
+}
+}
+}
+else{
+};
+if(((AppData1 && AppData0) && PrtSpool1)) {
+GDIIN0 = flip(0.500000);
+if(GDIIN0) {
+GDIIN1 = false;
+GDIIN2 = false
+}
+else{
+GDIIN1 = true;
+if(GDIIN1) {
+GDIIN2 = false
+}
+else{
+GDIIN2 = !(GDIIN1)
+}
+}
+}
+else{
+};
+if(((AppData0 && AppData0) && PrtSpool1)) {
+GDIIN0 = flip(0.500000);
+if(GDIIN0) {
+GDIIN1 = false;
+GDIIN2 = false
+}
+else{
+GDIIN1 = true;
+if(GDIIN1) {
+GDIIN2 = false
+}
+else{
+GDIIN2 = !(GDIIN1)
+}
+}
+}
+else{
+};
+if(((AppData1 && AppData1) && PrtSpool0)) {
+GDIIN0 = flip(0.500000);
+if(GDIIN0) {
+GDIIN1 = false;
+GDIIN2 = false
+}
+else{
+GDIIN1 = true;
+if(GDIIN1) {
+GDIIN2 = false
+}
+else{
+GDIIN2 = !(GDIIN1)
+}
+}
+}
+else{
+};
+if(((AppData0 && AppData1) && PrtSpool0)) {
+GDIIN0 = flip(0.500000);
+if(GDIIN0) {
+GDIIN1 = false;
+GDIIN2 = false
+}
+else{
+GDIIN1 = true;
+if(GDIIN1) {
+GDIIN2 = false
+}
+else{
+GDIIN2 = !(GDIIN1)
+}
+}
+}
+else{
+};
+if(((AppData1 && AppData0) && PrtSpool0)) {
+GDIIN0 = flip(0.500000);
+if(GDIIN0) {
+GDIIN1 = false;
+GDIIN2 = false
+}
+else{
+GDIIN1 = true;
+if(GDIIN1) {
+GDIIN2 = false
+}
+else{
+GDIIN2 = !(GDIIN1)
+}
+}
+}
+else{
+};
+if(((AppData0 && AppData0) && PrtSpool0)) {
+GDIIN0 = flip(0.500000);
+if(GDIIN0) {
+GDIIN1 = false;
+GDIIN2 = false
+}
+else{
+GDIIN1 = true;
+if(GDIIN1) {
+GDIIN2 = false
+}
+else{
+GDIIN2 = !(GDIIN1)
+}
+}
+}
+else{
+}
+;
+DrvSet0 = flip(0.500000);
+if(DrvSet0) {
+DrvSet1 = false;
+DrvSet2 = false
+}
+else{
+DrvSet1 = true;
+if(DrvSet1) {
+DrvSet2 = false
+}
+else{
+DrvSet2 = !(DrvSet1)
+}
+}
+
+;
+DrvOK0 = flip(0.500000);
+if(DrvOK0) {
+DrvOK1 = false;
+DrvOK2 = false
+}
+else{
+DrvOK1 = true;
+if(DrvOK1) {
+DrvOK2 = false
+}
+else{
+DrvOK2 = !(DrvOK1)
+}
+}
+
+;
+if((((PrtDriver1 && PrtDriver1) && GDIIN1) && DrvSet1)) {
+GDIOUT0 = flip(0.500000);
+if(GDIOUT0) {
+GDIOUT1 = false;
+GDIOUT2 = false
+}
+else{
+GDIOUT1 = true;
+if(GDIOUT1) {
+GDIOUT2 = false
+}
+else{
+GDIOUT2 = !(GDIOUT1)
+}
+}
+}
+else{
+};
+if((((PrtDriver0 && PrtDriver1) && GDIIN1) && DrvSet1)) {
+GDIOUT0 = flip(0.500000);
+if(GDIOUT0) {
+GDIOUT1 = false;
+GDIOUT2 = false
+}
+else{
+GDIOUT1 = true;
+if(GDIOUT1) {
+GDIOUT2 = false
+}
+else{
+GDIOUT2 = !(GDIOUT1)
+}
+}
+}
+else{
+};
+if((((PrtDriver1 && PrtDriver0) && GDIIN1) && DrvSet1)) {
+GDIOUT0 = flip(0.500000);
+if(GDIOUT0) {
+GDIOUT1 = false;
+GDIOUT2 = false
+}
+else{
+GDIOUT1 = true;
+if(GDIOUT1) {
+GDIOUT2 = false
+}
+else{
+GDIOUT2 = !(GDIOUT1)
+}
+}
+}
+else{
+};
+if((((PrtDriver0 && PrtDriver0) && GDIIN1) && DrvSet1)) {
+GDIOUT0 = flip(0.500000);
+if(GDIOUT0) {
+GDIOUT1 = false;
+GDIOUT2 = false
+}
+else{
+GDIOUT1 = true;
+if(GDIOUT1) {
+GDIOUT2 = false
+}
+else{
+GDIOUT2 = !(GDIOUT1)
+}
+}
+}
+else{
+};
+if((((PrtDriver1 && PrtDriver1) && GDIIN0) && DrvSet1)) {
+GDIOUT0 = flip(0.500000);
+if(GDIOUT0) {
+GDIOUT1 = false;
+GDIOUT2 = false
+}
+else{
+GDIOUT1 = true;
+if(GDIOUT1) {
+GDIOUT2 = false
+}
+else{
+GDIOUT2 = !(GDIOUT1)
+}
+}
+}
+else{
+};
+if((((PrtDriver0 && PrtDriver1) && GDIIN0) && DrvSet1)) {
+GDIOUT0 = flip(0.500000);
+if(GDIOUT0) {
+GDIOUT1 = false;
+GDIOUT2 = false
+}
+else{
+GDIOUT1 = true;
+if(GDIOUT1) {
+GDIOUT2 = false
+}
+else{
+GDIOUT2 = !(GDIOUT1)
+}
+}
+}
+else{
+};
+if((((PrtDriver1 && PrtDriver0) && GDIIN0) && DrvSet1)) {
+GDIOUT0 = flip(0.500000);
+if(GDIOUT0) {
+GDIOUT1 = false;
+GDIOUT2 = false
+}
+else{
+GDIOUT1 = true;
+if(GDIOUT1) {
+GDIOUT2 = false
+}
+else{
+GDIOUT2 = !(GDIOUT1)
+}
+}
+}
+else{
+};
+if((((PrtDriver0 && PrtDriver0) && GDIIN0) && DrvSet1)) {
+GDIOUT0 = flip(0.500000);
+if(GDIOUT0) {
+GDIOUT1 = false;
+GDIOUT2 = false
+}
+else{
+GDIOUT1 = true;
+if(GDIOUT1) {
+GDIOUT2 = false
+}
+else{
+GDIOUT2 = !(GDIOUT1)
+}
+}
+}
+else{
+};
+if((((PrtDriver1 && PrtDriver1) && GDIIN1) && DrvSet0)) {
+GDIOUT0 = flip(0.500000);
+if(GDIOUT0) {
+GDIOUT1 = false;
+GDIOUT2 = false
+}
+else{
+GDIOUT1 = true;
+if(GDIOUT1) {
+GDIOUT2 = false
+}
+else{
+GDIOUT2 = !(GDIOUT1)
+}
+}
+}
+else{
+};
+if((((PrtDriver0 && PrtDriver1) && GDIIN1) && DrvSet0)) {
+GDIOUT0 = flip(0.500000);
+if(GDIOUT0) {
+GDIOUT1 = false;
+GDIOUT2 = false
+}
+else{
+GDIOUT1 = true;
+if(GDIOUT1) {
+GDIOUT2 = false
+}
+else{
+GDIOUT2 = !(GDIOUT1)
+}
+}
+}
+else{
+};
+if((((PrtDriver1 && PrtDriver0) && GDIIN1) && DrvSet0)) {
+GDIOUT0 = flip(0.500000);
+if(GDIOUT0) {
+GDIOUT1 = false;
+GDIOUT2 = false
+}
+else{
+GDIOUT1 = true;
+if(GDIOUT1) {
+GDIOUT2 = false
+}
+else{
+GDIOUT2 = !(GDIOUT1)
+}
+}
+}
+else{
+};
+if((((PrtDriver0 && PrtDriver0) && GDIIN1) && DrvSet0)) {
+GDIOUT0 = flip(0.500000);
+if(GDIOUT0) {
+GDIOUT1 = false;
+GDIOUT2 = false
+}
+else{
+GDIOUT1 = true;
+if(GDIOUT1) {
+GDIOUT2 = false
+}
+else{
+GDIOUT2 = !(GDIOUT1)
+}
+}
+}
+else{
+};
+if((((PrtDriver1 && PrtDriver1) && GDIIN0) && DrvSet0)) {
+GDIOUT0 = flip(0.500000);
+if(GDIOUT0) {
+GDIOUT1 = false;
+GDIOUT2 = false
+}
+else{
+GDIOUT1 = true;
+if(GDIOUT1) {
+GDIOUT2 = false
+}
+else{
+GDIOUT2 = !(GDIOUT1)
+}
+}
+}
+else{
+};
+if((((PrtDriver0 && PrtDriver1) && GDIIN0) && DrvSet0)) {
+GDIOUT0 = flip(0.500000);
+if(GDIOUT0) {
+GDIOUT1 = false;
+GDIOUT2 = false
+}
+else{
+GDIOUT1 = true;
+if(GDIOUT1) {
+GDIOUT2 = false
+}
+else{
+GDIOUT2 = !(GDIOUT1)
+}
+}
+}
+else{
+};
+if((((PrtDriver1 && PrtDriver0) && GDIIN0) && DrvSet0)) {
+GDIOUT0 = flip(0.500000);
+if(GDIOUT0) {
+GDIOUT1 = false;
+GDIOUT2 = false
+}
+else{
+GDIOUT1 = true;
+if(GDIOUT1) {
+GDIOUT2 = false
+}
+else{
+GDIOUT2 = !(GDIOUT1)
+}
+}
+}
+else{
+};
+if((((PrtDriver0 && PrtDriver0) && GDIIN0) && DrvSet0)) {
+GDIOUT0 = flip(0.500000);
+if(GDIOUT0) {
+GDIOUT1 = false;
+GDIOUT2 = false
+}
+else{
+GDIOUT1 = true;
+if(GDIOUT1) {
+GDIOUT2 = false
+}
+else{
+GDIOUT2 = !(GDIOUT1)
+}
+}
+}
+else{
+}
+;
+PrtSel0 = flip(0.500000);
+if(PrtSel0) {
+PrtSel1 = false;
+PrtSel2 = false
+}
+else{
+PrtSel1 = true;
+if(PrtSel1) {
+PrtSel2 = false
+}
+else{
+PrtSel2 = !(PrtSel1)
+}
+}
+
+;
+if((GDIOUT1 && GDIOUT1)) {
+PrtDataOut0 = flip(0.500000);
+if(PrtDataOut0) {
+PrtDataOut1 = false;
+PrtDataOut2 = false
+}
+else{
+PrtDataOut1 = true;
+if(PrtDataOut1) {
+PrtDataOut2 = false
+}
+else{
+PrtDataOut2 = !(PrtDataOut1)
+}
+}
+}
+else{
+};
+if((GDIOUT0 && GDIOUT1)) {
+PrtDataOut0 = flip(0.500000);
+if(PrtDataOut0) {
+PrtDataOut1 = false;
+PrtDataOut2 = false
+}
+else{
+PrtDataOut1 = true;
+if(PrtDataOut1) {
+PrtDataOut2 = false
+}
+else{
+PrtDataOut2 = !(PrtDataOut1)
+}
+}
+}
+else{
+};
+if((GDIOUT1 && GDIOUT0)) {
+PrtDataOut0 = flip(0.500000);
+if(PrtDataOut0) {
+PrtDataOut1 = false;
+PrtDataOut2 = false
+}
+else{
+PrtDataOut1 = true;
+if(PrtDataOut1) {
+PrtDataOut2 = false
+}
+else{
+PrtDataOut2 = !(PrtDataOut1)
+}
+}
+}
+else{
+};
+if((GDIOUT0 && GDIOUT0)) {
+PrtDataOut0 = flip(0.500000);
+if(PrtDataOut0) {
+PrtDataOut1 = false;
+PrtDataOut2 = false
+}
+else{
+PrtDataOut1 = true;
+if(PrtDataOut1) {
+PrtDataOut2 = false
+}
+else{
+PrtDataOut2 = !(PrtDataOut1)
+}
+}
+}
+else{
+}
+;
+if(PrtDataOut1) {
+PrtFile0 = flip(0.500000);
+if(PrtFile0) {
+PrtFile1 = false;
+PrtFile2 = false
+}
+else{
+PrtFile1 = true;
+if(PrtFile1) {
+PrtFile2 = false
+}
+else{
+PrtFile2 = !(PrtFile1)
+}
+}
+}
+else{
+};
+if(PrtDataOut0) {
+PrtFile0 = flip(0.500000);
+if(PrtFile0) {
+PrtFile1 = false;
+PrtFile2 = false
+}
+else{
+PrtFile1 = true;
+if(PrtFile1) {
+PrtFile2 = false
+}
+else{
+PrtFile2 = !(PrtFile1)
+}
+}
+}
+else{
+}
+;
+PrtPath0 = flip(0.500000);
+if(PrtPath0) {
+PrtPath1 = false;
+PrtPath2 = false
+}
+else{
+PrtPath1 = true;
+if(PrtPath1) {
+PrtPath2 = false
+}
+else{
+PrtPath2 = !(PrtPath1)
+}
+}
+
+;
+NtwrkCnfg0 = flip(0.500000);
+if(NtwrkCnfg0) {
+NtwrkCnfg1 = false;
+NtwrkCnfg2 = false
+}
+else{
+NtwrkCnfg1 = true;
+if(NtwrkCnfg1) {
+NtwrkCnfg2 = false
+}
+else{
+NtwrkCnfg2 = !(NtwrkCnfg1)
+}
+}
+
+;
+PTROFFLINE0 = flip(0.500000);
+if(PTROFFLINE0) {
+PTROFFLINE1 = false;
+PTROFFLINE2 = false
+}
+else{
+PTROFFLINE1 = true;
+if(PTROFFLINE1) {
+PTROFFLINE2 = false
+}
+else{
+PTROFFLINE2 = !(PTROFFLINE1)
+}
+}
+
+;
+if((NtwrkCnfg1 && NtwrkCnfg1)) {
+PrtIcon0 = flip(0.500000);
+if(PrtIcon0) {
+PrtIcon1 = false;
+PrtIcon2 = false
+}
+else{
+PrtIcon1 = true;
+if(PrtIcon1) {
+PrtIcon2 = false
+}
+else{
+PrtIcon2 = !(PrtIcon1)
+}
+}
+}
+else{
+};
+if((NtwrkCnfg0 && NtwrkCnfg1)) {
+PrtIcon0 = flip(0.500000);
+if(PrtIcon0) {
+PrtIcon1 = false;
+PrtIcon2 = false
+}
+else{
+PrtIcon1 = true;
+if(PrtIcon1) {
+PrtIcon2 = false
+}
+else{
+PrtIcon2 = !(PrtIcon1)
+}
+}
+}
+else{
+};
+if((NtwrkCnfg1 && NtwrkCnfg0)) {
+PrtIcon0 = flip(0.500000);
+if(PrtIcon0) {
+PrtIcon1 = false;
+PrtIcon2 = false
+}
+else{
+PrtIcon1 = true;
+if(PrtIcon1) {
+PrtIcon2 = false
+}
+else{
+PrtIcon2 = !(PrtIcon1)
+}
+}
+}
+else{
+};
+if((NtwrkCnfg0 && NtwrkCnfg0)) {
+PrtIcon0 = flip(0.500000);
+if(PrtIcon0) {
+PrtIcon1 = false;
+PrtIcon2 = false
+}
+else{
+PrtIcon1 = true;
+if(PrtIcon1) {
+PrtIcon2 = false
+}
+else{
+PrtIcon2 = !(PrtIcon1)
+}
+}
+}
+else{
+}
+;
+if(((PrtPath1 && PrtPath1) && NtwrkCnfg1)) {
+NetOK0 = flip(0.500000);
+if(NetOK0) {
+NetOK1 = false;
+NetOK2 = false
+}
+else{
+NetOK1 = true;
+if(NetOK1) {
+NetOK2 = false
+}
+else{
+NetOK2 = !(NetOK1)
+}
+}
+}
+else{
+};
+if(((PrtPath0 && PrtPath1) && NtwrkCnfg1)) {
+NetOK0 = flip(0.500000);
+if(NetOK0) {
+NetOK1 = false;
+NetOK2 = false
+}
+else{
+NetOK1 = true;
+if(NetOK1) {
+NetOK2 = false
+}
+else{
+NetOK2 = !(NetOK1)
+}
+}
+}
+else{
+};
+if(((PrtPath1 && PrtPath0) && NtwrkCnfg1)) {
+NetOK0 = flip(0.500000);
+if(NetOK0) {
+NetOK1 = false;
+NetOK2 = false
+}
+else{
+NetOK1 = true;
+if(NetOK1) {
+NetOK2 = false
+}
+else{
+NetOK2 = !(NetOK1)
+}
+}
+}
+else{
+};
+if(((PrtPath0 && PrtPath0) && NtwrkCnfg1)) {
+NetOK0 = flip(0.500000);
+if(NetOK0) {
+NetOK1 = false;
+NetOK2 = false
+}
+else{
+NetOK1 = true;
+if(NetOK1) {
+NetOK2 = false
+}
+else{
+NetOK2 = !(NetOK1)
+}
+}
+}
+else{
+};
+if(((PrtPath1 && PrtPath1) && NtwrkCnfg0)) {
+NetOK0 = flip(0.500000);
+if(NetOK0) {
+NetOK1 = false;
+NetOK2 = false
+}
+else{
+NetOK1 = true;
+if(NetOK1) {
+NetOK2 = false
+}
+else{
+NetOK2 = !(NetOK1)
+}
+}
+}
+else{
+};
+if(((PrtPath0 && PrtPath1) && NtwrkCnfg0)) {
+NetOK0 = flip(0.500000);
+if(NetOK0) {
+NetOK1 = false;
+NetOK2 = false
+}
+else{
+NetOK1 = true;
+if(NetOK1) {
+NetOK2 = false
+}
+else{
+NetOK2 = !(NetOK1)
+}
+}
+}
+else{
+};
+if(((PrtPath1 && PrtPath0) && NtwrkCnfg0)) {
+NetOK0 = flip(0.500000);
+if(NetOK0) {
+NetOK1 = false;
+NetOK2 = false
+}
+else{
+NetOK1 = true;
+if(NetOK1) {
+NetOK2 = false
+}
+else{
+NetOK2 = !(NetOK1)
+}
+}
+}
+else{
+};
+if(((PrtPath0 && PrtPath0) && NtwrkCnfg0)) {
+NetOK0 = flip(0.500000);
+if(NetOK0) {
+NetOK1 = false;
+NetOK2 = false
+}
+else{
+NetOK1 = true;
+if(NetOK1) {
+NetOK2 = false
+}
+else{
+NetOK2 = !(NetOK1)
+}
+}
+}
+else{
+}
+;
+PrtCbl0 = flip(0.500000);
+if(PrtCbl0) {
+PrtCbl1 = false;
+PrtCbl2 = false
+}
+else{
+PrtCbl1 = true;
+if(PrtCbl1) {
+PrtCbl2 = false
+}
+else{
+PrtCbl2 = !(PrtCbl1)
+}
+}
+
+;
+PrtPort0 = flip(0.500000);
+if(PrtPort0) {
+PrtPort1 = false;
+PrtPort2 = false
+}
+else{
+PrtPort1 = true;
+if(PrtPort1) {
+PrtPort2 = false
+}
+else{
+PrtPort2 = !(PrtPort1)
+}
+}
+
+;
+CblPrtHrdwrOK0 = flip(0.500000);
+if(CblPrtHrdwrOK0) {
+CblPrtHrdwrOK1 = false;
+CblPrtHrdwrOK2 = false
+}
+else{
+CblPrtHrdwrOK1 = true;
+if(CblPrtHrdwrOK1) {
+CblPrtHrdwrOK2 = false
+}
+else{
+CblPrtHrdwrOK2 = !(CblPrtHrdwrOK1)
+}
+}
+
+;
+if((CblPrtHrdwrOK1 && CblPrtHrdwrOK1)) {
+REPEAT0 = flip(0.500000);
+if(REPEAT0) {
+REPEAT1 = false;
+REPEAT2 = false
+}
+else{
+REPEAT1 = true;
+if(REPEAT1) {
+REPEAT2 = false
+}
+else{
+REPEAT2 = !(REPEAT1)
+}
+}
+}
+else{
+};
+if((CblPrtHrdwrOK0 && CblPrtHrdwrOK1)) {
+REPEAT0 = flip(0.500000);
+if(REPEAT0) {
+REPEAT1 = false;
+REPEAT2 = false
+}
+else{
+REPEAT1 = true;
+if(REPEAT1) {
+REPEAT2 = false
+}
+else{
+REPEAT2 = !(REPEAT1)
+}
+}
+}
+else{
+};
+if((CblPrtHrdwrOK1 && CblPrtHrdwrOK0)) {
+REPEAT0 = flip(0.500000);
+if(REPEAT0) {
+REPEAT1 = false;
+REPEAT2 = false
+}
+else{
+REPEAT1 = true;
+if(REPEAT1) {
+REPEAT2 = false
+}
+else{
+REPEAT2 = !(REPEAT1)
+}
+}
+}
+else{
+};
+if((CblPrtHrdwrOK0 && CblPrtHrdwrOK0)) {
+REPEAT0 = flip(0.500000);
+if(REPEAT0) {
+REPEAT1 = false;
+REPEAT2 = false
+}
+else{
+REPEAT1 = true;
+if(REPEAT1) {
+REPEAT2 = false
+}
+else{
+REPEAT2 = !(REPEAT1)
+}
+}
+}
+else{
+}
+;
+if((((AppData1 && AppData1) && PrtCbl1) && PrtPort1)) {
+DS_LCLOK0 = flip(0.500000);
+if(DS_LCLOK0) {
+DS_LCLOK1 = false;
+DS_LCLOK2 = false
+}
+else{
+DS_LCLOK1 = true;
+if(DS_LCLOK1) {
+DS_LCLOK2 = false
+}
+else{
+DS_LCLOK2 = !(DS_LCLOK1)
+}
+}
+}
+else{
+};
+if((((AppData0 && AppData1) && PrtCbl1) && PrtPort1)) {
+DS_LCLOK0 = flip(0.500000);
+if(DS_LCLOK0) {
+DS_LCLOK1 = false;
+DS_LCLOK2 = false
+}
+else{
+DS_LCLOK1 = true;
+if(DS_LCLOK1) {
+DS_LCLOK2 = false
+}
+else{
+DS_LCLOK2 = !(DS_LCLOK1)
+}
+}
+}
+else{
+};
+if((((AppData1 && AppData0) && PrtCbl1) && PrtPort1)) {
+DS_LCLOK0 = flip(0.500000);
+if(DS_LCLOK0) {
+DS_LCLOK1 = false;
+DS_LCLOK2 = false
+}
+else{
+DS_LCLOK1 = true;
+if(DS_LCLOK1) {
+DS_LCLOK2 = false
+}
+else{
+DS_LCLOK2 = !(DS_LCLOK1)
+}
+}
+}
+else{
+};
+if((((AppData0 && AppData0) && PrtCbl1) && PrtPort1)) {
+DS_LCLOK0 = flip(0.500000);
+if(DS_LCLOK0) {
+DS_LCLOK1 = false;
+DS_LCLOK2 = false
+}
+else{
+DS_LCLOK1 = true;
+if(DS_LCLOK1) {
+DS_LCLOK2 = false
+}
+else{
+DS_LCLOK2 = !(DS_LCLOK1)
+}
+}
+}
+else{
+};
+if((((AppData1 && AppData1) && PrtCbl0) && PrtPort1)) {
+DS_LCLOK0 = flip(0.500000);
+if(DS_LCLOK0) {
+DS_LCLOK1 = false;
+DS_LCLOK2 = false
+}
+else{
+DS_LCLOK1 = true;
+if(DS_LCLOK1) {
+DS_LCLOK2 = false
+}
+else{
+DS_LCLOK2 = !(DS_LCLOK1)
+}
+}
+}
+else{
+};
+if((((AppData0 && AppData1) && PrtCbl0) && PrtPort1)) {
+DS_LCLOK0 = flip(0.500000);
+if(DS_LCLOK0) {
+DS_LCLOK1 = false;
+DS_LCLOK2 = false
+}
+else{
+DS_LCLOK1 = true;
+if(DS_LCLOK1) {
+DS_LCLOK2 = false
+}
+else{
+DS_LCLOK2 = !(DS_LCLOK1)
+}
+}
+}
+else{
+};
+if((((AppData1 && AppData0) && PrtCbl0) && PrtPort1)) {
+DS_LCLOK0 = flip(0.500000);
+if(DS_LCLOK0) {
+DS_LCLOK1 = false;
+DS_LCLOK2 = false
+}
+else{
+DS_LCLOK1 = true;
+if(DS_LCLOK1) {
+DS_LCLOK2 = false
+}
+else{
+DS_LCLOK2 = !(DS_LCLOK1)
+}
+}
+}
+else{
+};
+if((((AppData0 && AppData0) && PrtCbl0) && PrtPort1)) {
+DS_LCLOK0 = flip(0.500000);
+if(DS_LCLOK0) {
+DS_LCLOK1 = false;
+DS_LCLOK2 = false
+}
+else{
+DS_LCLOK1 = true;
+if(DS_LCLOK1) {
+DS_LCLOK2 = false
+}
+else{
+DS_LCLOK2 = !(DS_LCLOK1)
+}
+}
+}
+else{
+};
+if((((AppData1 && AppData1) && PrtCbl1) && PrtPort0)) {
+DS_LCLOK0 = flip(0.500000);
+if(DS_LCLOK0) {
+DS_LCLOK1 = false;
+DS_LCLOK2 = false
+}
+else{
+DS_LCLOK1 = true;
+if(DS_LCLOK1) {
+DS_LCLOK2 = false
+}
+else{
+DS_LCLOK2 = !(DS_LCLOK1)
+}
+}
+}
+else{
+};
+if((((AppData0 && AppData1) && PrtCbl1) && PrtPort0)) {
+DS_LCLOK0 = flip(0.500000);
+if(DS_LCLOK0) {
+DS_LCLOK1 = false;
+DS_LCLOK2 = false
+}
+else{
+DS_LCLOK1 = true;
+if(DS_LCLOK1) {
+DS_LCLOK2 = false
+}
+else{
+DS_LCLOK2 = !(DS_LCLOK1)
+}
+}
+}
+else{
+};
+if((((AppData1 && AppData0) && PrtCbl1) && PrtPort0)) {
+DS_LCLOK0 = flip(0.500000);
+if(DS_LCLOK0) {
+DS_LCLOK1 = false;
+DS_LCLOK2 = false
+}
+else{
+DS_LCLOK1 = true;
+if(DS_LCLOK1) {
+DS_LCLOK2 = false
+}
+else{
+DS_LCLOK2 = !(DS_LCLOK1)
+}
+}
+}
+else{
+};
+if((((AppData0 && AppData0) && PrtCbl1) && PrtPort0)) {
+DS_LCLOK0 = flip(0.500000);
+if(DS_LCLOK0) {
+DS_LCLOK1 = false;
+DS_LCLOK2 = false
+}
+else{
+DS_LCLOK1 = true;
+if(DS_LCLOK1) {
+DS_LCLOK2 = false
+}
+else{
+DS_LCLOK2 = !(DS_LCLOK1)
+}
+}
+}
+else{
+};
+if((((AppData1 && AppData1) && PrtCbl0) && PrtPort0)) {
+DS_LCLOK0 = flip(0.500000);
+if(DS_LCLOK0) {
+DS_LCLOK1 = false;
+DS_LCLOK2 = false
+}
+else{
+DS_LCLOK1 = true;
+if(DS_LCLOK1) {
+DS_LCLOK2 = false
+}
+else{
+DS_LCLOK2 = !(DS_LCLOK1)
+}
+}
+}
+else{
+};
+if((((AppData0 && AppData1) && PrtCbl0) && PrtPort0)) {
+DS_LCLOK0 = flip(0.500000);
+if(DS_LCLOK0) {
+DS_LCLOK1 = false;
+DS_LCLOK2 = false
+}
+else{
+DS_LCLOK1 = true;
+if(DS_LCLOK1) {
+DS_LCLOK2 = false
+}
+else{
+DS_LCLOK2 = !(DS_LCLOK1)
+}
+}
+}
+else{
+};
+if((((AppData1 && AppData0) && PrtCbl0) && PrtPort0)) {
+DS_LCLOK0 = flip(0.500000);
+if(DS_LCLOK0) {
+DS_LCLOK1 = false;
+DS_LCLOK2 = false
+}
+else{
+DS_LCLOK1 = true;
+if(DS_LCLOK1) {
+DS_LCLOK2 = false
+}
+else{
+DS_LCLOK2 = !(DS_LCLOK1)
+}
+}
+}
+else{
+};
+if((((AppData0 && AppData0) && PrtCbl0) && PrtPort0)) {
+DS_LCLOK0 = flip(0.500000);
+if(DS_LCLOK0) {
+DS_LCLOK1 = false;
+DS_LCLOK2 = false
+}
+else{
+DS_LCLOK1 = true;
+if(DS_LCLOK1) {
+DS_LCLOK2 = false
+}
+else{
+DS_LCLOK2 = !(DS_LCLOK1)
+}
+}
+}
+else{
+}
+;
+if(((PrtCbl1 && PrtCbl1) && PrtPort1)) {
+LclOK0 = flip(0.500000);
+if(LclOK0) {
+LclOK1 = false;
+LclOK2 = false
+}
+else{
+LclOK1 = true;
+if(LclOK1) {
+LclOK2 = false
+}
+else{
+LclOK2 = !(LclOK1)
+}
+}
+}
+else{
+};
+if(((PrtCbl0 && PrtCbl1) && PrtPort1)) {
+LclOK0 = flip(0.500000);
+if(LclOK0) {
+LclOK1 = false;
+LclOK2 = false
+}
+else{
+LclOK1 = true;
+if(LclOK1) {
+LclOK2 = false
+}
+else{
+LclOK2 = !(LclOK1)
+}
+}
+}
+else{
+};
+if(((PrtCbl1 && PrtCbl0) && PrtPort1)) {
+LclOK0 = flip(0.500000);
+if(LclOK0) {
+LclOK1 = false;
+LclOK2 = false
+}
+else{
+LclOK1 = true;
+if(LclOK1) {
+LclOK2 = false
+}
+else{
+LclOK2 = !(LclOK1)
+}
+}
+}
+else{
+};
+if(((PrtCbl0 && PrtCbl0) && PrtPort1)) {
+LclOK0 = flip(0.500000);
+if(LclOK0) {
+LclOK1 = false;
+LclOK2 = false
+}
+else{
+LclOK1 = true;
+if(LclOK1) {
+LclOK2 = false
+}
+else{
+LclOK2 = !(LclOK1)
+}
+}
+}
+else{
+};
+if(((PrtCbl1 && PrtCbl1) && PrtPort0)) {
+LclOK0 = flip(0.500000);
+if(LclOK0) {
+LclOK1 = false;
+LclOK2 = false
+}
+else{
+LclOK1 = true;
+if(LclOK1) {
+LclOK2 = false
+}
+else{
+LclOK2 = !(LclOK1)
+}
+}
+}
+else{
+};
+if(((PrtCbl0 && PrtCbl1) && PrtPort0)) {
+LclOK0 = flip(0.500000);
+if(LclOK0) {
+LclOK1 = false;
+LclOK2 = false
+}
+else{
+LclOK1 = true;
+if(LclOK1) {
+LclOK2 = false
+}
+else{
+LclOK2 = !(LclOK1)
+}
+}
+}
+else{
+};
+if(((PrtCbl1 && PrtCbl0) && PrtPort0)) {
+LclOK0 = flip(0.500000);
+if(LclOK0) {
+LclOK1 = false;
+LclOK2 = false
+}
+else{
+LclOK1 = true;
+if(LclOK1) {
+LclOK2 = false
+}
+else{
+LclOK2 = !(LclOK1)
+}
+}
+}
+else{
+};
+if(((PrtCbl0 && PrtCbl0) && PrtPort0)) {
+LclOK0 = flip(0.500000);
+if(LclOK0) {
+LclOK1 = false;
+LclOK2 = false
+}
+else{
+LclOK1 = true;
+if(LclOK1) {
+LclOK2 = false
+}
+else{
+LclOK2 = !(LclOK1)
+}
+}
+}
+else{
+}
+;
+DSApplctn0 = flip(0.500000);
+if(DSApplctn0) {
+DSApplctn1 = false;
+DSApplctn2 = false
+}
+else{
+DSApplctn1 = true;
+if(DSApplctn1) {
+DSApplctn2 = false
+}
+else{
+DSApplctn2 = !(DSApplctn1)
+}
+}
+
+;
+PrtMpTPth0 = flip(0.500000);
+if(PrtMpTPth0) {
+PrtMpTPth1 = false;
+PrtMpTPth2 = false
+}
+else{
+PrtMpTPth1 = true;
+if(PrtMpTPth1) {
+PrtMpTPth2 = false
+}
+else{
+PrtMpTPth2 = !(PrtMpTPth1)
+}
+}
+
+;
+if(((((AppData1 && AppData1) && PrtPath1) && PrtMpTPth1) && NtwrkCnfg1)) {
+DS_NTOK0 = flip(0.500000);
+if(DS_NTOK0) {
+DS_NTOK1 = false;
+DS_NTOK2 = false
+}
+else{
+DS_NTOK1 = true;
+if(DS_NTOK1) {
+DS_NTOK2 = false
+}
+else{
+DS_NTOK2 = !(DS_NTOK1)
+}
+}
+}
+else{
+};
+if(((((AppData0 && AppData1) && PrtPath1) && PrtMpTPth1) && NtwrkCnfg1)) {
+DS_NTOK0 = flip(0.500000);
+if(DS_NTOK0) {
+DS_NTOK1 = false;
+DS_NTOK2 = false
+}
+else{
+DS_NTOK1 = true;
+if(DS_NTOK1) {
+DS_NTOK2 = false
+}
+else{
+DS_NTOK2 = !(DS_NTOK1)
+}
+}
+}
+else{
+};
+if(((((AppData1 && AppData0) && PrtPath1) && PrtMpTPth1) && NtwrkCnfg1)) {
+DS_NTOK0 = flip(0.500000);
+if(DS_NTOK0) {
+DS_NTOK1 = false;
+DS_NTOK2 = false
+}
+else{
+DS_NTOK1 = true;
+if(DS_NTOK1) {
+DS_NTOK2 = false
+}
+else{
+DS_NTOK2 = !(DS_NTOK1)
+}
+}
+}
+else{
+};
+if(((((AppData0 && AppData0) && PrtPath1) && PrtMpTPth1) && NtwrkCnfg1)) {
+DS_NTOK0 = flip(0.500000);
+if(DS_NTOK0) {
+DS_NTOK1 = false;
+DS_NTOK2 = false
+}
+else{
+DS_NTOK1 = true;
+if(DS_NTOK1) {
+DS_NTOK2 = false
+}
+else{
+DS_NTOK2 = !(DS_NTOK1)
+}
+}
+}
+else{
+};
+if(((((AppData1 && AppData1) && PrtPath0) && PrtMpTPth1) && NtwrkCnfg1)) {
+DS_NTOK0 = flip(0.500000);
+if(DS_NTOK0) {
+DS_NTOK1 = false;
+DS_NTOK2 = false
+}
+else{
+DS_NTOK1 = true;
+if(DS_NTOK1) {
+DS_NTOK2 = false
+}
+else{
+DS_NTOK2 = !(DS_NTOK1)
+}
+}
+}
+else{
+};
+if(((((AppData0 && AppData1) && PrtPath0) && PrtMpTPth1) && NtwrkCnfg1)) {
+DS_NTOK0 = flip(0.500000);
+if(DS_NTOK0) {
+DS_NTOK1 = false;
+DS_NTOK2 = false
+}
+else{
+DS_NTOK1 = true;
+if(DS_NTOK1) {
+DS_NTOK2 = false
+}
+else{
+DS_NTOK2 = !(DS_NTOK1)
+}
+}
+}
+else{
+};
+if(((((AppData1 && AppData0) && PrtPath0) && PrtMpTPth1) && NtwrkCnfg1)) {
+DS_NTOK0 = flip(0.500000);
+if(DS_NTOK0) {
+DS_NTOK1 = false;
+DS_NTOK2 = false
+}
+else{
+DS_NTOK1 = true;
+if(DS_NTOK1) {
+DS_NTOK2 = false
+}
+else{
+DS_NTOK2 = !(DS_NTOK1)
+}
+}
+}
+else{
+};
+if(((((AppData0 && AppData0) && PrtPath0) && PrtMpTPth1) && NtwrkCnfg1)) {
+DS_NTOK0 = flip(0.500000);
+if(DS_NTOK0) {
+DS_NTOK1 = false;
+DS_NTOK2 = false
+}
+else{
+DS_NTOK1 = true;
+if(DS_NTOK1) {
+DS_NTOK2 = false
+}
+else{
+DS_NTOK2 = !(DS_NTOK1)
+}
+}
+}
+else{
+};
+if(((((AppData1 && AppData1) && PrtPath1) && PrtMpTPth0) && NtwrkCnfg1)) {
+DS_NTOK0 = flip(0.500000);
+if(DS_NTOK0) {
+DS_NTOK1 = false;
+DS_NTOK2 = false
+}
+else{
+DS_NTOK1 = true;
+if(DS_NTOK1) {
+DS_NTOK2 = false
+}
+else{
+DS_NTOK2 = !(DS_NTOK1)
+}
+}
+}
+else{
+};
+if(((((AppData0 && AppData1) && PrtPath1) && PrtMpTPth0) && NtwrkCnfg1)) {
+DS_NTOK0 = flip(0.500000);
+if(DS_NTOK0) {
+DS_NTOK1 = false;
+DS_NTOK2 = false
+}
+else{
+DS_NTOK1 = true;
+if(DS_NTOK1) {
+DS_NTOK2 = false
+}
+else{
+DS_NTOK2 = !(DS_NTOK1)
+}
+}
+}
+else{
+};
+if(((((AppData1 && AppData0) && PrtPath1) && PrtMpTPth0) && NtwrkCnfg1)) {
+DS_NTOK0 = flip(0.500000);
+if(DS_NTOK0) {
+DS_NTOK1 = false;
+DS_NTOK2 = false
+}
+else{
+DS_NTOK1 = true;
+if(DS_NTOK1) {
+DS_NTOK2 = false
+}
+else{
+DS_NTOK2 = !(DS_NTOK1)
+}
+}
+}
+else{
+};
+if(((((AppData0 && AppData0) && PrtPath1) && PrtMpTPth0) && NtwrkCnfg1)) {
+DS_NTOK0 = flip(0.500000);
+if(DS_NTOK0) {
+DS_NTOK1 = false;
+DS_NTOK2 = false
+}
+else{
+DS_NTOK1 = true;
+if(DS_NTOK1) {
+DS_NTOK2 = false
+}
+else{
+DS_NTOK2 = !(DS_NTOK1)
+}
+}
+}
+else{
+};
+if(((((AppData1 && AppData1) && PrtPath0) && PrtMpTPth0) && NtwrkCnfg1)) {
+DS_NTOK0 = flip(0.500000);
+if(DS_NTOK0) {
+DS_NTOK1 = false;
+DS_NTOK2 = false
+}
+else{
+DS_NTOK1 = true;
+if(DS_NTOK1) {
+DS_NTOK2 = false
+}
+else{
+DS_NTOK2 = !(DS_NTOK1)
+}
+}
+}
+else{
+};
+if(((((AppData0 && AppData1) && PrtPath0) && PrtMpTPth0) && NtwrkCnfg1)) {
+DS_NTOK0 = flip(0.500000);
+if(DS_NTOK0) {
+DS_NTOK1 = false;
+DS_NTOK2 = false
+}
+else{
+DS_NTOK1 = true;
+if(DS_NTOK1) {
+DS_NTOK2 = false
+}
+else{
+DS_NTOK2 = !(DS_NTOK1)
+}
+}
+}
+else{
+};
+if(((((AppData1 && AppData0) && PrtPath0) && PrtMpTPth0) && NtwrkCnfg1)) {
+DS_NTOK0 = flip(0.500000);
+if(DS_NTOK0) {
+DS_NTOK1 = false;
+DS_NTOK2 = false
+}
+else{
+DS_NTOK1 = true;
+if(DS_NTOK1) {
+DS_NTOK2 = false
+}
+else{
+DS_NTOK2 = !(DS_NTOK1)
+}
+}
+}
+else{
+};
+if(((((AppData0 && AppData0) && PrtPath0) && PrtMpTPth0) && NtwrkCnfg1)) {
+DS_NTOK0 = flip(0.500000);
+if(DS_NTOK0) {
+DS_NTOK1 = false;
+DS_NTOK2 = false
+}
+else{
+DS_NTOK1 = true;
+if(DS_NTOK1) {
+DS_NTOK2 = false
+}
+else{
+DS_NTOK2 = !(DS_NTOK1)
+}
+}
+}
+else{
+};
+if(((((AppData1 && AppData1) && PrtPath1) && PrtMpTPth1) && NtwrkCnfg0)) {
+DS_NTOK0 = flip(0.500000);
+if(DS_NTOK0) {
+DS_NTOK1 = false;
+DS_NTOK2 = false
+}
+else{
+DS_NTOK1 = true;
+if(DS_NTOK1) {
+DS_NTOK2 = false
+}
+else{
+DS_NTOK2 = !(DS_NTOK1)
+}
+}
+}
+else{
+};
+if(((((AppData0 && AppData1) && PrtPath1) && PrtMpTPth1) && NtwrkCnfg0)) {
+DS_NTOK0 = flip(0.500000);
+if(DS_NTOK0) {
+DS_NTOK1 = false;
+DS_NTOK2 = false
+}
+else{
+DS_NTOK1 = true;
+if(DS_NTOK1) {
+DS_NTOK2 = false
+}
+else{
+DS_NTOK2 = !(DS_NTOK1)
+}
+}
+}
+else{
+};
+if(((((AppData1 && AppData0) && PrtPath1) && PrtMpTPth1) && NtwrkCnfg0)) {
+DS_NTOK0 = flip(0.500000);
+if(DS_NTOK0) {
+DS_NTOK1 = false;
+DS_NTOK2 = false
+}
+else{
+DS_NTOK1 = true;
+if(DS_NTOK1) {
+DS_NTOK2 = false
+}
+else{
+DS_NTOK2 = !(DS_NTOK1)
+}
+}
+}
+else{
+};
+if(((((AppData0 && AppData0) && PrtPath1) && PrtMpTPth1) && NtwrkCnfg0)) {
+DS_NTOK0 = flip(0.500000);
+if(DS_NTOK0) {
+DS_NTOK1 = false;
+DS_NTOK2 = false
+}
+else{
+DS_NTOK1 = true;
+if(DS_NTOK1) {
+DS_NTOK2 = false
+}
+else{
+DS_NTOK2 = !(DS_NTOK1)
+}
+}
+}
+else{
+};
+if(((((AppData1 && AppData1) && PrtPath0) && PrtMpTPth1) && NtwrkCnfg0)) {
+DS_NTOK0 = flip(0.500000);
+if(DS_NTOK0) {
+DS_NTOK1 = false;
+DS_NTOK2 = false
+}
+else{
+DS_NTOK1 = true;
+if(DS_NTOK1) {
+DS_NTOK2 = false
+}
+else{
+DS_NTOK2 = !(DS_NTOK1)
+}
+}
+}
+else{
+};
+if(((((AppData0 && AppData1) && PrtPath0) && PrtMpTPth1) && NtwrkCnfg0)) {
+DS_NTOK0 = flip(0.500000);
+if(DS_NTOK0) {
+DS_NTOK1 = false;
+DS_NTOK2 = false
+}
+else{
+DS_NTOK1 = true;
+if(DS_NTOK1) {
+DS_NTOK2 = false
+}
+else{
+DS_NTOK2 = !(DS_NTOK1)
+}
+}
+}
+else{
+};
+if(((((AppData1 && AppData0) && PrtPath0) && PrtMpTPth1) && NtwrkCnfg0)) {
+DS_NTOK0 = flip(0.500000);
+if(DS_NTOK0) {
+DS_NTOK1 = false;
+DS_NTOK2 = false
+}
+else{
+DS_NTOK1 = true;
+if(DS_NTOK1) {
+DS_NTOK2 = false
+}
+else{
+DS_NTOK2 = !(DS_NTOK1)
+}
+}
+}
+else{
+};
+if(((((AppData0 && AppData0) && PrtPath0) && PrtMpTPth1) && NtwrkCnfg0)) {
+DS_NTOK0 = flip(0.500000);
+if(DS_NTOK0) {
+DS_NTOK1 = false;
+DS_NTOK2 = false
+}
+else{
+DS_NTOK1 = true;
+if(DS_NTOK1) {
+DS_NTOK2 = false
+}
+else{
+DS_NTOK2 = !(DS_NTOK1)
+}
+}
+}
+else{
+};
+if(((((AppData1 && AppData1) && PrtPath1) && PrtMpTPth0) && NtwrkCnfg0)) {
+DS_NTOK0 = flip(0.500000);
+if(DS_NTOK0) {
+DS_NTOK1 = false;
+DS_NTOK2 = false
+}
+else{
+DS_NTOK1 = true;
+if(DS_NTOK1) {
+DS_NTOK2 = false
+}
+else{
+DS_NTOK2 = !(DS_NTOK1)
+}
+}
+}
+else{
+};
+if(((((AppData0 && AppData1) && PrtPath1) && PrtMpTPth0) && NtwrkCnfg0)) {
+DS_NTOK0 = flip(0.500000);
+if(DS_NTOK0) {
+DS_NTOK1 = false;
+DS_NTOK2 = false
+}
+else{
+DS_NTOK1 = true;
+if(DS_NTOK1) {
+DS_NTOK2 = false
+}
+else{
+DS_NTOK2 = !(DS_NTOK1)
+}
+}
+}
+else{
+};
+if(((((AppData1 && AppData0) && PrtPath1) && PrtMpTPth0) && NtwrkCnfg0)) {
+DS_NTOK0 = flip(0.500000);
+if(DS_NTOK0) {
+DS_NTOK1 = false;
+DS_NTOK2 = false
+}
+else{
+DS_NTOK1 = true;
+if(DS_NTOK1) {
+DS_NTOK2 = false
+}
+else{
+DS_NTOK2 = !(DS_NTOK1)
+}
+}
+}
+else{
+};
+if(((((AppData0 && AppData0) && PrtPath1) && PrtMpTPth0) && NtwrkCnfg0)) {
+DS_NTOK0 = flip(0.500000);
+if(DS_NTOK0) {
+DS_NTOK1 = false;
+DS_NTOK2 = false
+}
+else{
+DS_NTOK1 = true;
+if(DS_NTOK1) {
+DS_NTOK2 = false
+}
+else{
+DS_NTOK2 = !(DS_NTOK1)
+}
+}
+}
+else{
+};
+if(((((AppData1 && AppData1) && PrtPath0) && PrtMpTPth0) && NtwrkCnfg0)) {
+DS_NTOK0 = flip(0.500000);
+if(DS_NTOK0) {
+DS_NTOK1 = false;
+DS_NTOK2 = false
+}
+else{
+DS_NTOK1 = true;
+if(DS_NTOK1) {
+DS_NTOK2 = false
+}
+else{
+DS_NTOK2 = !(DS_NTOK1)
+}
+}
+}
+else{
+};
+if(((((AppData0 && AppData1) && PrtPath0) && PrtMpTPth0) && NtwrkCnfg0)) {
+DS_NTOK0 = flip(0.500000);
+if(DS_NTOK0) {
+DS_NTOK1 = false;
+DS_NTOK2 = false
+}
+else{
+DS_NTOK1 = true;
+if(DS_NTOK1) {
+DS_NTOK2 = false
+}
+else{
+DS_NTOK2 = !(DS_NTOK1)
+}
+}
+}
+else{
+};
+if(((((AppData1 && AppData0) && PrtPath0) && PrtMpTPth0) && NtwrkCnfg0)) {
+DS_NTOK0 = flip(0.500000);
+if(DS_NTOK0) {
+DS_NTOK1 = false;
+DS_NTOK2 = false
+}
+else{
+DS_NTOK1 = true;
+if(DS_NTOK1) {
+DS_NTOK2 = false
+}
+else{
+DS_NTOK2 = !(DS_NTOK1)
+}
+}
+}
+else{
+};
+if(((((AppData0 && AppData0) && PrtPath0) && PrtMpTPth0) && NtwrkCnfg0)) {
+DS_NTOK0 = flip(0.500000);
+if(DS_NTOK0) {
+DS_NTOK1 = false;
+DS_NTOK2 = false
+}
+else{
+DS_NTOK1 = true;
+if(DS_NTOK1) {
+DS_NTOK2 = false
+}
+else{
+DS_NTOK2 = !(DS_NTOK1)
+}
+}
+}
+else{
+}
+;
+if(((((((NetPrint1 && NetPrint1) && PrtDataOut1) && NetOK1) && LclOK1) && DSApplctn1) && DS_NTOK1)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint0 && NetPrint1) && PrtDataOut1) && NetOK1) && LclOK1) && DSApplctn1) && DS_NTOK1)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint1 && NetPrint0) && PrtDataOut1) && NetOK1) && LclOK1) && DSApplctn1) && DS_NTOK1)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint0 && NetPrint0) && PrtDataOut1) && NetOK1) && LclOK1) && DSApplctn1) && DS_NTOK1)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint1 && NetPrint1) && PrtDataOut0) && NetOK1) && LclOK1) && DSApplctn1) && DS_NTOK1)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint0 && NetPrint1) && PrtDataOut0) && NetOK1) && LclOK1) && DSApplctn1) && DS_NTOK1)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint1 && NetPrint0) && PrtDataOut0) && NetOK1) && LclOK1) && DSApplctn1) && DS_NTOK1)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint0 && NetPrint0) && PrtDataOut0) && NetOK1) && LclOK1) && DSApplctn1) && DS_NTOK1)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint1 && NetPrint1) && PrtDataOut1) && NetOK0) && LclOK1) && DSApplctn1) && DS_NTOK1)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint0 && NetPrint1) && PrtDataOut1) && NetOK0) && LclOK1) && DSApplctn1) && DS_NTOK1)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint1 && NetPrint0) && PrtDataOut1) && NetOK0) && LclOK1) && DSApplctn1) && DS_NTOK1)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint0 && NetPrint0) && PrtDataOut1) && NetOK0) && LclOK1) && DSApplctn1) && DS_NTOK1)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint1 && NetPrint1) && PrtDataOut0) && NetOK0) && LclOK1) && DSApplctn1) && DS_NTOK1)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint0 && NetPrint1) && PrtDataOut0) && NetOK0) && LclOK1) && DSApplctn1) && DS_NTOK1)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint1 && NetPrint0) && PrtDataOut0) && NetOK0) && LclOK1) && DSApplctn1) && DS_NTOK1)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint0 && NetPrint0) && PrtDataOut0) && NetOK0) && LclOK1) && DSApplctn1) && DS_NTOK1)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint1 && NetPrint1) && PrtDataOut1) && NetOK1) && LclOK0) && DSApplctn1) && DS_NTOK1)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint0 && NetPrint1) && PrtDataOut1) && NetOK1) && LclOK0) && DSApplctn1) && DS_NTOK1)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint1 && NetPrint0) && PrtDataOut1) && NetOK1) && LclOK0) && DSApplctn1) && DS_NTOK1)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint0 && NetPrint0) && PrtDataOut1) && NetOK1) && LclOK0) && DSApplctn1) && DS_NTOK1)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint1 && NetPrint1) && PrtDataOut0) && NetOK1) && LclOK0) && DSApplctn1) && DS_NTOK1)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint0 && NetPrint1) && PrtDataOut0) && NetOK1) && LclOK0) && DSApplctn1) && DS_NTOK1)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint1 && NetPrint0) && PrtDataOut0) && NetOK1) && LclOK0) && DSApplctn1) && DS_NTOK1)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint0 && NetPrint0) && PrtDataOut0) && NetOK1) && LclOK0) && DSApplctn1) && DS_NTOK1)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint1 && NetPrint1) && PrtDataOut1) && NetOK0) && LclOK0) && DSApplctn1) && DS_NTOK1)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint0 && NetPrint1) && PrtDataOut1) && NetOK0) && LclOK0) && DSApplctn1) && DS_NTOK1)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint1 && NetPrint0) && PrtDataOut1) && NetOK0) && LclOK0) && DSApplctn1) && DS_NTOK1)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint0 && NetPrint0) && PrtDataOut1) && NetOK0) && LclOK0) && DSApplctn1) && DS_NTOK1)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint1 && NetPrint1) && PrtDataOut0) && NetOK0) && LclOK0) && DSApplctn1) && DS_NTOK1)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint0 && NetPrint1) && PrtDataOut0) && NetOK0) && LclOK0) && DSApplctn1) && DS_NTOK1)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint1 && NetPrint0) && PrtDataOut0) && NetOK0) && LclOK0) && DSApplctn1) && DS_NTOK1)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint0 && NetPrint0) && PrtDataOut0) && NetOK0) && LclOK0) && DSApplctn1) && DS_NTOK1)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint1 && NetPrint1) && PrtDataOut1) && NetOK1) && LclOK1) && DSApplctn0) && DS_NTOK1)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint0 && NetPrint1) && PrtDataOut1) && NetOK1) && LclOK1) && DSApplctn0) && DS_NTOK1)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint1 && NetPrint0) && PrtDataOut1) && NetOK1) && LclOK1) && DSApplctn0) && DS_NTOK1)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint0 && NetPrint0) && PrtDataOut1) && NetOK1) && LclOK1) && DSApplctn0) && DS_NTOK1)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint1 && NetPrint1) && PrtDataOut0) && NetOK1) && LclOK1) && DSApplctn0) && DS_NTOK1)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint0 && NetPrint1) && PrtDataOut0) && NetOK1) && LclOK1) && DSApplctn0) && DS_NTOK1)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint1 && NetPrint0) && PrtDataOut0) && NetOK1) && LclOK1) && DSApplctn0) && DS_NTOK1)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint0 && NetPrint0) && PrtDataOut0) && NetOK1) && LclOK1) && DSApplctn0) && DS_NTOK1)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint1 && NetPrint1) && PrtDataOut1) && NetOK0) && LclOK1) && DSApplctn0) && DS_NTOK1)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint0 && NetPrint1) && PrtDataOut1) && NetOK0) && LclOK1) && DSApplctn0) && DS_NTOK1)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint1 && NetPrint0) && PrtDataOut1) && NetOK0) && LclOK1) && DSApplctn0) && DS_NTOK1)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint0 && NetPrint0) && PrtDataOut1) && NetOK0) && LclOK1) && DSApplctn0) && DS_NTOK1)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint1 && NetPrint1) && PrtDataOut0) && NetOK0) && LclOK1) && DSApplctn0) && DS_NTOK1)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint0 && NetPrint1) && PrtDataOut0) && NetOK0) && LclOK1) && DSApplctn0) && DS_NTOK1)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint1 && NetPrint0) && PrtDataOut0) && NetOK0) && LclOK1) && DSApplctn0) && DS_NTOK1)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint0 && NetPrint0) && PrtDataOut0) && NetOK0) && LclOK1) && DSApplctn0) && DS_NTOK1)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint1 && NetPrint1) && PrtDataOut1) && NetOK1) && LclOK0) && DSApplctn0) && DS_NTOK1)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint0 && NetPrint1) && PrtDataOut1) && NetOK1) && LclOK0) && DSApplctn0) && DS_NTOK1)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint1 && NetPrint0) && PrtDataOut1) && NetOK1) && LclOK0) && DSApplctn0) && DS_NTOK1)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint0 && NetPrint0) && PrtDataOut1) && NetOK1) && LclOK0) && DSApplctn0) && DS_NTOK1)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint1 && NetPrint1) && PrtDataOut0) && NetOK1) && LclOK0) && DSApplctn0) && DS_NTOK1)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint0 && NetPrint1) && PrtDataOut0) && NetOK1) && LclOK0) && DSApplctn0) && DS_NTOK1)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint1 && NetPrint0) && PrtDataOut0) && NetOK1) && LclOK0) && DSApplctn0) && DS_NTOK1)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint0 && NetPrint0) && PrtDataOut0) && NetOK1) && LclOK0) && DSApplctn0) && DS_NTOK1)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint1 && NetPrint1) && PrtDataOut1) && NetOK0) && LclOK0) && DSApplctn0) && DS_NTOK1)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint0 && NetPrint1) && PrtDataOut1) && NetOK0) && LclOK0) && DSApplctn0) && DS_NTOK1)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint1 && NetPrint0) && PrtDataOut1) && NetOK0) && LclOK0) && DSApplctn0) && DS_NTOK1)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint0 && NetPrint0) && PrtDataOut1) && NetOK0) && LclOK0) && DSApplctn0) && DS_NTOK1)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint1 && NetPrint1) && PrtDataOut0) && NetOK0) && LclOK0) && DSApplctn0) && DS_NTOK1)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint0 && NetPrint1) && PrtDataOut0) && NetOK0) && LclOK0) && DSApplctn0) && DS_NTOK1)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint1 && NetPrint0) && PrtDataOut0) && NetOK0) && LclOK0) && DSApplctn0) && DS_NTOK1)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint0 && NetPrint0) && PrtDataOut0) && NetOK0) && LclOK0) && DSApplctn0) && DS_NTOK1)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint1 && NetPrint1) && PrtDataOut1) && NetOK1) && LclOK1) && DSApplctn1) && DS_NTOK0)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint0 && NetPrint1) && PrtDataOut1) && NetOK1) && LclOK1) && DSApplctn1) && DS_NTOK0)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint1 && NetPrint0) && PrtDataOut1) && NetOK1) && LclOK1) && DSApplctn1) && DS_NTOK0)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint0 && NetPrint0) && PrtDataOut1) && NetOK1) && LclOK1) && DSApplctn1) && DS_NTOK0)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint1 && NetPrint1) && PrtDataOut0) && NetOK1) && LclOK1) && DSApplctn1) && DS_NTOK0)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint0 && NetPrint1) && PrtDataOut0) && NetOK1) && LclOK1) && DSApplctn1) && DS_NTOK0)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint1 && NetPrint0) && PrtDataOut0) && NetOK1) && LclOK1) && DSApplctn1) && DS_NTOK0)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint0 && NetPrint0) && PrtDataOut0) && NetOK1) && LclOK1) && DSApplctn1) && DS_NTOK0)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint1 && NetPrint1) && PrtDataOut1) && NetOK0) && LclOK1) && DSApplctn1) && DS_NTOK0)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint0 && NetPrint1) && PrtDataOut1) && NetOK0) && LclOK1) && DSApplctn1) && DS_NTOK0)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint1 && NetPrint0) && PrtDataOut1) && NetOK0) && LclOK1) && DSApplctn1) && DS_NTOK0)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint0 && NetPrint0) && PrtDataOut1) && NetOK0) && LclOK1) && DSApplctn1) && DS_NTOK0)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint1 && NetPrint1) && PrtDataOut0) && NetOK0) && LclOK1) && DSApplctn1) && DS_NTOK0)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint0 && NetPrint1) && PrtDataOut0) && NetOK0) && LclOK1) && DSApplctn1) && DS_NTOK0)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint1 && NetPrint0) && PrtDataOut0) && NetOK0) && LclOK1) && DSApplctn1) && DS_NTOK0)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint0 && NetPrint0) && PrtDataOut0) && NetOK0) && LclOK1) && DSApplctn1) && DS_NTOK0)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint1 && NetPrint1) && PrtDataOut1) && NetOK1) && LclOK0) && DSApplctn1) && DS_NTOK0)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint0 && NetPrint1) && PrtDataOut1) && NetOK1) && LclOK0) && DSApplctn1) && DS_NTOK0)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint1 && NetPrint0) && PrtDataOut1) && NetOK1) && LclOK0) && DSApplctn1) && DS_NTOK0)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint0 && NetPrint0) && PrtDataOut1) && NetOK1) && LclOK0) && DSApplctn1) && DS_NTOK0)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint1 && NetPrint1) && PrtDataOut0) && NetOK1) && LclOK0) && DSApplctn1) && DS_NTOK0)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint0 && NetPrint1) && PrtDataOut0) && NetOK1) && LclOK0) && DSApplctn1) && DS_NTOK0)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint1 && NetPrint0) && PrtDataOut0) && NetOK1) && LclOK0) && DSApplctn1) && DS_NTOK0)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint0 && NetPrint0) && PrtDataOut0) && NetOK1) && LclOK0) && DSApplctn1) && DS_NTOK0)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint1 && NetPrint1) && PrtDataOut1) && NetOK0) && LclOK0) && DSApplctn1) && DS_NTOK0)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint0 && NetPrint1) && PrtDataOut1) && NetOK0) && LclOK0) && DSApplctn1) && DS_NTOK0)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint1 && NetPrint0) && PrtDataOut1) && NetOK0) && LclOK0) && DSApplctn1) && DS_NTOK0)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint0 && NetPrint0) && PrtDataOut1) && NetOK0) && LclOK0) && DSApplctn1) && DS_NTOK0)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint1 && NetPrint1) && PrtDataOut0) && NetOK0) && LclOK0) && DSApplctn1) && DS_NTOK0)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint0 && NetPrint1) && PrtDataOut0) && NetOK0) && LclOK0) && DSApplctn1) && DS_NTOK0)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint1 && NetPrint0) && PrtDataOut0) && NetOK0) && LclOK0) && DSApplctn1) && DS_NTOK0)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint0 && NetPrint0) && PrtDataOut0) && NetOK0) && LclOK0) && DSApplctn1) && DS_NTOK0)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint1 && NetPrint1) && PrtDataOut1) && NetOK1) && LclOK1) && DSApplctn0) && DS_NTOK0)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint0 && NetPrint1) && PrtDataOut1) && NetOK1) && LclOK1) && DSApplctn0) && DS_NTOK0)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint1 && NetPrint0) && PrtDataOut1) && NetOK1) && LclOK1) && DSApplctn0) && DS_NTOK0)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint0 && NetPrint0) && PrtDataOut1) && NetOK1) && LclOK1) && DSApplctn0) && DS_NTOK0)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint1 && NetPrint1) && PrtDataOut0) && NetOK1) && LclOK1) && DSApplctn0) && DS_NTOK0)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint0 && NetPrint1) && PrtDataOut0) && NetOK1) && LclOK1) && DSApplctn0) && DS_NTOK0)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint1 && NetPrint0) && PrtDataOut0) && NetOK1) && LclOK1) && DSApplctn0) && DS_NTOK0)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint0 && NetPrint0) && PrtDataOut0) && NetOK1) && LclOK1) && DSApplctn0) && DS_NTOK0)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint1 && NetPrint1) && PrtDataOut1) && NetOK0) && LclOK1) && DSApplctn0) && DS_NTOK0)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint0 && NetPrint1) && PrtDataOut1) && NetOK0) && LclOK1) && DSApplctn0) && DS_NTOK0)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint1 && NetPrint0) && PrtDataOut1) && NetOK0) && LclOK1) && DSApplctn0) && DS_NTOK0)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint0 && NetPrint0) && PrtDataOut1) && NetOK0) && LclOK1) && DSApplctn0) && DS_NTOK0)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint1 && NetPrint1) && PrtDataOut0) && NetOK0) && LclOK1) && DSApplctn0) && DS_NTOK0)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint0 && NetPrint1) && PrtDataOut0) && NetOK0) && LclOK1) && DSApplctn0) && DS_NTOK0)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint1 && NetPrint0) && PrtDataOut0) && NetOK0) && LclOK1) && DSApplctn0) && DS_NTOK0)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint0 && NetPrint0) && PrtDataOut0) && NetOK0) && LclOK1) && DSApplctn0) && DS_NTOK0)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint1 && NetPrint1) && PrtDataOut1) && NetOK1) && LclOK0) && DSApplctn0) && DS_NTOK0)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint0 && NetPrint1) && PrtDataOut1) && NetOK1) && LclOK0) && DSApplctn0) && DS_NTOK0)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint1 && NetPrint0) && PrtDataOut1) && NetOK1) && LclOK0) && DSApplctn0) && DS_NTOK0)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint0 && NetPrint0) && PrtDataOut1) && NetOK1) && LclOK0) && DSApplctn0) && DS_NTOK0)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint1 && NetPrint1) && PrtDataOut0) && NetOK1) && LclOK0) && DSApplctn0) && DS_NTOK0)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint0 && NetPrint1) && PrtDataOut0) && NetOK1) && LclOK0) && DSApplctn0) && DS_NTOK0)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint1 && NetPrint0) && PrtDataOut0) && NetOK1) && LclOK0) && DSApplctn0) && DS_NTOK0)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint0 && NetPrint0) && PrtDataOut0) && NetOK1) && LclOK0) && DSApplctn0) && DS_NTOK0)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint1 && NetPrint1) && PrtDataOut1) && NetOK0) && LclOK0) && DSApplctn0) && DS_NTOK0)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint0 && NetPrint1) && PrtDataOut1) && NetOK0) && LclOK0) && DSApplctn0) && DS_NTOK0)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint1 && NetPrint0) && PrtDataOut1) && NetOK0) && LclOK0) && DSApplctn0) && DS_NTOK0)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint0 && NetPrint0) && PrtDataOut1) && NetOK0) && LclOK0) && DSApplctn0) && DS_NTOK0)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint1 && NetPrint1) && PrtDataOut0) && NetOK0) && LclOK0) && DSApplctn0) && DS_NTOK0)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint0 && NetPrint1) && PrtDataOut0) && NetOK0) && LclOK0) && DSApplctn0) && DS_NTOK0)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint1 && NetPrint0) && PrtDataOut0) && NetOK0) && LclOK0) && DSApplctn0) && DS_NTOK0)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+};
+if(((((((NetPrint0 && NetPrint0) && PrtDataOut0) && NetOK0) && LclOK0) && DSApplctn0) && DS_NTOK0)) {
+PC2PRT0 = flip(0.500000);
+if(PC2PRT0) {
+PC2PRT1 = false;
+PC2PRT2 = false
+}
+else{
+PC2PRT1 = true;
+if(PC2PRT1) {
+PC2PRT2 = false
+}
+else{
+PC2PRT2 = !(PC2PRT1)
+}
+}
+}
+else{
+}
+;
+PrtMem0 = flip(0.500000);
+if(PrtMem0) {
+PrtMem1 = false;
+PrtMem2 = false
+}
+else{
+PrtMem1 = true;
+if(PrtMem1) {
+PrtMem2 = false
+}
+else{
+PrtMem2 = !(PrtMem1)
+}
+}
+
+;
+if(PrtMem1) {
+PrtStatMem0 = flip(0.500000);
+if(PrtStatMem0) {
+PrtStatMem1 = false;
+PrtStatMem2 = false
+}
+else{
+PrtStatMem1 = true;
+if(PrtStatMem1) {
+PrtStatMem2 = false
+}
+else{
+PrtStatMem2 = !(PrtStatMem1)
+}
+}
+}
+else{
+};
+if(PrtMem0) {
+PrtStatMem0 = flip(0.500000);
+if(PrtStatMem0) {
+PrtStatMem1 = false;
+PrtStatMem2 = false
+}
+else{
+PrtStatMem1 = true;
+if(PrtStatMem1) {
+PrtStatMem2 = false
+}
+else{
+PrtStatMem2 = !(PrtStatMem1)
+}
+}
+}
+else{
+}
+;
+if((((AppData1 && AppData1) && PrtDriver1) && PrtMem1)) {
+NtGrbld0 = flip(0.500000);
+if(NtGrbld0) {
+NtGrbld1 = false;
+NtGrbld2 = false
+}
+else{
+NtGrbld1 = true;
+if(NtGrbld1) {
+NtGrbld2 = false
+}
+else{
+NtGrbld2 = !(NtGrbld1)
+}
+}
+}
+else{
+};
+if((((AppData0 && AppData1) && PrtDriver1) && PrtMem1)) {
+NtGrbld0 = flip(0.500000);
+if(NtGrbld0) {
+NtGrbld1 = false;
+NtGrbld2 = false
+}
+else{
+NtGrbld1 = true;
+if(NtGrbld1) {
+NtGrbld2 = false
+}
+else{
+NtGrbld2 = !(NtGrbld1)
+}
+}
+}
+else{
+};
+if((((AppData1 && AppData0) && PrtDriver1) && PrtMem1)) {
+NtGrbld0 = flip(0.500000);
+if(NtGrbld0) {
+NtGrbld1 = false;
+NtGrbld2 = false
+}
+else{
+NtGrbld1 = true;
+if(NtGrbld1) {
+NtGrbld2 = false
+}
+else{
+NtGrbld2 = !(NtGrbld1)
+}
+}
+}
+else{
+};
+if((((AppData0 && AppData0) && PrtDriver1) && PrtMem1)) {
+NtGrbld0 = flip(0.500000);
+if(NtGrbld0) {
+NtGrbld1 = false;
+NtGrbld2 = false
+}
+else{
+NtGrbld1 = true;
+if(NtGrbld1) {
+NtGrbld2 = false
+}
+else{
+NtGrbld2 = !(NtGrbld1)
+}
+}
+}
+else{
+};
+if((((AppData1 && AppData1) && PrtDriver0) && PrtMem1)) {
+NtGrbld0 = flip(0.500000);
+if(NtGrbld0) {
+NtGrbld1 = false;
+NtGrbld2 = false
+}
+else{
+NtGrbld1 = true;
+if(NtGrbld1) {
+NtGrbld2 = false
+}
+else{
+NtGrbld2 = !(NtGrbld1)
+}
+}
+}
+else{
+};
+if((((AppData0 && AppData1) && PrtDriver0) && PrtMem1)) {
+NtGrbld0 = flip(0.500000);
+if(NtGrbld0) {
+NtGrbld1 = false;
+NtGrbld2 = false
+}
+else{
+NtGrbld1 = true;
+if(NtGrbld1) {
+NtGrbld2 = false
+}
+else{
+NtGrbld2 = !(NtGrbld1)
+}
+}
+}
+else{
+};
+if((((AppData1 && AppData0) && PrtDriver0) && PrtMem1)) {
+NtGrbld0 = flip(0.500000);
+if(NtGrbld0) {
+NtGrbld1 = false;
+NtGrbld2 = false
+}
+else{
+NtGrbld1 = true;
+if(NtGrbld1) {
+NtGrbld2 = false
+}
+else{
+NtGrbld2 = !(NtGrbld1)
+}
+}
+}
+else{
+};
+if((((AppData0 && AppData0) && PrtDriver0) && PrtMem1)) {
+NtGrbld0 = flip(0.500000);
+if(NtGrbld0) {
+NtGrbld1 = false;
+NtGrbld2 = false
+}
+else{
+NtGrbld1 = true;
+if(NtGrbld1) {
+NtGrbld2 = false
+}
+else{
+NtGrbld2 = !(NtGrbld1)
+}
+}
+}
+else{
+};
+if((((AppData1 && AppData1) && PrtDriver1) && PrtMem0)) {
+NtGrbld0 = flip(0.500000);
+if(NtGrbld0) {
+NtGrbld1 = false;
+NtGrbld2 = false
+}
+else{
+NtGrbld1 = true;
+if(NtGrbld1) {
+NtGrbld2 = false
+}
+else{
+NtGrbld2 = !(NtGrbld1)
+}
+}
+}
+else{
+};
+if((((AppData0 && AppData1) && PrtDriver1) && PrtMem0)) {
+NtGrbld0 = flip(0.500000);
+if(NtGrbld0) {
+NtGrbld1 = false;
+NtGrbld2 = false
+}
+else{
+NtGrbld1 = true;
+if(NtGrbld1) {
+NtGrbld2 = false
+}
+else{
+NtGrbld2 = !(NtGrbld1)
+}
+}
+}
+else{
+};
+if((((AppData1 && AppData0) && PrtDriver1) && PrtMem0)) {
+NtGrbld0 = flip(0.500000);
+if(NtGrbld0) {
+NtGrbld1 = false;
+NtGrbld2 = false
+}
+else{
+NtGrbld1 = true;
+if(NtGrbld1) {
+NtGrbld2 = false
+}
+else{
+NtGrbld2 = !(NtGrbld1)
+}
+}
+}
+else{
+};
+if((((AppData0 && AppData0) && PrtDriver1) && PrtMem0)) {
+NtGrbld0 = flip(0.500000);
+if(NtGrbld0) {
+NtGrbld1 = false;
+NtGrbld2 = false
+}
+else{
+NtGrbld1 = true;
+if(NtGrbld1) {
+NtGrbld2 = false
+}
+else{
+NtGrbld2 = !(NtGrbld1)
+}
+}
+}
+else{
+};
+if((((AppData1 && AppData1) && PrtDriver0) && PrtMem0)) {
+NtGrbld0 = flip(0.500000);
+if(NtGrbld0) {
+NtGrbld1 = false;
+NtGrbld2 = false
+}
+else{
+NtGrbld1 = true;
+if(NtGrbld1) {
+NtGrbld2 = false
+}
+else{
+NtGrbld2 = !(NtGrbld1)
+}
+}
+}
+else{
+};
+if((((AppData0 && AppData1) && PrtDriver0) && PrtMem0)) {
+NtGrbld0 = flip(0.500000);
+if(NtGrbld0) {
+NtGrbld1 = false;
+NtGrbld2 = false
+}
+else{
+NtGrbld1 = true;
+if(NtGrbld1) {
+NtGrbld2 = false
+}
+else{
+NtGrbld2 = !(NtGrbld1)
+}
+}
+}
+else{
+};
+if((((AppData1 && AppData0) && PrtDriver0) && PrtMem0)) {
+NtGrbld0 = flip(0.500000);
+if(NtGrbld0) {
+NtGrbld1 = false;
+NtGrbld2 = false
+}
+else{
+NtGrbld1 = true;
+if(NtGrbld1) {
+NtGrbld2 = false
+}
+else{
+NtGrbld2 = !(NtGrbld1)
+}
+}
+}
+else{
+};
+if((((AppData0 && AppData0) && PrtDriver0) && PrtMem0)) {
+NtGrbld0 = flip(0.500000);
+if(NtGrbld0) {
+NtGrbld1 = false;
+NtGrbld2 = false
+}
+else{
+NtGrbld1 = true;
+if(NtGrbld1) {
+NtGrbld2 = false
+}
+else{
+NtGrbld2 = !(NtGrbld1)
+}
+}
+}
+else{
+}
+;
+if((((AppData1 && AppData1) && PrtDriver1) && PrtMem1)) {
+LclGrbld0 = flip(0.500000);
+if(LclGrbld0) {
+LclGrbld1 = false;
+LclGrbld2 = false
+}
+else{
+LclGrbld1 = true;
+if(LclGrbld1) {
+LclGrbld2 = false
+}
+else{
+LclGrbld2 = !(LclGrbld1)
+}
+}
+}
+else{
+};
+if((((AppData0 && AppData1) && PrtDriver1) && PrtMem1)) {
+LclGrbld0 = flip(0.500000);
+if(LclGrbld0) {
+LclGrbld1 = false;
+LclGrbld2 = false
+}
+else{
+LclGrbld1 = true;
+if(LclGrbld1) {
+LclGrbld2 = false
+}
+else{
+LclGrbld2 = !(LclGrbld1)
+}
+}
+}
+else{
+};
+if((((AppData1 && AppData0) && PrtDriver1) && PrtMem1)) {
+LclGrbld0 = flip(0.500000);
+if(LclGrbld0) {
+LclGrbld1 = false;
+LclGrbld2 = false
+}
+else{
+LclGrbld1 = true;
+if(LclGrbld1) {
+LclGrbld2 = false
+}
+else{
+LclGrbld2 = !(LclGrbld1)
+}
+}
+}
+else{
+};
+if((((AppData0 && AppData0) && PrtDriver1) && PrtMem1)) {
+LclGrbld0 = flip(0.500000);
+if(LclGrbld0) {
+LclGrbld1 = false;
+LclGrbld2 = false
+}
+else{
+LclGrbld1 = true;
+if(LclGrbld1) {
+LclGrbld2 = false
+}
+else{
+LclGrbld2 = !(LclGrbld1)
+}
+}
+}
+else{
+};
+if((((AppData1 && AppData1) && PrtDriver0) && PrtMem1)) {
+LclGrbld0 = flip(0.500000);
+if(LclGrbld0) {
+LclGrbld1 = false;
+LclGrbld2 = false
+}
+else{
+LclGrbld1 = true;
+if(LclGrbld1) {
+LclGrbld2 = false
+}
+else{
+LclGrbld2 = !(LclGrbld1)
+}
+}
+}
+else{
+};
+if((((AppData0 && AppData1) && PrtDriver0) && PrtMem1)) {
+LclGrbld0 = flip(0.500000);
+if(LclGrbld0) {
+LclGrbld1 = false;
+LclGrbld2 = false
+}
+else{
+LclGrbld1 = true;
+if(LclGrbld1) {
+LclGrbld2 = false
+}
+else{
+LclGrbld2 = !(LclGrbld1)
+}
+}
+}
+else{
+};
+if((((AppData1 && AppData0) && PrtDriver0) && PrtMem1)) {
+LclGrbld0 = flip(0.500000);
+if(LclGrbld0) {
+LclGrbld1 = false;
+LclGrbld2 = false
+}
+else{
+LclGrbld1 = true;
+if(LclGrbld1) {
+LclGrbld2 = false
+}
+else{
+LclGrbld2 = !(LclGrbld1)
+}
+}
+}
+else{
+};
+if((((AppData0 && AppData0) && PrtDriver0) && PrtMem1)) {
+LclGrbld0 = flip(0.500000);
+if(LclGrbld0) {
+LclGrbld1 = false;
+LclGrbld2 = false
+}
+else{
+LclGrbld1 = true;
+if(LclGrbld1) {
+LclGrbld2 = false
+}
+else{
+LclGrbld2 = !(LclGrbld1)
+}
+}
+}
+else{
+};
+if((((AppData1 && AppData1) && PrtDriver1) && PrtMem0)) {
+LclGrbld0 = flip(0.500000);
+if(LclGrbld0) {
+LclGrbld1 = false;
+LclGrbld2 = false
+}
+else{
+LclGrbld1 = true;
+if(LclGrbld1) {
+LclGrbld2 = false
+}
+else{
+LclGrbld2 = !(LclGrbld1)
+}
+}
+}
+else{
+};
+if((((AppData0 && AppData1) && PrtDriver1) && PrtMem0)) {
+LclGrbld0 = flip(0.500000);
+if(LclGrbld0) {
+LclGrbld1 = false;
+LclGrbld2 = false
+}
+else{
+LclGrbld1 = true;
+if(LclGrbld1) {
+LclGrbld2 = false
+}
+else{
+LclGrbld2 = !(LclGrbld1)
+}
+}
+}
+else{
+};
+if((((AppData1 && AppData0) && PrtDriver1) && PrtMem0)) {
+LclGrbld0 = flip(0.500000);
+if(LclGrbld0) {
+LclGrbld1 = false;
+LclGrbld2 = false
+}
+else{
+LclGrbld1 = true;
+if(LclGrbld1) {
+LclGrbld2 = false
+}
+else{
+LclGrbld2 = !(LclGrbld1)
+}
+}
+}
+else{
+};
+if((((AppData0 && AppData0) && PrtDriver1) && PrtMem0)) {
+LclGrbld0 = flip(0.500000);
+if(LclGrbld0) {
+LclGrbld1 = false;
+LclGrbld2 = false
+}
+else{
+LclGrbld1 = true;
+if(LclGrbld1) {
+LclGrbld2 = false
+}
+else{
+LclGrbld2 = !(LclGrbld1)
+}
+}
+}
+else{
+};
+if((((AppData1 && AppData1) && PrtDriver0) && PrtMem0)) {
+LclGrbld0 = flip(0.500000);
+if(LclGrbld0) {
+LclGrbld1 = false;
+LclGrbld2 = false
+}
+else{
+LclGrbld1 = true;
+if(LclGrbld1) {
+LclGrbld2 = false
+}
+else{
+LclGrbld2 = !(LclGrbld1)
+}
+}
+}
+else{
+};
+if((((AppData0 && AppData1) && PrtDriver0) && PrtMem0)) {
+LclGrbld0 = flip(0.500000);
+if(LclGrbld0) {
+LclGrbld1 = false;
+LclGrbld2 = false
+}
+else{
+LclGrbld1 = true;
+if(LclGrbld1) {
+LclGrbld2 = false
+}
+else{
+LclGrbld2 = !(LclGrbld1)
+}
+}
+}
+else{
+};
+if((((AppData1 && AppData0) && PrtDriver0) && PrtMem0)) {
+LclGrbld0 = flip(0.500000);
+if(LclGrbld0) {
+LclGrbld1 = false;
+LclGrbld2 = false
+}
+else{
+LclGrbld1 = true;
+if(LclGrbld1) {
+LclGrbld2 = false
+}
+else{
+LclGrbld2 = !(LclGrbld1)
+}
+}
+}
+else{
+};
+if((((AppData0 && AppData0) && PrtDriver0) && PrtMem0)) {
+LclGrbld0 = flip(0.500000);
+if(LclGrbld0) {
+LclGrbld1 = false;
+LclGrbld2 = false
+}
+else{
+LclGrbld1 = true;
+if(LclGrbld1) {
+LclGrbld2 = false
+}
+else{
+LclGrbld2 = !(LclGrbld1)
+}
+}
+}
+else{
+}
+;
+if(((NetPrint1 && NetPrint1) && LclGrbld1)) {
+GrbldOtpt0 = flip(0.500000);
+if(GrbldOtpt0) {
+GrbldOtpt1 = false;
+GrbldOtpt2 = false
+}
+else{
+GrbldOtpt1 = true;
+if(GrbldOtpt1) {
+GrbldOtpt2 = false
+}
+else{
+GrbldOtpt2 = !(GrbldOtpt1)
+}
+}
+}
+else{
+};
+if(((NetPrint0 && NetPrint1) && LclGrbld1)) {
+GrbldOtpt0 = flip(0.500000);
+if(GrbldOtpt0) {
+GrbldOtpt1 = false;
+GrbldOtpt2 = false
+}
+else{
+GrbldOtpt1 = true;
+if(GrbldOtpt1) {
+GrbldOtpt2 = false
+}
+else{
+GrbldOtpt2 = !(GrbldOtpt1)
+}
+}
+}
+else{
+};
+if(((NetPrint1 && NetPrint0) && LclGrbld1)) {
+GrbldOtpt0 = flip(0.500000);
+if(GrbldOtpt0) {
+GrbldOtpt1 = false;
+GrbldOtpt2 = false
+}
+else{
+GrbldOtpt1 = true;
+if(GrbldOtpt1) {
+GrbldOtpt2 = false
+}
+else{
+GrbldOtpt2 = !(GrbldOtpt1)
+}
+}
+}
+else{
+};
+if(((NetPrint0 && NetPrint0) && LclGrbld1)) {
+GrbldOtpt0 = flip(0.500000);
+if(GrbldOtpt0) {
+GrbldOtpt1 = false;
+GrbldOtpt2 = false
+}
+else{
+GrbldOtpt1 = true;
+if(GrbldOtpt1) {
+GrbldOtpt2 = false
+}
+else{
+GrbldOtpt2 = !(GrbldOtpt1)
+}
+}
+}
+else{
+};
+if(((NetPrint1 && NetPrint1) && LclGrbld0)) {
+GrbldOtpt0 = flip(0.500000);
+if(GrbldOtpt0) {
+GrbldOtpt1 = false;
+GrbldOtpt2 = false
+}
+else{
+GrbldOtpt1 = true;
+if(GrbldOtpt1) {
+GrbldOtpt2 = false
+}
+else{
+GrbldOtpt2 = !(GrbldOtpt1)
+}
+}
+}
+else{
+};
+if(((NetPrint0 && NetPrint1) && LclGrbld0)) {
+GrbldOtpt0 = flip(0.500000);
+if(GrbldOtpt0) {
+GrbldOtpt1 = false;
+GrbldOtpt2 = false
+}
+else{
+GrbldOtpt1 = true;
+if(GrbldOtpt1) {
+GrbldOtpt2 = false
+}
+else{
+GrbldOtpt2 = !(GrbldOtpt1)
+}
+}
+}
+else{
+};
+if(((NetPrint1 && NetPrint0) && LclGrbld0)) {
+GrbldOtpt0 = flip(0.500000);
+if(GrbldOtpt0) {
+GrbldOtpt1 = false;
+GrbldOtpt2 = false
+}
+else{
+GrbldOtpt1 = true;
+if(GrbldOtpt1) {
+GrbldOtpt2 = false
+}
+else{
+GrbldOtpt2 = !(GrbldOtpt1)
+}
+}
+}
+else{
+};
+if(((NetPrint0 && NetPrint0) && LclGrbld0)) {
+GrbldOtpt0 = flip(0.500000);
+if(GrbldOtpt0) {
+GrbldOtpt1 = false;
+GrbldOtpt2 = false
+}
+else{
+GrbldOtpt1 = true;
+if(GrbldOtpt1) {
+GrbldOtpt2 = false
+}
+else{
+GrbldOtpt2 = !(GrbldOtpt1)
+}
+}
+}
+else{
+}
+;
+if(((PrtMem1 && PrtMem1) && AppDtGnTm1)) {
+DeskPrntSpd0 = flip(0.500000);
+if(DeskPrntSpd0) {
+DeskPrntSpd1 = false;
+DeskPrntSpd2 = false
+}
+else{
+DeskPrntSpd1 = true;
+if(DeskPrntSpd1) {
+DeskPrntSpd2 = false
+}
+else{
+DeskPrntSpd2 = !(DeskPrntSpd1)
+}
+}
+}
+else{
+};
+if(((PrtMem0 && PrtMem1) && AppDtGnTm1)) {
+DeskPrntSpd0 = flip(0.500000);
+if(DeskPrntSpd0) {
+DeskPrntSpd1 = false;
+DeskPrntSpd2 = false
+}
+else{
+DeskPrntSpd1 = true;
+if(DeskPrntSpd1) {
+DeskPrntSpd2 = false
+}
+else{
+DeskPrntSpd2 = !(DeskPrntSpd1)
+}
+}
+}
+else{
+};
+if(((PrtMem1 && PrtMem0) && AppDtGnTm1)) {
+DeskPrntSpd0 = flip(0.500000);
+if(DeskPrntSpd0) {
+DeskPrntSpd1 = false;
+DeskPrntSpd2 = false
+}
+else{
+DeskPrntSpd1 = true;
+if(DeskPrntSpd1) {
+DeskPrntSpd2 = false
+}
+else{
+DeskPrntSpd2 = !(DeskPrntSpd1)
+}
+}
+}
+else{
+};
+if(((PrtMem0 && PrtMem0) && AppDtGnTm1)) {
+DeskPrntSpd0 = flip(0.500000);
+if(DeskPrntSpd0) {
+DeskPrntSpd1 = false;
+DeskPrntSpd2 = false
+}
+else{
+DeskPrntSpd1 = true;
+if(DeskPrntSpd1) {
+DeskPrntSpd2 = false
+}
+else{
+DeskPrntSpd2 = !(DeskPrntSpd1)
+}
+}
+}
+else{
+};
+if(((PrtMem1 && PrtMem1) && AppDtGnTm0)) {
+DeskPrntSpd0 = flip(0.500000);
+if(DeskPrntSpd0) {
+DeskPrntSpd1 = false;
+DeskPrntSpd2 = false
+}
+else{
+DeskPrntSpd1 = true;
+if(DeskPrntSpd1) {
+DeskPrntSpd2 = false
+}
+else{
+DeskPrntSpd2 = !(DeskPrntSpd1)
+}
+}
+}
+else{
+};
+if(((PrtMem0 && PrtMem1) && AppDtGnTm0)) {
+DeskPrntSpd0 = flip(0.500000);
+if(DeskPrntSpd0) {
+DeskPrntSpd1 = false;
+DeskPrntSpd2 = false
+}
+else{
+DeskPrntSpd1 = true;
+if(DeskPrntSpd1) {
+DeskPrntSpd2 = false
+}
+else{
+DeskPrntSpd2 = !(DeskPrntSpd1)
+}
+}
+}
+else{
+};
+if(((PrtMem1 && PrtMem0) && AppDtGnTm0)) {
+DeskPrntSpd0 = flip(0.500000);
+if(DeskPrntSpd0) {
+DeskPrntSpd1 = false;
+DeskPrntSpd2 = false
+}
+else{
+DeskPrntSpd1 = true;
+if(DeskPrntSpd1) {
+DeskPrntSpd2 = false
+}
+else{
+DeskPrntSpd2 = !(DeskPrntSpd1)
+}
+}
+}
+else{
+};
+if(((PrtMem0 && PrtMem0) && AppDtGnTm0)) {
+DeskPrntSpd0 = flip(0.500000);
+if(DeskPrntSpd0) {
+DeskPrntSpd1 = false;
+DeskPrntSpd2 = false
+}
+else{
+DeskPrntSpd1 = true;
+if(DeskPrntSpd1) {
+DeskPrntSpd2 = false
+}
+else{
+DeskPrntSpd2 = !(DeskPrntSpd1)
+}
+}
+}
+else{
+}
+;
+PrtTimeOut0 = flip(0.500000);
+if(PrtTimeOut0) {
+PrtTimeOut1 = false;
+PrtTimeOut2 = false
+}
+else{
+PrtTimeOut1 = true;
+if(PrtTimeOut1) {
+PrtTimeOut2 = false
+}
+else{
+PrtTimeOut2 = !(PrtTimeOut1)
+}
+}
+
+;
+FllCrrptdBffr0 = flip(0.500000);
+if(FllCrrptdBffr0) {
+FllCrrptdBffr1 = false;
+FllCrrptdBffr2 = false
+}
+else{
+FllCrrptdBffr1 = true;
+if(FllCrrptdBffr1) {
+FllCrrptdBffr2 = false
+}
+else{
+FllCrrptdBffr2 = !(FllCrrptdBffr1)
+}
+}
+
+;
+TnrSpply0 = flip(0.500000);
+if(TnrSpply0) {
+TnrSpply1 = false;
+TnrSpply2 = false
+}
+else{
+TnrSpply1 = true;
+if(TnrSpply1) {
+TnrSpply2 = false
+}
+else{
+TnrSpply2 = !(TnrSpply1)
+}
+}
+
+;
+if(TnrSpply1) {
+PrtStatToner0 = flip(0.500000);
+if(PrtStatToner0) {
+PrtStatToner1 = false;
+PrtStatToner2 = false
+}
+else{
+PrtStatToner1 = true;
+if(PrtStatToner1) {
+PrtStatToner2 = false
+}
+else{
+PrtStatToner2 = !(PrtStatToner1)
+}
+}
+}
+else{
+};
+if(TnrSpply0) {
+PrtStatToner0 = flip(0.500000);
+if(PrtStatToner0) {
+PrtStatToner1 = false;
+PrtStatToner2 = false
+}
+else{
+PrtStatToner1 = true;
+if(PrtStatToner1) {
+PrtStatToner2 = false
+}
+else{
+PrtStatToner2 = !(PrtStatToner1)
+}
+}
+}
+else{
+}
+;
+if(((((((PrtOn1 && PrtOn1) && PrtPaper1) && PC2PRT1) && PrtMem1) && PrtTimeOut1) && FllCrrptdBffr1)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn0 && PrtOn1) && PrtPaper1) && PC2PRT1) && PrtMem1) && PrtTimeOut1) && FllCrrptdBffr1)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn1 && PrtOn0) && PrtPaper1) && PC2PRT1) && PrtMem1) && PrtTimeOut1) && FllCrrptdBffr1)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn0 && PrtOn0) && PrtPaper1) && PC2PRT1) && PrtMem1) && PrtTimeOut1) && FllCrrptdBffr1)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn1 && PrtOn1) && PrtPaper0) && PC2PRT1) && PrtMem1) && PrtTimeOut1) && FllCrrptdBffr1)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn0 && PrtOn1) && PrtPaper0) && PC2PRT1) && PrtMem1) && PrtTimeOut1) && FllCrrptdBffr1)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn1 && PrtOn0) && PrtPaper0) && PC2PRT1) && PrtMem1) && PrtTimeOut1) && FllCrrptdBffr1)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn0 && PrtOn0) && PrtPaper0) && PC2PRT1) && PrtMem1) && PrtTimeOut1) && FllCrrptdBffr1)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn1 && PrtOn1) && PrtPaper1) && PC2PRT0) && PrtMem1) && PrtTimeOut1) && FllCrrptdBffr1)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn0 && PrtOn1) && PrtPaper1) && PC2PRT0) && PrtMem1) && PrtTimeOut1) && FllCrrptdBffr1)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn1 && PrtOn0) && PrtPaper1) && PC2PRT0) && PrtMem1) && PrtTimeOut1) && FllCrrptdBffr1)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn0 && PrtOn0) && PrtPaper1) && PC2PRT0) && PrtMem1) && PrtTimeOut1) && FllCrrptdBffr1)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn1 && PrtOn1) && PrtPaper0) && PC2PRT0) && PrtMem1) && PrtTimeOut1) && FllCrrptdBffr1)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn0 && PrtOn1) && PrtPaper0) && PC2PRT0) && PrtMem1) && PrtTimeOut1) && FllCrrptdBffr1)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn1 && PrtOn0) && PrtPaper0) && PC2PRT0) && PrtMem1) && PrtTimeOut1) && FllCrrptdBffr1)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn0 && PrtOn0) && PrtPaper0) && PC2PRT0) && PrtMem1) && PrtTimeOut1) && FllCrrptdBffr1)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn1 && PrtOn1) && PrtPaper1) && PC2PRT1) && PrtMem0) && PrtTimeOut1) && FllCrrptdBffr1)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn0 && PrtOn1) && PrtPaper1) && PC2PRT1) && PrtMem0) && PrtTimeOut1) && FllCrrptdBffr1)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn1 && PrtOn0) && PrtPaper1) && PC2PRT1) && PrtMem0) && PrtTimeOut1) && FllCrrptdBffr1)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn0 && PrtOn0) && PrtPaper1) && PC2PRT1) && PrtMem0) && PrtTimeOut1) && FllCrrptdBffr1)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn1 && PrtOn1) && PrtPaper0) && PC2PRT1) && PrtMem0) && PrtTimeOut1) && FllCrrptdBffr1)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn0 && PrtOn1) && PrtPaper0) && PC2PRT1) && PrtMem0) && PrtTimeOut1) && FllCrrptdBffr1)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn1 && PrtOn0) && PrtPaper0) && PC2PRT1) && PrtMem0) && PrtTimeOut1) && FllCrrptdBffr1)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn0 && PrtOn0) && PrtPaper0) && PC2PRT1) && PrtMem0) && PrtTimeOut1) && FllCrrptdBffr1)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn1 && PrtOn1) && PrtPaper1) && PC2PRT0) && PrtMem0) && PrtTimeOut1) && FllCrrptdBffr1)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn0 && PrtOn1) && PrtPaper1) && PC2PRT0) && PrtMem0) && PrtTimeOut1) && FllCrrptdBffr1)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn1 && PrtOn0) && PrtPaper1) && PC2PRT0) && PrtMem0) && PrtTimeOut1) && FllCrrptdBffr1)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn0 && PrtOn0) && PrtPaper1) && PC2PRT0) && PrtMem0) && PrtTimeOut1) && FllCrrptdBffr1)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn1 && PrtOn1) && PrtPaper0) && PC2PRT0) && PrtMem0) && PrtTimeOut1) && FllCrrptdBffr1)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn0 && PrtOn1) && PrtPaper0) && PC2PRT0) && PrtMem0) && PrtTimeOut1) && FllCrrptdBffr1)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn1 && PrtOn0) && PrtPaper0) && PC2PRT0) && PrtMem0) && PrtTimeOut1) && FllCrrptdBffr1)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn0 && PrtOn0) && PrtPaper0) && PC2PRT0) && PrtMem0) && PrtTimeOut1) && FllCrrptdBffr1)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn1 && PrtOn1) && PrtPaper1) && PC2PRT1) && PrtMem1) && PrtTimeOut0) && FllCrrptdBffr1)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn0 && PrtOn1) && PrtPaper1) && PC2PRT1) && PrtMem1) && PrtTimeOut0) && FllCrrptdBffr1)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn1 && PrtOn0) && PrtPaper1) && PC2PRT1) && PrtMem1) && PrtTimeOut0) && FllCrrptdBffr1)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn0 && PrtOn0) && PrtPaper1) && PC2PRT1) && PrtMem1) && PrtTimeOut0) && FllCrrptdBffr1)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn1 && PrtOn1) && PrtPaper0) && PC2PRT1) && PrtMem1) && PrtTimeOut0) && FllCrrptdBffr1)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn0 && PrtOn1) && PrtPaper0) && PC2PRT1) && PrtMem1) && PrtTimeOut0) && FllCrrptdBffr1)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn1 && PrtOn0) && PrtPaper0) && PC2PRT1) && PrtMem1) && PrtTimeOut0) && FllCrrptdBffr1)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn0 && PrtOn0) && PrtPaper0) && PC2PRT1) && PrtMem1) && PrtTimeOut0) && FllCrrptdBffr1)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn1 && PrtOn1) && PrtPaper1) && PC2PRT0) && PrtMem1) && PrtTimeOut0) && FllCrrptdBffr1)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn0 && PrtOn1) && PrtPaper1) && PC2PRT0) && PrtMem1) && PrtTimeOut0) && FllCrrptdBffr1)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn1 && PrtOn0) && PrtPaper1) && PC2PRT0) && PrtMem1) && PrtTimeOut0) && FllCrrptdBffr1)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn0 && PrtOn0) && PrtPaper1) && PC2PRT0) && PrtMem1) && PrtTimeOut0) && FllCrrptdBffr1)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn1 && PrtOn1) && PrtPaper0) && PC2PRT0) && PrtMem1) && PrtTimeOut0) && FllCrrptdBffr1)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn0 && PrtOn1) && PrtPaper0) && PC2PRT0) && PrtMem1) && PrtTimeOut0) && FllCrrptdBffr1)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn1 && PrtOn0) && PrtPaper0) && PC2PRT0) && PrtMem1) && PrtTimeOut0) && FllCrrptdBffr1)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn0 && PrtOn0) && PrtPaper0) && PC2PRT0) && PrtMem1) && PrtTimeOut0) && FllCrrptdBffr1)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn1 && PrtOn1) && PrtPaper1) && PC2PRT1) && PrtMem0) && PrtTimeOut0) && FllCrrptdBffr1)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn0 && PrtOn1) && PrtPaper1) && PC2PRT1) && PrtMem0) && PrtTimeOut0) && FllCrrptdBffr1)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn1 && PrtOn0) && PrtPaper1) && PC2PRT1) && PrtMem0) && PrtTimeOut0) && FllCrrptdBffr1)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn0 && PrtOn0) && PrtPaper1) && PC2PRT1) && PrtMem0) && PrtTimeOut0) && FllCrrptdBffr1)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn1 && PrtOn1) && PrtPaper0) && PC2PRT1) && PrtMem0) && PrtTimeOut0) && FllCrrptdBffr1)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn0 && PrtOn1) && PrtPaper0) && PC2PRT1) && PrtMem0) && PrtTimeOut0) && FllCrrptdBffr1)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn1 && PrtOn0) && PrtPaper0) && PC2PRT1) && PrtMem0) && PrtTimeOut0) && FllCrrptdBffr1)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn0 && PrtOn0) && PrtPaper0) && PC2PRT1) && PrtMem0) && PrtTimeOut0) && FllCrrptdBffr1)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn1 && PrtOn1) && PrtPaper1) && PC2PRT0) && PrtMem0) && PrtTimeOut0) && FllCrrptdBffr1)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn0 && PrtOn1) && PrtPaper1) && PC2PRT0) && PrtMem0) && PrtTimeOut0) && FllCrrptdBffr1)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn1 && PrtOn0) && PrtPaper1) && PC2PRT0) && PrtMem0) && PrtTimeOut0) && FllCrrptdBffr1)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn0 && PrtOn0) && PrtPaper1) && PC2PRT0) && PrtMem0) && PrtTimeOut0) && FllCrrptdBffr1)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn1 && PrtOn1) && PrtPaper0) && PC2PRT0) && PrtMem0) && PrtTimeOut0) && FllCrrptdBffr1)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn0 && PrtOn1) && PrtPaper0) && PC2PRT0) && PrtMem0) && PrtTimeOut0) && FllCrrptdBffr1)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn1 && PrtOn0) && PrtPaper0) && PC2PRT0) && PrtMem0) && PrtTimeOut0) && FllCrrptdBffr1)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn0 && PrtOn0) && PrtPaper0) && PC2PRT0) && PrtMem0) && PrtTimeOut0) && FllCrrptdBffr1)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn1 && PrtOn1) && PrtPaper1) && PC2PRT1) && PrtMem1) && PrtTimeOut1) && FllCrrptdBffr0)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn0 && PrtOn1) && PrtPaper1) && PC2PRT1) && PrtMem1) && PrtTimeOut1) && FllCrrptdBffr0)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn1 && PrtOn0) && PrtPaper1) && PC2PRT1) && PrtMem1) && PrtTimeOut1) && FllCrrptdBffr0)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn0 && PrtOn0) && PrtPaper1) && PC2PRT1) && PrtMem1) && PrtTimeOut1) && FllCrrptdBffr0)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn1 && PrtOn1) && PrtPaper0) && PC2PRT1) && PrtMem1) && PrtTimeOut1) && FllCrrptdBffr0)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn0 && PrtOn1) && PrtPaper0) && PC2PRT1) && PrtMem1) && PrtTimeOut1) && FllCrrptdBffr0)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn1 && PrtOn0) && PrtPaper0) && PC2PRT1) && PrtMem1) && PrtTimeOut1) && FllCrrptdBffr0)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn0 && PrtOn0) && PrtPaper0) && PC2PRT1) && PrtMem1) && PrtTimeOut1) && FllCrrptdBffr0)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn1 && PrtOn1) && PrtPaper1) && PC2PRT0) && PrtMem1) && PrtTimeOut1) && FllCrrptdBffr0)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn0 && PrtOn1) && PrtPaper1) && PC2PRT0) && PrtMem1) && PrtTimeOut1) && FllCrrptdBffr0)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn1 && PrtOn0) && PrtPaper1) && PC2PRT0) && PrtMem1) && PrtTimeOut1) && FllCrrptdBffr0)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn0 && PrtOn0) && PrtPaper1) && PC2PRT0) && PrtMem1) && PrtTimeOut1) && FllCrrptdBffr0)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn1 && PrtOn1) && PrtPaper0) && PC2PRT0) && PrtMem1) && PrtTimeOut1) && FllCrrptdBffr0)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn0 && PrtOn1) && PrtPaper0) && PC2PRT0) && PrtMem1) && PrtTimeOut1) && FllCrrptdBffr0)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn1 && PrtOn0) && PrtPaper0) && PC2PRT0) && PrtMem1) && PrtTimeOut1) && FllCrrptdBffr0)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn0 && PrtOn0) && PrtPaper0) && PC2PRT0) && PrtMem1) && PrtTimeOut1) && FllCrrptdBffr0)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn1 && PrtOn1) && PrtPaper1) && PC2PRT1) && PrtMem0) && PrtTimeOut1) && FllCrrptdBffr0)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn0 && PrtOn1) && PrtPaper1) && PC2PRT1) && PrtMem0) && PrtTimeOut1) && FllCrrptdBffr0)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn1 && PrtOn0) && PrtPaper1) && PC2PRT1) && PrtMem0) && PrtTimeOut1) && FllCrrptdBffr0)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn0 && PrtOn0) && PrtPaper1) && PC2PRT1) && PrtMem0) && PrtTimeOut1) && FllCrrptdBffr0)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn1 && PrtOn1) && PrtPaper0) && PC2PRT1) && PrtMem0) && PrtTimeOut1) && FllCrrptdBffr0)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn0 && PrtOn1) && PrtPaper0) && PC2PRT1) && PrtMem0) && PrtTimeOut1) && FllCrrptdBffr0)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn1 && PrtOn0) && PrtPaper0) && PC2PRT1) && PrtMem0) && PrtTimeOut1) && FllCrrptdBffr0)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn0 && PrtOn0) && PrtPaper0) && PC2PRT1) && PrtMem0) && PrtTimeOut1) && FllCrrptdBffr0)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn1 && PrtOn1) && PrtPaper1) && PC2PRT0) && PrtMem0) && PrtTimeOut1) && FllCrrptdBffr0)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn0 && PrtOn1) && PrtPaper1) && PC2PRT0) && PrtMem0) && PrtTimeOut1) && FllCrrptdBffr0)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn1 && PrtOn0) && PrtPaper1) && PC2PRT0) && PrtMem0) && PrtTimeOut1) && FllCrrptdBffr0)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn0 && PrtOn0) && PrtPaper1) && PC2PRT0) && PrtMem0) && PrtTimeOut1) && FllCrrptdBffr0)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn1 && PrtOn1) && PrtPaper0) && PC2PRT0) && PrtMem0) && PrtTimeOut1) && FllCrrptdBffr0)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn0 && PrtOn1) && PrtPaper0) && PC2PRT0) && PrtMem0) && PrtTimeOut1) && FllCrrptdBffr0)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn1 && PrtOn0) && PrtPaper0) && PC2PRT0) && PrtMem0) && PrtTimeOut1) && FllCrrptdBffr0)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn0 && PrtOn0) && PrtPaper0) && PC2PRT0) && PrtMem0) && PrtTimeOut1) && FllCrrptdBffr0)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn1 && PrtOn1) && PrtPaper1) && PC2PRT1) && PrtMem1) && PrtTimeOut0) && FllCrrptdBffr0)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn0 && PrtOn1) && PrtPaper1) && PC2PRT1) && PrtMem1) && PrtTimeOut0) && FllCrrptdBffr0)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn1 && PrtOn0) && PrtPaper1) && PC2PRT1) && PrtMem1) && PrtTimeOut0) && FllCrrptdBffr0)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn0 && PrtOn0) && PrtPaper1) && PC2PRT1) && PrtMem1) && PrtTimeOut0) && FllCrrptdBffr0)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn1 && PrtOn1) && PrtPaper0) && PC2PRT1) && PrtMem1) && PrtTimeOut0) && FllCrrptdBffr0)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn0 && PrtOn1) && PrtPaper0) && PC2PRT1) && PrtMem1) && PrtTimeOut0) && FllCrrptdBffr0)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn1 && PrtOn0) && PrtPaper0) && PC2PRT1) && PrtMem1) && PrtTimeOut0) && FllCrrptdBffr0)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn0 && PrtOn0) && PrtPaper0) && PC2PRT1) && PrtMem1) && PrtTimeOut0) && FllCrrptdBffr0)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn1 && PrtOn1) && PrtPaper1) && PC2PRT0) && PrtMem1) && PrtTimeOut0) && FllCrrptdBffr0)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn0 && PrtOn1) && PrtPaper1) && PC2PRT0) && PrtMem1) && PrtTimeOut0) && FllCrrptdBffr0)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn1 && PrtOn0) && PrtPaper1) && PC2PRT0) && PrtMem1) && PrtTimeOut0) && FllCrrptdBffr0)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn0 && PrtOn0) && PrtPaper1) && PC2PRT0) && PrtMem1) && PrtTimeOut0) && FllCrrptdBffr0)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn1 && PrtOn1) && PrtPaper0) && PC2PRT0) && PrtMem1) && PrtTimeOut0) && FllCrrptdBffr0)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn0 && PrtOn1) && PrtPaper0) && PC2PRT0) && PrtMem1) && PrtTimeOut0) && FllCrrptdBffr0)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn1 && PrtOn0) && PrtPaper0) && PC2PRT0) && PrtMem1) && PrtTimeOut0) && FllCrrptdBffr0)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn0 && PrtOn0) && PrtPaper0) && PC2PRT0) && PrtMem1) && PrtTimeOut0) && FllCrrptdBffr0)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn1 && PrtOn1) && PrtPaper1) && PC2PRT1) && PrtMem0) && PrtTimeOut0) && FllCrrptdBffr0)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn0 && PrtOn1) && PrtPaper1) && PC2PRT1) && PrtMem0) && PrtTimeOut0) && FllCrrptdBffr0)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn1 && PrtOn0) && PrtPaper1) && PC2PRT1) && PrtMem0) && PrtTimeOut0) && FllCrrptdBffr0)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn0 && PrtOn0) && PrtPaper1) && PC2PRT1) && PrtMem0) && PrtTimeOut0) && FllCrrptdBffr0)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn1 && PrtOn1) && PrtPaper0) && PC2PRT1) && PrtMem0) && PrtTimeOut0) && FllCrrptdBffr0)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn0 && PrtOn1) && PrtPaper0) && PC2PRT1) && PrtMem0) && PrtTimeOut0) && FllCrrptdBffr0)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn1 && PrtOn0) && PrtPaper0) && PC2PRT1) && PrtMem0) && PrtTimeOut0) && FllCrrptdBffr0)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn0 && PrtOn0) && PrtPaper0) && PC2PRT1) && PrtMem0) && PrtTimeOut0) && FllCrrptdBffr0)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn1 && PrtOn1) && PrtPaper1) && PC2PRT0) && PrtMem0) && PrtTimeOut0) && FllCrrptdBffr0)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn0 && PrtOn1) && PrtPaper1) && PC2PRT0) && PrtMem0) && PrtTimeOut0) && FllCrrptdBffr0)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn1 && PrtOn0) && PrtPaper1) && PC2PRT0) && PrtMem0) && PrtTimeOut0) && FllCrrptdBffr0)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn0 && PrtOn0) && PrtPaper1) && PC2PRT0) && PrtMem0) && PrtTimeOut0) && FllCrrptdBffr0)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn1 && PrtOn1) && PrtPaper0) && PC2PRT0) && PrtMem0) && PrtTimeOut0) && FllCrrptdBffr0)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn0 && PrtOn1) && PrtPaper0) && PC2PRT0) && PrtMem0) && PrtTimeOut0) && FllCrrptdBffr0)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn1 && PrtOn0) && PrtPaper0) && PC2PRT0) && PrtMem0) && PrtTimeOut0) && FllCrrptdBffr0)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+};
+if(((((((PrtOn0 && PrtOn0) && PrtPaper0) && PC2PRT0) && PrtMem0) && PrtTimeOut0) && FllCrrptdBffr0)) {
+PrtData0 = flip(0.500000);
+if(PrtData0) {
+PrtData1 = false;
+PrtData2 = false
+}
+else{
+PrtData1 = true;
+if(PrtData1) {
+PrtData2 = false
+}
+else{
+PrtData2 = !(PrtData1)
+}
+}
+}
+else{
+}
+;
+if(PrtData1) {
+Problem10 = flip(0.500000);
+if(Problem10) {
+Problem11 = false;
+Problem12 = false
+}
+else{
+Problem11 = true;
+if(Problem11) {
+Problem12 = false
+}
+else{
+Problem12 = !(Problem11)
+}
+}
+}
+else{
+};
+if(PrtData0) {
+Problem10 = flip(0.500000);
+if(Problem10) {
+Problem11 = false;
+Problem12 = false
+}
+else{
+Problem11 = true;
+if(Problem11) {
+Problem12 = false
+}
+else{
+Problem12 = !(Problem11)
+}
+}
+}
+else{
+}
+;
+PgOrnttnOK0 = flip(0.500000);
+if(PgOrnttnOK0) {
+PgOrnttnOK1 = false;
+PgOrnttnOK2 = false
+}
+else{
+PgOrnttnOK1 = true;
+if(PgOrnttnOK1) {
+PgOrnttnOK2 = false
+}
+else{
+PgOrnttnOK2 = !(PgOrnttnOK1)
+}
+}
+
+;
+PrntngArOK0 = flip(0.500000);
+if(PrntngArOK0) {
+PrntngArOK1 = false;
+PrntngArOK2 = false
+}
+else{
+PrntngArOK1 = true;
+if(PrntngArOK1) {
+PrntngArOK2 = false
+}
+else{
+PrntngArOK2 = !(PrntngArOK1)
+}
+}
+
+;
+if(((PrtMem1 && PrtMem1) && PgOrnttnOK1)) {
+CmpltPgPrntd0 = flip(0.500000);
+if(CmpltPgPrntd0) {
+CmpltPgPrntd1 = false;
+CmpltPgPrntd2 = false
+}
+else{
+CmpltPgPrntd1 = true;
+if(CmpltPgPrntd1) {
+CmpltPgPrntd2 = false
+}
+else{
+CmpltPgPrntd2 = !(CmpltPgPrntd1)
+}
+}
+}
+else{
+};
+if(((PrtMem0 && PrtMem1) && PgOrnttnOK1)) {
+CmpltPgPrntd0 = flip(0.500000);
+if(CmpltPgPrntd0) {
+CmpltPgPrntd1 = false;
+CmpltPgPrntd2 = false
+}
+else{
+CmpltPgPrntd1 = true;
+if(CmpltPgPrntd1) {
+CmpltPgPrntd2 = false
+}
+else{
+CmpltPgPrntd2 = !(CmpltPgPrntd1)
+}
+}
+}
+else{
+};
+if(((PrtMem1 && PrtMem0) && PgOrnttnOK1)) {
+CmpltPgPrntd0 = flip(0.500000);
+if(CmpltPgPrntd0) {
+CmpltPgPrntd1 = false;
+CmpltPgPrntd2 = false
+}
+else{
+CmpltPgPrntd1 = true;
+if(CmpltPgPrntd1) {
+CmpltPgPrntd2 = false
+}
+else{
+CmpltPgPrntd2 = !(CmpltPgPrntd1)
+}
+}
+}
+else{
+};
+if(((PrtMem0 && PrtMem0) && PgOrnttnOK1)) {
+CmpltPgPrntd0 = flip(0.500000);
+if(CmpltPgPrntd0) {
+CmpltPgPrntd1 = false;
+CmpltPgPrntd2 = false
+}
+else{
+CmpltPgPrntd1 = true;
+if(CmpltPgPrntd1) {
+CmpltPgPrntd2 = false
+}
+else{
+CmpltPgPrntd2 = !(CmpltPgPrntd1)
+}
+}
+}
+else{
+};
+if(((PrtMem1 && PrtMem1) && PgOrnttnOK0)) {
+CmpltPgPrntd0 = flip(0.500000);
+if(CmpltPgPrntd0) {
+CmpltPgPrntd1 = false;
+CmpltPgPrntd2 = false
+}
+else{
+CmpltPgPrntd1 = true;
+if(CmpltPgPrntd1) {
+CmpltPgPrntd2 = false
+}
+else{
+CmpltPgPrntd2 = !(CmpltPgPrntd1)
+}
+}
+}
+else{
+};
+if(((PrtMem0 && PrtMem1) && PgOrnttnOK0)) {
+CmpltPgPrntd0 = flip(0.500000);
+if(CmpltPgPrntd0) {
+CmpltPgPrntd1 = false;
+CmpltPgPrntd2 = false
+}
+else{
+CmpltPgPrntd1 = true;
+if(CmpltPgPrntd1) {
+CmpltPgPrntd2 = false
+}
+else{
+CmpltPgPrntd2 = !(CmpltPgPrntd1)
+}
+}
+}
+else{
+};
+if(((PrtMem1 && PrtMem0) && PgOrnttnOK0)) {
+CmpltPgPrntd0 = flip(0.500000);
+if(CmpltPgPrntd0) {
+CmpltPgPrntd1 = false;
+CmpltPgPrntd2 = false
+}
+else{
+CmpltPgPrntd1 = true;
+if(CmpltPgPrntd1) {
+CmpltPgPrntd2 = false
+}
+else{
+CmpltPgPrntd2 = !(CmpltPgPrntd1)
+}
+}
+}
+else{
+};
+if(((PrtMem0 && PrtMem0) && PgOrnttnOK0)) {
+CmpltPgPrntd0 = flip(0.500000);
+if(CmpltPgPrntd0) {
+CmpltPgPrntd1 = false;
+CmpltPgPrntd2 = false
+}
+else{
+CmpltPgPrntd1 = true;
+if(CmpltPgPrntd1) {
+CmpltPgPrntd2 = false
+}
+else{
+CmpltPgPrntd2 = !(CmpltPgPrntd1)
+}
+}
+}
+else{
+}
+;
+ScrnFntNtPrntrFnt0 = flip(0.500000);
+if(ScrnFntNtPrntrFnt0) {
+ScrnFntNtPrntrFnt1 = false;
+ScrnFntNtPrntrFnt2 = false
+}
+else{
+ScrnFntNtPrntrFnt1 = true;
+if(ScrnFntNtPrntrFnt1) {
+ScrnFntNtPrntrFnt2 = false
+}
+else{
+ScrnFntNtPrntrFnt2 = !(ScrnFntNtPrntrFnt1)
+}
+}
+
+;
+GrphcsRltdDrvrSttngs0 = flip(0.500000);
+if(GrphcsRltdDrvrSttngs0) {
+GrphcsRltdDrvrSttngs1 = false;
+GrphcsRltdDrvrSttngs2 = false
+}
+else{
+GrphcsRltdDrvrSttngs1 = true;
+if(GrphcsRltdDrvrSttngs1) {
+GrphcsRltdDrvrSttngs2 = false
+}
+else{
+GrphcsRltdDrvrSttngs2 = !(GrphcsRltdDrvrSttngs1)
+}
+}
+
+;
+EPSGrphc0 = flip(0.500000);
+if(EPSGrphc0) {
+EPSGrphc1 = false;
+EPSGrphc2 = false
+}
+else{
+EPSGrphc1 = true;
+if(EPSGrphc1) {
+EPSGrphc2 = false
+}
+else{
+EPSGrphc2 = !(EPSGrphc1)
+}
+}
+
+;
+if(((PrtMem1 && PrtMem1) && GrphcsRltdDrvrSttngs1)) {
+PSGRAPHIC0 = flip(0.500000);
+if(PSGRAPHIC0) {
+PSGRAPHIC1 = false;
+PSGRAPHIC2 = false
+}
+else{
+PSGRAPHIC1 = true;
+if(PSGRAPHIC1) {
+PSGRAPHIC2 = false
+}
+else{
+PSGRAPHIC2 = !(PSGRAPHIC1)
+}
+}
+}
+else{
+};
+if(((PrtMem0 && PrtMem1) && GrphcsRltdDrvrSttngs1)) {
+PSGRAPHIC0 = flip(0.500000);
+if(PSGRAPHIC0) {
+PSGRAPHIC1 = false;
+PSGRAPHIC2 = false
+}
+else{
+PSGRAPHIC1 = true;
+if(PSGRAPHIC1) {
+PSGRAPHIC2 = false
+}
+else{
+PSGRAPHIC2 = !(PSGRAPHIC1)
+}
+}
+}
+else{
+};
+if(((PrtMem1 && PrtMem0) && GrphcsRltdDrvrSttngs1)) {
+PSGRAPHIC0 = flip(0.500000);
+if(PSGRAPHIC0) {
+PSGRAPHIC1 = false;
+PSGRAPHIC2 = false
+}
+else{
+PSGRAPHIC1 = true;
+if(PSGRAPHIC1) {
+PSGRAPHIC2 = false
+}
+else{
+PSGRAPHIC2 = !(PSGRAPHIC1)
+}
+}
+}
+else{
+};
+if(((PrtMem0 && PrtMem0) && GrphcsRltdDrvrSttngs1)) {
+PSGRAPHIC0 = flip(0.500000);
+if(PSGRAPHIC0) {
+PSGRAPHIC1 = false;
+PSGRAPHIC2 = false
+}
+else{
+PSGRAPHIC1 = true;
+if(PSGRAPHIC1) {
+PSGRAPHIC2 = false
+}
+else{
+PSGRAPHIC2 = !(PSGRAPHIC1)
+}
+}
+}
+else{
+};
+if(((PrtMem1 && PrtMem1) && GrphcsRltdDrvrSttngs0)) {
+PSGRAPHIC0 = flip(0.500000);
+if(PSGRAPHIC0) {
+PSGRAPHIC1 = false;
+PSGRAPHIC2 = false
+}
+else{
+PSGRAPHIC1 = true;
+if(PSGRAPHIC1) {
+PSGRAPHIC2 = false
+}
+else{
+PSGRAPHIC2 = !(PSGRAPHIC1)
+}
+}
+}
+else{
+};
+if(((PrtMem0 && PrtMem1) && GrphcsRltdDrvrSttngs0)) {
+PSGRAPHIC0 = flip(0.500000);
+if(PSGRAPHIC0) {
+PSGRAPHIC1 = false;
+PSGRAPHIC2 = false
+}
+else{
+PSGRAPHIC1 = true;
+if(PSGRAPHIC1) {
+PSGRAPHIC2 = false
+}
+else{
+PSGRAPHIC2 = !(PSGRAPHIC1)
+}
+}
+}
+else{
+};
+if(((PrtMem1 && PrtMem0) && GrphcsRltdDrvrSttngs0)) {
+PSGRAPHIC0 = flip(0.500000);
+if(PSGRAPHIC0) {
+PSGRAPHIC1 = false;
+PSGRAPHIC2 = false
+}
+else{
+PSGRAPHIC1 = true;
+if(PSGRAPHIC1) {
+PSGRAPHIC2 = false
+}
+else{
+PSGRAPHIC2 = !(PSGRAPHIC1)
+}
+}
+}
+else{
+};
+if(((PrtMem0 && PrtMem0) && GrphcsRltdDrvrSttngs0)) {
+PSGRAPHIC0 = flip(0.500000);
+if(PSGRAPHIC0) {
+PSGRAPHIC1 = false;
+PSGRAPHIC2 = false
+}
+else{
+PSGRAPHIC1 = true;
+if(PSGRAPHIC1) {
+PSGRAPHIC2 = false
+}
+else{
+PSGRAPHIC2 = !(PSGRAPHIC1)
+}
+}
+}
+else{
+}
+;
+if(((PrtMem1 && PrtMem1) && GrphcsRltdDrvrSttngs1)) {
+NnPSGrphc0 = flip(0.500000);
+if(NnPSGrphc0) {
+NnPSGrphc1 = false;
+NnPSGrphc2 = false
+}
+else{
+NnPSGrphc1 = true;
+if(NnPSGrphc1) {
+NnPSGrphc2 = false
+}
+else{
+NnPSGrphc2 = !(NnPSGrphc1)
+}
+}
+}
+else{
+};
+if(((PrtMem0 && PrtMem1) && GrphcsRltdDrvrSttngs1)) {
+NnPSGrphc0 = flip(0.500000);
+if(NnPSGrphc0) {
+NnPSGrphc1 = false;
+NnPSGrphc2 = false
+}
+else{
+NnPSGrphc1 = true;
+if(NnPSGrphc1) {
+NnPSGrphc2 = false
+}
+else{
+NnPSGrphc2 = !(NnPSGrphc1)
+}
+}
+}
+else{
+};
+if(((PrtMem1 && PrtMem0) && GrphcsRltdDrvrSttngs1)) {
+NnPSGrphc0 = flip(0.500000);
+if(NnPSGrphc0) {
+NnPSGrphc1 = false;
+NnPSGrphc2 = false
+}
+else{
+NnPSGrphc1 = true;
+if(NnPSGrphc1) {
+NnPSGrphc2 = false
+}
+else{
+NnPSGrphc2 = !(NnPSGrphc1)
+}
+}
+}
+else{
+};
+if(((PrtMem0 && PrtMem0) && GrphcsRltdDrvrSttngs1)) {
+NnPSGrphc0 = flip(0.500000);
+if(NnPSGrphc0) {
+NnPSGrphc1 = false;
+NnPSGrphc2 = false
+}
+else{
+NnPSGrphc1 = true;
+if(NnPSGrphc1) {
+NnPSGrphc2 = false
+}
+else{
+NnPSGrphc2 = !(NnPSGrphc1)
+}
+}
+}
+else{
+};
+if(((PrtMem1 && PrtMem1) && GrphcsRltdDrvrSttngs0)) {
+NnPSGrphc0 = flip(0.500000);
+if(NnPSGrphc0) {
+NnPSGrphc1 = false;
+NnPSGrphc2 = false
+}
+else{
+NnPSGrphc1 = true;
+if(NnPSGrphc1) {
+NnPSGrphc2 = false
+}
+else{
+NnPSGrphc2 = !(NnPSGrphc1)
+}
+}
+}
+else{
+};
+if(((PrtMem0 && PrtMem1) && GrphcsRltdDrvrSttngs0)) {
+NnPSGrphc0 = flip(0.500000);
+if(NnPSGrphc0) {
+NnPSGrphc1 = false;
+NnPSGrphc2 = false
+}
+else{
+NnPSGrphc1 = true;
+if(NnPSGrphc1) {
+NnPSGrphc2 = false
+}
+else{
+NnPSGrphc2 = !(NnPSGrphc1)
+}
+}
+}
+else{
+};
+if(((PrtMem1 && PrtMem0) && GrphcsRltdDrvrSttngs0)) {
+NnPSGrphc0 = flip(0.500000);
+if(NnPSGrphc0) {
+NnPSGrphc1 = false;
+NnPSGrphc2 = false
+}
+else{
+NnPSGrphc1 = true;
+if(NnPSGrphc1) {
+NnPSGrphc2 = false
+}
+else{
+NnPSGrphc2 = !(NnPSGrphc1)
+}
+}
+}
+else{
+};
+if(((PrtMem0 && PrtMem0) && GrphcsRltdDrvrSttngs0)) {
+NnPSGrphc0 = flip(0.500000);
+if(NnPSGrphc0) {
+NnPSGrphc1 = false;
+NnPSGrphc2 = false
+}
+else{
+NnPSGrphc1 = true;
+if(NnPSGrphc1) {
+NnPSGrphc2 = false
+}
+else{
+NnPSGrphc2 = !(NnPSGrphc1)
+}
+}
+}
+else{
+}
+;
+PrtPScript0 = flip(0.500000);
+if(PrtPScript0) {
+PrtPScript1 = false;
+PrtPScript2 = false
+}
+else{
+PrtPScript1 = true;
+if(PrtPScript1) {
+PrtPScript2 = false
+}
+else{
+PrtPScript2 = !(PrtPScript1)
+}
+}
+
+;
+if(PrtPScript1) {
+AvlblVrtlMmry0 = flip(0.500000);
+if(AvlblVrtlMmry0) {
+AvlblVrtlMmry1 = false;
+AvlblVrtlMmry2 = false
+}
+else{
+AvlblVrtlMmry1 = true;
+if(AvlblVrtlMmry1) {
+AvlblVrtlMmry2 = false
+}
+else{
+AvlblVrtlMmry2 = !(AvlblVrtlMmry1)
+}
+}
+}
+else{
+};
+if(PrtPScript0) {
+AvlblVrtlMmry0 = flip(0.500000);
+if(AvlblVrtlMmry0) {
+AvlblVrtlMmry1 = false;
+AvlblVrtlMmry2 = false
+}
+else{
+AvlblVrtlMmry1 = true;
+if(AvlblVrtlMmry1) {
+AvlblVrtlMmry2 = false
+}
+else{
+AvlblVrtlMmry2 = !(AvlblVrtlMmry1)
+}
+}
+}
+else{
+}
+;
+if((CmpltPgPrntd1 && CmpltPgPrntd1)) {
+IncmpltPS0 = flip(0.500000);
+if(IncmpltPS0) {
+IncmpltPS1 = false;
+IncmpltPS2 = false
+}
+else{
+IncmpltPS1 = true;
+if(IncmpltPS1) {
+IncmpltPS2 = false
+}
+else{
+IncmpltPS2 = !(IncmpltPS1)
+}
+}
+}
+else{
+};
+if((CmpltPgPrntd0 && CmpltPgPrntd1)) {
+IncmpltPS0 = flip(0.500000);
+if(IncmpltPS0) {
+IncmpltPS1 = false;
+IncmpltPS2 = false
+}
+else{
+IncmpltPS1 = true;
+if(IncmpltPS1) {
+IncmpltPS2 = false
+}
+else{
+IncmpltPS2 = !(IncmpltPS1)
+}
+}
+}
+else{
+};
+if((CmpltPgPrntd1 && CmpltPgPrntd0)) {
+IncmpltPS0 = flip(0.500000);
+if(IncmpltPS0) {
+IncmpltPS1 = false;
+IncmpltPS2 = false
+}
+else{
+IncmpltPS1 = true;
+if(IncmpltPS1) {
+IncmpltPS2 = false
+}
+else{
+IncmpltPS2 = !(IncmpltPS1)
+}
+}
+}
+else{
+};
+if((CmpltPgPrntd0 && CmpltPgPrntd0)) {
+IncmpltPS0 = flip(0.500000);
+if(IncmpltPS0) {
+IncmpltPS1 = false;
+IncmpltPS2 = false
+}
+else{
+IncmpltPS1 = true;
+if(IncmpltPS1) {
+IncmpltPS2 = false
+}
+else{
+IncmpltPS2 = !(IncmpltPS1)
+}
+}
+}
+else{
+}
+;
+if(((CmpltPgPrntd1 && CmpltPgPrntd1) && PrtPScript1)) {
+Problem30 = flip(0.500000);
+if(Problem30) {
+Problem31 = false;
+Problem32 = false
+}
+else{
+Problem31 = true;
+if(Problem31) {
+Problem32 = false
+}
+else{
+Problem32 = !(Problem31)
+}
+}
+}
+else{
+};
+if(((CmpltPgPrntd0 && CmpltPgPrntd1) && PrtPScript1)) {
+Problem30 = flip(0.500000);
+if(Problem30) {
+Problem31 = false;
+Problem32 = false
+}
+else{
+Problem31 = true;
+if(Problem31) {
+Problem32 = false
+}
+else{
+Problem32 = !(Problem31)
+}
+}
+}
+else{
+};
+if(((CmpltPgPrntd1 && CmpltPgPrntd0) && PrtPScript1)) {
+Problem30 = flip(0.500000);
+if(Problem30) {
+Problem31 = false;
+Problem32 = false
+}
+else{
+Problem31 = true;
+if(Problem31) {
+Problem32 = false
+}
+else{
+Problem32 = !(Problem31)
+}
+}
+}
+else{
+};
+if(((CmpltPgPrntd0 && CmpltPgPrntd0) && PrtPScript1)) {
+Problem30 = flip(0.500000);
+if(Problem30) {
+Problem31 = false;
+Problem32 = false
+}
+else{
+Problem31 = true;
+if(Problem31) {
+Problem32 = false
+}
+else{
+Problem32 = !(Problem31)
+}
+}
+}
+else{
+};
+if(((CmpltPgPrntd1 && CmpltPgPrntd1) && PrtPScript0)) {
+Problem30 = flip(0.500000);
+if(Problem30) {
+Problem31 = false;
+Problem32 = false
+}
+else{
+Problem31 = true;
+if(Problem31) {
+Problem32 = false
+}
+else{
+Problem32 = !(Problem31)
+}
+}
+}
+else{
+};
+if(((CmpltPgPrntd0 && CmpltPgPrntd1) && PrtPScript0)) {
+Problem30 = flip(0.500000);
+if(Problem30) {
+Problem31 = false;
+Problem32 = false
+}
+else{
+Problem31 = true;
+if(Problem31) {
+Problem32 = false
+}
+else{
+Problem32 = !(Problem31)
+}
+}
+}
+else{
+};
+if(((CmpltPgPrntd1 && CmpltPgPrntd0) && PrtPScript0)) {
+Problem30 = flip(0.500000);
+if(Problem30) {
+Problem31 = false;
+Problem32 = false
+}
+else{
+Problem31 = true;
+if(Problem31) {
+Problem32 = false
+}
+else{
+Problem32 = !(Problem31)
+}
+}
+}
+else{
+};
+if(((CmpltPgPrntd0 && CmpltPgPrntd0) && PrtPScript0)) {
+Problem30 = flip(0.500000);
+if(Problem30) {
+Problem31 = false;
+Problem32 = false
+}
+else{
+Problem31 = true;
+if(Problem31) {
+Problem32 = false
+}
+else{
+Problem32 = !(Problem31)
+}
+}
+}
+else{
+}
+;
+if((GrbldOtpt1 && GrbldOtpt1)) {
+GrbldPS0 = flip(0.500000);
+if(GrbldPS0) {
+GrbldPS1 = false;
+GrbldPS2 = false
+}
+else{
+GrbldPS1 = true;
+if(GrbldPS1) {
+GrbldPS2 = false
+}
+else{
+GrbldPS2 = !(GrbldPS1)
+}
+}
+}
+else{
+};
+if((GrbldOtpt0 && GrbldOtpt1)) {
+GrbldPS0 = flip(0.500000);
+if(GrbldPS0) {
+GrbldPS1 = false;
+GrbldPS2 = false
+}
+else{
+GrbldPS1 = true;
+if(GrbldPS1) {
+GrbldPS2 = false
+}
+else{
+GrbldPS2 = !(GrbldPS1)
+}
+}
+}
+else{
+};
+if((GrbldOtpt1 && GrbldOtpt0)) {
+GrbldPS0 = flip(0.500000);
+if(GrbldPS0) {
+GrbldPS1 = false;
+GrbldPS2 = false
+}
+else{
+GrbldPS1 = true;
+if(GrbldPS1) {
+GrbldPS2 = false
+}
+else{
+GrbldPS2 = !(GrbldPS1)
+}
+}
+}
+else{
+};
+if((GrbldOtpt0 && GrbldOtpt0)) {
+GrbldPS0 = flip(0.500000);
+if(GrbldPS0) {
+GrbldPS1 = false;
+GrbldPS2 = false
+}
+else{
+GrbldPS1 = true;
+if(GrbldPS1) {
+GrbldPS2 = false
+}
+else{
+GrbldPS2 = !(GrbldPS1)
+}
+}
+}
+else{
+}
+;
+if(((GrbldOtpt1 && GrbldOtpt1) && PrtPScript1)) {
+Problem60 = flip(0.500000);
+if(Problem60) {
+Problem61 = false;
+Problem62 = false
+}
+else{
+Problem61 = true;
+if(Problem61) {
+Problem62 = false
+}
+else{
+Problem62 = !(Problem61)
+}
+}
+}
+else{
+};
+if(((GrbldOtpt0 && GrbldOtpt1) && PrtPScript1)) {
+Problem60 = flip(0.500000);
+if(Problem60) {
+Problem61 = false;
+Problem62 = false
+}
+else{
+Problem61 = true;
+if(Problem61) {
+Problem62 = false
+}
+else{
+Problem62 = !(Problem61)
+}
+}
+}
+else{
+};
+if(((GrbldOtpt1 && GrbldOtpt0) && PrtPScript1)) {
+Problem60 = flip(0.500000);
+if(Problem60) {
+Problem61 = false;
+Problem62 = false
+}
+else{
+Problem61 = true;
+if(Problem61) {
+Problem62 = false
+}
+else{
+Problem62 = !(Problem61)
+}
+}
+}
+else{
+};
+if(((GrbldOtpt0 && GrbldOtpt0) && PrtPScript1)) {
+Problem60 = flip(0.500000);
+if(Problem60) {
+Problem61 = false;
+Problem62 = false
+}
+else{
+Problem61 = true;
+if(Problem61) {
+Problem62 = false
+}
+else{
+Problem62 = !(Problem61)
+}
+}
+}
+else{
+};
+if(((GrbldOtpt1 && GrbldOtpt1) && PrtPScript0)) {
+Problem60 = flip(0.500000);
+if(Problem60) {
+Problem61 = false;
+Problem62 = false
+}
+else{
+Problem61 = true;
+if(Problem61) {
+Problem62 = false
+}
+else{
+Problem62 = !(Problem61)
+}
+}
+}
+else{
+};
+if(((GrbldOtpt0 && GrbldOtpt1) && PrtPScript0)) {
+Problem60 = flip(0.500000);
+if(Problem60) {
+Problem61 = false;
+Problem62 = false
+}
+else{
+Problem61 = true;
+if(Problem61) {
+Problem62 = false
+}
+else{
+Problem62 = !(Problem61)
+}
+}
+}
+else{
+};
+if(((GrbldOtpt1 && GrbldOtpt0) && PrtPScript0)) {
+Problem60 = flip(0.500000);
+if(Problem60) {
+Problem61 = false;
+Problem62 = false
+}
+else{
+Problem61 = true;
+if(Problem61) {
+Problem62 = false
+}
+else{
+Problem62 = !(Problem61)
+}
+}
+}
+else{
+};
+if(((GrbldOtpt0 && GrbldOtpt0) && PrtPScript0)) {
+Problem60 = flip(0.500000);
+if(Problem60) {
+Problem61 = false;
+Problem62 = false
+}
+else{
+Problem61 = true;
+if(Problem61) {
+Problem62 = false
+}
+else{
+Problem62 = !(Problem61)
+}
+}
+}
+else{
+}
+;
+if((PrtPScript1 && PrtPScript1)) {
+TstpsTxt0 = flip(0.500000);
+if(TstpsTxt0) {
+TstpsTxt1 = false;
+TstpsTxt2 = false
+}
+else{
+TstpsTxt1 = true;
+if(TstpsTxt1) {
+TstpsTxt2 = false
+}
+else{
+TstpsTxt2 = !(TstpsTxt1)
+}
+}
+}
+else{
+};
+if((PrtPScript0 && PrtPScript1)) {
+TstpsTxt0 = flip(0.500000);
+if(TstpsTxt0) {
+TstpsTxt1 = false;
+TstpsTxt2 = false
+}
+else{
+TstpsTxt1 = true;
+if(TstpsTxt1) {
+TstpsTxt2 = false
+}
+else{
+TstpsTxt2 = !(TstpsTxt1)
+}
+}
+}
+else{
+};
+if((PrtPScript1 && PrtPScript0)) {
+TstpsTxt0 = flip(0.500000);
+if(TstpsTxt0) {
+TstpsTxt1 = false;
+TstpsTxt2 = false
+}
+else{
+TstpsTxt1 = true;
+if(TstpsTxt1) {
+TstpsTxt2 = false
+}
+else{
+TstpsTxt2 = !(TstpsTxt1)
+}
+}
+}
+else{
+};
+if((PrtPScript0 && PrtPScript0)) {
+TstpsTxt0 = flip(0.500000);
+if(TstpsTxt0) {
+TstpsTxt1 = false;
+TstpsTxt2 = false
+}
+else{
+TstpsTxt1 = true;
+if(TstpsTxt1) {
+TstpsTxt2 = false
+}
+else{
+TstpsTxt2 = !(TstpsTxt1)
+}
+}
+}
+else{
+}
+;
+if((PrtPScript1 && PrtPScript1)) {
+PSERRMEM0 = flip(0.500000);
+if(PSERRMEM0) {
+PSERRMEM1 = false;
+PSERRMEM2 = false
+}
+else{
+PSERRMEM1 = true;
+if(PSERRMEM1) {
+PSERRMEM2 = false
+}
+else{
+PSERRMEM2 = !(PSERRMEM1)
+}
+}
+}
+else{
+};
+if((PrtPScript0 && PrtPScript1)) {
+PSERRMEM0 = flip(0.500000);
+if(PSERRMEM0) {
+PSERRMEM1 = false;
+PSERRMEM2 = false
+}
+else{
+PSERRMEM1 = true;
+if(PSERRMEM1) {
+PSERRMEM2 = false
+}
+else{
+PSERRMEM2 = !(PSERRMEM1)
+}
+}
+}
+else{
+};
+if((PrtPScript1 && PrtPScript0)) {
+PSERRMEM0 = flip(0.500000);
+if(PSERRMEM0) {
+PSERRMEM1 = false;
+PSERRMEM2 = false
+}
+else{
+PSERRMEM1 = true;
+if(PSERRMEM1) {
+PSERRMEM2 = false
+}
+else{
+PSERRMEM2 = !(PSERRMEM1)
+}
+}
+}
+else{
+};
+if((PrtPScript0 && PrtPScript0)) {
+PSERRMEM0 = flip(0.500000);
+if(PSERRMEM0) {
+PSERRMEM1 = false;
+PSERRMEM2 = false
+}
+else{
+PSERRMEM1 = true;
+if(PSERRMEM1) {
+PSERRMEM2 = false
+}
+else{
+PSERRMEM2 = !(PSERRMEM1)
+}
+}
+}
+else{
+}
+;
+if(((NnPSGrphc1 && NnPSGrphc1) && PrtPScript1)) {
+Problem40 = flip(0.500000);
+if(Problem40) {
+Problem41 = false;
+Problem42 = false
+}
+else{
+Problem41 = true;
+if(Problem41) {
+Problem42 = false
+}
+else{
+Problem42 = !(Problem41)
+}
+}
+}
+else{
+};
+if(((NnPSGrphc0 && NnPSGrphc1) && PrtPScript1)) {
+Problem40 = flip(0.500000);
+if(Problem40) {
+Problem41 = false;
+Problem42 = false
+}
+else{
+Problem41 = true;
+if(Problem41) {
+Problem42 = false
+}
+else{
+Problem42 = !(Problem41)
+}
+}
+}
+else{
+};
+if(((NnPSGrphc1 && NnPSGrphc0) && PrtPScript1)) {
+Problem40 = flip(0.500000);
+if(Problem40) {
+Problem41 = false;
+Problem42 = false
+}
+else{
+Problem41 = true;
+if(Problem41) {
+Problem42 = false
+}
+else{
+Problem42 = !(Problem41)
+}
+}
+}
+else{
+};
+if(((NnPSGrphc0 && NnPSGrphc0) && PrtPScript1)) {
+Problem40 = flip(0.500000);
+if(Problem40) {
+Problem41 = false;
+Problem42 = false
+}
+else{
+Problem41 = true;
+if(Problem41) {
+Problem42 = false
+}
+else{
+Problem42 = !(Problem41)
+}
+}
+}
+else{
+};
+if(((NnPSGrphc1 && NnPSGrphc1) && PrtPScript0)) {
+Problem40 = flip(0.500000);
+if(Problem40) {
+Problem41 = false;
+Problem42 = false
+}
+else{
+Problem41 = true;
+if(Problem41) {
+Problem42 = false
+}
+else{
+Problem42 = !(Problem41)
+}
+}
+}
+else{
+};
+if(((NnPSGrphc0 && NnPSGrphc1) && PrtPScript0)) {
+Problem40 = flip(0.500000);
+if(Problem40) {
+Problem41 = false;
+Problem42 = false
+}
+else{
+Problem41 = true;
+if(Problem41) {
+Problem42 = false
+}
+else{
+Problem42 = !(Problem41)
+}
+}
+}
+else{
+};
+if(((NnPSGrphc1 && NnPSGrphc0) && PrtPScript0)) {
+Problem40 = flip(0.500000);
+if(Problem40) {
+Problem41 = false;
+Problem42 = false
+}
+else{
+Problem41 = true;
+if(Problem41) {
+Problem42 = false
+}
+else{
+Problem42 = !(Problem41)
+}
+}
+}
+else{
+};
+if(((NnPSGrphc0 && NnPSGrphc0) && PrtPScript0)) {
+Problem40 = flip(0.500000);
+if(Problem40) {
+Problem41 = false;
+Problem42 = false
+}
+else{
+Problem41 = true;
+if(Problem41) {
+Problem42 = false
+}
+else{
+Problem42 = !(Problem41)
+}
+}
+}
+else{
+}
+;
+TrTypFnts0 = flip(0.500000);
+if(TrTypFnts0) {
+TrTypFnts1 = false;
+TrTypFnts2 = false
+}
+else{
+TrTypFnts1 = true;
+if(TrTypFnts1) {
+TrTypFnts2 = false
+}
+else{
+TrTypFnts2 = !(TrTypFnts1)
+}
+}
+
+;
+FntInstlltn0 = flip(0.500000);
+if(FntInstlltn0) {
+FntInstlltn1 = false;
+FntInstlltn2 = false
+}
+else{
+FntInstlltn1 = true;
+if(FntInstlltn1) {
+FntInstlltn2 = false
+}
+else{
+FntInstlltn2 = !(FntInstlltn1)
+}
+}
+
+;
+if(((PrtMem1 && PrtMem1) && ScrnFntNtPrntrFnt1)) {
+NnTTOK0 = flip(0.500000);
+if(NnTTOK0) {
+NnTTOK1 = false;
+NnTTOK2 = false
+}
+else{
+NnTTOK1 = true;
+if(NnTTOK1) {
+NnTTOK2 = false
+}
+else{
+NnTTOK2 = !(NnTTOK1)
+}
+}
+}
+else{
+};
+if(((PrtMem0 && PrtMem1) && ScrnFntNtPrntrFnt1)) {
+NnTTOK0 = flip(0.500000);
+if(NnTTOK0) {
+NnTTOK1 = false;
+NnTTOK2 = false
+}
+else{
+NnTTOK1 = true;
+if(NnTTOK1) {
+NnTTOK2 = false
+}
+else{
+NnTTOK2 = !(NnTTOK1)
+}
+}
+}
+else{
+};
+if(((PrtMem1 && PrtMem0) && ScrnFntNtPrntrFnt1)) {
+NnTTOK0 = flip(0.500000);
+if(NnTTOK0) {
+NnTTOK1 = false;
+NnTTOK2 = false
+}
+else{
+NnTTOK1 = true;
+if(NnTTOK1) {
+NnTTOK2 = false
+}
+else{
+NnTTOK2 = !(NnTTOK1)
+}
+}
+}
+else{
+};
+if(((PrtMem0 && PrtMem0) && ScrnFntNtPrntrFnt1)) {
+NnTTOK0 = flip(0.500000);
+if(NnTTOK0) {
+NnTTOK1 = false;
+NnTTOK2 = false
+}
+else{
+NnTTOK1 = true;
+if(NnTTOK1) {
+NnTTOK2 = false
+}
+else{
+NnTTOK2 = !(NnTTOK1)
+}
+}
+}
+else{
+};
+if(((PrtMem1 && PrtMem1) && ScrnFntNtPrntrFnt0)) {
+NnTTOK0 = flip(0.500000);
+if(NnTTOK0) {
+NnTTOK1 = false;
+NnTTOK2 = false
+}
+else{
+NnTTOK1 = true;
+if(NnTTOK1) {
+NnTTOK2 = false
+}
+else{
+NnTTOK2 = !(NnTTOK1)
+}
+}
+}
+else{
+};
+if(((PrtMem0 && PrtMem1) && ScrnFntNtPrntrFnt0)) {
+NnTTOK0 = flip(0.500000);
+if(NnTTOK0) {
+NnTTOK1 = false;
+NnTTOK2 = false
+}
+else{
+NnTTOK1 = true;
+if(NnTTOK1) {
+NnTTOK2 = false
+}
+else{
+NnTTOK2 = !(NnTTOK1)
+}
+}
+}
+else{
+};
+if(((PrtMem1 && PrtMem0) && ScrnFntNtPrntrFnt0)) {
+NnTTOK0 = flip(0.500000);
+if(NnTTOK0) {
+NnTTOK1 = false;
+NnTTOK2 = false
+}
+else{
+NnTTOK1 = true;
+if(NnTTOK1) {
+NnTTOK2 = false
+}
+else{
+NnTTOK2 = !(NnTTOK1)
+}
+}
+}
+else{
+};
+if(((PrtMem0 && PrtMem0) && ScrnFntNtPrntrFnt0)) {
+NnTTOK0 = flip(0.500000);
+if(NnTTOK0) {
+NnTTOK1 = false;
+NnTTOK2 = false
+}
+else{
+NnTTOK1 = true;
+if(NnTTOK1) {
+NnTTOK2 = false
+}
+else{
+NnTTOK2 = !(NnTTOK1)
+}
+}
+}
+else{
+}
+;
+PrntrAccptsTrtyp0 = flip(0.500000);
+if(PrntrAccptsTrtyp0) {
+PrntrAccptsTrtyp1 = false;
+PrntrAccptsTrtyp2 = false
+}
+else{
+PrntrAccptsTrtyp1 = true;
+if(PrntrAccptsTrtyp1) {
+PrntrAccptsTrtyp2 = false
+}
+else{
+PrntrAccptsTrtyp2 = !(PrntrAccptsTrtyp1)
+}
+}
+
+;
+if(((PrtMem1 && PrtMem1) && FntInstlltn1)) {
+TTOK0 = flip(0.500000);
+if(TTOK0) {
+TTOK1 = false;
+TTOK2 = false
+}
+else{
+TTOK1 = true;
+if(TTOK1) {
+TTOK2 = false
+}
+else{
+TTOK2 = !(TTOK1)
+}
+}
+}
+else{
+};
+if(((PrtMem0 && PrtMem1) && FntInstlltn1)) {
+TTOK0 = flip(0.500000);
+if(TTOK0) {
+TTOK1 = false;
+TTOK2 = false
+}
+else{
+TTOK1 = true;
+if(TTOK1) {
+TTOK2 = false
+}
+else{
+TTOK2 = !(TTOK1)
+}
+}
+}
+else{
+};
+if(((PrtMem1 && PrtMem0) && FntInstlltn1)) {
+TTOK0 = flip(0.500000);
+if(TTOK0) {
+TTOK1 = false;
+TTOK2 = false
+}
+else{
+TTOK1 = true;
+if(TTOK1) {
+TTOK2 = false
+}
+else{
+TTOK2 = !(TTOK1)
+}
+}
+}
+else{
+};
+if(((PrtMem0 && PrtMem0) && FntInstlltn1)) {
+TTOK0 = flip(0.500000);
+if(TTOK0) {
+TTOK1 = false;
+TTOK2 = false
+}
+else{
+TTOK1 = true;
+if(TTOK1) {
+TTOK2 = false
+}
+else{
+TTOK2 = !(TTOK1)
+}
+}
+}
+else{
+};
+if(((PrtMem1 && PrtMem1) && FntInstlltn0)) {
+TTOK0 = flip(0.500000);
+if(TTOK0) {
+TTOK1 = false;
+TTOK2 = false
+}
+else{
+TTOK1 = true;
+if(TTOK1) {
+TTOK2 = false
+}
+else{
+TTOK2 = !(TTOK1)
+}
+}
+}
+else{
+};
+if(((PrtMem0 && PrtMem1) && FntInstlltn0)) {
+TTOK0 = flip(0.500000);
+if(TTOK0) {
+TTOK1 = false;
+TTOK2 = false
+}
+else{
+TTOK1 = true;
+if(TTOK1) {
+TTOK2 = false
+}
+else{
+TTOK2 = !(TTOK1)
+}
+}
+}
+else{
+};
+if(((PrtMem1 && PrtMem0) && FntInstlltn0)) {
+TTOK0 = flip(0.500000);
+if(TTOK0) {
+TTOK1 = false;
+TTOK2 = false
+}
+else{
+TTOK1 = true;
+if(TTOK1) {
+TTOK2 = false
+}
+else{
+TTOK2 = !(TTOK1)
+}
+}
+}
+else{
+};
+if(((PrtMem0 && PrtMem0) && FntInstlltn0)) {
+TTOK0 = flip(0.500000);
+if(TTOK0) {
+TTOK1 = false;
+TTOK2 = false
+}
+else{
+TTOK1 = true;
+if(TTOK1) {
+TTOK2 = false
+}
+else{
+TTOK2 = !(TTOK1)
+}
+}
+}
+else{
+}
+;
+if(((TrTypFnts1 && TrTypFnts1) && TTOK1)) {
+Problem50 = flip(0.500000);
+if(Problem50) {
+Problem51 = false;
+Problem52 = false
+}
+else{
+Problem51 = true;
+if(Problem51) {
+Problem52 = false
+}
+else{
+Problem52 = !(Problem51)
+}
+}
+}
+else{
+};
+if(((TrTypFnts0 && TrTypFnts1) && TTOK1)) {
+Problem50 = flip(0.500000);
+if(Problem50) {
+Problem51 = false;
+Problem52 = false
+}
+else{
+Problem51 = true;
+if(Problem51) {
+Problem52 = false
+}
+else{
+Problem52 = !(Problem51)
+}
+}
+}
+else{
+};
+if(((TrTypFnts1 && TrTypFnts0) && TTOK1)) {
+Problem50 = flip(0.500000);
+if(Problem50) {
+Problem51 = false;
+Problem52 = false
+}
+else{
+Problem51 = true;
+if(Problem51) {
+Problem52 = false
+}
+else{
+Problem52 = !(Problem51)
+}
+}
+}
+else{
+};
+if(((TrTypFnts0 && TrTypFnts0) && TTOK1)) {
+Problem50 = flip(0.500000);
+if(Problem50) {
+Problem51 = false;
+Problem52 = false
+}
+else{
+Problem51 = true;
+if(Problem51) {
+Problem52 = false
+}
+else{
+Problem52 = !(Problem51)
+}
+}
+}
+else{
+};
+if(((TrTypFnts1 && TrTypFnts1) && TTOK0)) {
+Problem50 = flip(0.500000);
+if(Problem50) {
+Problem51 = false;
+Problem52 = false
+}
+else{
+Problem51 = true;
+if(Problem51) {
+Problem52 = false
+}
+else{
+Problem52 = !(Problem51)
+}
+}
+}
+else{
+};
+if(((TrTypFnts0 && TrTypFnts1) && TTOK0)) {
+Problem50 = flip(0.500000);
+if(Problem50) {
+Problem51 = false;
+Problem52 = false
+}
+else{
+Problem51 = true;
+if(Problem51) {
+Problem52 = false
+}
+else{
+Problem52 = !(Problem51)
+}
+}
+}
+else{
+};
+if(((TrTypFnts1 && TrTypFnts0) && TTOK0)) {
+Problem50 = flip(0.500000);
+if(Problem50) {
+Problem51 = false;
+Problem52 = false
+}
+else{
+Problem51 = true;
+if(Problem51) {
+Problem52 = false
+}
+else{
+Problem52 = !(Problem51)
+}
+}
+}
+else{
+};
+if(((TrTypFnts0 && TrTypFnts0) && TTOK0)) {
+Problem50 = flip(0.500000);
+if(Problem50) {
+Problem51 = false;
+Problem52 = false
+}
+else{
+Problem51 = true;
+if(Problem51) {
+Problem52 = false
+}
+else{
+Problem52 = !(Problem51)
+}
+}
+}
+else{
+}
+;
+PrtQueue0 = flip(0.500000);
+if(PrtQueue0) {
+PrtQueue1 = false;
+PrtQueue2 = false
+}
+else{
+PrtQueue1 = true;
+if(PrtQueue1) {
+PrtQueue2 = false
+}
+else{
+PrtQueue2 = !(PrtQueue1)
+}
+}
+
+;
+if(((DeskPrntSpd1 && DeskPrntSpd1) && NtwrkCnfg1)) {
+NtSpd0 = flip(0.500000);
+if(NtSpd0) {
+NtSpd1 = false;
+NtSpd2 = false
+}
+else{
+NtSpd1 = true;
+if(NtSpd1) {
+NtSpd2 = false
+}
+else{
+NtSpd2 = !(NtSpd1)
+}
+}
+}
+else{
+};
+if(((DeskPrntSpd0 && DeskPrntSpd1) && NtwrkCnfg1)) {
+NtSpd0 = flip(0.500000);
+if(NtSpd0) {
+NtSpd1 = false;
+NtSpd2 = false
+}
+else{
+NtSpd1 = true;
+if(NtSpd1) {
+NtSpd2 = false
+}
+else{
+NtSpd2 = !(NtSpd1)
+}
+}
+}
+else{
+};
+if(((DeskPrntSpd1 && DeskPrntSpd0) && NtwrkCnfg1)) {
+NtSpd0 = flip(0.500000);
+if(NtSpd0) {
+NtSpd1 = false;
+NtSpd2 = false
+}
+else{
+NtSpd1 = true;
+if(NtSpd1) {
+NtSpd2 = false
+}
+else{
+NtSpd2 = !(NtSpd1)
+}
+}
+}
+else{
+};
+if(((DeskPrntSpd0 && DeskPrntSpd0) && NtwrkCnfg1)) {
+NtSpd0 = flip(0.500000);
+if(NtSpd0) {
+NtSpd1 = false;
+NtSpd2 = false
+}
+else{
+NtSpd1 = true;
+if(NtSpd1) {
+NtSpd2 = false
+}
+else{
+NtSpd2 = !(NtSpd1)
+}
+}
+}
+else{
+};
+if(((DeskPrntSpd1 && DeskPrntSpd1) && NtwrkCnfg0)) {
+NtSpd0 = flip(0.500000);
+if(NtSpd0) {
+NtSpd1 = false;
+NtSpd2 = false
+}
+else{
+NtSpd1 = true;
+if(NtSpd1) {
+NtSpd2 = false
+}
+else{
+NtSpd2 = !(NtSpd1)
+}
+}
+}
+else{
+};
+if(((DeskPrntSpd0 && DeskPrntSpd1) && NtwrkCnfg0)) {
+NtSpd0 = flip(0.500000);
+if(NtSpd0) {
+NtSpd1 = false;
+NtSpd2 = false
+}
+else{
+NtSpd1 = true;
+if(NtSpd1) {
+NtSpd2 = false
+}
+else{
+NtSpd2 = !(NtSpd1)
+}
+}
+}
+else{
+};
+if(((DeskPrntSpd1 && DeskPrntSpd0) && NtwrkCnfg0)) {
+NtSpd0 = flip(0.500000);
+if(NtSpd0) {
+NtSpd1 = false;
+NtSpd2 = false
+}
+else{
+NtSpd1 = true;
+if(NtSpd1) {
+NtSpd2 = false
+}
+else{
+NtSpd2 = !(NtSpd1)
+}
+}
+}
+else{
+};
+if(((DeskPrntSpd0 && DeskPrntSpd0) && NtwrkCnfg0)) {
+NtSpd0 = flip(0.500000);
+if(NtSpd0) {
+NtSpd1 = false;
+NtSpd2 = false
+}
+else{
+NtSpd1 = true;
+if(NtSpd1) {
+NtSpd2 = false
+}
+else{
+NtSpd2 = !(NtSpd1)
+}
+}
+}
+else{
+}
+;
+if(((NetPrint1 && NetPrint1) && DeskPrntSpd1)) {
+Problem20 = flip(0.500000);
+if(Problem20) {
+Problem21 = false;
+Problem22 = false
+}
+else{
+Problem21 = true;
+if(Problem21) {
+Problem22 = false
+}
+else{
+Problem22 = !(Problem21)
+}
+}
+}
+else{
+};
+if(((NetPrint0 && NetPrint1) && DeskPrntSpd1)) {
+Problem20 = flip(0.500000);
+if(Problem20) {
+Problem21 = false;
+Problem22 = false
+}
+else{
+Problem21 = true;
+if(Problem21) {
+Problem22 = false
+}
+else{
+Problem22 = !(Problem21)
+}
+}
+}
+else{
+};
+if(((NetPrint1 && NetPrint0) && DeskPrntSpd1)) {
+Problem20 = flip(0.500000);
+if(Problem20) {
+Problem21 = false;
+Problem22 = false
+}
+else{
+Problem21 = true;
+if(Problem21) {
+Problem22 = false
+}
+else{
+Problem22 = !(Problem21)
+}
+}
+}
+else{
+};
+if(((NetPrint0 && NetPrint0) && DeskPrntSpd1)) {
+Problem20 = flip(0.500000);
+if(Problem20) {
+Problem21 = false;
+Problem22 = false
+}
+else{
+Problem21 = true;
+if(Problem21) {
+Problem22 = false
+}
+else{
+Problem22 = !(Problem21)
+}
+}
+}
+else{
+};
+if(((NetPrint1 && NetPrint1) && DeskPrntSpd0)) {
+Problem20 = flip(0.500000);
+if(Problem20) {
+Problem21 = false;
+Problem22 = false
+}
+else{
+Problem21 = true;
+if(Problem21) {
+Problem22 = false
+}
+else{
+Problem22 = !(Problem21)
+}
+}
+}
+else{
+};
+if(((NetPrint0 && NetPrint1) && DeskPrntSpd0)) {
+Problem20 = flip(0.500000);
+if(Problem20) {
+Problem21 = false;
+Problem22 = false
+}
+else{
+Problem21 = true;
+if(Problem21) {
+Problem22 = false
+}
+else{
+Problem22 = !(Problem21)
+}
+}
+}
+else{
+};
+if(((NetPrint1 && NetPrint0) && DeskPrntSpd0)) {
+Problem20 = flip(0.500000);
+if(Problem20) {
+Problem21 = false;
+Problem22 = false
+}
+else{
+Problem21 = true;
+if(Problem21) {
+Problem22 = false
+}
+else{
+Problem22 = !(Problem21)
+}
+}
+}
+else{
+};
+if(((NetPrint0 && NetPrint0) && DeskPrntSpd0)) {
+Problem20 = flip(0.500000);
+if(Problem20) {
+Problem21 = false;
+Problem22 = false
+}
+else{
+Problem21 = true;
+if(Problem21) {
+Problem22 = false
+}
+else{
+Problem22 = !(Problem21)
+}
+}
+}
+else{
+}
+
+

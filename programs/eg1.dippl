@@ -1,0 +1,9 @@
+x := ! y & z ;
+y := r & p ;
+if (x & y){
+	skip
+}
+else{
+	skip
+};
+z ~ flip(0.1)
