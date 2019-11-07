@@ -94,36 +94,39 @@ class AST:
 
 		if self.op == VAR:
 
-			return bdd.add_expr(self.lchild), None
+			return bdd.add_expr(self.lchild), ~bdd.add_expr(self.lchild), None
 
 		elif self.op == TRUE:
 
-			return bdd.true, None
+			return bdd.true, bdd.false, None
 
 		elif self.op == FALSE:
 
-			return bdd.false, None
+			return bdd.false, bdd.true, None
 
 		elif self.op == NOT:
 
-			b, w = self.lchild.to_wbdd(bdd)
-			return ~b, None
+			b, nb, w = self.lchild.to_wbdd(bdd)
+			return nb, b, None
 
 		elif self.op == AND:
-			b1, w1 = self.lchild.to_wbdd(bdd)
-			b2, w2 = self.rchild.to_wbdd(bdd)
-			return bdd.apply('and', b1, b2), None 
+			b1, nb1, w1 = self.lchild.to_wbdd(bdd)
+			b2, nb2, w2 = self.rchild.to_wbdd(bdd)
+			return bdd.apply('and', b1, b2), bdd.apply('or', nb1, nb2), None 
 
 		elif self.op == OR:
-			b1, w1 = self.lchild.to_wbdd(bdd)
-			b2, w2 = self.rchild.to_wbdd(bdd)
-			return bdd.apply('or', b1, b2), None
+			b1, nb1, w1 = self.lchild.to_wbdd(bdd)
+			b2, nb2, w2 = self.rchild.to_wbdd(bdd)
+			return bdd.apply('or', b1, b2), bdd.apply('and', nb1, nb2), None
 
 		elif self.op == IFELSE:
-			b, w = self.cchild.to_wbdd(bdd)
-			b_then, w_then = self.lchild.to_wbdd(bdd) 
-			b_else, w_else = self.rchild.to_wbdd(bdd) 
-			return bdd.ite(b, b_then, b_else), shadow_union(w_then, w_else)
+			b, nb, w = self.cchild.to_wbdd(bdd)
+			b_then, nb_then, w_then = self.lchild.to_wbdd(bdd) 
+			b_else, nb_else, w_else = self.rchild.to_wbdd(bdd) 
+			phi = bdd.apply('or', bdd.apply('and', b, b_then), bdd.apply('and', nb, b_else))
+			nphi = bdd.apply('or', bdd.apply('and', b, nb_then), bdd.apply('and', nb, nb_else))
+			return phi, nphi, shadow_union(w_then, w_else)
+			# return bdd.ite(b, b_then, b_else), shadow_union(w_then, w_else)
 
 		elif self.op == FLIP:
 			v = bdd.add_expr('f'+str(self.cchild))
@@ -133,25 +136,26 @@ class AST:
 			w['~f'+str(self.cchild)] = 1.0-self.rchild
 			draw_equiv = bdd.apply('equiv', bdd.var(self.lchild), bdd.var('f'+str(self.cchild)))
 			phi = bdd.apply('and', draw_equiv, gamma_without(self.lchild))
-			return phi, w
+			nphi = ~bdd.apply('and', draw_equiv, gamma_without(self.lchild))
+			return phi, nphi, w
 
 		elif self.op == OBSERVE:
 			b, w = self.lchild.to_wbdd(bdd)
-			return bdd.apply('and', b, gamma_v), delta_v
+			return bdd.apply('and', b, gamma_v), ~bdd.apply('and', b, gamma_v), delta_v
 
 
 		elif self.op == ASSIGN:
-			b, w = self.rchild.to_wbdd(bdd)
+			b, nb, w = self.rchild.to_wbdd(bdd)
 			draw_equiv = bdd.apply('equiv', bdd.var(self.lchild), b)
 			phi = bdd.apply('and', draw_equiv, gamma_without(self.lchild))
 			w = delta_v
-			return phi, w
+			return phi, ~phi, w
 
 		elif self.op == BLOCK:
 			if len(self.lchild)>0:
-				b1, w1 = self.lchild[0].to_wbdd(bdd)
+				b1, nb1, w1 = self.lchild[0].to_wbdd(bdd)
 				for child in self.lchild[1:]:
-					b2, w2 = child.to_wbdd(bdd)
+					b2, nb2, w2 = child.to_wbdd(bdd)
 					b2_ = bdd.let(let_right, b2)
 					new_b1 = bdd.exist([v+'_' for v in all_vars], bdd.apply('and', b1, b2_))
 					new_b1 = bdd.let(let_half_left, new_b1)
@@ -159,10 +163,10 @@ class AST:
 					
 					b1 = new_b1
 					w1 = new_w
-				return b1, w1
+				return b1, ~b1, w1
 
 			else:
-				return gamma_v, delta_v
+				return gamma_v, ~gamma_v, delta_v
 
 		else:
 			print(self.op)
@@ -351,7 +355,7 @@ let_left.update({v+'__':v+'_' for v in all_vars})
 let_half_left = {v+'__':v+'_' for v in all_vars}
 exist_ = '\E '+' '.join([v+'_' for v in all_vars]) + ' :'
 
-phi, w = ast.to_wbdd(bdd)
+phi, nphi, w = ast.to_wbdd(bdd)
 phi = bdd.let(let_left, phi)
 
 # print('='*50)
