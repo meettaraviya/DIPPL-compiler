@@ -281,29 +281,6 @@ if len(sys.argv) < 2:
 
 
 def print_marginal_distribution(wbdd, knowns, bdd):
-	# phi, w = wbdd
-	# unknowns = (all_vars | all_flips) - knowns.keys()
-	# knowns_wt_prod = 1.0
-	# for var, val in knowns.items():
-	# 	if val:
-	# 		knowns_wt_prod *= w[var]
-	# 	else:
-	# 		knowns_wt_prod *= w['~'+var]
-
-	# unknowns_wt_prod_sum = 0.0
-
-	# for unknown_vals in product([True, False], repeat=len(unknowns)):
-	# 	assignment = knowns.copy()
-	# 	assignment.update(zip(unknowns, unknown_vals))
-	# 	if bdd.let(assignment, phi) == bdd.true:
-	# 		unknowns_wt_prod = 1.0
-	# 		for var in unknowns:
-	# 			if assignment[var]:
-	# 				unknowns_wt_prod *= w[var]
-	# 			else:
-	# 				unknowns_wt_prod *= w['~'+var]
-	# 		print(assignment, ":", "{:.4f}".format(unknowns_wt_prod*knowns_wt_prod))
-	# 		unknowns_wt_prod_sum += unknowns_wt_prod
 
 	phi, w = wbdd
 	new_phi = bdd.apply('and', phi, bdd.cube(knowns))
@@ -346,7 +323,7 @@ def print_marginal_distribution(wbdd, knowns, bdd):
 
 
 
-s = open(sys.argv[1]).read()
+s = open('programs/'+sys.argv[1]+'.dippl').read()
 ast = AST(BLOCK, parser.parse(s))
 print('='*50)
 print("Input program:")
@@ -406,7 +383,7 @@ print("Time taken for WMC:",timeit.timeit('print_marginal_distribution((phi, w),
 # print('='*50)
 
 # bdd.collect_garbage()  # optional
-bdd.dump('robdds/'+sys.argv[1][:-6] + '.pdf', roots=[phi])
+bdd.dump('robdds/'+sys.argv[1] + '.pdf', roots=[phi])
 # import os
 # os.remove("parser.out")
 # os.remove("parsetab.py")
