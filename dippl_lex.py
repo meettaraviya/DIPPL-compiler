@@ -6,6 +6,9 @@ reserved = {
 	'flip': 'FLIP',
 	'if': 'IF',
 	'else': 'ELSE',
+	# 'repeat': 'REPEAT',
+	'T' : 'TRUE',
+	'F' : 'FALSE',
 }
 
 
@@ -22,11 +25,12 @@ tokens = [
 		'OR',
 		'AND',
 		'NOT',
-		'TRUE',
-		'FALSE',
+		# 'TRUE',
+		# 'FALSE',
 		'VAR',
 		'SCOLON',
-		'NUMBER',
+		'FLOAT',
+		# 'INTEGER',
 		# 'INDEX',
 	] + list(reserved.values())
 
@@ -42,19 +46,24 @@ t_EQUALS = r'='
 t_OR = r'\|\|'
 t_AND = r'&&'
 t_NOT = r'\!'
-t_TRUE = r'T'
-t_FALSE = r'F'
+# t_TRUE = r'T'
+# t_FALSE = r'F'
 t_SCOLON = r';'
 
 def t_VAR(t):
-	r'[a-zA-Z][a-zA-Z0-9]*'
+	r'[a-zA-Z][a-zA-Z0-9_]*'
 	t.type = reserved.get(t.value,'VAR')
 	return t
 
-def t_NUMBER(t):
-	r'\d+(\.\d+)?'
+def t_FLOAT(t):
+	r'\d+\.\d+'
 	t.value = float(t.value)
 	return t
+
+# def t_INTEGER(t):
+# 	r'\d+'
+# 	t.value = int(t.value)
+# 	return t
 
 # def t_INDEX(y):
 # 	r'\d+'
@@ -68,7 +77,7 @@ def t_newline(t):
 	t.lexer.lineno += len(t.value)
 
 def t_error(t):
-	print("Illegal character '%s'" % t.value[0])
+	print("Illegal character:", t.value[0])
 	t.lexer.skip(1)
 
 lexer = lex.lex()
