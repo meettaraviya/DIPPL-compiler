@@ -40,36 +40,36 @@ def to_wbdd(ast, env):
 
 	if ast.op == VAR:
 		env.declare(ast.lchild)
-		return env.add_expr(ast.lchild), None
+		retval = env.add_expr(ast.lchild), None
 
 	elif ast.op == TRUE:
 
-		return env.true, None
+		retval = env.true, None
 
 	elif ast.op == FALSE:
 
-		return env.false, None
+		retval = env.false, None
 
 	elif ast.op == NOT:
 
 		b, w = to_wbdd(ast.lchild, env)
-		return env.apply('not', b), None
+		retval = env.apply('not', b), None
 
 	elif ast.op == AND:
 		b1, w1 = to_wbdd(ast.lchild, env)
 		b2, w2 = to_wbdd(ast.rchild, env)
-		return env.apply('and', b1, b2), None 
+		retval = env.apply('and', b1, b2), None 
 
 	elif ast.op == OR:
 		b1, w1 = to_wbdd(ast.lchild, env)
 		b2, w2 = to_wbdd(ast.rchild, env)
-		return env.apply('or', b1, b2), None
+		retval = env.apply('or', b1, b2), None
 
 	elif ast.op == IFELSE:
 		b, w = to_wbdd(ast.cchild, env)
 		b_then, w_then = to_wbdd(ast.lchild, env)
 		b_else, w_else = to_wbdd(ast.rchild, env)
-		return env.ite(b, b_then, b_else), shadow_union(w_then, w_else)
+		retval = env.ite(b, b_then, b_else), shadow_union(w_then, w_else)
 
 	elif ast.op == FLIP:
 		env.declare('f'+str(ast.cchild))
@@ -79,11 +79,11 @@ def to_wbdd(ast, env):
 		w['~f'+str(ast.cchild)] = 1.0-ast.rchild
 		draw_equiv = env.apply('equiv', env.var(ast.lchild+"_"), env.var('f'+str(ast.cchild)))
 		phi = env.apply('and', draw_equiv, gamma_without(ast.lchild))
-		return phi, w
+		retval = phi, w
 
 	elif ast.op == OBSERVE:
 		b, w = to_wbdd(ast.lchild, env)
-		return env.apply('and', b, gamma_v), delta_v
+		retval = env.apply('and', b, gamma_v), delta_v
 
 
 	elif ast.op == ASSIGN:
@@ -91,7 +91,7 @@ def to_wbdd(ast, env):
 		draw_equiv = env.apply('equiv', env.var(ast.lchild+"_"), b)
 		phi = env.apply('and', draw_equiv, gamma_without(ast.lchild))
 		w = delta_v
-		return phi, w
+		retval = phi, w
 
 	elif ast.op == BLOCK:
 		if len(ast.lchild)>0:
@@ -111,14 +111,12 @@ def to_wbdd(ast, env):
 				# print(b1, ":", child)
 				# print()
 				# env.dump('roenvs/'+sys.argv[1]+"_" + str(b1)+'.pdf', roots=[b1])
-			return b1, w1
+			retval = b1, w1
 
 		else:
-			return gamma_v, delta_v
+			retval = gamma_v, delta_v
 
-	else:
-		print("Error:",ast.op)
-		exit(0)
+	return retval
 
 def setup_env():
 
@@ -158,19 +156,21 @@ def setup_env():
 	exist_ = '\E '+' '.join([v+'_' for v in variable_list]) + ' :'
 
 
-def main(args):
+def compile(program, pdf=False, queries=[]):
+
+	# args = argparser.parse_args(*args, **kwargs)
 
 	global variable_list, flip_list, env_var_order
 
-	program_infile = 'programs/{}.dippl'.format(args.program)
+	program_infile = 'programs/{}.dippl'.format(program)
 	ast, variable_list, flip_list, env_var_order = parse_file(program_infile)
 
 	setup_env()
 
 	phi, w = to_wbdd(ast, env)
 
-	if args.pdf:
-		env.dump('robdds/{}.pdf'.format(args.program), roots=[phi])
+	if pdf:
+		env.dump('robdds/{}.pdf'.format(program), roots=[phi])
 
 	wmc = get_wmc(w, phi, env)
 
@@ -179,12 +179,11 @@ def main(args):
 
 	phi = env.let(let_left, phi)
 
-	for query in args.queries:
+	for query in queries:
 		wmc_num = get_wmc(w, env.apply('and', phi, env.add_expr(query)), env)
 		print("Probability for '{}': {}".format(query, wmc_num/ wmc))
 
 
 
 if __name__ == '__main__':
-	args = argparser.parse_args()
-	main(args)
+	compile(**argparser.parse_args().__dict__)

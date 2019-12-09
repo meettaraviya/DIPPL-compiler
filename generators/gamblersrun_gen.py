@@ -1,19 +1,30 @@
-nplaces = int(input("Total number of places: "))
-walklength = int(input("Number of steps: "))
-pforward = float(input("Probability of going forward: "))
-fname = "programs/gambler_{}_{}_{}.dippl".format(nplaces, walklength, pforward)
+import argparse
 
-prog = "x0 = T;\n"
+argparser_gen = argparse.ArgumentParser(description="Generates DIPPL programs for gamblers's run.")
+argparser_gen.add_argument('nplaces', help='Total number of places.', type=int)
+argparser_gen.add_argument('walklength', help='Number of steps.', type=int)
+argparser_gen.add_argument('pforward', help='Probability of going forward.', type=float)
 
-for i in range(1, nplaces+1):
-	prog += "x{} = F;\n".format(i)
+def generate(nplaces, walklength, pforward):
+	# args = argparse.Namespace(*inargs, **inkwargs)
+	# locals().update(kwargs)
+	# nplaces = args.nplaces
+	# walklength = args.walklength
+	# pforward = args.pforward
+	
+	fname = "programs/gambler_{}_{}_{}.dippl".format(nplaces, walklength, pforward)
 
-prog += "\n"
-prog += "reached = F;\n\n"
+	prog = "x0 = T;\n"
 
-commonpart = ""
+	for i in range(1, nplaces+1):
+		prog += "x{} = F;\n".format(i)
 
-commonpart += """
+	prog += "\n"
+	prog += "reached = F;\n\n"
+
+	commonpart = ""
+
+	commonpart += """
 z = flip({});
 
 done = F;
@@ -29,10 +40,10 @@ reached = reached || x{};
 
 """.format(pforward, nplaces)
 
-innerpartthan = ""
+	innerpartthan = ""
 
-for i in range(nplaces):
-	innerpartthan += """
+	for i in range(nplaces):
+		innerpartthan += """
 	if(x{} && !done){{
 		x{} = T;
 		x{} = F;
@@ -40,7 +51,7 @@ for i in range(nplaces):
 	}};
 """.format(i,i+1,i)
 
-innerpartthan += """
+	innerpartthan += """
 	if(x{} && !done){{
 		x{} = T;
 		x{} = F;
@@ -48,9 +59,9 @@ innerpartthan += """
 	}}
 """.format(nplaces, nplaces-1, nplaces)
 
-innerpartelse = ""
+	innerpartelse = ""
 
-innerpartelse += """
+	innerpartelse += """
 	if(x0 && !done){
 		x1 = T;
 		x0 = F;
@@ -58,8 +69,8 @@ innerpartelse += """
 	};
 	"""
 
-for i in range(nplaces):
-	innerpartelse += """
+	for i in range(nplaces):
+		innerpartelse += """
 	if(x{} && !done){{
 		x{} = T;
 		x{} = F;
@@ -70,13 +81,18 @@ for i in range(nplaces):
 
 
 
-# print(innerpartthan)
+	# print(innerpartthan)
 
-commonpart = commonpart.format(innerpartthan, innerpartelse)
+	commonpart = commonpart.format(innerpartthan, innerpartelse)
 
 
-for j in range(walklength):
-	prog += commonpart
+	for j in range(walklength):
+		prog += commonpart
 
-# print(prog)
-open(fname, 'w').write(prog)
+	# print(prog)
+	open(fname, 'w').write(prog)
+
+
+if __name__ == '__main__':
+	args = argparser_gen.parse_args()
+	generate(**argparser_gen.parse_args().__dict__)

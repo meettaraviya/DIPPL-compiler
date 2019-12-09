@@ -244,18 +244,19 @@ def p_error(p):
 # Build the parser
 
 def build_parser():
-	global lexer, parser
+	global dippl_lexer, dippl_parser
 	lexer = lex.lex()
-	parser = yacc.yacc()
+	dippl_parser = yacc.yacc()
 
 
 def parse_string(s):
-	global flip_id, parser, lexer, variable_list, flip_list, bdd_var_order
+	global flip_id, dippl_parser, dippl_lexer, variable_list, flip_list, bdd_var_order
+	build_parser()
 	flip_id = 0
 	variable_list = []
 	flip_list = []
 	bdd_var_order = []
-	ast = AST(BLOCK, parser.parse(s))
+	ast = AST(BLOCK, dippl_parser.parse(s))
 	return ast, variable_list, flip_list, bdd_var_order
 
 
@@ -263,4 +264,10 @@ def parse_file(f):
 	return parse_string(open(f).read())
 
 
-build_parser()
+# build_parser()
+
+
+if __name__ == '__main__':
+
+	parse_file('programs/gambler_2_1_0.4.dippl')
+	parse_file('programs/gambler_2_2_0.4.dippl')

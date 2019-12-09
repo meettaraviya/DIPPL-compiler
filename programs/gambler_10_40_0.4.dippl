@@ -1,0 +1,5854 @@
+x0 = T;
+x1 = F;
+x2 = F;
+x3 = F;
+x4 = F;
+x5 = F;
+x6 = F;
+x7 = F;
+x8 = F;
+x9 = F;
+x10 = F;
+
+reached = F;
+
+
+z = flip(0.4);
+
+done = F;
+
+if(z){
+
+	if(x0 && !done){
+		x1 = T;
+		x0 = F;
+		done = T
+	};
+
+	if(x1 && !done){
+		x2 = T;
+		x1 = F;
+		done = T
+	};
+
+	if(x2 && !done){
+		x3 = T;
+		x2 = F;
+		done = T
+	};
+
+	if(x3 && !done){
+		x4 = T;
+		x3 = F;
+		done = T
+	};
+
+	if(x4 && !done){
+		x5 = T;
+		x4 = F;
+		done = T
+	};
+
+	if(x5 && !done){
+		x6 = T;
+		x5 = F;
+		done = T
+	};
+
+	if(x6 && !done){
+		x7 = T;
+		x6 = F;
+		done = T
+	};
+
+	if(x7 && !done){
+		x8 = T;
+		x7 = F;
+		done = T
+	};
+
+	if(x8 && !done){
+		x9 = T;
+		x8 = F;
+		done = T
+	};
+
+	if(x9 && !done){
+		x10 = T;
+		x9 = F;
+		done = T
+	};
+
+	if(x10 && !done){
+		x9 = T;
+		x10 = F;
+		done = T
+	}
+
+}
+else{
+
+	if(x0 && !done){
+		x1 = T;
+		x0 = F;
+		done = T
+	};
+	
+	if(x1 && !done){
+		x0 = T;
+		x1 = F;
+		done = T
+	};
+
+	if(x2 && !done){
+		x1 = T;
+		x2 = F;
+		done = T
+	};
+
+	if(x3 && !done){
+		x2 = T;
+		x3 = F;
+		done = T
+	};
+
+	if(x4 && !done){
+		x3 = T;
+		x4 = F;
+		done = T
+	};
+
+	if(x5 && !done){
+		x4 = T;
+		x5 = F;
+		done = T
+	};
+
+	if(x6 && !done){
+		x5 = T;
+		x6 = F;
+		done = T
+	};
+
+	if(x7 && !done){
+		x6 = T;
+		x7 = F;
+		done = T
+	};
+
+	if(x8 && !done){
+		x7 = T;
+		x8 = F;
+		done = T
+	};
+
+	if(x9 && !done){
+		x8 = T;
+		x9 = F;
+		done = T
+	};
+
+	if(x10 && !done){
+		x9 = T;
+		x10 = F;
+		done = T
+	}
+
+};
+
+reached = reached || x10;
+
+
+z = flip(0.4);
+
+done = F;
+
+if(z){
+
+	if(x0 && !done){
+		x1 = T;
+		x0 = F;
+		done = T
+	};
+
+	if(x1 && !done){
+		x2 = T;
+		x1 = F;
+		done = T
+	};
+
+	if(x2 && !done){
+		x3 = T;
+		x2 = F;
+		done = T
+	};
+
+	if(x3 && !done){
+		x4 = T;
+		x3 = F;
+		done = T
+	};
+
+	if(x4 && !done){
+		x5 = T;
+		x4 = F;
+		done = T
+	};
+
+	if(x5 && !done){
+		x6 = T;
+		x5 = F;
+		done = T
+	};
+
+	if(x6 && !done){
+		x7 = T;
+		x6 = F;
+		done = T
+	};
+
+	if(x7 && !done){
+		x8 = T;
+		x7 = F;
+		done = T
+	};
+
+	if(x8 && !done){
+		x9 = T;
+		x8 = F;
+		done = T
+	};
+
+	if(x9 && !done){
+		x10 = T;
+		x9 = F;
+		done = T
+	};
+
+	if(x10 && !done){
+		x9 = T;
+		x10 = F;
+		done = T
+	}
+
+}
+else{
+
+	if(x0 && !done){
+		x1 = T;
+		x0 = F;
+		done = T
+	};
+	
+	if(x1 && !done){
+		x0 = T;
+		x1 = F;
+		done = T
+	};
+
+	if(x2 && !done){
+		x1 = T;
+		x2 = F;
+		done = T
+	};
+
+	if(x3 && !done){
+		x2 = T;
+		x3 = F;
+		done = T
+	};
+
+	if(x4 && !done){
+		x3 = T;
+		x4 = F;
+		done = T
+	};
+
+	if(x5 && !done){
+		x4 = T;
+		x5 = F;
+		done = T
+	};
+
+	if(x6 && !done){
+		x5 = T;
+		x6 = F;
+		done = T
+	};
+
+	if(x7 && !done){
+		x6 = T;
+		x7 = F;
+		done = T
+	};
+
+	if(x8 && !done){
+		x7 = T;
+		x8 = F;
+		done = T
+	};
+
+	if(x9 && !done){
+		x8 = T;
+		x9 = F;
+		done = T
+	};
+
+	if(x10 && !done){
+		x9 = T;
+		x10 = F;
+		done = T
+	}
+
+};
+
+reached = reached || x10;
+
+
+z = flip(0.4);
+
+done = F;
+
+if(z){
+
+	if(x0 && !done){
+		x1 = T;
+		x0 = F;
+		done = T
+	};
+
+	if(x1 && !done){
+		x2 = T;
+		x1 = F;
+		done = T
+	};
+
+	if(x2 && !done){
+		x3 = T;
+		x2 = F;
+		done = T
+	};
+
+	if(x3 && !done){
+		x4 = T;
+		x3 = F;
+		done = T
+	};
+
+	if(x4 && !done){
+		x5 = T;
+		x4 = F;
+		done = T
+	};
+
+	if(x5 && !done){
+		x6 = T;
+		x5 = F;
+		done = T
+	};
+
+	if(x6 && !done){
+		x7 = T;
+		x6 = F;
+		done = T
+	};
+
+	if(x7 && !done){
+		x8 = T;
+		x7 = F;
+		done = T
+	};
+
+	if(x8 && !done){
+		x9 = T;
+		x8 = F;
+		done = T
+	};
+
+	if(x9 && !done){
+		x10 = T;
+		x9 = F;
+		done = T
+	};
+
+	if(x10 && !done){
+		x9 = T;
+		x10 = F;
+		done = T
+	}
+
+}
+else{
+
+	if(x0 && !done){
+		x1 = T;
+		x0 = F;
+		done = T
+	};
+	
+	if(x1 && !done){
+		x0 = T;
+		x1 = F;
+		done = T
+	};
+
+	if(x2 && !done){
+		x1 = T;
+		x2 = F;
+		done = T
+	};
+
+	if(x3 && !done){
+		x2 = T;
+		x3 = F;
+		done = T
+	};
+
+	if(x4 && !done){
+		x3 = T;
+		x4 = F;
+		done = T
+	};
+
+	if(x5 && !done){
+		x4 = T;
+		x5 = F;
+		done = T
+	};
+
+	if(x6 && !done){
+		x5 = T;
+		x6 = F;
+		done = T
+	};
+
+	if(x7 && !done){
+		x6 = T;
+		x7 = F;
+		done = T
+	};
+
+	if(x8 && !done){
+		x7 = T;
+		x8 = F;
+		done = T
+	};
+
+	if(x9 && !done){
+		x8 = T;
+		x9 = F;
+		done = T
+	};
+
+	if(x10 && !done){
+		x9 = T;
+		x10 = F;
+		done = T
+	}
+
+};
+
+reached = reached || x10;
+
+
+z = flip(0.4);
+
+done = F;
+
+if(z){
+
+	if(x0 && !done){
+		x1 = T;
+		x0 = F;
+		done = T
+	};
+
+	if(x1 && !done){
+		x2 = T;
+		x1 = F;
+		done = T
+	};
+
+	if(x2 && !done){
+		x3 = T;
+		x2 = F;
+		done = T
+	};
+
+	if(x3 && !done){
+		x4 = T;
+		x3 = F;
+		done = T
+	};
+
+	if(x4 && !done){
+		x5 = T;
+		x4 = F;
+		done = T
+	};
+
+	if(x5 && !done){
+		x6 = T;
+		x5 = F;
+		done = T
+	};
+
+	if(x6 && !done){
+		x7 = T;
+		x6 = F;
+		done = T
+	};
+
+	if(x7 && !done){
+		x8 = T;
+		x7 = F;
+		done = T
+	};
+
+	if(x8 && !done){
+		x9 = T;
+		x8 = F;
+		done = T
+	};
+
+	if(x9 && !done){
+		x10 = T;
+		x9 = F;
+		done = T
+	};
+
+	if(x10 && !done){
+		x9 = T;
+		x10 = F;
+		done = T
+	}
+
+}
+else{
+
+	if(x0 && !done){
+		x1 = T;
+		x0 = F;
+		done = T
+	};
+	
+	if(x1 && !done){
+		x0 = T;
+		x1 = F;
+		done = T
+	};
+
+	if(x2 && !done){
+		x1 = T;
+		x2 = F;
+		done = T
+	};
+
+	if(x3 && !done){
+		x2 = T;
+		x3 = F;
+		done = T
+	};
+
+	if(x4 && !done){
+		x3 = T;
+		x4 = F;
+		done = T
+	};
+
+	if(x5 && !done){
+		x4 = T;
+		x5 = F;
+		done = T
+	};
+
+	if(x6 && !done){
+		x5 = T;
+		x6 = F;
+		done = T
+	};
+
+	if(x7 && !done){
+		x6 = T;
+		x7 = F;
+		done = T
+	};
+
+	if(x8 && !done){
+		x7 = T;
+		x8 = F;
+		done = T
+	};
+
+	if(x9 && !done){
+		x8 = T;
+		x9 = F;
+		done = T
+	};
+
+	if(x10 && !done){
+		x9 = T;
+		x10 = F;
+		done = T
+	}
+
+};
+
+reached = reached || x10;
+
+
+z = flip(0.4);
+
+done = F;
+
+if(z){
+
+	if(x0 && !done){
+		x1 = T;
+		x0 = F;
+		done = T
+	};
+
+	if(x1 && !done){
+		x2 = T;
+		x1 = F;
+		done = T
+	};
+
+	if(x2 && !done){
+		x3 = T;
+		x2 = F;
+		done = T
+	};
+
+	if(x3 && !done){
+		x4 = T;
+		x3 = F;
+		done = T
+	};
+
+	if(x4 && !done){
+		x5 = T;
+		x4 = F;
+		done = T
+	};
+
+	if(x5 && !done){
+		x6 = T;
+		x5 = F;
+		done = T
+	};
+
+	if(x6 && !done){
+		x7 = T;
+		x6 = F;
+		done = T
+	};
+
+	if(x7 && !done){
+		x8 = T;
+		x7 = F;
+		done = T
+	};
+
+	if(x8 && !done){
+		x9 = T;
+		x8 = F;
+		done = T
+	};
+
+	if(x9 && !done){
+		x10 = T;
+		x9 = F;
+		done = T
+	};
+
+	if(x10 && !done){
+		x9 = T;
+		x10 = F;
+		done = T
+	}
+
+}
+else{
+
+	if(x0 && !done){
+		x1 = T;
+		x0 = F;
+		done = T
+	};
+	
+	if(x1 && !done){
+		x0 = T;
+		x1 = F;
+		done = T
+	};
+
+	if(x2 && !done){
+		x1 = T;
+		x2 = F;
+		done = T
+	};
+
+	if(x3 && !done){
+		x2 = T;
+		x3 = F;
+		done = T
+	};
+
+	if(x4 && !done){
+		x3 = T;
+		x4 = F;
+		done = T
+	};
+
+	if(x5 && !done){
+		x4 = T;
+		x5 = F;
+		done = T
+	};
+
+	if(x6 && !done){
+		x5 = T;
+		x6 = F;
+		done = T
+	};
+
+	if(x7 && !done){
+		x6 = T;
+		x7 = F;
+		done = T
+	};
+
+	if(x8 && !done){
+		x7 = T;
+		x8 = F;
+		done = T
+	};
+
+	if(x9 && !done){
+		x8 = T;
+		x9 = F;
+		done = T
+	};
+
+	if(x10 && !done){
+		x9 = T;
+		x10 = F;
+		done = T
+	}
+
+};
+
+reached = reached || x10;
+
+
+z = flip(0.4);
+
+done = F;
+
+if(z){
+
+	if(x0 && !done){
+		x1 = T;
+		x0 = F;
+		done = T
+	};
+
+	if(x1 && !done){
+		x2 = T;
+		x1 = F;
+		done = T
+	};
+
+	if(x2 && !done){
+		x3 = T;
+		x2 = F;
+		done = T
+	};
+
+	if(x3 && !done){
+		x4 = T;
+		x3 = F;
+		done = T
+	};
+
+	if(x4 && !done){
+		x5 = T;
+		x4 = F;
+		done = T
+	};
+
+	if(x5 && !done){
+		x6 = T;
+		x5 = F;
+		done = T
+	};
+
+	if(x6 && !done){
+		x7 = T;
+		x6 = F;
+		done = T
+	};
+
+	if(x7 && !done){
+		x8 = T;
+		x7 = F;
+		done = T
+	};
+
+	if(x8 && !done){
+		x9 = T;
+		x8 = F;
+		done = T
+	};
+
+	if(x9 && !done){
+		x10 = T;
+		x9 = F;
+		done = T
+	};
+
+	if(x10 && !done){
+		x9 = T;
+		x10 = F;
+		done = T
+	}
+
+}
+else{
+
+	if(x0 && !done){
+		x1 = T;
+		x0 = F;
+		done = T
+	};
+	
+	if(x1 && !done){
+		x0 = T;
+		x1 = F;
+		done = T
+	};
+
+	if(x2 && !done){
+		x1 = T;
+		x2 = F;
+		done = T
+	};
+
+	if(x3 && !done){
+		x2 = T;
+		x3 = F;
+		done = T
+	};
+
+	if(x4 && !done){
+		x3 = T;
+		x4 = F;
+		done = T
+	};
+
+	if(x5 && !done){
+		x4 = T;
+		x5 = F;
+		done = T
+	};
+
+	if(x6 && !done){
+		x5 = T;
+		x6 = F;
+		done = T
+	};
+
+	if(x7 && !done){
+		x6 = T;
+		x7 = F;
+		done = T
+	};
+
+	if(x8 && !done){
+		x7 = T;
+		x8 = F;
+		done = T
+	};
+
+	if(x9 && !done){
+		x8 = T;
+		x9 = F;
+		done = T
+	};
+
+	if(x10 && !done){
+		x9 = T;
+		x10 = F;
+		done = T
+	}
+
+};
+
+reached = reached || x10;
+
+
+z = flip(0.4);
+
+done = F;
+
+if(z){
+
+	if(x0 && !done){
+		x1 = T;
+		x0 = F;
+		done = T
+	};
+
+	if(x1 && !done){
+		x2 = T;
+		x1 = F;
+		done = T
+	};
+
+	if(x2 && !done){
+		x3 = T;
+		x2 = F;
+		done = T
+	};
+
+	if(x3 && !done){
+		x4 = T;
+		x3 = F;
+		done = T
+	};
+
+	if(x4 && !done){
+		x5 = T;
+		x4 = F;
+		done = T
+	};
+
+	if(x5 && !done){
+		x6 = T;
+		x5 = F;
+		done = T
+	};
+
+	if(x6 && !done){
+		x7 = T;
+		x6 = F;
+		done = T
+	};
+
+	if(x7 && !done){
+		x8 = T;
+		x7 = F;
+		done = T
+	};
+
+	if(x8 && !done){
+		x9 = T;
+		x8 = F;
+		done = T
+	};
+
+	if(x9 && !done){
+		x10 = T;
+		x9 = F;
+		done = T
+	};
+
+	if(x10 && !done){
+		x9 = T;
+		x10 = F;
+		done = T
+	}
+
+}
+else{
+
+	if(x0 && !done){
+		x1 = T;
+		x0 = F;
+		done = T
+	};
+	
+	if(x1 && !done){
+		x0 = T;
+		x1 = F;
+		done = T
+	};
+
+	if(x2 && !done){
+		x1 = T;
+		x2 = F;
+		done = T
+	};
+
+	if(x3 && !done){
+		x2 = T;
+		x3 = F;
+		done = T
+	};
+
+	if(x4 && !done){
+		x3 = T;
+		x4 = F;
+		done = T
+	};
+
+	if(x5 && !done){
+		x4 = T;
+		x5 = F;
+		done = T
+	};
+
+	if(x6 && !done){
+		x5 = T;
+		x6 = F;
+		done = T
+	};
+
+	if(x7 && !done){
+		x6 = T;
+		x7 = F;
+		done = T
+	};
+
+	if(x8 && !done){
+		x7 = T;
+		x8 = F;
+		done = T
+	};
+
+	if(x9 && !done){
+		x8 = T;
+		x9 = F;
+		done = T
+	};
+
+	if(x10 && !done){
+		x9 = T;
+		x10 = F;
+		done = T
+	}
+
+};
+
+reached = reached || x10;
+
+
+z = flip(0.4);
+
+done = F;
+
+if(z){
+
+	if(x0 && !done){
+		x1 = T;
+		x0 = F;
+		done = T
+	};
+
+	if(x1 && !done){
+		x2 = T;
+		x1 = F;
+		done = T
+	};
+
+	if(x2 && !done){
+		x3 = T;
+		x2 = F;
+		done = T
+	};
+
+	if(x3 && !done){
+		x4 = T;
+		x3 = F;
+		done = T
+	};
+
+	if(x4 && !done){
+		x5 = T;
+		x4 = F;
+		done = T
+	};
+
+	if(x5 && !done){
+		x6 = T;
+		x5 = F;
+		done = T
+	};
+
+	if(x6 && !done){
+		x7 = T;
+		x6 = F;
+		done = T
+	};
+
+	if(x7 && !done){
+		x8 = T;
+		x7 = F;
+		done = T
+	};
+
+	if(x8 && !done){
+		x9 = T;
+		x8 = F;
+		done = T
+	};
+
+	if(x9 && !done){
+		x10 = T;
+		x9 = F;
+		done = T
+	};
+
+	if(x10 && !done){
+		x9 = T;
+		x10 = F;
+		done = T
+	}
+
+}
+else{
+
+	if(x0 && !done){
+		x1 = T;
+		x0 = F;
+		done = T
+	};
+	
+	if(x1 && !done){
+		x0 = T;
+		x1 = F;
+		done = T
+	};
+
+	if(x2 && !done){
+		x1 = T;
+		x2 = F;
+		done = T
+	};
+
+	if(x3 && !done){
+		x2 = T;
+		x3 = F;
+		done = T
+	};
+
+	if(x4 && !done){
+		x3 = T;
+		x4 = F;
+		done = T
+	};
+
+	if(x5 && !done){
+		x4 = T;
+		x5 = F;
+		done = T
+	};
+
+	if(x6 && !done){
+		x5 = T;
+		x6 = F;
+		done = T
+	};
+
+	if(x7 && !done){
+		x6 = T;
+		x7 = F;
+		done = T
+	};
+
+	if(x8 && !done){
+		x7 = T;
+		x8 = F;
+		done = T
+	};
+
+	if(x9 && !done){
+		x8 = T;
+		x9 = F;
+		done = T
+	};
+
+	if(x10 && !done){
+		x9 = T;
+		x10 = F;
+		done = T
+	}
+
+};
+
+reached = reached || x10;
+
+
+z = flip(0.4);
+
+done = F;
+
+if(z){
+
+	if(x0 && !done){
+		x1 = T;
+		x0 = F;
+		done = T
+	};
+
+	if(x1 && !done){
+		x2 = T;
+		x1 = F;
+		done = T
+	};
+
+	if(x2 && !done){
+		x3 = T;
+		x2 = F;
+		done = T
+	};
+
+	if(x3 && !done){
+		x4 = T;
+		x3 = F;
+		done = T
+	};
+
+	if(x4 && !done){
+		x5 = T;
+		x4 = F;
+		done = T
+	};
+
+	if(x5 && !done){
+		x6 = T;
+		x5 = F;
+		done = T
+	};
+
+	if(x6 && !done){
+		x7 = T;
+		x6 = F;
+		done = T
+	};
+
+	if(x7 && !done){
+		x8 = T;
+		x7 = F;
+		done = T
+	};
+
+	if(x8 && !done){
+		x9 = T;
+		x8 = F;
+		done = T
+	};
+
+	if(x9 && !done){
+		x10 = T;
+		x9 = F;
+		done = T
+	};
+
+	if(x10 && !done){
+		x9 = T;
+		x10 = F;
+		done = T
+	}
+
+}
+else{
+
+	if(x0 && !done){
+		x1 = T;
+		x0 = F;
+		done = T
+	};
+	
+	if(x1 && !done){
+		x0 = T;
+		x1 = F;
+		done = T
+	};
+
+	if(x2 && !done){
+		x1 = T;
+		x2 = F;
+		done = T
+	};
+
+	if(x3 && !done){
+		x2 = T;
+		x3 = F;
+		done = T
+	};
+
+	if(x4 && !done){
+		x3 = T;
+		x4 = F;
+		done = T
+	};
+
+	if(x5 && !done){
+		x4 = T;
+		x5 = F;
+		done = T
+	};
+
+	if(x6 && !done){
+		x5 = T;
+		x6 = F;
+		done = T
+	};
+
+	if(x7 && !done){
+		x6 = T;
+		x7 = F;
+		done = T
+	};
+
+	if(x8 && !done){
+		x7 = T;
+		x8 = F;
+		done = T
+	};
+
+	if(x9 && !done){
+		x8 = T;
+		x9 = F;
+		done = T
+	};
+
+	if(x10 && !done){
+		x9 = T;
+		x10 = F;
+		done = T
+	}
+
+};
+
+reached = reached || x10;
+
+
+z = flip(0.4);
+
+done = F;
+
+if(z){
+
+	if(x0 && !done){
+		x1 = T;
+		x0 = F;
+		done = T
+	};
+
+	if(x1 && !done){
+		x2 = T;
+		x1 = F;
+		done = T
+	};
+
+	if(x2 && !done){
+		x3 = T;
+		x2 = F;
+		done = T
+	};
+
+	if(x3 && !done){
+		x4 = T;
+		x3 = F;
+		done = T
+	};
+
+	if(x4 && !done){
+		x5 = T;
+		x4 = F;
+		done = T
+	};
+
+	if(x5 && !done){
+		x6 = T;
+		x5 = F;
+		done = T
+	};
+
+	if(x6 && !done){
+		x7 = T;
+		x6 = F;
+		done = T
+	};
+
+	if(x7 && !done){
+		x8 = T;
+		x7 = F;
+		done = T
+	};
+
+	if(x8 && !done){
+		x9 = T;
+		x8 = F;
+		done = T
+	};
+
+	if(x9 && !done){
+		x10 = T;
+		x9 = F;
+		done = T
+	};
+
+	if(x10 && !done){
+		x9 = T;
+		x10 = F;
+		done = T
+	}
+
+}
+else{
+
+	if(x0 && !done){
+		x1 = T;
+		x0 = F;
+		done = T
+	};
+	
+	if(x1 && !done){
+		x0 = T;
+		x1 = F;
+		done = T
+	};
+
+	if(x2 && !done){
+		x1 = T;
+		x2 = F;
+		done = T
+	};
+
+	if(x3 && !done){
+		x2 = T;
+		x3 = F;
+		done = T
+	};
+
+	if(x4 && !done){
+		x3 = T;
+		x4 = F;
+		done = T
+	};
+
+	if(x5 && !done){
+		x4 = T;
+		x5 = F;
+		done = T
+	};
+
+	if(x6 && !done){
+		x5 = T;
+		x6 = F;
+		done = T
+	};
+
+	if(x7 && !done){
+		x6 = T;
+		x7 = F;
+		done = T
+	};
+
+	if(x8 && !done){
+		x7 = T;
+		x8 = F;
+		done = T
+	};
+
+	if(x9 && !done){
+		x8 = T;
+		x9 = F;
+		done = T
+	};
+
+	if(x10 && !done){
+		x9 = T;
+		x10 = F;
+		done = T
+	}
+
+};
+
+reached = reached || x10;
+
+
+z = flip(0.4);
+
+done = F;
+
+if(z){
+
+	if(x0 && !done){
+		x1 = T;
+		x0 = F;
+		done = T
+	};
+
+	if(x1 && !done){
+		x2 = T;
+		x1 = F;
+		done = T
+	};
+
+	if(x2 && !done){
+		x3 = T;
+		x2 = F;
+		done = T
+	};
+
+	if(x3 && !done){
+		x4 = T;
+		x3 = F;
+		done = T
+	};
+
+	if(x4 && !done){
+		x5 = T;
+		x4 = F;
+		done = T
+	};
+
+	if(x5 && !done){
+		x6 = T;
+		x5 = F;
+		done = T
+	};
+
+	if(x6 && !done){
+		x7 = T;
+		x6 = F;
+		done = T
+	};
+
+	if(x7 && !done){
+		x8 = T;
+		x7 = F;
+		done = T
+	};
+
+	if(x8 && !done){
+		x9 = T;
+		x8 = F;
+		done = T
+	};
+
+	if(x9 && !done){
+		x10 = T;
+		x9 = F;
+		done = T
+	};
+
+	if(x10 && !done){
+		x9 = T;
+		x10 = F;
+		done = T
+	}
+
+}
+else{
+
+	if(x0 && !done){
+		x1 = T;
+		x0 = F;
+		done = T
+	};
+	
+	if(x1 && !done){
+		x0 = T;
+		x1 = F;
+		done = T
+	};
+
+	if(x2 && !done){
+		x1 = T;
+		x2 = F;
+		done = T
+	};
+
+	if(x3 && !done){
+		x2 = T;
+		x3 = F;
+		done = T
+	};
+
+	if(x4 && !done){
+		x3 = T;
+		x4 = F;
+		done = T
+	};
+
+	if(x5 && !done){
+		x4 = T;
+		x5 = F;
+		done = T
+	};
+
+	if(x6 && !done){
+		x5 = T;
+		x6 = F;
+		done = T
+	};
+
+	if(x7 && !done){
+		x6 = T;
+		x7 = F;
+		done = T
+	};
+
+	if(x8 && !done){
+		x7 = T;
+		x8 = F;
+		done = T
+	};
+
+	if(x9 && !done){
+		x8 = T;
+		x9 = F;
+		done = T
+	};
+
+	if(x10 && !done){
+		x9 = T;
+		x10 = F;
+		done = T
+	}
+
+};
+
+reached = reached || x10;
+
+
+z = flip(0.4);
+
+done = F;
+
+if(z){
+
+	if(x0 && !done){
+		x1 = T;
+		x0 = F;
+		done = T
+	};
+
+	if(x1 && !done){
+		x2 = T;
+		x1 = F;
+		done = T
+	};
+
+	if(x2 && !done){
+		x3 = T;
+		x2 = F;
+		done = T
+	};
+
+	if(x3 && !done){
+		x4 = T;
+		x3 = F;
+		done = T
+	};
+
+	if(x4 && !done){
+		x5 = T;
+		x4 = F;
+		done = T
+	};
+
+	if(x5 && !done){
+		x6 = T;
+		x5 = F;
+		done = T
+	};
+
+	if(x6 && !done){
+		x7 = T;
+		x6 = F;
+		done = T
+	};
+
+	if(x7 && !done){
+		x8 = T;
+		x7 = F;
+		done = T
+	};
+
+	if(x8 && !done){
+		x9 = T;
+		x8 = F;
+		done = T
+	};
+
+	if(x9 && !done){
+		x10 = T;
+		x9 = F;
+		done = T
+	};
+
+	if(x10 && !done){
+		x9 = T;
+		x10 = F;
+		done = T
+	}
+
+}
+else{
+
+	if(x0 && !done){
+		x1 = T;
+		x0 = F;
+		done = T
+	};
+	
+	if(x1 && !done){
+		x0 = T;
+		x1 = F;
+		done = T
+	};
+
+	if(x2 && !done){
+		x1 = T;
+		x2 = F;
+		done = T
+	};
+
+	if(x3 && !done){
+		x2 = T;
+		x3 = F;
+		done = T
+	};
+
+	if(x4 && !done){
+		x3 = T;
+		x4 = F;
+		done = T
+	};
+
+	if(x5 && !done){
+		x4 = T;
+		x5 = F;
+		done = T
+	};
+
+	if(x6 && !done){
+		x5 = T;
+		x6 = F;
+		done = T
+	};
+
+	if(x7 && !done){
+		x6 = T;
+		x7 = F;
+		done = T
+	};
+
+	if(x8 && !done){
+		x7 = T;
+		x8 = F;
+		done = T
+	};
+
+	if(x9 && !done){
+		x8 = T;
+		x9 = F;
+		done = T
+	};
+
+	if(x10 && !done){
+		x9 = T;
+		x10 = F;
+		done = T
+	}
+
+};
+
+reached = reached || x10;
+
+
+z = flip(0.4);
+
+done = F;
+
+if(z){
+
+	if(x0 && !done){
+		x1 = T;
+		x0 = F;
+		done = T
+	};
+
+	if(x1 && !done){
+		x2 = T;
+		x1 = F;
+		done = T
+	};
+
+	if(x2 && !done){
+		x3 = T;
+		x2 = F;
+		done = T
+	};
+
+	if(x3 && !done){
+		x4 = T;
+		x3 = F;
+		done = T
+	};
+
+	if(x4 && !done){
+		x5 = T;
+		x4 = F;
+		done = T
+	};
+
+	if(x5 && !done){
+		x6 = T;
+		x5 = F;
+		done = T
+	};
+
+	if(x6 && !done){
+		x7 = T;
+		x6 = F;
+		done = T
+	};
+
+	if(x7 && !done){
+		x8 = T;
+		x7 = F;
+		done = T
+	};
+
+	if(x8 && !done){
+		x9 = T;
+		x8 = F;
+		done = T
+	};
+
+	if(x9 && !done){
+		x10 = T;
+		x9 = F;
+		done = T
+	};
+
+	if(x10 && !done){
+		x9 = T;
+		x10 = F;
+		done = T
+	}
+
+}
+else{
+
+	if(x0 && !done){
+		x1 = T;
+		x0 = F;
+		done = T
+	};
+	
+	if(x1 && !done){
+		x0 = T;
+		x1 = F;
+		done = T
+	};
+
+	if(x2 && !done){
+		x1 = T;
+		x2 = F;
+		done = T
+	};
+
+	if(x3 && !done){
+		x2 = T;
+		x3 = F;
+		done = T
+	};
+
+	if(x4 && !done){
+		x3 = T;
+		x4 = F;
+		done = T
+	};
+
+	if(x5 && !done){
+		x4 = T;
+		x5 = F;
+		done = T
+	};
+
+	if(x6 && !done){
+		x5 = T;
+		x6 = F;
+		done = T
+	};
+
+	if(x7 && !done){
+		x6 = T;
+		x7 = F;
+		done = T
+	};
+
+	if(x8 && !done){
+		x7 = T;
+		x8 = F;
+		done = T
+	};
+
+	if(x9 && !done){
+		x8 = T;
+		x9 = F;
+		done = T
+	};
+
+	if(x10 && !done){
+		x9 = T;
+		x10 = F;
+		done = T
+	}
+
+};
+
+reached = reached || x10;
+
+
+z = flip(0.4);
+
+done = F;
+
+if(z){
+
+	if(x0 && !done){
+		x1 = T;
+		x0 = F;
+		done = T
+	};
+
+	if(x1 && !done){
+		x2 = T;
+		x1 = F;
+		done = T
+	};
+
+	if(x2 && !done){
+		x3 = T;
+		x2 = F;
+		done = T
+	};
+
+	if(x3 && !done){
+		x4 = T;
+		x3 = F;
+		done = T
+	};
+
+	if(x4 && !done){
+		x5 = T;
+		x4 = F;
+		done = T
+	};
+
+	if(x5 && !done){
+		x6 = T;
+		x5 = F;
+		done = T
+	};
+
+	if(x6 && !done){
+		x7 = T;
+		x6 = F;
+		done = T
+	};
+
+	if(x7 && !done){
+		x8 = T;
+		x7 = F;
+		done = T
+	};
+
+	if(x8 && !done){
+		x9 = T;
+		x8 = F;
+		done = T
+	};
+
+	if(x9 && !done){
+		x10 = T;
+		x9 = F;
+		done = T
+	};
+
+	if(x10 && !done){
+		x9 = T;
+		x10 = F;
+		done = T
+	}
+
+}
+else{
+
+	if(x0 && !done){
+		x1 = T;
+		x0 = F;
+		done = T
+	};
+	
+	if(x1 && !done){
+		x0 = T;
+		x1 = F;
+		done = T
+	};
+
+	if(x2 && !done){
+		x1 = T;
+		x2 = F;
+		done = T
+	};
+
+	if(x3 && !done){
+		x2 = T;
+		x3 = F;
+		done = T
+	};
+
+	if(x4 && !done){
+		x3 = T;
+		x4 = F;
+		done = T
+	};
+
+	if(x5 && !done){
+		x4 = T;
+		x5 = F;
+		done = T
+	};
+
+	if(x6 && !done){
+		x5 = T;
+		x6 = F;
+		done = T
+	};
+
+	if(x7 && !done){
+		x6 = T;
+		x7 = F;
+		done = T
+	};
+
+	if(x8 && !done){
+		x7 = T;
+		x8 = F;
+		done = T
+	};
+
+	if(x9 && !done){
+		x8 = T;
+		x9 = F;
+		done = T
+	};
+
+	if(x10 && !done){
+		x9 = T;
+		x10 = F;
+		done = T
+	}
+
+};
+
+reached = reached || x10;
+
+
+z = flip(0.4);
+
+done = F;
+
+if(z){
+
+	if(x0 && !done){
+		x1 = T;
+		x0 = F;
+		done = T
+	};
+
+	if(x1 && !done){
+		x2 = T;
+		x1 = F;
+		done = T
+	};
+
+	if(x2 && !done){
+		x3 = T;
+		x2 = F;
+		done = T
+	};
+
+	if(x3 && !done){
+		x4 = T;
+		x3 = F;
+		done = T
+	};
+
+	if(x4 && !done){
+		x5 = T;
+		x4 = F;
+		done = T
+	};
+
+	if(x5 && !done){
+		x6 = T;
+		x5 = F;
+		done = T
+	};
+
+	if(x6 && !done){
+		x7 = T;
+		x6 = F;
+		done = T
+	};
+
+	if(x7 && !done){
+		x8 = T;
+		x7 = F;
+		done = T
+	};
+
+	if(x8 && !done){
+		x9 = T;
+		x8 = F;
+		done = T
+	};
+
+	if(x9 && !done){
+		x10 = T;
+		x9 = F;
+		done = T
+	};
+
+	if(x10 && !done){
+		x9 = T;
+		x10 = F;
+		done = T
+	}
+
+}
+else{
+
+	if(x0 && !done){
+		x1 = T;
+		x0 = F;
+		done = T
+	};
+	
+	if(x1 && !done){
+		x0 = T;
+		x1 = F;
+		done = T
+	};
+
+	if(x2 && !done){
+		x1 = T;
+		x2 = F;
+		done = T
+	};
+
+	if(x3 && !done){
+		x2 = T;
+		x3 = F;
+		done = T
+	};
+
+	if(x4 && !done){
+		x3 = T;
+		x4 = F;
+		done = T
+	};
+
+	if(x5 && !done){
+		x4 = T;
+		x5 = F;
+		done = T
+	};
+
+	if(x6 && !done){
+		x5 = T;
+		x6 = F;
+		done = T
+	};
+
+	if(x7 && !done){
+		x6 = T;
+		x7 = F;
+		done = T
+	};
+
+	if(x8 && !done){
+		x7 = T;
+		x8 = F;
+		done = T
+	};
+
+	if(x9 && !done){
+		x8 = T;
+		x9 = F;
+		done = T
+	};
+
+	if(x10 && !done){
+		x9 = T;
+		x10 = F;
+		done = T
+	}
+
+};
+
+reached = reached || x10;
+
+
+z = flip(0.4);
+
+done = F;
+
+if(z){
+
+	if(x0 && !done){
+		x1 = T;
+		x0 = F;
+		done = T
+	};
+
+	if(x1 && !done){
+		x2 = T;
+		x1 = F;
+		done = T
+	};
+
+	if(x2 && !done){
+		x3 = T;
+		x2 = F;
+		done = T
+	};
+
+	if(x3 && !done){
+		x4 = T;
+		x3 = F;
+		done = T
+	};
+
+	if(x4 && !done){
+		x5 = T;
+		x4 = F;
+		done = T
+	};
+
+	if(x5 && !done){
+		x6 = T;
+		x5 = F;
+		done = T
+	};
+
+	if(x6 && !done){
+		x7 = T;
+		x6 = F;
+		done = T
+	};
+
+	if(x7 && !done){
+		x8 = T;
+		x7 = F;
+		done = T
+	};
+
+	if(x8 && !done){
+		x9 = T;
+		x8 = F;
+		done = T
+	};
+
+	if(x9 && !done){
+		x10 = T;
+		x9 = F;
+		done = T
+	};
+
+	if(x10 && !done){
+		x9 = T;
+		x10 = F;
+		done = T
+	}
+
+}
+else{
+
+	if(x0 && !done){
+		x1 = T;
+		x0 = F;
+		done = T
+	};
+	
+	if(x1 && !done){
+		x0 = T;
+		x1 = F;
+		done = T
+	};
+
+	if(x2 && !done){
+		x1 = T;
+		x2 = F;
+		done = T
+	};
+
+	if(x3 && !done){
+		x2 = T;
+		x3 = F;
+		done = T
+	};
+
+	if(x4 && !done){
+		x3 = T;
+		x4 = F;
+		done = T
+	};
+
+	if(x5 && !done){
+		x4 = T;
+		x5 = F;
+		done = T
+	};
+
+	if(x6 && !done){
+		x5 = T;
+		x6 = F;
+		done = T
+	};
+
+	if(x7 && !done){
+		x6 = T;
+		x7 = F;
+		done = T
+	};
+
+	if(x8 && !done){
+		x7 = T;
+		x8 = F;
+		done = T
+	};
+
+	if(x9 && !done){
+		x8 = T;
+		x9 = F;
+		done = T
+	};
+
+	if(x10 && !done){
+		x9 = T;
+		x10 = F;
+		done = T
+	}
+
+};
+
+reached = reached || x10;
+
+
+z = flip(0.4);
+
+done = F;
+
+if(z){
+
+	if(x0 && !done){
+		x1 = T;
+		x0 = F;
+		done = T
+	};
+
+	if(x1 && !done){
+		x2 = T;
+		x1 = F;
+		done = T
+	};
+
+	if(x2 && !done){
+		x3 = T;
+		x2 = F;
+		done = T
+	};
+
+	if(x3 && !done){
+		x4 = T;
+		x3 = F;
+		done = T
+	};
+
+	if(x4 && !done){
+		x5 = T;
+		x4 = F;
+		done = T
+	};
+
+	if(x5 && !done){
+		x6 = T;
+		x5 = F;
+		done = T
+	};
+
+	if(x6 && !done){
+		x7 = T;
+		x6 = F;
+		done = T
+	};
+
+	if(x7 && !done){
+		x8 = T;
+		x7 = F;
+		done = T
+	};
+
+	if(x8 && !done){
+		x9 = T;
+		x8 = F;
+		done = T
+	};
+
+	if(x9 && !done){
+		x10 = T;
+		x9 = F;
+		done = T
+	};
+
+	if(x10 && !done){
+		x9 = T;
+		x10 = F;
+		done = T
+	}
+
+}
+else{
+
+	if(x0 && !done){
+		x1 = T;
+		x0 = F;
+		done = T
+	};
+	
+	if(x1 && !done){
+		x0 = T;
+		x1 = F;
+		done = T
+	};
+
+	if(x2 && !done){
+		x1 = T;
+		x2 = F;
+		done = T
+	};
+
+	if(x3 && !done){
+		x2 = T;
+		x3 = F;
+		done = T
+	};
+
+	if(x4 && !done){
+		x3 = T;
+		x4 = F;
+		done = T
+	};
+
+	if(x5 && !done){
+		x4 = T;
+		x5 = F;
+		done = T
+	};
+
+	if(x6 && !done){
+		x5 = T;
+		x6 = F;
+		done = T
+	};
+
+	if(x7 && !done){
+		x6 = T;
+		x7 = F;
+		done = T
+	};
+
+	if(x8 && !done){
+		x7 = T;
+		x8 = F;
+		done = T
+	};
+
+	if(x9 && !done){
+		x8 = T;
+		x9 = F;
+		done = T
+	};
+
+	if(x10 && !done){
+		x9 = T;
+		x10 = F;
+		done = T
+	}
+
+};
+
+reached = reached || x10;
+
+
+z = flip(0.4);
+
+done = F;
+
+if(z){
+
+	if(x0 && !done){
+		x1 = T;
+		x0 = F;
+		done = T
+	};
+
+	if(x1 && !done){
+		x2 = T;
+		x1 = F;
+		done = T
+	};
+
+	if(x2 && !done){
+		x3 = T;
+		x2 = F;
+		done = T
+	};
+
+	if(x3 && !done){
+		x4 = T;
+		x3 = F;
+		done = T
+	};
+
+	if(x4 && !done){
+		x5 = T;
+		x4 = F;
+		done = T
+	};
+
+	if(x5 && !done){
+		x6 = T;
+		x5 = F;
+		done = T
+	};
+
+	if(x6 && !done){
+		x7 = T;
+		x6 = F;
+		done = T
+	};
+
+	if(x7 && !done){
+		x8 = T;
+		x7 = F;
+		done = T
+	};
+
+	if(x8 && !done){
+		x9 = T;
+		x8 = F;
+		done = T
+	};
+
+	if(x9 && !done){
+		x10 = T;
+		x9 = F;
+		done = T
+	};
+
+	if(x10 && !done){
+		x9 = T;
+		x10 = F;
+		done = T
+	}
+
+}
+else{
+
+	if(x0 && !done){
+		x1 = T;
+		x0 = F;
+		done = T
+	};
+	
+	if(x1 && !done){
+		x0 = T;
+		x1 = F;
+		done = T
+	};
+
+	if(x2 && !done){
+		x1 = T;
+		x2 = F;
+		done = T
+	};
+
+	if(x3 && !done){
+		x2 = T;
+		x3 = F;
+		done = T
+	};
+
+	if(x4 && !done){
+		x3 = T;
+		x4 = F;
+		done = T
+	};
+
+	if(x5 && !done){
+		x4 = T;
+		x5 = F;
+		done = T
+	};
+
+	if(x6 && !done){
+		x5 = T;
+		x6 = F;
+		done = T
+	};
+
+	if(x7 && !done){
+		x6 = T;
+		x7 = F;
+		done = T
+	};
+
+	if(x8 && !done){
+		x7 = T;
+		x8 = F;
+		done = T
+	};
+
+	if(x9 && !done){
+		x8 = T;
+		x9 = F;
+		done = T
+	};
+
+	if(x10 && !done){
+		x9 = T;
+		x10 = F;
+		done = T
+	}
+
+};
+
+reached = reached || x10;
+
+
+z = flip(0.4);
+
+done = F;
+
+if(z){
+
+	if(x0 && !done){
+		x1 = T;
+		x0 = F;
+		done = T
+	};
+
+	if(x1 && !done){
+		x2 = T;
+		x1 = F;
+		done = T
+	};
+
+	if(x2 && !done){
+		x3 = T;
+		x2 = F;
+		done = T
+	};
+
+	if(x3 && !done){
+		x4 = T;
+		x3 = F;
+		done = T
+	};
+
+	if(x4 && !done){
+		x5 = T;
+		x4 = F;
+		done = T
+	};
+
+	if(x5 && !done){
+		x6 = T;
+		x5 = F;
+		done = T
+	};
+
+	if(x6 && !done){
+		x7 = T;
+		x6 = F;
+		done = T
+	};
+
+	if(x7 && !done){
+		x8 = T;
+		x7 = F;
+		done = T
+	};
+
+	if(x8 && !done){
+		x9 = T;
+		x8 = F;
+		done = T
+	};
+
+	if(x9 && !done){
+		x10 = T;
+		x9 = F;
+		done = T
+	};
+
+	if(x10 && !done){
+		x9 = T;
+		x10 = F;
+		done = T
+	}
+
+}
+else{
+
+	if(x0 && !done){
+		x1 = T;
+		x0 = F;
+		done = T
+	};
+	
+	if(x1 && !done){
+		x0 = T;
+		x1 = F;
+		done = T
+	};
+
+	if(x2 && !done){
+		x1 = T;
+		x2 = F;
+		done = T
+	};
+
+	if(x3 && !done){
+		x2 = T;
+		x3 = F;
+		done = T
+	};
+
+	if(x4 && !done){
+		x3 = T;
+		x4 = F;
+		done = T
+	};
+
+	if(x5 && !done){
+		x4 = T;
+		x5 = F;
+		done = T
+	};
+
+	if(x6 && !done){
+		x5 = T;
+		x6 = F;
+		done = T
+	};
+
+	if(x7 && !done){
+		x6 = T;
+		x7 = F;
+		done = T
+	};
+
+	if(x8 && !done){
+		x7 = T;
+		x8 = F;
+		done = T
+	};
+
+	if(x9 && !done){
+		x8 = T;
+		x9 = F;
+		done = T
+	};
+
+	if(x10 && !done){
+		x9 = T;
+		x10 = F;
+		done = T
+	}
+
+};
+
+reached = reached || x10;
+
+
+z = flip(0.4);
+
+done = F;
+
+if(z){
+
+	if(x0 && !done){
+		x1 = T;
+		x0 = F;
+		done = T
+	};
+
+	if(x1 && !done){
+		x2 = T;
+		x1 = F;
+		done = T
+	};
+
+	if(x2 && !done){
+		x3 = T;
+		x2 = F;
+		done = T
+	};
+
+	if(x3 && !done){
+		x4 = T;
+		x3 = F;
+		done = T
+	};
+
+	if(x4 && !done){
+		x5 = T;
+		x4 = F;
+		done = T
+	};
+
+	if(x5 && !done){
+		x6 = T;
+		x5 = F;
+		done = T
+	};
+
+	if(x6 && !done){
+		x7 = T;
+		x6 = F;
+		done = T
+	};
+
+	if(x7 && !done){
+		x8 = T;
+		x7 = F;
+		done = T
+	};
+
+	if(x8 && !done){
+		x9 = T;
+		x8 = F;
+		done = T
+	};
+
+	if(x9 && !done){
+		x10 = T;
+		x9 = F;
+		done = T
+	};
+
+	if(x10 && !done){
+		x9 = T;
+		x10 = F;
+		done = T
+	}
+
+}
+else{
+
+	if(x0 && !done){
+		x1 = T;
+		x0 = F;
+		done = T
+	};
+	
+	if(x1 && !done){
+		x0 = T;
+		x1 = F;
+		done = T
+	};
+
+	if(x2 && !done){
+		x1 = T;
+		x2 = F;
+		done = T
+	};
+
+	if(x3 && !done){
+		x2 = T;
+		x3 = F;
+		done = T
+	};
+
+	if(x4 && !done){
+		x3 = T;
+		x4 = F;
+		done = T
+	};
+
+	if(x5 && !done){
+		x4 = T;
+		x5 = F;
+		done = T
+	};
+
+	if(x6 && !done){
+		x5 = T;
+		x6 = F;
+		done = T
+	};
+
+	if(x7 && !done){
+		x6 = T;
+		x7 = F;
+		done = T
+	};
+
+	if(x8 && !done){
+		x7 = T;
+		x8 = F;
+		done = T
+	};
+
+	if(x9 && !done){
+		x8 = T;
+		x9 = F;
+		done = T
+	};
+
+	if(x10 && !done){
+		x9 = T;
+		x10 = F;
+		done = T
+	}
+
+};
+
+reached = reached || x10;
+
+
+z = flip(0.4);
+
+done = F;
+
+if(z){
+
+	if(x0 && !done){
+		x1 = T;
+		x0 = F;
+		done = T
+	};
+
+	if(x1 && !done){
+		x2 = T;
+		x1 = F;
+		done = T
+	};
+
+	if(x2 && !done){
+		x3 = T;
+		x2 = F;
+		done = T
+	};
+
+	if(x3 && !done){
+		x4 = T;
+		x3 = F;
+		done = T
+	};
+
+	if(x4 && !done){
+		x5 = T;
+		x4 = F;
+		done = T
+	};
+
+	if(x5 && !done){
+		x6 = T;
+		x5 = F;
+		done = T
+	};
+
+	if(x6 && !done){
+		x7 = T;
+		x6 = F;
+		done = T
+	};
+
+	if(x7 && !done){
+		x8 = T;
+		x7 = F;
+		done = T
+	};
+
+	if(x8 && !done){
+		x9 = T;
+		x8 = F;
+		done = T
+	};
+
+	if(x9 && !done){
+		x10 = T;
+		x9 = F;
+		done = T
+	};
+
+	if(x10 && !done){
+		x9 = T;
+		x10 = F;
+		done = T
+	}
+
+}
+else{
+
+	if(x0 && !done){
+		x1 = T;
+		x0 = F;
+		done = T
+	};
+	
+	if(x1 && !done){
+		x0 = T;
+		x1 = F;
+		done = T
+	};
+
+	if(x2 && !done){
+		x1 = T;
+		x2 = F;
+		done = T
+	};
+
+	if(x3 && !done){
+		x2 = T;
+		x3 = F;
+		done = T
+	};
+
+	if(x4 && !done){
+		x3 = T;
+		x4 = F;
+		done = T
+	};
+
+	if(x5 && !done){
+		x4 = T;
+		x5 = F;
+		done = T
+	};
+
+	if(x6 && !done){
+		x5 = T;
+		x6 = F;
+		done = T
+	};
+
+	if(x7 && !done){
+		x6 = T;
+		x7 = F;
+		done = T
+	};
+
+	if(x8 && !done){
+		x7 = T;
+		x8 = F;
+		done = T
+	};
+
+	if(x9 && !done){
+		x8 = T;
+		x9 = F;
+		done = T
+	};
+
+	if(x10 && !done){
+		x9 = T;
+		x10 = F;
+		done = T
+	}
+
+};
+
+reached = reached || x10;
+
+
+z = flip(0.4);
+
+done = F;
+
+if(z){
+
+	if(x0 && !done){
+		x1 = T;
+		x0 = F;
+		done = T
+	};
+
+	if(x1 && !done){
+		x2 = T;
+		x1 = F;
+		done = T
+	};
+
+	if(x2 && !done){
+		x3 = T;
+		x2 = F;
+		done = T
+	};
+
+	if(x3 && !done){
+		x4 = T;
+		x3 = F;
+		done = T
+	};
+
+	if(x4 && !done){
+		x5 = T;
+		x4 = F;
+		done = T
+	};
+
+	if(x5 && !done){
+		x6 = T;
+		x5 = F;
+		done = T
+	};
+
+	if(x6 && !done){
+		x7 = T;
+		x6 = F;
+		done = T
+	};
+
+	if(x7 && !done){
+		x8 = T;
+		x7 = F;
+		done = T
+	};
+
+	if(x8 && !done){
+		x9 = T;
+		x8 = F;
+		done = T
+	};
+
+	if(x9 && !done){
+		x10 = T;
+		x9 = F;
+		done = T
+	};
+
+	if(x10 && !done){
+		x9 = T;
+		x10 = F;
+		done = T
+	}
+
+}
+else{
+
+	if(x0 && !done){
+		x1 = T;
+		x0 = F;
+		done = T
+	};
+	
+	if(x1 && !done){
+		x0 = T;
+		x1 = F;
+		done = T
+	};
+
+	if(x2 && !done){
+		x1 = T;
+		x2 = F;
+		done = T
+	};
+
+	if(x3 && !done){
+		x2 = T;
+		x3 = F;
+		done = T
+	};
+
+	if(x4 && !done){
+		x3 = T;
+		x4 = F;
+		done = T
+	};
+
+	if(x5 && !done){
+		x4 = T;
+		x5 = F;
+		done = T
+	};
+
+	if(x6 && !done){
+		x5 = T;
+		x6 = F;
+		done = T
+	};
+
+	if(x7 && !done){
+		x6 = T;
+		x7 = F;
+		done = T
+	};
+
+	if(x8 && !done){
+		x7 = T;
+		x8 = F;
+		done = T
+	};
+
+	if(x9 && !done){
+		x8 = T;
+		x9 = F;
+		done = T
+	};
+
+	if(x10 && !done){
+		x9 = T;
+		x10 = F;
+		done = T
+	}
+
+};
+
+reached = reached || x10;
+
+
+z = flip(0.4);
+
+done = F;
+
+if(z){
+
+	if(x0 && !done){
+		x1 = T;
+		x0 = F;
+		done = T
+	};
+
+	if(x1 && !done){
+		x2 = T;
+		x1 = F;
+		done = T
+	};
+
+	if(x2 && !done){
+		x3 = T;
+		x2 = F;
+		done = T
+	};
+
+	if(x3 && !done){
+		x4 = T;
+		x3 = F;
+		done = T
+	};
+
+	if(x4 && !done){
+		x5 = T;
+		x4 = F;
+		done = T
+	};
+
+	if(x5 && !done){
+		x6 = T;
+		x5 = F;
+		done = T
+	};
+
+	if(x6 && !done){
+		x7 = T;
+		x6 = F;
+		done = T
+	};
+
+	if(x7 && !done){
+		x8 = T;
+		x7 = F;
+		done = T
+	};
+
+	if(x8 && !done){
+		x9 = T;
+		x8 = F;
+		done = T
+	};
+
+	if(x9 && !done){
+		x10 = T;
+		x9 = F;
+		done = T
+	};
+
+	if(x10 && !done){
+		x9 = T;
+		x10 = F;
+		done = T
+	}
+
+}
+else{
+
+	if(x0 && !done){
+		x1 = T;
+		x0 = F;
+		done = T
+	};
+	
+	if(x1 && !done){
+		x0 = T;
+		x1 = F;
+		done = T
+	};
+
+	if(x2 && !done){
+		x1 = T;
+		x2 = F;
+		done = T
+	};
+
+	if(x3 && !done){
+		x2 = T;
+		x3 = F;
+		done = T
+	};
+
+	if(x4 && !done){
+		x3 = T;
+		x4 = F;
+		done = T
+	};
+
+	if(x5 && !done){
+		x4 = T;
+		x5 = F;
+		done = T
+	};
+
+	if(x6 && !done){
+		x5 = T;
+		x6 = F;
+		done = T
+	};
+
+	if(x7 && !done){
+		x6 = T;
+		x7 = F;
+		done = T
+	};
+
+	if(x8 && !done){
+		x7 = T;
+		x8 = F;
+		done = T
+	};
+
+	if(x9 && !done){
+		x8 = T;
+		x9 = F;
+		done = T
+	};
+
+	if(x10 && !done){
+		x9 = T;
+		x10 = F;
+		done = T
+	}
+
+};
+
+reached = reached || x10;
+
+
+z = flip(0.4);
+
+done = F;
+
+if(z){
+
+	if(x0 && !done){
+		x1 = T;
+		x0 = F;
+		done = T
+	};
+
+	if(x1 && !done){
+		x2 = T;
+		x1 = F;
+		done = T
+	};
+
+	if(x2 && !done){
+		x3 = T;
+		x2 = F;
+		done = T
+	};
+
+	if(x3 && !done){
+		x4 = T;
+		x3 = F;
+		done = T
+	};
+
+	if(x4 && !done){
+		x5 = T;
+		x4 = F;
+		done = T
+	};
+
+	if(x5 && !done){
+		x6 = T;
+		x5 = F;
+		done = T
+	};
+
+	if(x6 && !done){
+		x7 = T;
+		x6 = F;
+		done = T
+	};
+
+	if(x7 && !done){
+		x8 = T;
+		x7 = F;
+		done = T
+	};
+
+	if(x8 && !done){
+		x9 = T;
+		x8 = F;
+		done = T
+	};
+
+	if(x9 && !done){
+		x10 = T;
+		x9 = F;
+		done = T
+	};
+
+	if(x10 && !done){
+		x9 = T;
+		x10 = F;
+		done = T
+	}
+
+}
+else{
+
+	if(x0 && !done){
+		x1 = T;
+		x0 = F;
+		done = T
+	};
+	
+	if(x1 && !done){
+		x0 = T;
+		x1 = F;
+		done = T
+	};
+
+	if(x2 && !done){
+		x1 = T;
+		x2 = F;
+		done = T
+	};
+
+	if(x3 && !done){
+		x2 = T;
+		x3 = F;
+		done = T
+	};
+
+	if(x4 && !done){
+		x3 = T;
+		x4 = F;
+		done = T
+	};
+
+	if(x5 && !done){
+		x4 = T;
+		x5 = F;
+		done = T
+	};
+
+	if(x6 && !done){
+		x5 = T;
+		x6 = F;
+		done = T
+	};
+
+	if(x7 && !done){
+		x6 = T;
+		x7 = F;
+		done = T
+	};
+
+	if(x8 && !done){
+		x7 = T;
+		x8 = F;
+		done = T
+	};
+
+	if(x9 && !done){
+		x8 = T;
+		x9 = F;
+		done = T
+	};
+
+	if(x10 && !done){
+		x9 = T;
+		x10 = F;
+		done = T
+	}
+
+};
+
+reached = reached || x10;
+
+
+z = flip(0.4);
+
+done = F;
+
+if(z){
+
+	if(x0 && !done){
+		x1 = T;
+		x0 = F;
+		done = T
+	};
+
+	if(x1 && !done){
+		x2 = T;
+		x1 = F;
+		done = T
+	};
+
+	if(x2 && !done){
+		x3 = T;
+		x2 = F;
+		done = T
+	};
+
+	if(x3 && !done){
+		x4 = T;
+		x3 = F;
+		done = T
+	};
+
+	if(x4 && !done){
+		x5 = T;
+		x4 = F;
+		done = T
+	};
+
+	if(x5 && !done){
+		x6 = T;
+		x5 = F;
+		done = T
+	};
+
+	if(x6 && !done){
+		x7 = T;
+		x6 = F;
+		done = T
+	};
+
+	if(x7 && !done){
+		x8 = T;
+		x7 = F;
+		done = T
+	};
+
+	if(x8 && !done){
+		x9 = T;
+		x8 = F;
+		done = T
+	};
+
+	if(x9 && !done){
+		x10 = T;
+		x9 = F;
+		done = T
+	};
+
+	if(x10 && !done){
+		x9 = T;
+		x10 = F;
+		done = T
+	}
+
+}
+else{
+
+	if(x0 && !done){
+		x1 = T;
+		x0 = F;
+		done = T
+	};
+	
+	if(x1 && !done){
+		x0 = T;
+		x1 = F;
+		done = T
+	};
+
+	if(x2 && !done){
+		x1 = T;
+		x2 = F;
+		done = T
+	};
+
+	if(x3 && !done){
+		x2 = T;
+		x3 = F;
+		done = T
+	};
+
+	if(x4 && !done){
+		x3 = T;
+		x4 = F;
+		done = T
+	};
+
+	if(x5 && !done){
+		x4 = T;
+		x5 = F;
+		done = T
+	};
+
+	if(x6 && !done){
+		x5 = T;
+		x6 = F;
+		done = T
+	};
+
+	if(x7 && !done){
+		x6 = T;
+		x7 = F;
+		done = T
+	};
+
+	if(x8 && !done){
+		x7 = T;
+		x8 = F;
+		done = T
+	};
+
+	if(x9 && !done){
+		x8 = T;
+		x9 = F;
+		done = T
+	};
+
+	if(x10 && !done){
+		x9 = T;
+		x10 = F;
+		done = T
+	}
+
+};
+
+reached = reached || x10;
+
+
+z = flip(0.4);
+
+done = F;
+
+if(z){
+
+	if(x0 && !done){
+		x1 = T;
+		x0 = F;
+		done = T
+	};
+
+	if(x1 && !done){
+		x2 = T;
+		x1 = F;
+		done = T
+	};
+
+	if(x2 && !done){
+		x3 = T;
+		x2 = F;
+		done = T
+	};
+
+	if(x3 && !done){
+		x4 = T;
+		x3 = F;
+		done = T
+	};
+
+	if(x4 && !done){
+		x5 = T;
+		x4 = F;
+		done = T
+	};
+
+	if(x5 && !done){
+		x6 = T;
+		x5 = F;
+		done = T
+	};
+
+	if(x6 && !done){
+		x7 = T;
+		x6 = F;
+		done = T
+	};
+
+	if(x7 && !done){
+		x8 = T;
+		x7 = F;
+		done = T
+	};
+
+	if(x8 && !done){
+		x9 = T;
+		x8 = F;
+		done = T
+	};
+
+	if(x9 && !done){
+		x10 = T;
+		x9 = F;
+		done = T
+	};
+
+	if(x10 && !done){
+		x9 = T;
+		x10 = F;
+		done = T
+	}
+
+}
+else{
+
+	if(x0 && !done){
+		x1 = T;
+		x0 = F;
+		done = T
+	};
+	
+	if(x1 && !done){
+		x0 = T;
+		x1 = F;
+		done = T
+	};
+
+	if(x2 && !done){
+		x1 = T;
+		x2 = F;
+		done = T
+	};
+
+	if(x3 && !done){
+		x2 = T;
+		x3 = F;
+		done = T
+	};
+
+	if(x4 && !done){
+		x3 = T;
+		x4 = F;
+		done = T
+	};
+
+	if(x5 && !done){
+		x4 = T;
+		x5 = F;
+		done = T
+	};
+
+	if(x6 && !done){
+		x5 = T;
+		x6 = F;
+		done = T
+	};
+
+	if(x7 && !done){
+		x6 = T;
+		x7 = F;
+		done = T
+	};
+
+	if(x8 && !done){
+		x7 = T;
+		x8 = F;
+		done = T
+	};
+
+	if(x9 && !done){
+		x8 = T;
+		x9 = F;
+		done = T
+	};
+
+	if(x10 && !done){
+		x9 = T;
+		x10 = F;
+		done = T
+	}
+
+};
+
+reached = reached || x10;
+
+
+z = flip(0.4);
+
+done = F;
+
+if(z){
+
+	if(x0 && !done){
+		x1 = T;
+		x0 = F;
+		done = T
+	};
+
+	if(x1 && !done){
+		x2 = T;
+		x1 = F;
+		done = T
+	};
+
+	if(x2 && !done){
+		x3 = T;
+		x2 = F;
+		done = T
+	};
+
+	if(x3 && !done){
+		x4 = T;
+		x3 = F;
+		done = T
+	};
+
+	if(x4 && !done){
+		x5 = T;
+		x4 = F;
+		done = T
+	};
+
+	if(x5 && !done){
+		x6 = T;
+		x5 = F;
+		done = T
+	};
+
+	if(x6 && !done){
+		x7 = T;
+		x6 = F;
+		done = T
+	};
+
+	if(x7 && !done){
+		x8 = T;
+		x7 = F;
+		done = T
+	};
+
+	if(x8 && !done){
+		x9 = T;
+		x8 = F;
+		done = T
+	};
+
+	if(x9 && !done){
+		x10 = T;
+		x9 = F;
+		done = T
+	};
+
+	if(x10 && !done){
+		x9 = T;
+		x10 = F;
+		done = T
+	}
+
+}
+else{
+
+	if(x0 && !done){
+		x1 = T;
+		x0 = F;
+		done = T
+	};
+	
+	if(x1 && !done){
+		x0 = T;
+		x1 = F;
+		done = T
+	};
+
+	if(x2 && !done){
+		x1 = T;
+		x2 = F;
+		done = T
+	};
+
+	if(x3 && !done){
+		x2 = T;
+		x3 = F;
+		done = T
+	};
+
+	if(x4 && !done){
+		x3 = T;
+		x4 = F;
+		done = T
+	};
+
+	if(x5 && !done){
+		x4 = T;
+		x5 = F;
+		done = T
+	};
+
+	if(x6 && !done){
+		x5 = T;
+		x6 = F;
+		done = T
+	};
+
+	if(x7 && !done){
+		x6 = T;
+		x7 = F;
+		done = T
+	};
+
+	if(x8 && !done){
+		x7 = T;
+		x8 = F;
+		done = T
+	};
+
+	if(x9 && !done){
+		x8 = T;
+		x9 = F;
+		done = T
+	};
+
+	if(x10 && !done){
+		x9 = T;
+		x10 = F;
+		done = T
+	}
+
+};
+
+reached = reached || x10;
+
+
+z = flip(0.4);
+
+done = F;
+
+if(z){
+
+	if(x0 && !done){
+		x1 = T;
+		x0 = F;
+		done = T
+	};
+
+	if(x1 && !done){
+		x2 = T;
+		x1 = F;
+		done = T
+	};
+
+	if(x2 && !done){
+		x3 = T;
+		x2 = F;
+		done = T
+	};
+
+	if(x3 && !done){
+		x4 = T;
+		x3 = F;
+		done = T
+	};
+
+	if(x4 && !done){
+		x5 = T;
+		x4 = F;
+		done = T
+	};
+
+	if(x5 && !done){
+		x6 = T;
+		x5 = F;
+		done = T
+	};
+
+	if(x6 && !done){
+		x7 = T;
+		x6 = F;
+		done = T
+	};
+
+	if(x7 && !done){
+		x8 = T;
+		x7 = F;
+		done = T
+	};
+
+	if(x8 && !done){
+		x9 = T;
+		x8 = F;
+		done = T
+	};
+
+	if(x9 && !done){
+		x10 = T;
+		x9 = F;
+		done = T
+	};
+
+	if(x10 && !done){
+		x9 = T;
+		x10 = F;
+		done = T
+	}
+
+}
+else{
+
+	if(x0 && !done){
+		x1 = T;
+		x0 = F;
+		done = T
+	};
+	
+	if(x1 && !done){
+		x0 = T;
+		x1 = F;
+		done = T
+	};
+
+	if(x2 && !done){
+		x1 = T;
+		x2 = F;
+		done = T
+	};
+
+	if(x3 && !done){
+		x2 = T;
+		x3 = F;
+		done = T
+	};
+
+	if(x4 && !done){
+		x3 = T;
+		x4 = F;
+		done = T
+	};
+
+	if(x5 && !done){
+		x4 = T;
+		x5 = F;
+		done = T
+	};
+
+	if(x6 && !done){
+		x5 = T;
+		x6 = F;
+		done = T
+	};
+
+	if(x7 && !done){
+		x6 = T;
+		x7 = F;
+		done = T
+	};
+
+	if(x8 && !done){
+		x7 = T;
+		x8 = F;
+		done = T
+	};
+
+	if(x9 && !done){
+		x8 = T;
+		x9 = F;
+		done = T
+	};
+
+	if(x10 && !done){
+		x9 = T;
+		x10 = F;
+		done = T
+	}
+
+};
+
+reached = reached || x10;
+
+
+z = flip(0.4);
+
+done = F;
+
+if(z){
+
+	if(x0 && !done){
+		x1 = T;
+		x0 = F;
+		done = T
+	};
+
+	if(x1 && !done){
+		x2 = T;
+		x1 = F;
+		done = T
+	};
+
+	if(x2 && !done){
+		x3 = T;
+		x2 = F;
+		done = T
+	};
+
+	if(x3 && !done){
+		x4 = T;
+		x3 = F;
+		done = T
+	};
+
+	if(x4 && !done){
+		x5 = T;
+		x4 = F;
+		done = T
+	};
+
+	if(x5 && !done){
+		x6 = T;
+		x5 = F;
+		done = T
+	};
+
+	if(x6 && !done){
+		x7 = T;
+		x6 = F;
+		done = T
+	};
+
+	if(x7 && !done){
+		x8 = T;
+		x7 = F;
+		done = T
+	};
+
+	if(x8 && !done){
+		x9 = T;
+		x8 = F;
+		done = T
+	};
+
+	if(x9 && !done){
+		x10 = T;
+		x9 = F;
+		done = T
+	};
+
+	if(x10 && !done){
+		x9 = T;
+		x10 = F;
+		done = T
+	}
+
+}
+else{
+
+	if(x0 && !done){
+		x1 = T;
+		x0 = F;
+		done = T
+	};
+	
+	if(x1 && !done){
+		x0 = T;
+		x1 = F;
+		done = T
+	};
+
+	if(x2 && !done){
+		x1 = T;
+		x2 = F;
+		done = T
+	};
+
+	if(x3 && !done){
+		x2 = T;
+		x3 = F;
+		done = T
+	};
+
+	if(x4 && !done){
+		x3 = T;
+		x4 = F;
+		done = T
+	};
+
+	if(x5 && !done){
+		x4 = T;
+		x5 = F;
+		done = T
+	};
+
+	if(x6 && !done){
+		x5 = T;
+		x6 = F;
+		done = T
+	};
+
+	if(x7 && !done){
+		x6 = T;
+		x7 = F;
+		done = T
+	};
+
+	if(x8 && !done){
+		x7 = T;
+		x8 = F;
+		done = T
+	};
+
+	if(x9 && !done){
+		x8 = T;
+		x9 = F;
+		done = T
+	};
+
+	if(x10 && !done){
+		x9 = T;
+		x10 = F;
+		done = T
+	}
+
+};
+
+reached = reached || x10;
+
+
+z = flip(0.4);
+
+done = F;
+
+if(z){
+
+	if(x0 && !done){
+		x1 = T;
+		x0 = F;
+		done = T
+	};
+
+	if(x1 && !done){
+		x2 = T;
+		x1 = F;
+		done = T
+	};
+
+	if(x2 && !done){
+		x3 = T;
+		x2 = F;
+		done = T
+	};
+
+	if(x3 && !done){
+		x4 = T;
+		x3 = F;
+		done = T
+	};
+
+	if(x4 && !done){
+		x5 = T;
+		x4 = F;
+		done = T
+	};
+
+	if(x5 && !done){
+		x6 = T;
+		x5 = F;
+		done = T
+	};
+
+	if(x6 && !done){
+		x7 = T;
+		x6 = F;
+		done = T
+	};
+
+	if(x7 && !done){
+		x8 = T;
+		x7 = F;
+		done = T
+	};
+
+	if(x8 && !done){
+		x9 = T;
+		x8 = F;
+		done = T
+	};
+
+	if(x9 && !done){
+		x10 = T;
+		x9 = F;
+		done = T
+	};
+
+	if(x10 && !done){
+		x9 = T;
+		x10 = F;
+		done = T
+	}
+
+}
+else{
+
+	if(x0 && !done){
+		x1 = T;
+		x0 = F;
+		done = T
+	};
+	
+	if(x1 && !done){
+		x0 = T;
+		x1 = F;
+		done = T
+	};
+
+	if(x2 && !done){
+		x1 = T;
+		x2 = F;
+		done = T
+	};
+
+	if(x3 && !done){
+		x2 = T;
+		x3 = F;
+		done = T
+	};
+
+	if(x4 && !done){
+		x3 = T;
+		x4 = F;
+		done = T
+	};
+
+	if(x5 && !done){
+		x4 = T;
+		x5 = F;
+		done = T
+	};
+
+	if(x6 && !done){
+		x5 = T;
+		x6 = F;
+		done = T
+	};
+
+	if(x7 && !done){
+		x6 = T;
+		x7 = F;
+		done = T
+	};
+
+	if(x8 && !done){
+		x7 = T;
+		x8 = F;
+		done = T
+	};
+
+	if(x9 && !done){
+		x8 = T;
+		x9 = F;
+		done = T
+	};
+
+	if(x10 && !done){
+		x9 = T;
+		x10 = F;
+		done = T
+	}
+
+};
+
+reached = reached || x10;
+
+
+z = flip(0.4);
+
+done = F;
+
+if(z){
+
+	if(x0 && !done){
+		x1 = T;
+		x0 = F;
+		done = T
+	};
+
+	if(x1 && !done){
+		x2 = T;
+		x1 = F;
+		done = T
+	};
+
+	if(x2 && !done){
+		x3 = T;
+		x2 = F;
+		done = T
+	};
+
+	if(x3 && !done){
+		x4 = T;
+		x3 = F;
+		done = T
+	};
+
+	if(x4 && !done){
+		x5 = T;
+		x4 = F;
+		done = T
+	};
+
+	if(x5 && !done){
+		x6 = T;
+		x5 = F;
+		done = T
+	};
+
+	if(x6 && !done){
+		x7 = T;
+		x6 = F;
+		done = T
+	};
+
+	if(x7 && !done){
+		x8 = T;
+		x7 = F;
+		done = T
+	};
+
+	if(x8 && !done){
+		x9 = T;
+		x8 = F;
+		done = T
+	};
+
+	if(x9 && !done){
+		x10 = T;
+		x9 = F;
+		done = T
+	};
+
+	if(x10 && !done){
+		x9 = T;
+		x10 = F;
+		done = T
+	}
+
+}
+else{
+
+	if(x0 && !done){
+		x1 = T;
+		x0 = F;
+		done = T
+	};
+	
+	if(x1 && !done){
+		x0 = T;
+		x1 = F;
+		done = T
+	};
+
+	if(x2 && !done){
+		x1 = T;
+		x2 = F;
+		done = T
+	};
+
+	if(x3 && !done){
+		x2 = T;
+		x3 = F;
+		done = T
+	};
+
+	if(x4 && !done){
+		x3 = T;
+		x4 = F;
+		done = T
+	};
+
+	if(x5 && !done){
+		x4 = T;
+		x5 = F;
+		done = T
+	};
+
+	if(x6 && !done){
+		x5 = T;
+		x6 = F;
+		done = T
+	};
+
+	if(x7 && !done){
+		x6 = T;
+		x7 = F;
+		done = T
+	};
+
+	if(x8 && !done){
+		x7 = T;
+		x8 = F;
+		done = T
+	};
+
+	if(x9 && !done){
+		x8 = T;
+		x9 = F;
+		done = T
+	};
+
+	if(x10 && !done){
+		x9 = T;
+		x10 = F;
+		done = T
+	}
+
+};
+
+reached = reached || x10;
+
+
+z = flip(0.4);
+
+done = F;
+
+if(z){
+
+	if(x0 && !done){
+		x1 = T;
+		x0 = F;
+		done = T
+	};
+
+	if(x1 && !done){
+		x2 = T;
+		x1 = F;
+		done = T
+	};
+
+	if(x2 && !done){
+		x3 = T;
+		x2 = F;
+		done = T
+	};
+
+	if(x3 && !done){
+		x4 = T;
+		x3 = F;
+		done = T
+	};
+
+	if(x4 && !done){
+		x5 = T;
+		x4 = F;
+		done = T
+	};
+
+	if(x5 && !done){
+		x6 = T;
+		x5 = F;
+		done = T
+	};
+
+	if(x6 && !done){
+		x7 = T;
+		x6 = F;
+		done = T
+	};
+
+	if(x7 && !done){
+		x8 = T;
+		x7 = F;
+		done = T
+	};
+
+	if(x8 && !done){
+		x9 = T;
+		x8 = F;
+		done = T
+	};
+
+	if(x9 && !done){
+		x10 = T;
+		x9 = F;
+		done = T
+	};
+
+	if(x10 && !done){
+		x9 = T;
+		x10 = F;
+		done = T
+	}
+
+}
+else{
+
+	if(x0 && !done){
+		x1 = T;
+		x0 = F;
+		done = T
+	};
+	
+	if(x1 && !done){
+		x0 = T;
+		x1 = F;
+		done = T
+	};
+
+	if(x2 && !done){
+		x1 = T;
+		x2 = F;
+		done = T
+	};
+
+	if(x3 && !done){
+		x2 = T;
+		x3 = F;
+		done = T
+	};
+
+	if(x4 && !done){
+		x3 = T;
+		x4 = F;
+		done = T
+	};
+
+	if(x5 && !done){
+		x4 = T;
+		x5 = F;
+		done = T
+	};
+
+	if(x6 && !done){
+		x5 = T;
+		x6 = F;
+		done = T
+	};
+
+	if(x7 && !done){
+		x6 = T;
+		x7 = F;
+		done = T
+	};
+
+	if(x8 && !done){
+		x7 = T;
+		x8 = F;
+		done = T
+	};
+
+	if(x9 && !done){
+		x8 = T;
+		x9 = F;
+		done = T
+	};
+
+	if(x10 && !done){
+		x9 = T;
+		x10 = F;
+		done = T
+	}
+
+};
+
+reached = reached || x10;
+
+
+z = flip(0.4);
+
+done = F;
+
+if(z){
+
+	if(x0 && !done){
+		x1 = T;
+		x0 = F;
+		done = T
+	};
+
+	if(x1 && !done){
+		x2 = T;
+		x1 = F;
+		done = T
+	};
+
+	if(x2 && !done){
+		x3 = T;
+		x2 = F;
+		done = T
+	};
+
+	if(x3 && !done){
+		x4 = T;
+		x3 = F;
+		done = T
+	};
+
+	if(x4 && !done){
+		x5 = T;
+		x4 = F;
+		done = T
+	};
+
+	if(x5 && !done){
+		x6 = T;
+		x5 = F;
+		done = T
+	};
+
+	if(x6 && !done){
+		x7 = T;
+		x6 = F;
+		done = T
+	};
+
+	if(x7 && !done){
+		x8 = T;
+		x7 = F;
+		done = T
+	};
+
+	if(x8 && !done){
+		x9 = T;
+		x8 = F;
+		done = T
+	};
+
+	if(x9 && !done){
+		x10 = T;
+		x9 = F;
+		done = T
+	};
+
+	if(x10 && !done){
+		x9 = T;
+		x10 = F;
+		done = T
+	}
+
+}
+else{
+
+	if(x0 && !done){
+		x1 = T;
+		x0 = F;
+		done = T
+	};
+	
+	if(x1 && !done){
+		x0 = T;
+		x1 = F;
+		done = T
+	};
+
+	if(x2 && !done){
+		x1 = T;
+		x2 = F;
+		done = T
+	};
+
+	if(x3 && !done){
+		x2 = T;
+		x3 = F;
+		done = T
+	};
+
+	if(x4 && !done){
+		x3 = T;
+		x4 = F;
+		done = T
+	};
+
+	if(x5 && !done){
+		x4 = T;
+		x5 = F;
+		done = T
+	};
+
+	if(x6 && !done){
+		x5 = T;
+		x6 = F;
+		done = T
+	};
+
+	if(x7 && !done){
+		x6 = T;
+		x7 = F;
+		done = T
+	};
+
+	if(x8 && !done){
+		x7 = T;
+		x8 = F;
+		done = T
+	};
+
+	if(x9 && !done){
+		x8 = T;
+		x9 = F;
+		done = T
+	};
+
+	if(x10 && !done){
+		x9 = T;
+		x10 = F;
+		done = T
+	}
+
+};
+
+reached = reached || x10;
+
+
+z = flip(0.4);
+
+done = F;
+
+if(z){
+
+	if(x0 && !done){
+		x1 = T;
+		x0 = F;
+		done = T
+	};
+
+	if(x1 && !done){
+		x2 = T;
+		x1 = F;
+		done = T
+	};
+
+	if(x2 && !done){
+		x3 = T;
+		x2 = F;
+		done = T
+	};
+
+	if(x3 && !done){
+		x4 = T;
+		x3 = F;
+		done = T
+	};
+
+	if(x4 && !done){
+		x5 = T;
+		x4 = F;
+		done = T
+	};
+
+	if(x5 && !done){
+		x6 = T;
+		x5 = F;
+		done = T
+	};
+
+	if(x6 && !done){
+		x7 = T;
+		x6 = F;
+		done = T
+	};
+
+	if(x7 && !done){
+		x8 = T;
+		x7 = F;
+		done = T
+	};
+
+	if(x8 && !done){
+		x9 = T;
+		x8 = F;
+		done = T
+	};
+
+	if(x9 && !done){
+		x10 = T;
+		x9 = F;
+		done = T
+	};
+
+	if(x10 && !done){
+		x9 = T;
+		x10 = F;
+		done = T
+	}
+
+}
+else{
+
+	if(x0 && !done){
+		x1 = T;
+		x0 = F;
+		done = T
+	};
+	
+	if(x1 && !done){
+		x0 = T;
+		x1 = F;
+		done = T
+	};
+
+	if(x2 && !done){
+		x1 = T;
+		x2 = F;
+		done = T
+	};
+
+	if(x3 && !done){
+		x2 = T;
+		x3 = F;
+		done = T
+	};
+
+	if(x4 && !done){
+		x3 = T;
+		x4 = F;
+		done = T
+	};
+
+	if(x5 && !done){
+		x4 = T;
+		x5 = F;
+		done = T
+	};
+
+	if(x6 && !done){
+		x5 = T;
+		x6 = F;
+		done = T
+	};
+
+	if(x7 && !done){
+		x6 = T;
+		x7 = F;
+		done = T
+	};
+
+	if(x8 && !done){
+		x7 = T;
+		x8 = F;
+		done = T
+	};
+
+	if(x9 && !done){
+		x8 = T;
+		x9 = F;
+		done = T
+	};
+
+	if(x10 && !done){
+		x9 = T;
+		x10 = F;
+		done = T
+	}
+
+};
+
+reached = reached || x10;
+
+
+z = flip(0.4);
+
+done = F;
+
+if(z){
+
+	if(x0 && !done){
+		x1 = T;
+		x0 = F;
+		done = T
+	};
+
+	if(x1 && !done){
+		x2 = T;
+		x1 = F;
+		done = T
+	};
+
+	if(x2 && !done){
+		x3 = T;
+		x2 = F;
+		done = T
+	};
+
+	if(x3 && !done){
+		x4 = T;
+		x3 = F;
+		done = T
+	};
+
+	if(x4 && !done){
+		x5 = T;
+		x4 = F;
+		done = T
+	};
+
+	if(x5 && !done){
+		x6 = T;
+		x5 = F;
+		done = T
+	};
+
+	if(x6 && !done){
+		x7 = T;
+		x6 = F;
+		done = T
+	};
+
+	if(x7 && !done){
+		x8 = T;
+		x7 = F;
+		done = T
+	};
+
+	if(x8 && !done){
+		x9 = T;
+		x8 = F;
+		done = T
+	};
+
+	if(x9 && !done){
+		x10 = T;
+		x9 = F;
+		done = T
+	};
+
+	if(x10 && !done){
+		x9 = T;
+		x10 = F;
+		done = T
+	}
+
+}
+else{
+
+	if(x0 && !done){
+		x1 = T;
+		x0 = F;
+		done = T
+	};
+	
+	if(x1 && !done){
+		x0 = T;
+		x1 = F;
+		done = T
+	};
+
+	if(x2 && !done){
+		x1 = T;
+		x2 = F;
+		done = T
+	};
+
+	if(x3 && !done){
+		x2 = T;
+		x3 = F;
+		done = T
+	};
+
+	if(x4 && !done){
+		x3 = T;
+		x4 = F;
+		done = T
+	};
+
+	if(x5 && !done){
+		x4 = T;
+		x5 = F;
+		done = T
+	};
+
+	if(x6 && !done){
+		x5 = T;
+		x6 = F;
+		done = T
+	};
+
+	if(x7 && !done){
+		x6 = T;
+		x7 = F;
+		done = T
+	};
+
+	if(x8 && !done){
+		x7 = T;
+		x8 = F;
+		done = T
+	};
+
+	if(x9 && !done){
+		x8 = T;
+		x9 = F;
+		done = T
+	};
+
+	if(x10 && !done){
+		x9 = T;
+		x10 = F;
+		done = T
+	}
+
+};
+
+reached = reached || x10;
+
+
+z = flip(0.4);
+
+done = F;
+
+if(z){
+
+	if(x0 && !done){
+		x1 = T;
+		x0 = F;
+		done = T
+	};
+
+	if(x1 && !done){
+		x2 = T;
+		x1 = F;
+		done = T
+	};
+
+	if(x2 && !done){
+		x3 = T;
+		x2 = F;
+		done = T
+	};
+
+	if(x3 && !done){
+		x4 = T;
+		x3 = F;
+		done = T
+	};
+
+	if(x4 && !done){
+		x5 = T;
+		x4 = F;
+		done = T
+	};
+
+	if(x5 && !done){
+		x6 = T;
+		x5 = F;
+		done = T
+	};
+
+	if(x6 && !done){
+		x7 = T;
+		x6 = F;
+		done = T
+	};
+
+	if(x7 && !done){
+		x8 = T;
+		x7 = F;
+		done = T
+	};
+
+	if(x8 && !done){
+		x9 = T;
+		x8 = F;
+		done = T
+	};
+
+	if(x9 && !done){
+		x10 = T;
+		x9 = F;
+		done = T
+	};
+
+	if(x10 && !done){
+		x9 = T;
+		x10 = F;
+		done = T
+	}
+
+}
+else{
+
+	if(x0 && !done){
+		x1 = T;
+		x0 = F;
+		done = T
+	};
+	
+	if(x1 && !done){
+		x0 = T;
+		x1 = F;
+		done = T
+	};
+
+	if(x2 && !done){
+		x1 = T;
+		x2 = F;
+		done = T
+	};
+
+	if(x3 && !done){
+		x2 = T;
+		x3 = F;
+		done = T
+	};
+
+	if(x4 && !done){
+		x3 = T;
+		x4 = F;
+		done = T
+	};
+
+	if(x5 && !done){
+		x4 = T;
+		x5 = F;
+		done = T
+	};
+
+	if(x6 && !done){
+		x5 = T;
+		x6 = F;
+		done = T
+	};
+
+	if(x7 && !done){
+		x6 = T;
+		x7 = F;
+		done = T
+	};
+
+	if(x8 && !done){
+		x7 = T;
+		x8 = F;
+		done = T
+	};
+
+	if(x9 && !done){
+		x8 = T;
+		x9 = F;
+		done = T
+	};
+
+	if(x10 && !done){
+		x9 = T;
+		x10 = F;
+		done = T
+	}
+
+};
+
+reached = reached || x10;
+
+
+z = flip(0.4);
+
+done = F;
+
+if(z){
+
+	if(x0 && !done){
+		x1 = T;
+		x0 = F;
+		done = T
+	};
+
+	if(x1 && !done){
+		x2 = T;
+		x1 = F;
+		done = T
+	};
+
+	if(x2 && !done){
+		x3 = T;
+		x2 = F;
+		done = T
+	};
+
+	if(x3 && !done){
+		x4 = T;
+		x3 = F;
+		done = T
+	};
+
+	if(x4 && !done){
+		x5 = T;
+		x4 = F;
+		done = T
+	};
+
+	if(x5 && !done){
+		x6 = T;
+		x5 = F;
+		done = T
+	};
+
+	if(x6 && !done){
+		x7 = T;
+		x6 = F;
+		done = T
+	};
+
+	if(x7 && !done){
+		x8 = T;
+		x7 = F;
+		done = T
+	};
+
+	if(x8 && !done){
+		x9 = T;
+		x8 = F;
+		done = T
+	};
+
+	if(x9 && !done){
+		x10 = T;
+		x9 = F;
+		done = T
+	};
+
+	if(x10 && !done){
+		x9 = T;
+		x10 = F;
+		done = T
+	}
+
+}
+else{
+
+	if(x0 && !done){
+		x1 = T;
+		x0 = F;
+		done = T
+	};
+	
+	if(x1 && !done){
+		x0 = T;
+		x1 = F;
+		done = T
+	};
+
+	if(x2 && !done){
+		x1 = T;
+		x2 = F;
+		done = T
+	};
+
+	if(x3 && !done){
+		x2 = T;
+		x3 = F;
+		done = T
+	};
+
+	if(x4 && !done){
+		x3 = T;
+		x4 = F;
+		done = T
+	};
+
+	if(x5 && !done){
+		x4 = T;
+		x5 = F;
+		done = T
+	};
+
+	if(x6 && !done){
+		x5 = T;
+		x6 = F;
+		done = T
+	};
+
+	if(x7 && !done){
+		x6 = T;
+		x7 = F;
+		done = T
+	};
+
+	if(x8 && !done){
+		x7 = T;
+		x8 = F;
+		done = T
+	};
+
+	if(x9 && !done){
+		x8 = T;
+		x9 = F;
+		done = T
+	};
+
+	if(x10 && !done){
+		x9 = T;
+		x10 = F;
+		done = T
+	}
+
+};
+
+reached = reached || x10;
+
+
+z = flip(0.4);
+
+done = F;
+
+if(z){
+
+	if(x0 && !done){
+		x1 = T;
+		x0 = F;
+		done = T
+	};
+
+	if(x1 && !done){
+		x2 = T;
+		x1 = F;
+		done = T
+	};
+
+	if(x2 && !done){
+		x3 = T;
+		x2 = F;
+		done = T
+	};
+
+	if(x3 && !done){
+		x4 = T;
+		x3 = F;
+		done = T
+	};
+
+	if(x4 && !done){
+		x5 = T;
+		x4 = F;
+		done = T
+	};
+
+	if(x5 && !done){
+		x6 = T;
+		x5 = F;
+		done = T
+	};
+
+	if(x6 && !done){
+		x7 = T;
+		x6 = F;
+		done = T
+	};
+
+	if(x7 && !done){
+		x8 = T;
+		x7 = F;
+		done = T
+	};
+
+	if(x8 && !done){
+		x9 = T;
+		x8 = F;
+		done = T
+	};
+
+	if(x9 && !done){
+		x10 = T;
+		x9 = F;
+		done = T
+	};
+
+	if(x10 && !done){
+		x9 = T;
+		x10 = F;
+		done = T
+	}
+
+}
+else{
+
+	if(x0 && !done){
+		x1 = T;
+		x0 = F;
+		done = T
+	};
+	
+	if(x1 && !done){
+		x0 = T;
+		x1 = F;
+		done = T
+	};
+
+	if(x2 && !done){
+		x1 = T;
+		x2 = F;
+		done = T
+	};
+
+	if(x3 && !done){
+		x2 = T;
+		x3 = F;
+		done = T
+	};
+
+	if(x4 && !done){
+		x3 = T;
+		x4 = F;
+		done = T
+	};
+
+	if(x5 && !done){
+		x4 = T;
+		x5 = F;
+		done = T
+	};
+
+	if(x6 && !done){
+		x5 = T;
+		x6 = F;
+		done = T
+	};
+
+	if(x7 && !done){
+		x6 = T;
+		x7 = F;
+		done = T
+	};
+
+	if(x8 && !done){
+		x7 = T;
+		x8 = F;
+		done = T
+	};
+
+	if(x9 && !done){
+		x8 = T;
+		x9 = F;
+		done = T
+	};
+
+	if(x10 && !done){
+		x9 = T;
+		x10 = F;
+		done = T
+	}
+
+};
+
+reached = reached || x10;
+
+
+z = flip(0.4);
+
+done = F;
+
+if(z){
+
+	if(x0 && !done){
+		x1 = T;
+		x0 = F;
+		done = T
+	};
+
+	if(x1 && !done){
+		x2 = T;
+		x1 = F;
+		done = T
+	};
+
+	if(x2 && !done){
+		x3 = T;
+		x2 = F;
+		done = T
+	};
+
+	if(x3 && !done){
+		x4 = T;
+		x3 = F;
+		done = T
+	};
+
+	if(x4 && !done){
+		x5 = T;
+		x4 = F;
+		done = T
+	};
+
+	if(x5 && !done){
+		x6 = T;
+		x5 = F;
+		done = T
+	};
+
+	if(x6 && !done){
+		x7 = T;
+		x6 = F;
+		done = T
+	};
+
+	if(x7 && !done){
+		x8 = T;
+		x7 = F;
+		done = T
+	};
+
+	if(x8 && !done){
+		x9 = T;
+		x8 = F;
+		done = T
+	};
+
+	if(x9 && !done){
+		x10 = T;
+		x9 = F;
+		done = T
+	};
+
+	if(x10 && !done){
+		x9 = T;
+		x10 = F;
+		done = T
+	}
+
+}
+else{
+
+	if(x0 && !done){
+		x1 = T;
+		x0 = F;
+		done = T
+	};
+	
+	if(x1 && !done){
+		x0 = T;
+		x1 = F;
+		done = T
+	};
+
+	if(x2 && !done){
+		x1 = T;
+		x2 = F;
+		done = T
+	};
+
+	if(x3 && !done){
+		x2 = T;
+		x3 = F;
+		done = T
+	};
+
+	if(x4 && !done){
+		x3 = T;
+		x4 = F;
+		done = T
+	};
+
+	if(x5 && !done){
+		x4 = T;
+		x5 = F;
+		done = T
+	};
+
+	if(x6 && !done){
+		x5 = T;
+		x6 = F;
+		done = T
+	};
+
+	if(x7 && !done){
+		x6 = T;
+		x7 = F;
+		done = T
+	};
+
+	if(x8 && !done){
+		x7 = T;
+		x8 = F;
+		done = T
+	};
+
+	if(x9 && !done){
+		x8 = T;
+		x9 = F;
+		done = T
+	};
+
+	if(x10 && !done){
+		x9 = T;
+		x10 = F;
+		done = T
+	}
+
+};
+
+reached = reached || x10;
+
+
+z = flip(0.4);
+
+done = F;
+
+if(z){
+
+	if(x0 && !done){
+		x1 = T;
+		x0 = F;
+		done = T
+	};
+
+	if(x1 && !done){
+		x2 = T;
+		x1 = F;
+		done = T
+	};
+
+	if(x2 && !done){
+		x3 = T;
+		x2 = F;
+		done = T
+	};
+
+	if(x3 && !done){
+		x4 = T;
+		x3 = F;
+		done = T
+	};
+
+	if(x4 && !done){
+		x5 = T;
+		x4 = F;
+		done = T
+	};
+
+	if(x5 && !done){
+		x6 = T;
+		x5 = F;
+		done = T
+	};
+
+	if(x6 && !done){
+		x7 = T;
+		x6 = F;
+		done = T
+	};
+
+	if(x7 && !done){
+		x8 = T;
+		x7 = F;
+		done = T
+	};
+
+	if(x8 && !done){
+		x9 = T;
+		x8 = F;
+		done = T
+	};
+
+	if(x9 && !done){
+		x10 = T;
+		x9 = F;
+		done = T
+	};
+
+	if(x10 && !done){
+		x9 = T;
+		x10 = F;
+		done = T
+	}
+
+}
+else{
+
+	if(x0 && !done){
+		x1 = T;
+		x0 = F;
+		done = T
+	};
+	
+	if(x1 && !done){
+		x0 = T;
+		x1 = F;
+		done = T
+	};
+
+	if(x2 && !done){
+		x1 = T;
+		x2 = F;
+		done = T
+	};
+
+	if(x3 && !done){
+		x2 = T;
+		x3 = F;
+		done = T
+	};
+
+	if(x4 && !done){
+		x3 = T;
+		x4 = F;
+		done = T
+	};
+
+	if(x5 && !done){
+		x4 = T;
+		x5 = F;
+		done = T
+	};
+
+	if(x6 && !done){
+		x5 = T;
+		x6 = F;
+		done = T
+	};
+
+	if(x7 && !done){
+		x6 = T;
+		x7 = F;
+		done = T
+	};
+
+	if(x8 && !done){
+		x7 = T;
+		x8 = F;
+		done = T
+	};
+
+	if(x9 && !done){
+		x8 = T;
+		x9 = F;
+		done = T
+	};
+
+	if(x10 && !done){
+		x9 = T;
+		x10 = F;
+		done = T
+	}
+
+};
+
+reached = reached || x10;
+

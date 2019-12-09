@@ -1,6 +1,6 @@
 x0 = T;
-x1 = T;
-x2 = T;
+x1 = F;
+x2 = F;
 
 reached = F;
 
