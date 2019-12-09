@@ -1,0 +1,106 @@
+x0 = T;
+x1 = T;
+x2 = T;
+
+reached = F;
+
+
+z = flip(0.4);
+
+done = F;
+
+if(z){
+
+	if(x0 && !done){
+		x1 = T;
+		x0 = F;
+		done = T
+	};
+
+	if(x1 && !done){
+		x2 = T;
+		x1 = F;
+		done = T
+	};
+
+	if(x2 && !done){
+		x1 = T;
+		x2 = F;
+		done = T
+	}
+
+}
+else{
+
+	if(x0 && !done){
+		x1 = T;
+		x0 = F;
+		done = T
+	};
+	
+	if(x1 && !done){
+		x0 = T;
+		x1 = F;
+		done = T
+	};
+
+	if(x2 && !done){
+		x1 = T;
+		x2 = F;
+		done = T
+	}
+
+};
+
+reached = reached || x2;
+
+
+z = flip(0.4);
+
+done = F;
+
+if(z){
+
+	if(x0 && !done){
+		x1 = T;
+		x0 = F;
+		done = T
+	};
+
+	if(x1 && !done){
+		x2 = T;
+		x1 = F;
+		done = T
+	};
+
+	if(x2 && !done){
+		x1 = T;
+		x2 = F;
+		done = T
+	}
+
+}
+else{
+
+	if(x0 && !done){
+		x1 = T;
+		x0 = F;
+		done = T
+	};
+	
+	if(x1 && !done){
+		x0 = T;
+		x1 = F;
+		done = T
+	};
+
+	if(x2 && !done){
+		x1 = T;
+		x2 = F;
+		done = T
+	}
+
+};
+
+reached = reached || x2;
+

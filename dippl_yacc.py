@@ -1,7 +1,6 @@
 import ply.yacc as yacc
-from dippl_lex import tokens
 import sys
-from itertools import repeat, product
+from itertools import repeat
 import timeit
 import time
 
@@ -369,19 +368,18 @@ def normalize_weights(w):
 
 	return nw
 
-wmc_dict = {}
 
-def wmc(w, phi, bdd, init=False):
-	global wmc_dict
-	if init:
+def wmc(w, phi, bdd, wmc_dict={}):
+	if not wmc_dict:
 		wmc_dict = {1:1.0}
+		w = normalize_weights(w)
 	if abs(phi) not in wmc_dict:
 		level, low, high = bdd.succ(phi)
 
 		v = bdd.var_at_level(level)
 
-		wmc_low = wmc(w, low, bdd)
-		wmc_high = wmc(w, high, bdd)
+		wmc_low = wmc(w, low, bdd, wmc_dict)
+		wmc_high = wmc(w, high, bdd, wmc_dict)
 		
 		wmc_dict[abs(phi)] = w[v]*wmc_high + w["~"+v]*wmc_low
 
@@ -429,10 +427,10 @@ phi = bdd.let(let_left, phi)
 w = normalize_weights(w)
 
 print("Result node:", phi)
-print("WMC linear:", wmc(w, phi, bdd, init=True))
+print("WMC linear:", wmc(w, phi, bdd))
 print("Time taken for WMC linear:",timeit.timeit('wmc(w, phi, bdd)', globals=globals(), number=1))
 # print("WMC brute force:", wmc_bruteforce(w, phi, bdd))
 # print("Time taken for WMC brute force:",timeit.timeit('wmc_bruteforce(w, phi, bdd)', globals=globals(), number=1))
 
 
-bdd.dump('robdds/'+sys.argv[1]+'.pdf', roots=[phi])
+# bdd.dump('robdds/'+sys.argv[1]+'.pdf', roots=[phi])

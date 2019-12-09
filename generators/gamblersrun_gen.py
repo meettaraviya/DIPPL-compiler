@@ -3,10 +3,10 @@ walklength = int(input("Number of steps: "))
 pforward = float(input("Probability of going forward: "))
 fname = "programs/gambler_{}_{}_{}.dippl".format(nplaces, walklength, pforward)
 
-prog = ""
+prog = "x0 = T;\n"
 
-for i in range(nplaces+1):
-	prog += "x{} = T;\n".format(i)
+for i in range(1, nplaces+1):
+	prog += "x{} = F;\n".format(i)
 
 prog += "\n"
 prog += "reached = F;\n\n"

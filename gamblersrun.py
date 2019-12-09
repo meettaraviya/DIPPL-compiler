@@ -1,5 +1,5 @@
 import sys
-sys.argv = ["", "gamblersrun"]
+sys.argv = ["", "gambler_2_2_0.4"]
 from dippl_yacc import *
 
 start = time.time()
