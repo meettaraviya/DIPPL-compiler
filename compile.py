@@ -1,6 +1,7 @@
 from dippl_parser import *
 import argparse
 from inference import *
+import time
 
 from itertools import repeat
 from collections import Counter
@@ -11,9 +12,13 @@ except ImportError:
     # import dd.autoref as _bdd
     import dd.bdd as _bdd
 
+from numpy.random import binomial
+
 argparser = argparse.ArgumentParser(description='Compiles probabilistic programs to BDDs.')
 argparser.add_argument('program', help='File to be compiled.', type=str)
 argparser.add_argument('--pdf', help='Dump output BDD to a pdf.', action='store_const', const=True, default=False)
+argparser.add_argument('--tcompile', help='Time compilation?', action='store_const', const=True, default=False)
+argparser.add_argument('--tqueries', help='Time queries?', action='store_const', const=True, default=False)
 argparser.add_argument('--queries', help='Inference queries for the BDD.', type=str, default=[], nargs='+')
 argparser.add_argument('--algo', help='Algorithm to use.', type=str, required=True)
 argparser.add_argument('--maxbddsize', help='Max BDD size for approximate compilation.', type=int, default=1000)
@@ -120,7 +125,7 @@ def to_wbdd_exact(ast, env):
 		else:
 			retval = gamma_v, delta_v
 
-	env.incref(retval[0])
+	# env.incref(retval[0])
 
 	return retval
 
@@ -140,12 +145,13 @@ def to_wbdd_approximate(ast, env):
 				counts[env.var_at_level(env.succ(node)[0])] += 1
 
 		var = counts.most_common()[0][0]
-		val = w[var] >= w['~'+var]
+		# val = w[var] >= w['~'+var]
+		val = bool(binomial(1, w[var]))
 
 		# print("{} set to {}".format(var, val))
-		env.decref(phi)
+		# env.decref(phi)
 		phi = env.let({var: val}, phi)
-		env.incref(phi)
+		# env.incref(phi)
 
 		all_nodes = env.descendants([phi])
 
@@ -194,7 +200,7 @@ def setup_env():
 	exist_ = '\E '+' '.join([v+'_' for v in variable_list]) + ' :'
 
 
-def compile(program, pdf=False, queries=[], algo='exact', maxbddsize=1000):
+def compile(program, pdf=False, queries=[], algo='exact', maxbddsize=1000, tcompile=False, tqueries=False):
 
 	# args = argparser.parse_args(*args, **kwargs)
 
@@ -212,7 +218,13 @@ def compile(program, pdf=False, queries=[], algo='exact', maxbddsize=1000):
 
 	setup_env()
 
+	if tcompile:
+		start = time.time()
+
 	phi, w = to_wbdd(ast, env)
+
+	if tcompile:
+		print("Time to compile:", time.time()-start)
 
 	if pdf:
 		env.dump('robdds/{}.pdf'.format(program), roots=[phi])
@@ -225,8 +237,14 @@ def compile(program, pdf=False, queries=[], algo='exact', maxbddsize=1000):
 	phi = env.let(let_left, phi)
 
 	for query in queries:
+
+		if tqueries:
+			start = time.time()
 		wmc_num = get_wmc(w, env.apply('and', phi, env.add_expr(query)), env)
 		print("Probability for '{}': {}".format(query, wmc_num/ wmc))
+
+	if tqueries:
+		print("Time to answer query:", time.time()-start)
 
 
 
