@@ -3,16 +3,20 @@ import argparse
 from inference import *
 
 from itertools import repeat
+from collections import Counter
 
 try:
-    import dd.cudd as _bdd
+	import dd.cudd as _bdd
 except ImportError:
+    # import dd.autoref as _bdd
     import dd.bdd as _bdd
 
 argparser = argparse.ArgumentParser(description='Compiles probabilistic programs to BDDs.')
 argparser.add_argument('program', help='File to be compiled.', type=str)
 argparser.add_argument('--pdf', help='Dump output BDD to a pdf.', action='store_const', const=True, default=False)
 argparser.add_argument('--queries', help='Inference queries for the BDD.', type=str, default=[], nargs='+')
+argparser.add_argument('--algo', help='Algorithm to use.', type=str, required=True)
+argparser.add_argument('--maxbddsize', help='Max BDD size for approximate compilation.', type=int, default=1000)
 
 
 def gamma_without(x):
@@ -36,7 +40,7 @@ def shadow_union(w1, w2):
 	return w3
 
 
-def to_wbdd(ast, env):
+def to_wbdd_exact(ast, env):
 
 	if ast.op == VAR:
 		env.declare(ast.lchild)
@@ -116,7 +120,41 @@ def to_wbdd(ast, env):
 		else:
 			retval = gamma_v, delta_v
 
+	env.incref(retval[0])
+
 	return retval
+
+
+def to_wbdd_approximate(ast, env):
+
+	phi, w = to_wbdd_exact(ast, env)
+	all_nodes = env.descendants([phi])
+
+	while len(all_nodes) > MAXBDDSIZE:
+	# while len(phi) > MAXBDDSIZE:
+
+		counts = Counter()
+
+		for node in all_nodes:
+			if node > 1:
+				counts[env.var_at_level(env.succ(node)[0])] += 1
+
+		var = counts.most_common()[0][0]
+		val = w[var] >= w['~'+var]
+
+		# print("{} set to {}".format(var, val))
+		env.decref(phi)
+		phi = env.let({var: val}, phi)
+		env.incref(phi)
+
+		all_nodes = env.descendants([phi])
+
+		# env.collect_garbage()
+
+		# print(len(all_nodes))
+
+	return phi, w
+
 
 def setup_env():
 
@@ -156,14 +194,21 @@ def setup_env():
 	exist_ = '\E '+' '.join([v+'_' for v in variable_list]) + ' :'
 
 
-def compile(program, pdf=False, queries=[]):
+def compile(program, pdf=False, queries=[], algo='exact', maxbddsize=1000):
 
 	# args = argparser.parse_args(*args, **kwargs)
 
-	global variable_list, flip_list, env_var_order
+	global variable_list, flip_list, env_var_order, to_wbdd, MAXBDDSIZE
+
+	MAXBDDSIZE = maxbddsize
 
 	program_infile = 'programs/{}.dippl'.format(program)
 	ast, variable_list, flip_list, env_var_order = parse_file(program_infile)
+
+	if algo == 'exact':
+		to_wbdd = to_wbdd_exact
+	elif algo == 'approximate':
+		to_wbdd = to_wbdd_approximate
 
 	setup_env()
 
