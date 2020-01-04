@@ -2,6 +2,7 @@ from dippl_parser import *
 import argparse
 from inference import *
 import time
+import os
 
 from itertools import repeat
 from collections import Counter
@@ -12,16 +13,18 @@ except ImportError:
     # import dd.autoref as _bdd
     import dd.bdd as _bdd
 
-from numpy.random import binomial
+# from numpy.random import binomial
+from random import random as uniform
 
 argparser = argparse.ArgumentParser(description='Compiles probabilistic programs to BDDs.')
 argparser.add_argument('program', help='File to be compiled.', type=str)
 argparser.add_argument('--pdf', help='Dump output BDD to a pdf.', action='store_const', const=True, default=False)
-argparser.add_argument('--tcompile', help='Time compilation?', action='store_const', const=True, default=False)
-argparser.add_argument('--tqueries', help='Time queries?', action='store_const', const=True, default=False)
+# argparser.add_argument('--tcompile', help='Time compilation?', action='store_const', const=True, default=False)
+argparser.add_argument('--time', dest='tqueries', help='Time queries?', action='store_const', const=True, default=False)
 argparser.add_argument('--queries', help='Inference queries for the BDD.', type=str, default=[], nargs='+')
 argparser.add_argument('--algo', help='Algorithm to use.', type=str, required=True)
 argparser.add_argument('--maxbddsize', help='Max BDD size for approximate compilation.', type=int, default=1000)
+argparser.add_argument('--nsamples', help='Number of samples to take.', type=int, default=1000)
 
 
 def gamma_without(x):
@@ -38,14 +41,10 @@ def gamma_without(x):
 
 def shadow_union(w1, w2):
 
-	w3 = w1.copy()
-	for x,y in w2.items():
-		w3[x] = y
+	w1.update(w2)
+	return w1
 
-	return w3
-
-
-def to_wbdd_exact(ast, env):
+def to_wbdd_exact(ast, env, sampling_data=[{}, 1.0]):
 
 	if ast.op == VAR:
 		env.declare(ast.lchild)
@@ -61,23 +60,23 @@ def to_wbdd_exact(ast, env):
 
 	elif ast.op == NOT:
 
-		b, w = to_wbdd(ast.lchild, env)
+		b, w = to_wbdd(ast.lchild, env, sampling_data)
 		retval = env.apply('not', b), None
 
 	elif ast.op == AND:
-		b1, w1 = to_wbdd(ast.lchild, env)
-		b2, w2 = to_wbdd(ast.rchild, env)
+		b1, w1 = to_wbdd(ast.lchild, env, sampling_data)
+		b2, w2 = to_wbdd(ast.rchild, env, sampling_data)
 		retval = env.apply('and', b1, b2), None 
 
 	elif ast.op == OR:
-		b1, w1 = to_wbdd(ast.lchild, env)
-		b2, w2 = to_wbdd(ast.rchild, env)
+		b1, w1 = to_wbdd(ast.lchild, env, sampling_data)
+		b2, w2 = to_wbdd(ast.rchild, env, sampling_data)
 		retval = env.apply('or', b1, b2), None
 
 	elif ast.op == IFELSE:
-		b, w = to_wbdd(ast.cchild, env)
-		b_then, w_then = to_wbdd(ast.lchild, env)
-		b_else, w_else = to_wbdd(ast.rchild, env)
+		b, w = to_wbdd(ast.cchild, env, sampling_data)
+		b_then, w_then = to_wbdd(ast.lchild, env, sampling_data)
+		b_else, w_else = to_wbdd(ast.rchild, env, sampling_data)
 		retval = env.ite(b, b_then, b_else), shadow_union(w_then, w_else)
 
 	elif ast.op == FLIP:
@@ -91,12 +90,12 @@ def to_wbdd_exact(ast, env):
 		retval = phi, w
 
 	elif ast.op == OBSERVE:
-		b, w = to_wbdd(ast.lchild, env)
+		b, w = to_wbdd(ast.lchild, env, sampling_data)
 		retval = env.apply('and', b, gamma_v), delta_v
 
 
 	elif ast.op == ASSIGN:
-		b, w = to_wbdd(ast.rchild, env)
+		b, w = to_wbdd(ast.rchild, env, sampling_data)
 		draw_equiv = env.apply('equiv', env.var(ast.lchild+"_"), b)
 		phi = env.apply('and', draw_equiv, gamma_without(ast.lchild))
 		w = delta_v
@@ -104,9 +103,9 @@ def to_wbdd_exact(ast, env):
 
 	elif ast.op == BLOCK:
 		if len(ast.lchild)>0:
-			b1, w1 = to_wbdd(ast.lchild[0], env)
+			b1, w1 = to_wbdd(ast.lchild[0], env, sampling_data)
 			for child in ast.lchild[1:]:
-				b2, w2 = to_wbdd(child, env)
+				b2, w2 = to_wbdd(child, env, sampling_data)
 				b2_ = env.let(let_right, b2)
 				
 				new_b1 = env.exist([v+'_' for v in variable_list], env.apply('and', b1, b2_))
@@ -126,13 +125,17 @@ def to_wbdd_exact(ast, env):
 			retval = gamma_v, delta_v
 
 	# env.incref(retval[0])
+	if sampling_data[0]:
+		phi, w = retval
+		phi = env.let(sampling_data[0], phi)
+		retval = phi, w
 
 	return retval
 
 
-def to_wbdd_approximate(ast, env):
+def to_wbdd_approximate(ast, env, sampling_data=[{}, 1.0]):
 
-	phi, w = to_wbdd_exact(ast, env)
+	phi, w = to_wbdd_exact(ast, env, sampling_data)
 	all_nodes = env.descendants([phi])
 
 	while len(all_nodes) > MAXBDDSIZE:
@@ -146,10 +149,19 @@ def to_wbdd_approximate(ast, env):
 
 		var = counts.most_common()[0][0]
 		# val = w[var] >= w['~'+var]
-		val = bool(binomial(1, w[var]))
+
+		marginal = get_wmc(w, env.apply('and', phi, env.var(var)), env)/get_wmc(w, phi, env)
+
+		if uniform() < marginal:
+			sampling_data[1] *= marginal
+			val = True
+		else:
+			sampling_data[1] *= (1.0 - marginal)
+			val = False
 
 		# print("{} set to {}".format(var, val))
 		# env.decref(phi)
+		sampling_data[0][var] = val
 		phi = env.let({var: val}, phi)
 		# env.incref(phi)
 
@@ -185,7 +197,7 @@ def setup_env():
 		['~'+v for v in variable_list]+
 		[v+'_' for v in variable_list]+
 		['~'+v+'_' for v in variable_list]
-		, repeat(1.0)))
+		, repeat(0.5)))
 
 	gamma_v = env.true
 
@@ -200,7 +212,7 @@ def setup_env():
 	exist_ = '\E '+' '.join([v+'_' for v in variable_list]) + ' :'
 
 
-def compile(program, pdf=False, queries=[], algo='exact', maxbddsize=1000, tcompile=False, tqueries=False):
+def compile(program, pdf=False, queries=[], algo='exact', maxbddsize=1000, tqueries=False, nsamples=1000):
 
 	# args = argparser.parse_args(*args, **kwargs)
 
@@ -213,38 +225,61 @@ def compile(program, pdf=False, queries=[], algo='exact', maxbddsize=1000, tcomp
 
 	if algo == 'exact':
 		to_wbdd = to_wbdd_exact
+		setup_env()
+		phi, w = to_wbdd(ast, env)
+		phi = env.let(let_left, phi)
+
+		if pdf:
+			# os.remove('robdds/{}.pdf'.format(program))
+			env.dump('robdds/{}.pdf'.format(program), roots=[phi])
+
+		# for var in variable_list:
+		# 	assert var not in env.support(phi)
+
+
+		for query in queries:
+
+			if tqueries:
+				start = time.time()
+
+			wmc = get_wmc(w, phi, env)
+			wmc_num = get_wmc(w, env.apply('and', phi, env.add_expr(query)), env)
+			# print(wmc_num)
+			# print(wmc_dict)
+			# for k, v in wmc_dict.items():
+				# print(env.to_expr(k), v)
+			print("Probability for '{}': {}".format(query, wmc_num/ wmc))
+
+			if tqueries:
+				print("Time to answer query (after compilation):", time.time()-start)
+
+		
+
 	elif algo == 'approximate':
 		to_wbdd = to_wbdd_approximate
+		setup_env()
 
-	setup_env()
+		for query in queries:
 
-	if tcompile:
-		start = time.time()
+			if tqueries:
+				start = time.time()
 
-	phi, w = to_wbdd(ast, env)
+			ans_num = 0.0
+			ans_den = 0.0
 
-	if tcompile:
-		print("Time to compile:", time.time()-start)
+			for i in range(nsamples):
+				sampling_data = [{}, 1.0]
+				phi, w = to_wbdd(ast, env, sampling_data)
+				phi = env.let(let_left, phi)
 
-	if pdf:
-		env.dump('robdds/{}.pdf'.format(program), roots=[phi])
+				wmc = get_wmc(w, phi, env)
+				wmc_num = get_wmc(w, env.apply('and', phi, env.add_expr(query)), env)
+				p_hat = wmc_num/wmc
+				q_hat = sampling_data[1]
+			# print("Probability for '{}': {}".format(query, wmc_num/ wmc))
 
-	wmc = get_wmc(w, phi, env)
-
-	for var in variable_list:
-		assert var not in env.support(phi)
-
-	phi = env.let(let_left, phi)
-
-	for query in queries:
-
-		if tqueries:
-			start = time.time()
-		wmc_num = get_wmc(w, env.apply('and', phi, env.add_expr(query)), env)
-		print("Probability for '{}': {}".format(query, wmc_num/ wmc))
-
-	if tqueries:
-		print("Time to answer query:", time.time()-start)
+			if tqueries:
+				print("Time to answer query:", time.time()-start)
 
 
 

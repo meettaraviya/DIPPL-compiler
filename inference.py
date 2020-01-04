@@ -56,29 +56,30 @@ def print_marginal_distribution(wbdd, knowns, bdd):
 	return unknowns_wt_prod_sum*knowns_wt_prod
 
 
-def normalize_weights(w):
-	nw = {}
-	for k, v in w.items():
-		if not k.startswith('~'):
-			w1 = w[k]
-			w2 = w['~'+k]
-			nw[k] = w1/(w1+w2)
-			nw['~'+k] = w2/(w1+w2)
+# def normalize_weights(w):
+# 	nw = {}
+# 	for k, v in w.items():
+# 		if not k.startswith('~'):
+# 			w1 = w[k]
+# 			w2 = w['~'+k]
+# 			nw[k] = w1/(w1+w2)
+# 			nw['~'+k] = w2/(w1+w2)
 
-	return nw
+# 	return nw
 
+wmc_dict = {1:1.0}
 
-def get_wmc(w, phi, bdd, wmc_dict={}):
-	if not wmc_dict:
-		wmc_dict = {1:1.0}
-		w = normalize_weights(w)
+def get_wmc(w, phi, bdd):
+	# if not wmc_dict:
+	# 	wmc_dict = {1:1.0}
+	# 	w = normalize_weights(w)
 	if abs(phi) not in wmc_dict:
 		level, low, high = bdd.succ(phi)
 
 		v = bdd.var_at_level(level)
 
-		wmc_low = get_wmc(w, low, bdd, wmc_dict)
-		wmc_high = get_wmc(w, high, bdd, wmc_dict)
+		wmc_low = get_wmc(w, low, bdd)
+		wmc_high = get_wmc(w, high, bdd)
 		
 		wmc_dict[abs(phi)] = w[v]*wmc_high + w["~"+v]*wmc_low
 
