@@ -274,9 +274,12 @@ def compile(program, pdf=False, queries=[], algo='exact', maxbddsize=1000, tquer
 
 				wmc = get_wmc(w, phi, env)
 				wmc_num = get_wmc(w, env.apply('and', phi, env.add_expr(query)), env)
-				p_hat = wmc_num/wmc
+				p_hat = wmc # should be wmc/original exact wmc
 				q_hat = sampling_data[1]
-			# print("Probability for '{}': {}".format(query, wmc_num/ wmc))
+
+				ans_num += (p_hat/q_hat)*(wmc_num/wmc)
+				ans_den += (p_hat/q_hat)
+			print("Probability for '{}': {}".format(query, ans_num/ ans_den))
 
 			if tqueries:
 				print("Time to answer query:", time.time()-start)
