@@ -14,11 +14,14 @@ except ImportError:
     import dd.bdd as _bdd
 
 # from numpy.random import binomial
-from random import random as uniform
+from random import random as uniform, seed
+
+seed(5)
 
 argparser = argparse.ArgumentParser(description='Compiles probabilistic programs to BDDs.')
 argparser.add_argument('program', help='File to be compiled.', type=str)
 argparser.add_argument('--pdf', help='Dump output BDD to a pdf.', action='store_const', const=True, default=False)
+argparser.add_argument('--png', help='Dump output BDD to a png.', action='store_const', const=True, default=False)
 # argparser.add_argument('--tcompile', help='Time compilation?', action='store_const', const=True, default=False)
 argparser.add_argument('--time', dest='tqueries', help='Time queries?', action='store_const', const=True, default=False)
 argparser.add_argument('--queries', help='Inference queries for the BDD.', type=str, default=[], nargs='+')
@@ -150,6 +153,7 @@ def to_wbdd_approximate(ast, env, sampling_data=[{}, 1.0]):
 		var = counts.most_common()[0][0]
 		# val = w[var] >= w['~'+var]
 
+		# print(ast)
 		marginal = get_wmc(w, env.apply('and', phi, env.var(var)), env)/get_wmc(w, phi, env)
 
 		if uniform() < marginal:
@@ -161,8 +165,17 @@ def to_wbdd_approximate(ast, env, sampling_data=[{}, 1.0]):
 
 		# print("{} set to {}".format(var, val))
 		# env.decref(phi)
+		# print("{} set to {} with probability {:.4f}.".format(var, val, 1.0 - marginal + val * (2*marginal - 1.0)))
+		# print("Trimming {} by setting {} to {}. Probability of setting to True was taken as {:.4f}".format(phi, var, val, marginal))
+		# env.dump('robdds/{}_{}.png'.format("eg2_debug", phi), roots=[phi])
+
 		sampling_data[0][var] = val
 		phi = env.let({var: val}, phi)
+
+		# print("New formula obtained: {}.".format(phi))
+		# env.dump('robdds/{}_{}.png'.format("eg2_debug", phi), roots=[phi])
+		# print()
+
 		# env.incref(phi)
 
 		all_nodes = env.descendants([phi])
@@ -212,7 +225,7 @@ def setup_env():
 	exist_ = '\E '+' '.join([v+'_' for v in variable_list]) + ' :'
 
 
-def compile(program, pdf=False, queries=[], algo='exact', maxbddsize=1000, tqueries=False, nsamples=1000):
+def compile(program, pdf=False, queries=[], algo='exact', maxbddsize=1000, tqueries=False, nsamples=1000, png=False):
 
 	# args = argparser.parse_args(*args, **kwargs)
 
@@ -228,10 +241,15 @@ def compile(program, pdf=False, queries=[], algo='exact', maxbddsize=1000, tquer
 		setup_env()
 		phi, w = to_wbdd(ast, env)
 		phi = env.let(let_left, phi)
+		# print(w)
 
 		if pdf:
 			# os.remove('robdds/{}.pdf'.format(program))
 			env.dump('robdds/{}.pdf'.format(program), roots=[phi])
+
+		if png:
+			# os.remove('robdds/{}.pdf'.format(program))
+			env.dump('robdds/{}.png'.format(program), roots=[phi])
 
 		# for var in variable_list:
 		# 	assert var not in env.support(phi)
@@ -243,7 +261,12 @@ def compile(program, pdf=False, queries=[], algo='exact', maxbddsize=1000, tquer
 				start = time.time()
 
 			wmc = get_wmc(w, phi, env)
-			wmc_num = get_wmc(w, env.apply('and', phi, env.add_expr(query)), env)
+			query_exp = env.apply('and', phi, env.add_expr(query))
+
+			if png:
+				env.dump('robdds/{}_({}).png'.format(program, query.replace(' ', '_')), roots=[query_exp])
+	
+			wmc_num = get_wmc(w, query_exp, env)
 			# print(wmc_num)
 			# print(wmc_dict)
 			# for k, v in wmc_dict.items():
@@ -268,18 +291,37 @@ def compile(program, pdf=False, queries=[], algo='exact', maxbddsize=1000, tquer
 			ans_den = 0.0
 
 			for i in range(nsamples):
+				print("Iteration: {}".format(i))
+				print()
 				sampling_data = [{}, 1.0]
 				phi, w = to_wbdd(ast, env, sampling_data)
 				phi = env.let(let_left, phi)
 
+
 				wmc = get_wmc(w, phi, env)
-				wmc_num = get_wmc(w, env.apply('and', phi, env.add_expr(query)), env)
+				query_exp = env.apply('and', phi, env.add_expr(query))
+				wmc_num = get_wmc(w, query_exp, env)
 				p_hat = wmc # should be wmc/original exact wmc
 				q_hat = sampling_data[1]
 
+				# print(phi, query_exp, p_hat, q_hat, wmc_num/wmc)
+				# print("Node phi: {}".format(phi))
+				# print("xp = substitution used: {}".format(sampling_data[0]))
+				# print("Q(xp) = P(this substitution): {:.4f}".format(sampling_data[1]))
+				# print()
+				# print("Node phi ^ query: {}".format(query_exp))
+				print("P(query) using phi: {:.4f}".format(wmc_num/wmc))
+				# print("P(xp): {:.4f}".format(p_hat))
+				print("Importance weight: {:.4f}".format(p_hat/q_hat))
+				print()
+
+				if png:
+					env.dump('robdds/{}_{}.png'.format(program, phi), roots=[phi])
+					env.dump('robdds/{}_({})_{}.png'.format(program, query.replace(' ', '_'), query_exp), roots=[query_exp])
+
 				ans_num += (p_hat/q_hat)*(wmc_num/wmc)
 				ans_den += (p_hat/q_hat)
-			print("Probability for '{}': {}".format(query, ans_num/ ans_den))
+			print("Probability for '{}': {:.4f}".format(query, ans_num/ ans_den))
 
 			if tqueries:
 				print("Time to answer query:", time.time()-start)

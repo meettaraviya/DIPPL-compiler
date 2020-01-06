@@ -81,7 +81,9 @@ def get_wmc(w, phi, bdd):
 		wmc_low = get_wmc(w, low, bdd)
 		wmc_high = get_wmc(w, high, bdd)
 		
-		wmc_dict[abs(phi)] = w[v]*wmc_high + w["~"+v]*wmc_low
+		wmc_dict[abs(phi)] = w[v]*wmc_high+ w["~"+v]*wmc_low
+
+		# print("{} & {} & {} & {} & {} & {} & {} & {} & {:.4f} \\\\".format(abs(phi), low, wmc_low, high, wmc_high, v, w[v], w["~"+v], wmc_dict[abs(phi)]))
 
 	if phi > 0:
 		return wmc_dict[phi]
