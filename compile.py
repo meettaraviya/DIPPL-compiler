@@ -4,6 +4,19 @@ from inference import *
 import time
 import os
 
+# not sample vars that have not occured
+# compare against rejection sampling
+
+# random walk
+# graph: exact vs sampled
+# sample all vars
+
+# really good example
+# robot locomations, grammar programs
+
+### Bullet points for paper
+## plan meeting points
+
 from itertools import repeat
 from collections import Counter
 
@@ -16,7 +29,7 @@ except ImportError:
 # from numpy.random import binomial
 from random import random as uniform, seed
 
-seed(5)
+# seed(5)
 
 argparser = argparse.ArgumentParser(description='Compiles probabilistic programs to BDDs.')
 argparser.add_argument('program', help='File to be compiled.', type=str)
@@ -148,8 +161,11 @@ def to_wbdd_approximate(ast, env, sampling_data=[{}, 1.0]):
 
 		for node in all_nodes:
 			if node > 1:
-				counts[env.var_at_level(env.succ(node)[0])] += 1
-
+				v = env.var_at_level(env.succ(node)[0])
+				# if v.startswith('f'):
+				# 	print(v)
+				counts[v] += 1
+		# print(counts.most_common())
 		var = counts.most_common()[0][0]
 		# val = w[var] >= w['~'+var]
 
